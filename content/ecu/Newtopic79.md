@@ -1,0 +1,49 @@
+---
+title: "Emtune Dash Panel Configuration"
+---
+
+**Emtune Dash Panel Configuration**
+
+
+Emtune allows the user to customize the dash panel screens to suit their needs accordingly. &nbsp;
+
+
+When opening Emtune for the first time (also when updating software versions), Emtune will ask if you want to overwrite the existing layouts for both the dash panels and the logger with new default configurations.&nbsp; Select accordingly. &nbsp;
+
+
+Right Click the Tab section to select Configure Tabs to edit tabs and visibility:
+
+![Image](</lib/NewItem308.png>)
+
+The dash panels are organized by Dash Groups located in the Setup section&nbsp;
+
+\*\* If a function in the software does not have linked view (see below), Main Dash, Main panel will be displayed.&nbsp;
+
+![Image](</lib/NewItem307.png>)
+
+In each dash group, tabs can be created which then can point a software function to that panel.&nbsp; To connect the software to that particular display panel, select Parameter Linked, then add the table to the list.&nbsp; The ECU will then always select that display tab when in the table being viewed (in the case below, Starting, Cranking Comp Table 1). &nbsp;
+
+![Image](</lib/NewItem306.png>)
+
+Right click the panel to change, edit, add, replace gauges in the active panel.
+
+![Image](</lib/NewItem305.png>)
+
+Set parameter allows you to define what runtime you want to display.&nbsp; In the case where the display gauge/plot can display more than one runtime, you can add multiple to the list&nbsp;
+
+![Image](</lib/NewItem304.png>)
+
+Configure parameter allows you to define the min/max scales for gauges, bar graphs, warning gauges, etc. &nbsp;
+
+![Image](</lib/NewItem303.png>)
+
+Each panel can individually be imported/exported at the bottom of the list when right clicking the panel
+
+![Image](</lib/NewItem302.png>)
+
+The entire dash layout can be imported and exported via that “Dash Setup” selection under the file menu.
+
+![Image](</lib/NewItem301.png>)
+
+\*\* Periodically save your dash setup&nbsp;
+

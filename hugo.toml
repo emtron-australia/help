@@ -1,0 +1,7 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Emtron Online Help'
+theme = 'techdoc'
+
+[params]
+    menu_style = "open-menu"
