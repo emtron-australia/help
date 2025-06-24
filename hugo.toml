@@ -6,7 +6,7 @@ disablePathToLower = true
 
 [params]
     menu_style = "slide-menu"
-    editURL = "https://github.com/emtron-australia/online-help/tree/master/content/${FilePath}"
+    editURL = "https://github.com/emtron-australia/help/tree/master/content/${FilePath}"
     [[params.themeVariant]]
         identifier = 'zen-dark'
 [caches]
