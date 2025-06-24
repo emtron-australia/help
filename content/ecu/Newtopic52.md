@@ -11,7 +11,7 @@ title: "ECU Logging Setup"
 All Emtron ECUs have ECU logging capabilities.&nbsp; \
 To configure the ECU logger, with the ECU or Cal File open navigate to Logging -\> ECU Logger -\> Setup&nbsp;
 
-![Image](</lib/NewItem784.png>)
+![Image](</img/NewItem784.png>)
 
 
 The menu that opens up will allow the user to configure the following options&nbsp;
@@ -44,7 +44,7 @@ Each data set has select-able "Logging Rate" so the user can manage what channel
 
 
 
-![Image](</lib/NewItem785.png>)
+![Image](</img/NewItem785.png>)
 
 
 \*\* EFI Relay control is very important for stable logging recording, this is due to memory transfer from high speed ram in the ECU to permanent memory when the ECU is shut down. &nbsp;

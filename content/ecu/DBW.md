@@ -22,7 +22,7 @@ OFF = Function is switched off and the selected output channels are deallocated.
 ON = Function is switched on
 
 
-![Image](</lib/DBW 56.jpg>)
+![Image](</img/DBW 56.jpg>)
 
 
 ### Function Type
@@ -108,7 +108,7 @@ When the ECU detects one of the following system errors the DBW relay will be sw
 For safety reasons, there are redundant inputs for pedal position and drive by wire servo position.&nbsp; Once the sensors are setup and calibrated, these positions are used to define the DBW target in closed loop. &nbsp;
 
 
-![Image](</lib/NewItem213.png>)
+![Image](</img/NewItem213.png>)
 
 
 There are pre-configured functions to help quickly calibrate the pedal position sensors, and throttle position sensors.&nbsp; See&nbsp;
@@ -160,7 +160,7 @@ The positioning sensors for the system must be calibrated like any other sensor.
 
 
 
-![Image](</lib/Untitled159.png>)
+![Image](</img/Untitled159.png>)
 
 
 **Auto Calibration of Pedal Sensors**&nbsp;
@@ -168,7 +168,7 @@ The positioning sensors for the system must be calibrated like any other sensor.
 See the following menu:&nbsp; Config View -\> Engine Setup -\> PPS closed and PPS open calibrate.&nbsp; &nbsp;
 
 
-![Image](</lib/DBW 6.jpg>)
+![Image](</img/DBW 6.jpg>)
 
 
 ### Throttle Position Input Channel

@@ -4,10 +4,10 @@ title: "Oil Pressure Limit Setup"
 
 **Oil Pressure Limit Setup**
 
-![Image](</lib/4.jpg>)
+![Image](</img/4.jpg>)
 
 
-![Image](</lib/5.jpg>)&nbsp;
+![Image](</img/5.jpg>)&nbsp;
 
 
 **Engine Speed Limit**
@@ -112,13 +112,13 @@ Example: During a Launch the Oil Pressure may temporally drop below the Limit Ta
 
 **Oil Pressure Limit Table**
 
-![Image](</lib/78.jpg>)
+![Image](</img/78.jpg>)
 
 User defined oil pressure limit table. Limit is active above kPa input values.
 
 
 **Oil Pressure Limit - Turn ON Delay Table (Sec)**
 
-![Image](</lib/8.jpg>)
+![Image](</img/8.jpg>)
 
 User defined limit activation delay table in seconds.

@@ -5,7 +5,7 @@ title: "Torque Management"
 # Torque Management Introduction
 
 
-![Image](</lib/Torque man.jpg>)
+![Image](</img/Torque man.jpg>)
 
 # ECU Torque Calculations
 
@@ -99,7 +99,7 @@ Accounting for frictional loss of the engine the final Driver Demand Torque can 
 It is worth mentioning the Boost Target and how the Boost Target table should be setup to help generate a more accurate Driver Demand Torque. The Y-Axis or load axis should be set to "Throttle Area Demand - Pedal" and not the raw Pedal Position Sensor.&nbsp;
 
 
-![Image](</lib/Untitled202.png>)
+![Image](</img/Untitled202.png>)
 
 Nissan GT-R R35 Boost Target table.
 
@@ -111,7 +111,7 @@ Nissan GT-R R35 Boost Target table.
 Engine Torque and Driver Demand Torque data is available in the Runtime menu(F3) -\> Torque tab.
 
 
-![Image](</lib/Untitled180.png>)
+![Image](</img/Untitled180.png>)
 
 
 ***
@@ -122,7 +122,7 @@ Engine Torque and Driver Demand Torque data is available in the Runtime menu(F3)
 The Engine Torque and Driver Demand Torque settings are available from the Engine Functions -\> Torque Management menu,.
 
 
-![Image](</lib/Untitled212.png>)
+![Image](</img/Untitled212.png>)
 
 # &nbsp;
 
@@ -134,7 +134,7 @@ This table calibrates the torque reduction % per degree.&nbsp; When a torque req
 See default table settings below. &nbsp; &nbsp;
 
 
-![Image](</lib/Untitled203.png>)
+![Image](</img/Untitled203.png>)
 
 Torque Reduction Ignition Retard Gain Table
 
@@ -146,7 +146,7 @@ This table calibrates the torque reduction % per %cut.&nbsp; When a torque reque
 See default table settings below. &nbsp; &nbsp;
 
 
-![Image](</lib/NewItem218.png>)
+![Image](</img/NewItem218.png>)
 
 Torque Reduction Cut Gain Table
 

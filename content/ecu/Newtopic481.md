@@ -12,7 +12,7 @@ title: "Gear Position (RPM/Speed) Setup"
 Select the speed channel
 
 
-![Image](</lib/NewItem875.png>)
+![Image](</img/NewItem875.png>)
 
 
 **Speed Lockout**

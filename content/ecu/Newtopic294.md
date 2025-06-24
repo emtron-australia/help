@@ -9,7 +9,7 @@ This look up table tells the ECU the desired RPM target for Idle Speed Control. 
 
 \
 
-![Image](</lib/NewItem254.png>)
+![Image](</img/NewItem254.png>)
 
 Above example shows the table spanned in 3D using Engine Temperature and Ground speed as axis.  
 

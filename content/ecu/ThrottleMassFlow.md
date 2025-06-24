@@ -5,7 +5,7 @@ title: "Throttle Mass Flow Setup"
 # Throttle Mass Flow Setup
 
 
-![Image](</lib/TMF Setup.jpg>)
+![Image](</img/TMF Setup.jpg>)
 
 
 Throttle Mass Flow (TMF) as the name indicates, is the rate at which **air mass** is flowing through a throttle body in units of grams/second (g/s). Using the throttle body size, throttle area, temperature, pre and post throttle pressures,the ECU can very accurately calculate air flow through the throttle body and therefore into the engine; this is known as the TMF Calculation. Other sensors that also generate air mass flow (g/s) data are Manifold Pressure and MAF sensors. The TMF Calculation is just another method of determining air mass flow and has benefits over MAP and MAF as discussed further down.
@@ -15,7 +15,7 @@ The image below illustrates the basic elements required to calculate TMF.
 
 
 
-![Image](</lib/Throttle Drawing13.jpg>)
+![Image](</img/Throttle Drawing13.jpg>)
 
 
 
@@ -55,7 +55,7 @@ The TMF calculation can summarised in the below equation :
 **Tuning -\> Engine Functions -\> Throttle Body Model -\> Throttle Mass Flow Setup**
 
 
-![Image](</lib/TMF Setup 2.jpg>)
+![Image](</img/TMF Setup 2.jpg>)
 
 
 **Throttle Mass Flow Enable**
@@ -129,7 +129,7 @@ Gives the direct relationship between Throttle Area and Servo Position. **See Tu
 The following TMF calculated runtimes are generated. See the Runtime menu (F3) Engine Data Calculated tab.
 
 
-![Image](</lib/Untitled232.png>)
+![Image](</img/Untitled232.png>)
 
 
 * Throttle Air Mass calculations report in units of g/s or g/cyl
@@ -199,7 +199,7 @@ Gradually accelerate the engine under load and increase to increase the throttle
 
 
 
-![Image](</lib/NewItem179.png>)&nbsp;
+![Image](</img/NewItem179.png>)&nbsp;
 
 In this particular case the TMF signal at around 0.830 throttle pressure ratio is being unusable. &nbsp;
 
@@ -211,15 +211,15 @@ And/or TMF Out-flowing can generate correct TMF values. &nbsp;
 \*\* TMF Outflowing calculates TMF airflow when pressure ratio cannot. &nbsp;
 
 
-![Image](</lib/NewItem955.png>)
+![Image](</img/NewItem955.png>)
 
 
-![Image](</lib/NewItem818.png>)
+![Image](</img/NewItem818.png>)
 
 Improper "Outflow Scale" setting.&nbsp; Adjust Throttle Mass Flow Outflow Scaler to correct
 
 
-![Image](</lib/NewItem819.png>)
+![Image](</img/NewItem819.png>)
 
 
 \*\* Throttle Mass Flow Air Flow values can only be compared to validated/tuned air flow values (tuned) such as MAP Air Mass or MAF Air Mass.&nbsp;
@@ -231,11 +231,11 @@ Improper "Outflow Scale" setting.&nbsp; Adjust Throttle Mass Flow Outflow Scaler
 This correction table essentially exists to help remove an error remaining in the system across a wide variety of load \& rpm conditions.
 
 
-![Image](</lib/NewItem956.png>)
+![Image](</img/NewItem956.png>)
 
 
 
-![Image](</lib/NewItem829.png>)
+![Image](</img/NewItem829.png>)
 
 Demonstrating error in TMF Calculation that needs to be corrected in TMF Correction Table
 
@@ -252,7 +252,7 @@ The Throttle Body Area table tells the ECU how much actual throttle area is effe
 Tuning -\> Engine Functions -\> Throttle Body Model -\> Throttle Body Area Table
 
 
-![Image](</lib/NewItem178.png>)
+![Image](</img/NewItem178.png>)
 
 
 This 2D table is all that is needed to appropriately map the given throttle area vs throttle position.&nbsp; As mentioned previously, this allows for extremely fast and accurate mapping of the engine when TMF is active. &nbsp;
@@ -296,7 +296,7 @@ If no MAF sensor is available, setting fuel trims to 0 (or near 0), you can adju
 \*\* Some extreme applications where live Lambda is unstable may be more difficult to map with Method 3
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

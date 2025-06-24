@@ -14,6 +14,6 @@ Once all ORFC conditions are met, this look up table tells the ECU how long to d
 \*\* ORFC will only become active once all conditions are met, including exceeding the Enable RPM.
 
 
-![Image](</lib/NewItem250.png>)
+![Image](</img/NewItem250.png>)
 
 

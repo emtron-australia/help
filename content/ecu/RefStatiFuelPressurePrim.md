@@ -5,7 +5,7 @@ title: "Ref Static Fuel Pressure (Prim)"
 **Ref Static Fuel Pressure (Prim)**&nbsp;
 
 
-![Image](</lib/Config Fuel6.jpg>)
+![Image](</img/Config Fuel6.jpg>)
 
 
 Reference static fuel pressure is set without the engine running at the current barometric pressure. &nbsp;

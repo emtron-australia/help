@@ -10,13 +10,13 @@ In some motorsport environments and extremely high-end applications the OEM Torq
 This is particularly useful on gear shifts where sharper than factory shift response is required.&nbsp;
 
 
-![Image](</lib/AAAA71.jpg>)
+![Image](</img/AAAA71.jpg>)
 
 
 **TCM Torque Limiting Engine Cut Mode**
 
 
-![Image](</lib/AAAA56.jpg>)
+![Image](</img/AAAA56.jpg>)
 
 
 &#48;: OFF&nbsp;
@@ -44,7 +44,7 @@ Either torque value can be selected as the reference for the engine cutting calc
 **TCM Torque Limiting Engine Cut Type**&nbsp;
 
 
-![Image](</lib/AAAA58.jpg>)
+![Image](</img/AAAA58.jpg>)
 
 
 &#48;: Ignition Cut
@@ -57,7 +57,7 @@ Either torque value can be selected as the reference for the engine cutting calc
 **TCM Torque Limit Engine Cut Threshold**&nbsp;
 
 
-![Image](</lib/AAAA59.jpg>)
+![Image](</img/AAAA59.jpg>)
 
 
 This mode is used to assist&nbsp; the TCM and ECU in reducing the engines torque for improved gearshift control. &nbsp;
@@ -86,7 +86,7 @@ The ECU will calculate the required cut % from 600Nm down to 330Nm.
 **TCM Torque Limit Engine Cut - Max Clamp**&nbsp;
 
 
-![Image](</lib/AAAA60.jpg>)&nbsp;
+![Image](</img/AAAA60.jpg>)&nbsp;
 
 
 This mode is used to assist&nbsp; the TCM and ECU in reducing the engines torque for improved gearshift control.&nbsp;
@@ -111,7 +111,7 @@ This means the Maximum Cut applied to the Engine will be clamped to 50%.
 **TCM Torque Limit Engine Cut Gain**&nbsp;
 
 
-![Image](</lib/AAAA61.jpg>)
+![Image](</img/AAAA61.jpg>)
 
 
 During a TCM Torque Reduction request the ECU can cut the engine to reduce Torque.&nbsp;
@@ -138,7 +138,7 @@ Example. &nbsp;
 **TCM Torque Limit Min Torque** &nbsp;
 
 
-![Image](</lib/AAAA62.jpg>)
+![Image](</img/AAAA62.jpg>)
 
 
 The Uncorrected Engine Torque must be greater than the entered value for the Engine Cut to be enabled

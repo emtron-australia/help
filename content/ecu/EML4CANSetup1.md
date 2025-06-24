@@ -54,7 +54,7 @@ Up the 3x EML-4 may be connected to the Emtron CAN bus.&nbsp; This allows the la
 
 
 
-![Image](</lib/Untitled25.jpg>)
+![Image](</img/Untitled25.jpg>)
 
 
 
@@ -62,7 +62,7 @@ Up the 3x EML-4 may be connected to the Emtron CAN bus.&nbsp; This allows the la
 
 
 
-![Image](</lib/Untitled7.jpg>)
+![Image](</img/Untitled7.jpg>)
 
 
 

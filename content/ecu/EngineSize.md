@@ -11,10 +11,10 @@ The engine capacity in total cc. It is critical that this settings is accurate.&
 The capacity entered here is used for various ECU calculations in creating the engine model.
 
 
-![Image](</lib/AA main1.jpg>)
+![Image](</img/AA main1.jpg>)
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

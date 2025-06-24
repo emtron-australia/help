@@ -4,7 +4,7 @@ title: "DBW Closed Loop tables"
 
 **DBW Feed Forward %DC Table**&nbsp;
 
-![Image](</lib/DBW 9.jpg>)
+![Image](</img/DBW 9.jpg>)
 
 Emtron uses a Feed Forward Table to provide a base duty for the PID function to operate from.&nbsp;
 
@@ -15,7 +15,7 @@ This table can be expanded into 3D (X axis enabled), and any runtime can be used
 
 **DBW Proportional Gain Table**
 
-![Image](</lib/DBW 10.jpg>)
+![Image](</img/DBW 10.jpg>)
 
 Proportional gain controls how aggressive instantaneous correction must be.&nbsp;
 
@@ -26,7 +26,7 @@ Above is an example where the change Proportional Gain is spanned across Battery
 
 **DBW Integral Gain Table**
 
-![Image](</lib/DBW 11.jpg>)
+![Image](</img/DBW 11.jpg>)
 
 Integral gain controls how much adaptive correction is needed.&nbsp;
 
@@ -35,7 +35,7 @@ This table can be expanded into 3D (X axis enabled), and any runtime can be used
 
 **DBW Derivative Gain Table**
 
-![Image](</lib/DBW 12.jpg>)
+![Image](</img/DBW 12.jpg>)
 
 Derivative gain controls predictive correction where gain is based on the rate of change of error.&nbsp;
 
@@ -46,7 +46,7 @@ This table can be expanded into 3D (X axis enabled), and any runtime can be used
 
 **DBW Min Duty Clamp Table**
 
-![Image](</lib/DBW 13.jpg>)
+![Image](</img/DBW 13.jpg>)
 
 Allows the user to set the minimum duty cycle that can be used by the closed loop system.&nbsp;
 
@@ -55,7 +55,7 @@ This table can be expanded into 3D (X axis enabled), and any runtime can be used
 
 **DBW Max Duty Clamp Table**
 
-![Image](</lib/DBW 14.jpg>)
+![Image](</img/DBW 14.jpg>)
 
 Allows the user to set the maximum duty cycle that can be used by the closed loop system.&nbsp;
 
@@ -64,7 +64,7 @@ This table can be expanded into 3D (X axis enabled), and any runtime can be used
 
 **DBW Pos Integral Limit Table**
 
-![Image](</lib/DBW 15.jpg>)
+![Image](</img/DBW 15.jpg>)
 
 Allows the user to set the maximum I gain compensation used by the closed loop system.&nbsp;
 
@@ -73,7 +73,7 @@ This table can be expanded into 3D (X axis enabled), and any runtime can be used
 
 **DBW Neg Integral Limit Table**
 
-![Image](</lib/DBW 16.jpg>)
+![Image](</img/DBW 16.jpg>)
 
 Allows the user to set the minimum I gain compensation used by the closed loop system.&nbsp;
 
@@ -85,7 +85,7 @@ This table can be expanded into 3D (X axis enabled), and any runtime can be used
 \*\* If using dual DBW, then axis for target errors should be selected as “shared” runtimes.&nbsp; This tells the PID system to look at the respective DBW to apply closed loop gains
 
 
-![Image](</lib/NewItem206.png>)
+![Image](</img/NewItem206.png>)
 
 
 ### Tuning DBW PID

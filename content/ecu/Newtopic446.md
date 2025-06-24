@@ -20,21 +20,21 @@ The ELC devices do **not** include an on-board CAN termination resistor, allowin
 
 
 
-![Image](</lib/NewItem793.png>)
+![Image](</img/NewItem793.png>)
 
 
 
 Figure 3.1. CAN Bus Wiring Example. ECU and Dash at each end with 120 Ohm Termination&nbsp;
 
 
-![Image](</lib/NewItem794.png>)
+![Image](</img/NewItem794.png>)
 
 
 
 Figure 3.2. CAN Bus Wiring Example. ECU and ELC2 at each end with 120 Ohm Termination **EMTRON ELC USER MANUAL WWW.EMTRON.WORLD**&nbsp;
 
 
-![Image](</lib/NewItem797.png>)
+![Image](</img/NewItem797.png>)
 
 
 Figure 3.3. CAN Bus Wiring Example. Stub Length less than 0.3m

@@ -60,7 +60,7 @@ Two options are available:
 &#49;) Manually enter in the Open and Closed voltages into each Calibration Table. Select Calibration Type to "Custom" and enter the value into the table as shown.
 
 
-![Image](</lib/Untitled4.jpg>)
+![Image](</img/Untitled4.jpg>)
 
 
 
@@ -73,4 +73,4 @@ When selected the PP1 and PP2 voltages will be written into their corresponding 
 These voltages can be viewed be going back to the Input Setup form as shown above.
 
 
-![Image](</lib/Untitled3.jpg>).
+![Image](</img/Untitled3.jpg>).

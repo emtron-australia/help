@@ -5,10 +5,10 @@ title: "Accel Engine Temperature Comp Table"
 **Accel Engine Temperature Comp Table**
 
 
-![Image](</lib/Z Axis39.jpg>)
+![Image](</img/Z Axis39.jpg>)
 
 
-![Image](</lib/Z Axis40.jpg>)
+![Image](</img/Z Axis40.jpg>)
 
 
 The Accel Engine Temperature Compensation Table introduces a multiplier of the calculated accel fuel value against engine temperature

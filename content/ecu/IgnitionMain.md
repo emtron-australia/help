@@ -5,10 +5,10 @@ title: "Ignition Main"
 **Ignition Main**&nbsp;
 
 
-![Image](</lib/Ignition.jpg>)
+![Image](</img/Ignition.jpg>)
 
 
-![Image](</lib/Ignition1.jpg>)
+![Image](</img/Ignition1.jpg>)
 
 
 Ignition Main allows for configuring the ECU to suit the engine's ignition system. &nbsp;

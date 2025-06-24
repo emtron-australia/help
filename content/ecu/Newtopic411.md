@@ -5,10 +5,10 @@ title: "Transient Setup"
 **Transient Setup**
 
 
-![Image](</lib/Z Axis31.jpg>)
+![Image](</img/Z Axis31.jpg>)
 
 
-![Image](</lib/Z Axis32.jpg>)
+![Image](</img/Z Axis32.jpg>)
 
 
 **Accel Enable:** Enable or Disable Transient Acceleration fuel mode,&nbsp;

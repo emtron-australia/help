@@ -20,7 +20,7 @@ At these points of ignition trim/retard, the Launch system will switch to Launch
 
 See:&nbsp;
 
-![Image](</lib/NewItem728.jpg>)
+![Image](</img/NewItem728.jpg>)
 
 
 **Torque Reduction Ignition Retard Table:**
@@ -34,7 +34,7 @@ The channel correlates to how much retard will be applied vs the amount of Torqu
 This is a global function of the ECU, which is why it is under the Torque Management section.&nbsp; &nbsp;
 
 
-![Image](</lib/NewItem727.png>)
+![Image](</img/NewItem727.png>)
 
 \*\* Warning - The maximum value in this table (at 100% %Torque Reduction – Retard), must be at a higher value than the Static/Moving Ignition Retard Clamp
 
@@ -42,7 +42,7 @@ This is a global function of the ECU, which is why it is under the Torque Manage
 
 **Static Mode Example Data:**
 
-![Image](</lib/NewItem726.png>)
+![Image](</img/NewItem726.png>)
 
 In the above static example, you can see the ECU holding the “Launch Torque Target” (Yellow Arrows) in the second plot. &nbsp;
 
@@ -55,6 +55,6 @@ Cuts are introduced once the Static Ignition Retard Clamp is reached. &nbsp;
 
 **Moving Mode Example Data:**
 
-![Image](</lib/NewItem725.png>)
+![Image](</img/NewItem725.png>)
 
 In this moving target example, the ECU is holding “Launch Torque Target” (Yellow Arrows) in the second plot by Torque Reduction – Retard alone.

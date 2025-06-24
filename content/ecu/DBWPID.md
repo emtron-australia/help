@@ -4,10 +4,10 @@ title: "DBW Closed Loop Control - DBW PID Setup"
 
 **DBW PID Setup**&nbsp; &nbsp;
 
-![Image](</lib/DBW 7.jpg>)
+![Image](</img/DBW 7.jpg>)
 
 
-![Image](</lib/DBW 8.jpg>)
+![Image](</img/DBW 8.jpg>)
 
 
 ### DBW Deadband +/-

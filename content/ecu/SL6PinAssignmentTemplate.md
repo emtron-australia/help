@@ -2,13 +2,13 @@
 title: "SL6 Pin Assignment Template"
 ---
 
-![Image](</lib/NewItem71.png>)
+![Image](</img/NewItem71.png>)
 
 **SL6 Pinout Summary**
 
 
 
-![Image](</lib/temp4.jpg>)
+![Image](</img/temp4.jpg>)
 
 
 | **Pin Name**        | **Pin #** | **Function**                                          | **Notes**                                                                                                |

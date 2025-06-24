@@ -5,7 +5,7 @@ title: "Gear Position (RPM/Speed) Setup"
 **Gear Position (RPM/Speed) Table**
 
 
-![Image](</lib/NewItem876.png>)
+![Image](</img/NewItem876.png>)
 
 
 
@@ -22,7 +22,7 @@ Define the multiplier here to get speed for the ratio calculation to work.&nbsp;
 RPM/Speed ratio is also actively calculated in Runtimes -\>&nbsp;
 
 
-![Image](</lib/NewItem877.png>)
+![Image](</img/NewItem877.png>)
 
 &#51;rd gear engaged shown
 

@@ -10,7 +10,7 @@ This is where the firing order of the engine is set.&nbsp; The base angles for e
 Most engines are even fired which means each firing event occurs and equal angle from the last. &nbsp;
 
 
-![Image](</lib/Untitled270.png>)
+![Image](</img/Untitled270.png>)
 
 
 Per example below :&nbsp;
@@ -26,10 +26,10 @@ Even fire engines can use the Generate Base Angles tab when the firing order in 
 
 
 
-![Image](</lib/NewItem11.png>)
+![Image](</img/NewItem11.png>)
 
 
 Odd fire engines can have the Base Angles entered manually as shown below for a Dodge Viper setup.
 
 
-![Image](</lib/NewItem734.png>)
+![Image](</img/NewItem734.png>)

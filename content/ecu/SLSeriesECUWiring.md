@@ -2,4 +2,4 @@
 title: "SL Series ECU Wiring"
 ---
 
-![Image](</lib/NewItem233.png>)
+![Image](</img/NewItem233.png>)

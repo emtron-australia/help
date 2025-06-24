@@ -62,7 +62,7 @@ IE - Stepper count for stepper motor, Duty cycle for solenoid, DBW position, or 
 
 
 
-![Image](</lib/NewItem290.png>)
+![Image](</img/NewItem290.png>)
 
 
 It is recommended to configure one of the axes of the Initial Position table to an Idle Target Speed (Main Idle Target, see below). &nbsp;
@@ -88,7 +88,7 @@ Tuning -\> Engine Functions -\> Idle Speed Control -\> Main Idle Target Table
 This table allows you to build an idle target speed in RPM
 
 
-![Image](</lib/NewItem289.png>)
+![Image](</img/NewItem289.png>)
 
 
 Like all Emtron tables, different runtimes are available for axis configuration making the system very flexible. &nbsp;
@@ -158,7 +158,7 @@ The Idle Speed Solenoid output should be the opening winding. &nbsp;
 The Idle Slave Solenoid output should be the closing winding. &nbsp;
 
 
-![Image](</lib/NewItem288.png>)
+![Image](</img/NewItem288.png>)
 
 
 Units in position tables are in %Duty
@@ -192,7 +192,7 @@ Typical frequencies for 3 Wire Idle Solenoids are 50-250hz
 DC Stepper Motors convert rotation into step counts which the ECU can move incrementally to change the amount of air bleeding around the closed throttle.&nbsp; See wiring guides regarding wiring different types of stepper motors. &nbsp;
 
 
-![Image](</lib/NewItem287.png>)
+![Image](</img/NewItem287.png>)
 
 
 Units in position tables are in Steps from Closed position
@@ -229,7 +229,7 @@ Tuning -\> Engine Functions -\> Torque Management -\> Pedal to Throttle Demand T
 Once the engine is idling at the appropriate RPM, use Runtimes to look at what the raw DBW position/Throttle Position to populate the Initial Position Table.
 
 
-![Image](</lib/NewItem286.png>)
+![Image](</img/NewItem286.png>)
 
 Initial Position built off above examples at operating temperature.&nbsp; Estimation for extra air flow can be extrapolated regarding colder temps and blended as shown (must be checked on cold start).
 
@@ -243,11 +243,11 @@ Initial Position built off above examples at operating temperature.&nbsp; Estima
 Because the Idle Speed Control Initial Position is controlling the DBW target, when the idle speed control is locked out (pedal is pushed), the DBW target will transition back into the Pedal to Throttle Demand Table.&nbsp; It is important to have a minimum position that corresponds to somewhere close to the idle Initial Position.&nbsp; If 0% (or a lower number than Idle Initial Position) is targeted in the Pedal Demand Table, the engine may stall/stumble due to lack of airflow. &nbsp;
 
 
-![Image](</lib/NewItem285.png>)
+![Image](</img/NewItem285.png>)
 
 Initial Position Highlighted
 
-![Image](</lib/NewItem284.png>)
+![Image](</img/NewItem284.png>)
 
 Pedal Demand Highlighted
 
@@ -268,7 +268,7 @@ Using Closed Loop Control with DBW Idle Speed Control (%TP/%DBW Servo Posn) requ
 For initial setup use the following PID settings:
 
 
-![Image](</lib/NewItem283.png>)&nbsp;
+![Image](</img/NewItem283.png>)&nbsp;
 
 
 Proportional Gain Table = 0.00

@@ -5,7 +5,7 @@ title: "TPS Closed Calibrate"
 **TPS Closed Calibrate**&nbsp;
 
 
-![Image](</lib/AAAA8.jpg>)
+![Image](</img/AAAA8.jpg>)
 
 
 This function is used to calibrate the closed position of the Throttle Position Sensor (TPS) for cable throttle systems.
@@ -18,4 +18,4 @@ To utilise, Left mouse button click on tab (see above example)
 When completed, an acknowledgment tab will appear
 
 
-![Image](</lib/AAAA9.jpg>)
+![Image](</img/AAAA9.jpg>)

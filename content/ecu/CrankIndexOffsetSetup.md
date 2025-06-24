@@ -14,7 +14,7 @@ The Crank Index Offset Value = TDC Compression Number 1 is X.X number of degrees
 The Crank Index Offset **MUST** always be checked regardless of trigger pre-configuration.&nbsp;
 
 
-![Image](</lib/AAA.jpg>)
+![Image](</img/AAA.jpg>)
 
 
 **&#49;)**&nbsp; **Always check crank index position at ignition lock angle 0.0** (especially when running waste spark).&nbsp;
@@ -31,7 +31,7 @@ The Crank Index Offset **MUST** always be checked regardless of trigger pre-conf
 \*\* When Ignition Lock Enable is ON, Ignition Lock Angle value overrides all other timing values in ECU
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

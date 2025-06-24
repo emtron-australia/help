@@ -5,7 +5,7 @@ title: "Ignition Mode"
 **Ignition Mode**
 
 
-![Image](</lib/Ignition2.jpg>)
+![Image](</img/Ignition2.jpg>)
 
 
 This is where the ignition type is configured. &nbsp;

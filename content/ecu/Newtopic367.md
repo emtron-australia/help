@@ -5,7 +5,7 @@ title: "5: Bank Mass Air Flow Sensor(MAF Bank1 + Bank2 )"
 **Bank Mass Air Flow Sensor (MAF Bank1 + Bank2 )**
 
 
-![Image](</lib/Config Fuel26.jpg>)
+![Image](</img/Config Fuel26.jpg>)
 
 
 

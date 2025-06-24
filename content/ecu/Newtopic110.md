@@ -5,7 +5,7 @@ title: "3: Throttle Mass Flow (TMF) + AirMass Modelled (Blend)"
 **Throttle Mass Flow (TMF) + Air Mass Modelled (Blend)**
 
 
-![Image](</lib/Untitled272.png>)
+![Image](</img/Untitled272.png>)
 
 
 A Blend Table generates a Final Air Mass using a ratio from Throttle Mass Flow (TMF) and Air Mass Modelled.
@@ -17,10 +17,10 @@ When this mode gets enabled, the Fuel Model Blending Control table becomes activ
 Tuning -\> Fuel -\> Fuel Model Blending Control
 
 
-![Image](</lib/Config Fuel15.jpg>)
+![Image](</img/Config Fuel15.jpg>)
 
 
-![Image](</lib/Config Fuel16.jpg>)
+![Image](</img/Config Fuel16.jpg>)
 
 
 &#48;% &nbsp; &nbsp; = Air Mass Modelled

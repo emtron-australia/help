@@ -5,10 +5,10 @@ title: "Dual Lambda Cylinder Setup"
 **Dual Lambda Cylinder Setup**
 
 
-![Image](</lib/Dual lambda.jpg>)
+![Image](</img/Dual lambda.jpg>)
 
 
-![Image](</lib/Dual lambda LS engine example.jpg>)
+![Image](</img/Dual lambda LS engine example.jpg>)
 
 Chev LS Engine example
 

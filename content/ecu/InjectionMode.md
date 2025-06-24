@@ -5,7 +5,7 @@ title: "Injection Mode"
 **Injection Mode**
 
 
-![Image](</lib/Config Fuel1.jpg>)
+![Image](</img/Config Fuel1.jpg>)
 
 
 &#48;: OFF

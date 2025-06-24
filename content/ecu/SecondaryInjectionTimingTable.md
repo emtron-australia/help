@@ -5,10 +5,10 @@ title: "Injection Timing Secondary"
 **Injection Timing Secondary**
 
 
-![Image](</lib/AAAA103.jpg>)
+![Image](</img/AAAA103.jpg>)
 
 
-![Image](</lib/AAAA105.jpg>)
+![Image](</img/AAAA105.jpg>)
 
 
 Injector timing units are values in degrees.
@@ -27,7 +27,7 @@ SOI/EOI (Determines start of injection or end of injection) function is controll
 Config -\> Fuel -\> Fuel Secondary Setup -\> Injection Timing Sec
 
 
-![Image](</lib/Z Axis26.jpg>)
+![Image](</img/Z Axis26.jpg>)
 
 
 Allows the Timing of the Secondary Injectors to operate independently of the Primary Injectors.&nbsp; The Sec Injectors can be advanced up during the initial transition into staged mode to help improve the overall smoothness during this event,
@@ -43,7 +43,7 @@ Range: 0.0 - 720.0 Degs
 This table 3D table is user definable across any available runtime
 
 
-![Image](</lib/Secondary inj timing.jpg>)
+![Image](</img/Secondary inj timing.jpg>)
 
 
 Above example is spanned across intake camshaft target angle \& fuel mass final (g/cyl)

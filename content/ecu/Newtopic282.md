@@ -5,10 +5,10 @@ title: "Lambda Control PID Setup"
 **Lambda Control PID Setup**
 
 
-![Image](</lib/Lambda PID.jpg>)
+![Image](</img/Lambda PID.jpg>)
 
 
-![Image](</lib/Lambda PID 2.jpg>)
+![Image](</img/Lambda PID 2.jpg>)
 
 
 &#48; - Standard = Basic P Gain Controller

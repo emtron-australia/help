@@ -51,7 +51,7 @@ Channels to reference :&nbsp;
 **\*\* Recommended Setting - "1" due to Vacuum Referenced regulators not always providing 1:1 pressure change vs Injector Nozzle Ref Pressure and other inadequacies of most fuel systems (starvation, voltage supply, out-flowing, etc)**
 
 
-![Image](</lib/NewItem902.png>)
+![Image](</img/NewItem902.png>)
 
 Example demonstrating loss of fuel pressure and ECU compensating fuel mass until specified "cut off - Fuel Pressure Engine Protection
 

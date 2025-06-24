@@ -2,7 +2,7 @@
 title: "Power Supply"
 ---
 
-**&nbsp;**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Image](</lib/NewItem976.png>)
+**&nbsp;**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Image](</img/NewItem976.png>)
 
 **Power Supply,**
 
@@ -16,11 +16,11 @@ The ECU will fail to power up thereby making communication impossible.
 
 For the KV Series ECU’s this is pin D1
 
-&nbsp; ![Image](</lib/NewItem975.png>)
+&nbsp; ![Image](</img/NewItem975.png>)
 
 For the SL series ECU’s, this is pin B1
 
-![Image](</lib/NewItem974.png>)
+![Image](</img/NewItem974.png>)
 
 If 12V is not present at D1/B1 with ignition ON, you will need to determine the power supply fault.
 

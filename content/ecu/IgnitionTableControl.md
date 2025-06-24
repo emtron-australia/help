@@ -12,7 +12,7 @@ For main table controls, the selections are mostly universal. &nbsp;
 
 (Fuel example shown)
 
-![Image](</lib/NewItem117.png>)
+![Image](</img/NewItem117.png>)
 
 Not all of the above example will be available for every function, but generally most functions are the same. &nbsp;
 
@@ -26,7 +26,7 @@ Not all of the above example will be available for every function, but generally
 **Z-Axis** uses a separate X axis lookup that can allow the blending of all the available tables. &nbsp;
 
 
-![Image](</lib/NewItem116.png>)
+![Image](</img/NewItem116.png>)
 
 
 Any runtime can be used, and the units equal which table to run in this case.&nbsp; You can see in the above example the ECU will switch (and interpolate in between) the three different tables available based on TP1 position. &nbsp;

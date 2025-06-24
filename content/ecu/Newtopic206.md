@@ -8,7 +8,7 @@ title: "Ignition Transient Setup"
 Tuning -\> Ignition -\> Transient -\> Ignition Transient Setup
 
 
-![Image](</lib/NewItem237.png>)
+![Image](</img/NewItem237.png>)
 
 
 **Enable functions**

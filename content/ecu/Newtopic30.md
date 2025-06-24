@@ -22,7 +22,7 @@ Tuning View -\> Motorsport Functions -\> Gearshift Control -\> Gearshift Compres
 
 
 
-![Image](</lib/NewItem248.png>)
+![Image](</img/NewItem248.png>)
 
 
 
@@ -72,7 +72,7 @@ Tuning View -\> Motorsport Functions -\> Gearshift Control -\> Upshift Control -
 
 
 
-![Image](</lib/NewItem249.png>)
+![Image](</img/NewItem249.png>)
 
 
 ### Upshuft Cut Type&nbsp;
@@ -148,7 +148,7 @@ Rev-matching describes the process of matching engine speed to the gear you are 
 The Downshift setting can be found in the Tuning View -\> Motorsport Functions -\> Gearshift Control -\> Downshift Control menu.
 
 
-![Image](</lib/Untitled171.png>)
+![Image](</img/Untitled171.png>)
 
 
 
@@ -260,7 +260,7 @@ Final Rev-match RPM Target = 4000 x 1.05 = 4200 RPM
 
 
 
-![Image](</lib/Untitled164.png>)
+![Image](</img/Untitled164.png>)
 
 
 
@@ -270,7 +270,7 @@ Final Rev-match RPM Target = 4000 x 1.05 = 4200 RPM
 Sets the Servo Position target that the DBW will move to during the downshift.&nbsp; This is an absolute position. The below table shows a typical 4 cylinder engine example.
 
 
-![Image](</lib/Untitled166.png>)
+![Image](</img/Untitled166.png>)
 
 
 
@@ -281,11 +281,11 @@ The length of time the air override system is introducing additional air during 
 
 
 
-![Image](</lib/Untitled169.png>)
+![Image](</img/Untitled169.png>)
 
 
 
-![Image](</lib/Untitled170.png>)
+![Image](</img/Untitled170.png>)
 
 
 

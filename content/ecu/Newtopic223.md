@@ -5,10 +5,10 @@ title: "Accel Decay Table"
 **Accel Decay Table**
 
 
-![Image](</lib/Z Axis37.jpg>)
+![Image](</img/Z Axis37.jpg>)
 
 
-![Image](</lib/Z Axis38.jpg>)
+![Image](</img/Z Axis38.jpg>)
 
 
 The Accel Decay Table controls the rate of decay or how quickly the added accel fuel is removed as a percentage of an engine cycle. &nbsp;

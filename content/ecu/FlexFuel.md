@@ -13,7 +13,7 @@ Wire in the Ethanol Sensor to the ECU using one of the available digital inputs 
 
 Go to **Config -\> Inputs -\> Input Pins Setup** then select the **Vehicle** tab
 
-![Image](</lib/NewItem138.png>)
+![Image](</img/NewItem138.png>)
 
 The **Input Source** should match the Digital Input channel the sensor is wired to. In this example Digital Input 6 (DI 6) is used.
 
@@ -25,13 +25,13 @@ Active Edge = **Falling** \
 
 “Edit Table” values Set to 2.0 Volts
 
-![Image](</lib/NewItem137.png>)
+![Image](</img/NewItem137.png>)
 
 
 
 Configure the type of Ethanol sensor used within Emtune software, **Tuning -\> Engine Functions -\> Ethanol Sensor -\> Setup**
 
-![Image](</lib/NewItem136.png>)
+![Image](</img/NewItem136.png>)
 
 &#48;: GM / Continental&nbsp;
 
@@ -39,7 +39,7 @@ Configure the type of Ethanol sensor used within Emtune software, **Tuning -\> E
 
 Verify the operation of the Ethanol sensor by pulling up the run time variables by pressing the shortcut key **F3** and selecting the **Fuel 2** tab.
 
-![Image](</lib/NewItem135.png>)
+![Image](</img/NewItem135.png>)
 
 
 
@@ -56,7 +56,7 @@ The below tables allows the ECU&nbsp; to accurately make adjustments injector pu
 
 To configure this table to go **Config-\> Fuel -\> Fuel Density Table**
 
-![Image](</lib/NewItem134.png>)&nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/NewItem134.png>)&nbsp; &nbsp; &nbsp; &nbsp;
 
 
 
@@ -64,7 +64,7 @@ Configure the custom stoichiometric table which also is based on the Ethanol % o
 
 To configure this table to go **Config-\> Fuel -\> Stoichiometric Custom Table**
 
-![Image](</lib/NewItem133.png>)
+![Image](</img/NewItem133.png>)
 
 
 
@@ -77,7 +77,7 @@ This allows the tuner to have the ability to manipulate the tune based on the Et
 
 **Tuning -\> Ignition -\> Ignition Table Control -\> Main Ignition Tables**
 
-![Image](</lib/NewItem132.png>)
+![Image](</img/NewItem132.png>)
 
 
 
@@ -85,7 +85,7 @@ This allows the tuner to have the ability to manipulate the tune based on the Et
 Set the **Ignition table control** to **6:&nbsp; ON –Z-Axis**.&nbsp;
 
 
-![Image](</lib/NewItem131.png>)
+![Image](</img/NewItem131.png>)
 
 This will activate the **Main Ignition Tables** **1-3** as well as the **Ign Main Table Z-Axis Setup** table.
 
@@ -94,13 +94,13 @@ This will activate the **Main Ignition Tables** **1-3** as well as the **Ign Mai
 
 Go to **Tuning -\> Ignition -\> Z-Axis Setup -\> Ign Main Table ZAxis Setup**
 
-![Image](</lib/NewItem130.png>)
+![Image](</img/NewItem130.png>)
 
 
 
 Configure the **Ign Main Table Z-Axis setup** table such that the X-Axis parameter is **Ethanol Content %**.&nbsp; (Shortcut key **A** to access axis setup)
 
-![Image](</lib/NewItem129.png>)
+![Image](</img/NewItem129.png>)
 
 This table controls the percentage of blend used by the ECU between the Main Ignition tables.&nbsp;
 
@@ -133,18 +133,18 @@ To enable the Fuel Mass Modifier table to go **Tuning -\> Fuel -\> Fuel Table Co
 
 
 
-![Image](</lib/NewItem128.png>)
+![Image](</img/NewItem128.png>)
 
 
 Enable **the Fuel Mass Modifer Table Control**&nbsp; set value to **1**
 
-![Image](</lib/NewItem127.png>)
+![Image](</img/NewItem127.png>)
 
 
 
 Configure Fuel Mass Modifier Table such that Ethanol Content % on the X-axis and Efficiency Calculation % on the Y-axis &nbsp; Shortcut key (**A**) to configure table axis. Eg below shows Fuel Mass Modifier Table with percentage trims being applied to the Main VE Fuel Fable
 
-![Image](</lib/NewItem126.png>)
+![Image](</img/NewItem126.png>)
 
 
 

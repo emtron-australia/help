@@ -4,7 +4,7 @@ title: "Gear Comp Table"
 
 
 
-![Image](</lib/AAAA127.jpg>)
+![Image](</img/AAAA127.jpg>)
 
 
-![Image](</lib/AAAA129.jpg>)
+![Image](</img/AAAA129.jpg>)

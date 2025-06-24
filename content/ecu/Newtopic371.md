@@ -2,13 +2,13 @@
 title: "Boost OL/CL Lockouts"
 ---
 
-![Image](</lib/Boost Control 3.jpg>)
+![Image](</img/Boost Control 3.jpg>)
 
 
 **Boost OL/CL Lockouts**
 
 
-![Image](</lib/Boost Control 4.jpg>)\
+![Image](</img/Boost Control 4.jpg>)\
 
 **Throttle Lockout**
 

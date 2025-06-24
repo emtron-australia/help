@@ -16,6 +16,6 @@ Fundamentally, gear control and detection are a part of the ECU functions. &nbsp
 Several channels are linked to the gear functions that can be viewed, logged, and used as active channels :
 
 
-![Image](</lib/NewItem873.png>)
+![Image](</img/NewItem873.png>)
 
 

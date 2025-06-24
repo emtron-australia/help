@@ -7,7 +7,7 @@ Multiple Lambda tables can be turned on/off. &nbsp;
 
 
 
-![Image](</lib/NewItem741.png>)
+![Image](</img/NewItem741.png>)
 
 
 

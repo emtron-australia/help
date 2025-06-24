@@ -8,10 +8,10 @@ title: "Idle Speed Control Lockouts (TMF)"
 **Tuning –\> Engine Functions –\> Idle Speed control –\> Idle Speed Control lockouts (TMF)**
 
 
-![Image](</lib/AAAA83.jpg>)
+![Image](</img/AAAA83.jpg>)
 
 
-![Image](</lib/Idle speed control lockouts TMF.jpg>)
+![Image](</img/Idle speed control lockouts TMF.jpg>)
 
 
 **TP1/PP1 Lockout**

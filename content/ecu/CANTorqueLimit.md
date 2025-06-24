@@ -41,19 +41,19 @@ The frame contains 2 torque limits, the lowest one will be applied (assuming it'
 
 Example CAN Channel Setup:
 
-![Image](</lib/NewItem996.png>)
+![Image](</img/NewItem996.png>)
 
 
 
 Received raw data can be viewed in the F3 window on the CAN Tab.
 
-![Image](</lib/NewItem997.png>)
+![Image](</img/NewItem997.png>)
 
 
 
 Final CAN Torque limit result is shown here:
 
-![Image](</lib/NewItem998.png>)
+![Image](</img/NewItem998.png>)
 
 
 The CAN Torque Limit User Mode 1 \& 2 values are available to be used anywhere in the ECU as table axis' or inputs to user functions.
@@ -64,7 +64,7 @@ To use the incoming torque limit, you must setup a User Torque Limit. This allow
 
 To use the CAN Torque Limit Strat Select value, set the Strat Mode to CAN Tq Request, otherwise you can force a Strat of your choosing.
 
-![Image](</lib/NewItem999.png>)
+![Image](</img/NewItem999.png>)
 
 *Note: If the CAN Torque Limit Strat Select value is zero and The User Torque Limit Strat Mode is set to CAN Tq Strat Request, no limit will be applied.*
 
@@ -73,5 +73,5 @@ Setup the Torque Limit's Main Table to utilize the CAN Rx Torque Limit value. Yo
 
 Here you can see the incoming request for is being modified for User Modes above 0.
 
-![Image](</lib/NewItem1000.png>)
+![Image](</img/NewItem1000.png>)
 

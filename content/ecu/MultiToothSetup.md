@@ -29,7 +29,7 @@ The Sync Sensor must be **Camshaft** driven if sequential fuel injection/direct 
 Missing Tooth Triggers do not require a sync sensor to identify the "Index Tooth"&nbsp;
 
 
-![Image](</lib/NewItem347.png>)
+![Image](</img/NewItem347.png>)
 
 An example of a 4 Tooth Crank Wheel with a single tooth (50/50) Sync Sensor driven off a Camshaft (both Hall sensors)
 
@@ -37,11 +37,11 @@ An example of a 4 Tooth Crank Wheel with a single tooth (50/50) Sync Sensor driv
 
 \*\* Note - This trigger could also be an example of a Crank Trigger being driven off of a Distributor (8 teeth), and therefore Camshaft driven
 
-![Image](</lib/NewItem349.png>)
+![Image](</img/NewItem349.png>)
 
 In this case, Edge configuration being set to both Falling Edge (see Crank Index/Sync Sensor Setup), the "Index Tooth" is identified as above
 
-![Image](</lib/NewItem350.png>)
+![Image](</img/NewItem350.png>)
 
 With a Missing Tooth crank trigger, the "Index Tooth" is recognized by the next Falling Edge after the gap position.
 
@@ -57,7 +57,7 @@ Emtron calculates the following channel for monitoring, diagnosis, and logging p
 
 The Sync Position % is calculated by factoring the position of the Sync Edge between consecutive Crank Teeth. &nbsp;
 
-![Image](</lib/NewItem351.png>)
+![Image](</img/NewItem351.png>)
 
 Looking at falling edges, the distance between crank teeth can be identified by the green lines, and the sync edge is identified by the yellow arrow.&nbsp; The value would be **Sync Position % - 33%** approximately in this case.
 

@@ -5,7 +5,7 @@ title: "Fuel Model Setup"
 **ECU Fuel Model**
 
 
-![Image](</lib/Untitled261.png>)
+![Image](</img/Untitled261.png>)
 
 
 

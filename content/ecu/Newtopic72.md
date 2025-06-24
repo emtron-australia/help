@@ -65,7 +65,7 @@ Example . Piston Diameter 85mm.&nbsp; Knock Frequency&nbsp; = 1800 / (3.14 x 85m
 The below example shows the setup for a Centre frequency of 7000Hz and Bandwidth if 200Hz.
 
 
-![Image](</lib/NewItem300.png>)
+![Image](</img/NewItem300.png>)
 
 
 

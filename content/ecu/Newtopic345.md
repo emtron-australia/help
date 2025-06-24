@@ -5,7 +5,7 @@ title: "2: Mass Air Flow Sensor (MAF)"
 **Mass Air Flow Sensor**
 
 
-![Image](</lib/Untitled273.png>)
+![Image](</img/Untitled273.png>)
 
 
 The Air Flow Sensor(s) provides a measured Air Mass Flow in g/s.&nbsp; The ECU then converts this into air mass per cylinder (g/cyl)&nbsp; giving actual Air Mass into the Engine.&nbsp;
@@ -37,12 +37,12 @@ Once the Mass Air has been measured, if the MAF requires further scaling this ca
 A Typical example is shown in below. Table Control should be used to put the Secondary Load Table into this "special" mode shown below
 
 
-![Image](</lib/Untitled66.png>)
+![Image](</img/Untitled66.png>)
 
 **Secondary Load Table used for MAF Sensor**
 
 
-![Image](</lib/Untitled67.png>)
+![Image](</img/Untitled67.png>)
 
 **Table Control for Secondary Load Table**
 
@@ -66,6 +66,6 @@ Once the Fuel Mass is determined, the Effective Injector Pulse Width can be calc
 **Flow Chart Overview for Mass Air Flow Sensor Fuel Model:**
 
 
-![Image](</lib/MAF Flow Chart2.jpg>)
+![Image](</img/MAF Flow Chart2.jpg>)
 
 

@@ -85,7 +85,7 @@ Use the "Tuning View -\> Engine Functions -\> Throttle Body Model" menu to confi
 
 
 
-![Image](</lib/NewItem253.png>)
+![Image](</img/NewItem253.png>)
 
 
 

@@ -4,10 +4,10 @@ title: "Fuel Pressure Limit Setup"
 
 **Fuel Pressure Limit Setup**
 
-![Image](</lib/9.jpg>)
+![Image](</img/9.jpg>)
 
 
-![Image](</lib/10.jpg>)&nbsp;
+![Image](</img/10.jpg>)&nbsp;
 
 
 **Engine Speed Limit**
@@ -108,7 +108,7 @@ Used for situations when you want to generate a Limit Request but not actually l
 
 **Fuel Pressure Limit Table**
 
-![Image](</lib/11.jpg>)
+![Image](</img/11.jpg>)
 
 User defined Fuel differential offset pressure limit table. Limit is active below the offset kPa input values.
 
@@ -117,7 +117,7 @@ Fuel Pressure 1 Differential Offset runtime value is utilised
 
 **Fuel Pressure Limit - Turn ON Delay Table (Sec)**
 
-![Image](</lib/12.jpg>)
+![Image](</img/12.jpg>)
 
 User defined limit activation delay table in seconds.
 

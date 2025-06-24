@@ -18,14 +18,14 @@ The Emtron R35 GT-R Plugin ECU is designed to replicate the OEM engine torque ou
 
 
 
-![Image](</lib/AAAA69.jpg>)
+![Image](</img/AAAA69.jpg>)
 
 
 
 **VDC Torque Limiting - Throttle**
 
 
-![Image](</lib/AAAA39.jpg>)
+![Image](</img/AAAA39.jpg>)
 
 
 The VDC can request a Nm Torque Reduction/Limit&nbsp; using a combination of 2 methods:
@@ -66,7 +66,7 @@ Default: Throttle.
 **VDC Torque Limiting - Engine Cutting**&nbsp;
 
 
-![Image](</lib/AAAA40.jpg>)
+![Image](</img/AAAA40.jpg>)
 
 
 The VDC can request a Nm Torque Reduction/Limit using a combination of 2 methods:
@@ -115,7 +115,7 @@ Default: Ignition Cut.
 **VDC Torque Limit - Engine Cut Pattern**&nbsp;
 
 
-![Image](</lib/AAAA41.jpg>)
+![Image](</img/AAAA41.jpg>)
 
 
 Used when VDC Torque Limiting is controlled with Engine Cutting.
@@ -140,7 +140,7 @@ Default: Sequential Pattern 1
 **VDC Torque Limit - Input Filter**&nbsp;
 
 
-![Image](</lib/AAAA42.jpg>)
+![Image](</img/AAAA42.jpg>)
 
 
 A VDC Torque Limit (Nm) gets converted by the ECU into a Throttle Area output called "Throttle Area Demand - VDC".&nbsp;
@@ -159,7 +159,7 @@ and after the throttle plate.&nbsp; This filter gets applied to this ratio and i
 **VDC Torque Limit - Output Filter**&nbsp;
 
 
-![Image](</lib/AAAA43.jpg>)
+![Image](</img/AAAA43.jpg>)
 
 
 A VDC Torque Limit (Nm) gets converted by the ECU into a Throttle Area output called "Throttle Area Demand - VDC".&nbsp;
@@ -188,7 +188,7 @@ However it is important to understand that any filter will reduce the response o
 **VDC Torque Limit- Throttle Area Min Clamp**&nbsp;
 
 
-![Image](</lib/AAAA44.jpg>)
+![Image](</img/AAAA44.jpg>)
 
 
 The VDC Torque Limit (Nm) with Throttle Plate control uses Throttle Mass
@@ -218,7 +218,7 @@ An extreme of this setting would be 100% which means the throttle is not able to
 **VDC Torque Limit- Throttle Area Max Clamp**&nbsp;
 
 
-![Image](</lib/AAAA45.jpg>)
+![Image](</img/AAAA45.jpg>)
 
 
 The VDC Torque Limit (Nm) with Throttle Plate control uses Throttle Mass
@@ -246,7 +246,7 @@ This means the Throttle Area is clamped between Min% Value and 90%.
 **VDC Torque Limit - Engine Cut Max Clamp**&nbsp;
 
 
-![Image](</lib/AAAA46.jpg>)
+![Image](</img/AAAA46.jpg>)
 
 
 A VDC Torque Limit (Nm) using Engine Cutting gets converted by the ECU into a calibrated
@@ -273,7 +273,7 @@ Note: In situations where the torque is unable to meet the request target fast e
 **VDC Calibrate - Throttle**&nbsp;
 
 
-![Image](</lib/AAAA47.jpg>)
+![Image](</img/AAAA47.jpg>)
 
 
 \*\*CAUTION\*\* The setting will override the Throttle Plate control and reduce the Throttle Area to achieve the entered Torque value.&nbsp;

@@ -5,7 +5,7 @@ title: "Cam Position Offsets"
 **Cam Position Offsets**&nbsp;
 
 
-![Image](</lib/VVT 3.jpg>)
+![Image](</img/VVT 3.jpg>)
 
 
 Like Crank Position Offset, the ECU must know the offset position of each Camshaft used for Cam Control as well. &nbsp;
@@ -13,7 +13,7 @@ Like Crank Position Offset, the ECU must know the offset position of each Camsha
 The offset allows the target look up table to either add or subtract desired position based on this entry. &nbsp;
 
 
-![Image](</lib/VVT 4.jpg>)
+![Image](</img/VVT 4.jpg>)
 
 
 To program the Position Offset, the ECU must put the engine into a special mode to return the camshafts to default positions (intake retarded, exhaust advanced). &nbsp;
@@ -33,7 +33,7 @@ Set VVT Offset(s) = 1 (ON)
 Display VVT Abs Position = choose camshaft to display&nbsp;
 
 
-![Image](</lib/VVT 5.jpg>)
+![Image](</img/VVT 5.jpg>)
 
 
 Under Runtimes (F3, VVT/VVL)
@@ -43,13 +43,13 @@ Use absolute position runtimes to populate the offset. &nbsp;
 \*\*Each position represents either a rising or falling edge per cycle (dependent on edge selection under inputs).&nbsp; **Choose the lowest number**.&nbsp;
 
 
-![Image](</lib/VVT 6.jpg>)
+![Image](</img/VVT 6.jpg>)
 
 
 **Method 2**
 
 
-![Image](</lib/VVT 7.jpg>)
+![Image](</img/VVT 7.jpg>)
 
 
 Whilst on the Cam Position Offset page
@@ -67,7 +67,7 @@ This can be do by simply increasing or decreasing the value until as close to ze
 Once completed for each cam, set VVT Offset(s) to = 0 (Off)
 
 
-![Image](</lib/VVT 8.jpg>)
+![Image](</img/VVT 8.jpg>)
 
 
 

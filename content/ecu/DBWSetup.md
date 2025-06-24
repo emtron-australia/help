@@ -5,10 +5,10 @@ title: "DBW 1/2 Configuration"
 **DBW 1/2 Configuration**&nbsp;
 
 
-![Image](</lib/DBW 1.jpg>)
+![Image](</img/DBW 1.jpg>)
 
 
-![Image](</lib/DBW 2.jpg>)
+![Image](</img/DBW 2.jpg>)
 
 
 
@@ -61,7 +61,7 @@ When the status reads "Calibrate Complete" , the DBW Calibrate Plate setting to 
 This allows PID plate control but disables ALL tracking and safety features allowing PID calibration.
 
 
-![Image](</lib/NewItem212.png>)
+![Image](</img/NewItem212.png>)
 
 
 
@@ -134,7 +134,7 @@ Since the pedal position is validated by redundant inputs, once calibrated the p
 The threshold here can be adjusted for the minimum amount of error needed for Error Tracking to start counting.
 
 
-![Image](</lib/Untitled161.png>)
+![Image](</img/Untitled161.png>)
 
 
 **NOTE"**

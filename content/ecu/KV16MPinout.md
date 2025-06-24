@@ -2,7 +2,7 @@
 title: "KV16M Pinout"
 ---
 
-![Image](</lib/NewItem312.png>)
+![Image](</img/NewItem312.png>)
 
 
 | **Mating Connectors Loom Side (Deutsch Autosport AS Series;** S = Socket#8202;**)** |
@@ -20,7 +20,7 @@ title: "KV16M Pinout"
 
 
 
-![Image](</lib/NewItem311.jpg>) &nbsp; &nbsp;
+![Image](</img/NewItem311.jpg>) &nbsp; &nbsp;
 
 &nbsp; &nbsp; **Looking into ECU Connector**
 
@@ -65,7 +65,7 @@ title: "KV16M Pinout"
 
 
 
-![Image](</lib/NewItem310.jpg>)
+![Image](</img/NewItem310.jpg>)
 
 **&nbsp; &nbsp; Looking into ECU Connector**
 
@@ -110,7 +110,7 @@ title: "KV16M Pinout"
 
 
 
-![Image](</lib/NewItem309.jpg>) &nbsp;
+![Image](</img/NewItem309.jpg>) &nbsp;
 
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; **Looking into ECU Connector**
 

@@ -8,7 +8,7 @@ title: "Engine Decoding Mode"
 Engine decoding Mode configures the engine trigger type read by the ECU. &nbsp;
 
 
-![Image](</lib/AA main12.jpg>)
+![Image](</img/AA main12.jpg>)
 
 
 

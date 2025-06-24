@@ -4,7 +4,7 @@ title: "Fuel"
 
 **Fuel Tuning Overview**
 
-![Image](</lib/AAAA76.jpg>)
+![Image](</img/AAAA76.jpg>)
 
 The fueling calculations used by Emtron are based on an **Air Mass** per cycle which is then converted to a Fuel Mass based on the requested lambda target. This is true whether the system is using directly measuring airflow from the air mass meter, or calculated air mass from the Ideal Gas Law based on Engine Displacement, Engine Manifold Pressure, Charge Temperature, and Volumetric Efficiency.
 
@@ -26,18 +26,18 @@ The Graph below of Theoretical vs Actual flow explains this better. The Blue lin
 
 This is only 93% of the fuel requested.
 
-![Image](</lib/Inj Deadime Pic13.jpg>)
+![Image](</img/Inj Deadime Pic13.jpg>)
 
 The flow error is caused by an offset that exists between the actual injector flow (Red line) and the theoretical flow (Blue line). This offset exists on all injectors and must be included for the fuel calculation to be accurate.&nbsp; As the offset is constant across the "majority" of the injector operating range, we can correct for it by adding it to our final injector pulsewidth. This offset error/flow error is known as **Injector Deadtime.** The ECUs uses a 3D deadtime table spanned on Battery Voltage and Differential Fuel Pressure. See section [Injector Deadtime Table](<InjectorDeadtimeTable1.md>) for more information.
 
 Once the offset is corrected the Theoretical vs Actual flow graph looks like:
 
 
-![Image](</lib/Inj Deadime Pic2.jpg>)
+![Image](</img/Inj Deadime Pic2.jpg>)
 
 The correction across "most" of the operating range is complete and we can expect the ECU calculated pulsewidth to deliver the requested mass flow. However the range at low pulsewidth still has errors i.e there is a difference between the theoretical and actual pulse with. This is known as the "non linear operating range" of the injector and the graph below has this area zoomed in.
 
-![Image](</lib/Inj Deadime Pic3.jpg>)
+![Image](</img/Inj Deadime Pic3.jpg>)
 
 Below 2 ms we have a situation similar to our initial conditions where there was an offset between the actual flow, and theoretical flow of the injector. Unlike the offset within the linear operating range of the injector, this is not constant, and cannot be corrected for with a single value.
 

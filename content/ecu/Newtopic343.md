@@ -5,7 +5,7 @@ title: "8: Air Mass Modelled (Parameter Blend)"
 **Air Mass Modelled (Parameter Blend)**
 
 
-![Image](</lib/Untitled263.png>)
+![Image](</img/Untitled263.png>)
 
 
 
@@ -17,7 +17,7 @@ determines the blend ratio between both parameters.
 The configuration takes place in: Config -\> Channels -\> Calculated Runtimes -\> Air Mass Modelled Setup. See [Air Mass Modelled Setup](<AirMassModelledSetup.md>)
 
 
-![Image](</lib/Untitled265.jpg>)
+![Image](</img/Untitled265.jpg>)
 
 
 
@@ -42,7 +42,7 @@ If Air Mass Modelling is not being used, select the same runtime for both parame
 **Air Mass Modelled Blend Table**
 
 
-![Image](</lib/NewItem181.png>)
+![Image](</img/NewItem181.png>)
 
 
 &#48;% = Parameter 1&nbsp;

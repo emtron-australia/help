@@ -5,7 +5,7 @@ title: "Lambda Transport Delay"
 **Lambda Transport Delay**
 
 
-![Image](</lib/Transport Delay.jpg>)
+![Image](</img/Transport Delay.jpg>)
 
 
 &#51;D table that defines the delay in which the Lambda sensor reports its input &nbsp;
@@ -15,7 +15,7 @@ title: "Lambda Transport Delay"
 \*\* Transport delay is dependent on engine load. &nbsp; Higher exhaust velocity reduces delay
 
 
-![Image](</lib/NewItem120.png>)
+![Image](</img/NewItem120.png>)
 
 Axis is spanned via RPM x TP.&nbsp; Any runtime can be used&nbsp;
 
@@ -23,7 +23,7 @@ Axis is spanned via RPM x TP.&nbsp; Any runtime can be used&nbsp;
 \*\*\*Transport delay can affect closed loop fuel PID routine. &nbsp;
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

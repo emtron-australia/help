@@ -7,10 +7,10 @@ title: "Idle Valve Area Table"
 **Tuning –\> Engine Functions –\> Throttle Body Model –\> Idle Valve Area Table %**
 
 
-![Image](</lib/AAAA79.jpg>)
+![Image](</img/AAAA79.jpg>)
 
 
-![Image](</lib/AAAA80.jpg>)
+![Image](</img/AAAA80.jpg>)
 
 
 When Throttle Mass Flow is utilized without a DBW throttle - I.E: **3: ON x1 Cable Throttle Body**

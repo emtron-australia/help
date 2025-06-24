@@ -27,7 +27,7 @@ Engine Torque Ideal is based on the following :
 
 If engine torque is not calculating accurately, Emtron has correction factors under the torque management section -\> Tuning -\> Engine Functions -\> Torque Management -\> Engine Torque Correction Table
 
-![Image](</lib/NewItem799.png>)
+![Image](</img/NewItem799.png>)
 
 
 **Driver Demand Torque Correction**

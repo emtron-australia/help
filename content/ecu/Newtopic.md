@@ -76,7 +76,7 @@ Configuring timer 1-5 opens up a configuration window to set conditions, max tim
 
 Set the conditions for the timer to start using Emtron ECU runtimes or status.&nbsp; There are up to 4 conditions that can be used to start the timer. &nbsp;
 
-![Image](</lib/NewItem259.png>)
+![Image](</img/NewItem259.png>)
 
 \
 
@@ -89,7 +89,7 @@ Set the max time the timer can count
 **Timer Reset Mode**
 
 
-![Image](</lib/NewItem258.png>)
+![Image](</img/NewItem258.png>)
 
 \
 Reset when Timer Function turns OFF
@@ -131,7 +131,7 @@ Fixed Timers are configured in the Tuning section
 * Tuning, Timer Functions, Fixed Timer Setup
 
 
-![Image](</lib/NewItem257.png>)
+![Image](</img/NewItem257.png>)
 
 
 **TP1 WOT Timer ON**
@@ -170,7 +170,7 @@ Set what RPM needs to be below to start counting PP Closed time
 Select from the following to trigger the Race Timer to start or create a custom function using a User Output
 
 
-![Image](</lib/NewItem256.png>)
+![Image](</img/NewItem256.png>)
 
 
 
@@ -186,7 +186,7 @@ Max time for Race Timer
 Select from the following to trigger the Race Timer to reset or create a custom function using a User Output
 
 
-![Image](</lib/NewItem255.png>)
+![Image](</img/NewItem255.png>)
 
 
 

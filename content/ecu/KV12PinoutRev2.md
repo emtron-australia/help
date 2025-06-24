@@ -2,7 +2,7 @@
 title: "KV12 Pinout Rev2"
 ---
 
-![Image](</lib/NewItem228.png>)
+![Image](</img/NewItem228.png>)
 
 
 
@@ -14,7 +14,7 @@ title: "KV12 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem320.png>)
+![Image](</img/NewItem320.png>)
 
 **Looking into ECU connector**
 
@@ -57,7 +57,7 @@ title: "KV12 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem319.png>)
+![Image](</img/NewItem319.png>)
 
 **Looking into ECU connector**
 
@@ -91,7 +91,7 @@ title: "KV12 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem318.png>)
+![Image](</img/NewItem318.png>)
 
 &nbsp; **Looking into ECU connector**
 
@@ -125,7 +125,7 @@ title: "KV12 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem317.png>)
+![Image](</img/NewItem317.png>)
 
 **Looking into ECU connector**
 

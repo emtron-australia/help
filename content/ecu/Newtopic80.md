@@ -8,13 +8,13 @@ title: "Knock Control Setup"
 Tuning -\> Engine Functions -\> Knock Control -\> Knock Control Setup
 
 
-![Image](</lib/NewItem293.jpg>)
+![Image](</img/NewItem293.jpg>)
 
 
 **Knock Control Setup**
 
 
-![Image](</lib/NewItem292.jpg>)
+![Image](</img/NewItem292.jpg>)
 
 
 * Knock Gain&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -&nbsp; &nbsp; Gain added to knock signal (can multiply)
@@ -56,7 +56,7 @@ Tuning -\> Engine Functions -\> Knock Control -\> Knock Control Setup
 Select the appropriate Knock Channel (Knock Sensor) for each cylinder
 
 
-![Image](</lib/NewItem122.png>)
+![Image](</img/NewItem122.png>)
 
 Example - 6 cylinder with two knock inputs
 

@@ -5,10 +5,10 @@ title: "Scope"
 **Scope**&nbsp;
 
 
-![Image](</lib/Utitities 18.jpg>)&nbsp;
+![Image](</img/Utitities 18.jpg>)&nbsp;
 
 
-![Image](</lib/Utitities 19.jpg>)
+![Image](</img/Utitities 19.jpg>)
 
 
 Emtron features a built in Scope for all ECU types.&nbsp; Depending on the ECU (or if a plug in model – the type it is based off of), the number of channels that can be scoped is variable:&nbsp;

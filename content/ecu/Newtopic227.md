@@ -5,10 +5,10 @@ title: "Decel Decay Table"
 **Decel Decay Table**
 
 
-![Image](</lib/Z Axis47.jpg>)
+![Image](</img/Z Axis47.jpg>)
 
 
-![Image](</lib/Z Axis48.jpg>)
+![Image](</img/Z Axis48.jpg>)
 
 
 The Decel Decay Table controls the rate of decay or how quickly the removed accel fuel is returned as a percentage of an engine cycle

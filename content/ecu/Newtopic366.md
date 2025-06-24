@@ -5,7 +5,7 @@ title: "1: Speed Density (BAP)"
 **Speed Density(BAP Sensor)**
 
 
-![Image](</lib/Config Fuel22.jpg>)
+![Image](</img/Config Fuel22.jpg>)
 
 
 Speed Density (BAP) mode is predominantly used in TPS only tuning methods.&nbsp;

@@ -23,7 +23,7 @@ Throttle Area data is available either in the Runtime menu(F3) -\> Torque or DBW
 
 
 
-![Image](</lib/Untitled277.jpg>)
+![Image](</img/Untitled277.jpg>)
 
 
 How does the ECU then convert throttle area to DBW servo position target?&nbsp;
@@ -45,7 +45,7 @@ To understand the process of converting Pedal Position into Throttle Area, caref
 
 
 
-![Image](</lib/Untitled278.jpg>)
+![Image](</img/Untitled278.jpg>)
 
 
 3. The **Pedal Position Sensor** goes through a pedal position filter table to give you **Pedal Position Demand** . This will help smooth out signal fluctuations and improve the driving experience. Press H to read the help below the table. So this step is **Pedal Position Sensor  -\> Pedal  Position Demand**
@@ -54,16 +54,16 @@ To understand the process of converting Pedal Position into Throttle Area, caref
 See the [Pedal Demand Filter](<PedalDemandFilter.md>) help topic for more information.
 
 
-![Image](</lib/Untitled195.png>)
+![Image](</img/Untitled195.png>)
 
 
 
-&nbsp; &nbsp; &nbsp; ![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; ![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 &nbsp;&nbsp; &nbsp; **Tuning Tip**: To avoid large input delays from the Pedal Position Sensor the filter setting on the raw input should be keep small . i.e the input filtering is done during the **Pedal Position Sensor  -\> Pedal  Position Demand** &nbsp; &nbsp; &nbsp; &nbsp; so minimal filtering is required on the raw Pedal Position Sensor Input (See Config View -\> Channels -\> Inputs Setup -\> DBW/Servo Tab). A Typical value will be between 0 - 4.
 
 
-![Image](</lib/Untitled209.jpg>)
+![Image](</img/Untitled209.jpg>)
 
 
 
@@ -77,7 +77,7 @@ So this step is **Pedal Position Demand  -\>Throttle Area Demand**
 See the [Pedal to Throttle Area Translation](<PedaltoThrottleTranslation.md>) help topic for more information.
 
 
-![Image](</lib/Untitled192.png>)
+![Image](</img/Untitled192.png>)
 
 
 

@@ -8,17 +8,17 @@ Arming thresholds for digital signals (including crank and sync sensors) describ
 
 \*\* The threshold value does not mean this is the value in which the ECU "triggers". &nbsp;
 
-![Image](</lib/AAAA5.jpg>)
+![Image](</img/AAAA5.jpg>)
 
 
-![Image](</lib/CrankIndex.png>)
+![Image](</img/CrankIndex.png>)
 
 Typical Arming Threshold values for a Magnetic Crank Sensor
 
 Magnetic sensors increase the magnitude of the wave form with rpm&nbsp;
 
 
-![Image](</lib/AAAA6.jpg>)
+![Image](</img/AAAA6.jpg>)
 
 Typical Arming Threshold values for Hall Effect Crank Sensor
 

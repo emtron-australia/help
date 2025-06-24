@@ -11,6 +11,6 @@ This 3D capable look up table tells the ECU at what RPM to switch off the ORFC f
 
 \*\* ORFC will only become active once all conditions are met, including exceeding the Enable RPM.
 
-![Image](</lib/NewItem251.png>)\
+![Image](</img/NewItem251.png>)\
 Above example shows uses one axis using Engine RPM and one for Engine Speed Rate of Change (dRPM)
 

@@ -10,4 +10,4 @@ Click the link below to download or visit Emtron www Downloads
 
 EVO4\_8
 
-[![Image](</lib/NewItem648.png>)](<https://emtron.world/download/2283/> "target=\"\_blank\"")
+[![Image](</img/NewItem648.png>)](<https://emtron.world/download/2283/> "target=\"\_blank\"")

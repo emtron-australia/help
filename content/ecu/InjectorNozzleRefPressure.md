@@ -5,7 +5,7 @@ title: "Injector Nozzle Ref Pressure"
 **Injector Nozzle Ref Pressure**
 
 
-![Image](</lib/Config Fuel4.jpg>)
+![Image](</img/Config Fuel4.jpg>)
 
 
 &#48;: Manifold Pressure

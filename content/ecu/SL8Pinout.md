@@ -2,7 +2,7 @@
 title: "SL8 Pinout"
 ---
 
-![Image](</lib/NewItem231.png>)
+![Image](</img/NewItem231.png>)
 
 
 
@@ -14,7 +14,7 @@ title: "SL8 Pinout"
 
 
 
-![Image](</lib/temp2.jpg>)
+![Image](</img/temp2.jpg>)
 
 **Looking into ECU connector**
 
@@ -48,7 +48,7 @@ title: "SL8 Pinout"
 
 
 
-![Image](</lib/temp1.jpg>)
+![Image](</img/temp1.jpg>)
 
 **Looking into ECU connector**
 

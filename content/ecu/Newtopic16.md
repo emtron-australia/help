@@ -5,7 +5,7 @@ title: "Calculated Runtimes"
 **Calculated Runtimes**
 
 
-![Image](</lib/Ignition18.jpg>)
+![Image](</img/Ignition18.jpg>)
 
 
 Emtron generates a number of “calculated” runtimes that offer a higher level of flexibility for tuning engines. &nbsp;

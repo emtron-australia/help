@@ -5,10 +5,10 @@ title: "ORFC Setup"
 **ORFC Setup**
 
 
-![Image](</lib/ORFC 1.jpg>)
+![Image](</img/ORFC 1.jpg>)
 
 
-![Image](</lib/ORFC 2.jpg>)\
+![Image](</img/ORFC 2.jpg>)\
 
 **ORFC TP/PP Select**
 

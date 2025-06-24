@@ -47,7 +47,7 @@ Example. &nbsp;
 &#49;.2 %/ %Cut. ECU will cut engine at 27%
 
 
-![Image](</lib/NewItem803.png>)
+![Image](</img/NewItem803.png>)
 
 
 These values need to be validated using a dyno to teach the ECU how much cut will actually reduce torque %
@@ -80,7 +80,7 @@ Example. &nbsp;
 \- This should reduce torque 50%
 
 
-![Image](</lib/NewItem804.png>)
+![Image](</img/NewItem804.png>)
 
 
 These values need to be validated using a dyno to teach the ECU how much retard will actually reduce torque %
@@ -90,7 +90,7 @@ These values need to be validated using a dyno to teach the ECU how much retard 
 
 
 
-![Image](</lib/NewItem811.png>)
+![Image](</img/NewItem811.png>)
 
 Example shows %Torque Reduction - Retard (%) bringing Engine Torque down to Launch Torque Target.&nbsp; Top Plot shows delta of Ignition Base vs actual Ignition Angle.&nbsp; \*\* Torque control through throttle transitioning and MAP pressure change for Launch Control
 
@@ -99,7 +99,7 @@ Example shows %Torque Reduction - Retard (%) bringing Engine Torque down to Laun
 **Runtime - Torque Reduction - Retard (NM) :**
 
 
-Any compensation for ignition angle subtracting from the "Ignition Base Angle" value, is considered "Torque Reduction - Retard", and translated into "NM" via **"Torque Reduction Ignition Retard" table (below)**.&nbsp; Ignition Angle Base could be considered MBT Ignition Value in some cases depending on the tuning strategy being utilized.&nbsp; ![Image](</lib/NewItem868.png>)
+Any compensation for ignition angle subtracting from the "Ignition Base Angle" value, is considered "Torque Reduction - Retard", and translated into "NM" via **"Torque Reduction Ignition Retard" table (below)**.&nbsp; Ignition Angle Base could be considered MBT Ignition Value in some cases depending on the tuning strategy being utilized.&nbsp; ![Image](</img/NewItem868.png>)
 
 
 
@@ -127,10 +127,10 @@ A comparison of Engine Torques can be used to validate throttle body area
 \*\* Outflow function becomes active when TMF pressure ratios are close to unity.&nbsp; This allows the ECU to calculate airflow at these times, and the scaler should be set.&nbsp; It allows the ECU to calculate TMF Torque values which are critical to Throttle Area Torque reductions, etc. &nbsp;
 
 
-![Image](</lib/NewItem948.png>)
+![Image](</img/NewItem948.png>)
 
 
-![Image](</lib/NewItem892.png>)
+![Image](</img/NewItem892.png>)
 
 A correctly configured TMF outflow scaler at full throttle (torque matching)&nbsp;
 
@@ -140,19 +140,19 @@ A correctly configured TMF outflow scaler at full throttle (torque matching)&nbs
 Comparing validated torque channels can be done various ways.&nbsp; Sweeping the throttle throughout it's range, or by temporarily using the Pedal to Throttle Area Demand Translation Clamp table :
 
 
-![Image](</lib/NewItem947.png>)
+![Image](</img/NewItem947.png>)
 
 
 Error in throttle air mass can be corrected in the Throttle Area Table
 
 
-![Image](</lib/NewItem816.png>)
+![Image](</img/NewItem816.png>)
 
 
 **Validating Throttle Area Torque (Engine Torque - TMF)**
 
 
-![Image](</lib/NewItem946.png>)
+![Image](</img/NewItem946.png>)
 
 
 Entering a NM value in to the "Calibrate Throttle Area" section will clamp the throttle for validation. &nbsp;
@@ -161,6 +161,6 @@ Entering a NM value in to the "Calibrate Throttle Area" section will clamp the t
 With a properly "taught" Engine Torque TMF, Throttle Area table, Frictional Loss, and Torque Calculations, the ECU will have the ability to control RPM speed targets easily, and target torque through a number of features such as Launch Control, Traction Control, Ground Speed Limiting, RPM Limiting, and more .&nbsp;
 
 
-![Image](</lib/NewItem808.png>)
+![Image](</img/NewItem808.png>)
 
 Example of Launch RPM control at exactly 4000rpm with a tuned setup, with nearly exact torque targeting

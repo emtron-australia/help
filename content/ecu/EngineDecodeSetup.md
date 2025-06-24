@@ -15,6 +15,6 @@ Sensor Main
 Multi Tooth Setup
 
 
-![Image](</lib/AA main10.jpg>)
+![Image](</img/AA main10.jpg>)
 
 

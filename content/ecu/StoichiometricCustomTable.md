@@ -5,10 +5,10 @@ title: "Stoichiometric Custom Table"
 **Stoichiometric Custom Table**&nbsp;
 
 
-![Image](</lib/Z Axis58.jpg>)
+![Image](</img/Z Axis58.jpg>)
 
 
-![Image](</lib/Z Axis59.jpg>)
+![Image](</img/Z Axis59.jpg>)
 
 Gasoline to Ethanol Stoichiometric Custom Table example shown - available to load in Emtune software
 

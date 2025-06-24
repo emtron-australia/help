@@ -26,7 +26,7 @@ This effects:&nbsp;
 Table range is +/- 500Nm&nbsp;
 
 
-![Image](</lib/AAAA68.jpg>)
+![Image](</img/AAAA68.jpg>)
 
 
 The above example shows a typical setting.&nbsp;

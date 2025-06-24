@@ -5,4 +5,4 @@ title: "VDC Torque Gain"
 **VDC Torque Gain**&nbsp;
 
 
-![Image](</lib/AAAA64.jpg>)
+![Image](</img/AAAA64.jpg>)

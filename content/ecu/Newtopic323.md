@@ -8,7 +8,7 @@ title: "Exploring Advanced Functions"
 Advanced Math Functions can be added by the user themselves. &nbsp;
 
 
-![Image](</lib/NewItem790.png>)
+![Image](</img/NewItem790.png>)
 
 
 Clicking Explore Advanced Functions allows the user to import new .dll files as new Math Functions
@@ -36,7 +36,7 @@ Example: testfunction.c
 The new file should look like this (don't worry too much about the icon):
 
 
-![Image](</lib/NewItem791.png>)
+![Image](</img/NewItem791.png>)
 
 
 Open the file in a text editor compatible with .c files such as -&nbsp; Notepad++ [*https://notepad-plus-plus.org/downloads/*](<https://notepad-plus-plus.org/downloads/>)

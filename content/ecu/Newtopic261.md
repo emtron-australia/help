@@ -11,7 +11,7 @@ Access Scope under&nbsp;
 When you select Scope, it opens a new window with the Scope.&nbsp;
 
 
-![Image](</lib/NewItem332.png>)
+![Image](</img/NewItem332.png>)
 
 
 The scope function records the channel assignments to internal memory when started/stopped with the buttons at the top right.&nbsp; The memory can be subsequently downloaded, erased, saved, and loaded by the other buttons in the utility.&nbsp;

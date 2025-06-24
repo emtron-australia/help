@@ -5,7 +5,7 @@ title: "Main VE Tables"
 **Main VE Table**&nbsp;
 
 
-![Image](</lib/AAAA72.jpg>)
+![Image](</img/AAAA72.jpg>)
 
 
 This table represents the Volumetric Efficiency (VE) of the engine. &nbsp;
@@ -27,12 +27,12 @@ The two tables are intrinsically linked and the Target must be set before the re
 Typical values range from 35-40% at idle and under full load VE can reach&nbsp; 80-90%.
 
 
-![Image](</lib/VE Table.jpg>)
+![Image](</img/VE Table.jpg>)
 
 The above Mitsubishi EVO IX VE table example shows the typical range of values
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

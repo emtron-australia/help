@@ -17,4 +17,4 @@ This entry designates the engine type. There are 2 type of engine which the Emtr
 Rotary engines are regarded as 2 stroke engines
 
 
-![Image](</lib/AA main2.jpg>)
+![Image](</img/AA main2.jpg>)

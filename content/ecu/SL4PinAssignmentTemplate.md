@@ -2,13 +2,13 @@
 title: "SL4 Pin Assignment Template"
 ---
 
-![Image](</lib/NewItem77.png>)
+![Image](</img/NewItem77.png>)
 
 **SL4 Pinout Summary**
 
 
 
-![Image](</lib/temp5.jpg>)
+![Image](</img/temp5.jpg>)
 
 
 | **Pin Name**        | **Pin #** | **Function**                                          | **Notes**                                                                                                |

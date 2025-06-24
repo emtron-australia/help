@@ -55,6 +55,6 @@ Select either Low side, or High side depending on the VVT system being used. &nb
 **\*\*\*** See engine wiring schematic.&nbsp; VVT solenoids are normally supplied with constant 12V+ or ground (use opposite control polarity).&nbsp; \*\*\*
 
 
-![Image](</lib/NewItem106.png>)
+![Image](</img/NewItem106.png>)
 
-![Image](</lib/NewItem105.png>)
+![Image](</img/NewItem105.png>)

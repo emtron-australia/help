@@ -21,7 +21,7 @@ There are also other CAN BUS Triggered modes for Application Build versions. &nb
 \*\* See those Application Build Manuals for details
 
 
-![Image](</lib/NewItem686.png>)
+![Image](</img/NewItem686.png>)
 
 
 * Configure Gear Position using the "Gear Detection Voltage" channel . This is normally a barrel position sensor located on the sequential gearbox. See Config View -\> Inputs -\> Vehicle Tab
@@ -42,7 +42,7 @@ There are also other CAN BUS Triggered modes for Application Build versions. &nb
   * Gearshift Force Input
 
 
-![Image](</lib/Untitled93.png>)
+![Image](</img/Untitled93.png>)
 
 
 
@@ -54,7 +54,7 @@ There are also other CAN BUS Triggered modes for Application Build versions. &nb
 . See Tuning view -\> Vehicle Functions -\> Vehicle Dynamics menu -\> Transmission Gear Ratio table. Use -1 for Reverse.
 
 
-![Image](</lib/Untitled94.png>)
+![Image](</img/Untitled94.png>)
 
 
 

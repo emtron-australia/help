@@ -6,10 +6,10 @@ title: "Engine Torque Setup"
 
 
 
-![Image](</lib/Untitled281.jpg>)
+![Image](</img/Untitled281.jpg>)
 
 
-![Image](</lib/Untitled282.jpg>)
+![Image](</img/Untitled282.jpg>)
 
 # Torque Reduction Ignition Retard Clamp&nbsp;
 

@@ -26,4 +26,4 @@ There is one mode are available.
 
 
 
-![Image](</lib/ORFC\_setup.png>)
+![Image](</img/ORFC\_setup.png>)

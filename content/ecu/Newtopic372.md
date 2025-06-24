@@ -10,7 +10,7 @@ This look up table defines the deadtime of the Boost Solenoid. &nbsp;
 
 \
 
-![Image](</lib/NewItem711.png>)
+![Image](</img/NewItem711.png>)
 
 The deadtime of the solenoid is crucial where control of the boost solenoid duty cycle is especially crucial – IE applications using Push-Pull solenoids or 4-port solenoid control. &nbsp;
 

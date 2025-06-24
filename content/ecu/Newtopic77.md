@@ -8,7 +8,7 @@ title: "Throttle Body Area Table"
 **Tuning –\> Engine Functions –\> Throttle Body Model –\> Throttle Body Area Table**&nbsp;
 
 
-![Image](</lib/AAAA78.jpg>)
+![Image](</img/AAAA78.jpg>)
 
 
 The Throttle Body Area table is a 40-cell correlation table; it gives the direct relationship between Throttle Area and Throttle Position (Servo Position). The ECU uses this table to convert any Throttle Area request into Servo Position which is then used as the DBW Target. Throttle Body templates are available to load into the ECU from the File -\> Import Module File menu.
@@ -25,7 +25,7 @@ Using the table in the below image, the ECU would find the 4.37% area and correl
 i.e the ECU is asking for 4.37% area and moves the throttle plate to 9.0% servo position to achieve this.&nbsp;
 
 
-![Image](</lib/Throttle Body Area Table1.jpg>)
+![Image](</img/Throttle Body Area Table1.jpg>)
 
 
 Nissan GT-R R35 Throttle Body Area table
@@ -58,7 +58,7 @@ If no MAF sensor is available, setting fuel trims to 0 (or near 0), you can adju
 See [Torque Management Tuning Guide](<TorqueManagementTuningGuide.md>), [Throttle Mass Flow](<ThrottleMassFlow.md>), and [Torque Reduction](<TorqueReduction.md>)(throttle) sections for more specific information, and guides on how to tune.&nbsp;
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

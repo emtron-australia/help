@@ -6,7 +6,7 @@ Fuel Bank Trim tables be turned on
 
 
 
-![Image](</lib/NewItem744.png>)
+![Image](</img/NewItem744.png>)
 
 
 
@@ -19,15 +19,15 @@ Fuel Bank Trim tables be turned on
 Each compensation table will appear individually under Fuel -\> Bank Trims
 
 
-![Image](</lib/NewItem745.png>)
+![Image](</img/NewItem745.png>)
 
 
 Cylinders must be assigned Banks in order for Bank Trims to function correctly under Config -\> Engine Setup -\> Bank Cylinder Setup
 
 
-![Image](</lib/NewItem747.png>)
+![Image](</img/NewItem747.png>)
 
 
 
-![Image](</lib/NewItem746.png>)
+![Image](</img/NewItem746.png>)
 

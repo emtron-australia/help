@@ -10,7 +10,7 @@ Emtron calculates the following channel for monitoring, diagnosis, and logging p
 
 The Sync Position % is calculated by factoring the position of the Sync Edge between consecutive Crank Teeth. &nbsp;
 
-![Image](</lib/NewItem351.png>)
+![Image](</img/NewItem351.png>)
 
 Looking at falling edges, the distance between crank teeth can be identified by the green lines, and the sync edge is identified by the yellow arrow.&nbsp; The value would be **Sync Position % - 33%** approximately in this case.
 

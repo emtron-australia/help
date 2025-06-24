@@ -4,7 +4,7 @@ title: "MAP Comp table"
 
 
 
-![Image](</lib/AAAA123.jpg>)
+![Image](</img/AAAA123.jpg>)
 
 
-![Image](</lib/AAAA124.jpg>)
+![Image](</img/AAAA124.jpg>)

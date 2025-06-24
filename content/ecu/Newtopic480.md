@@ -22,7 +22,7 @@ Enables the Gear Detection
 Choose the method of Gear Position Calculation&nbsp;
 
 
-![Image](</lib/NewItem874.png>)
+![Image](</img/NewItem874.png>)
 
 Various modes are available. &nbsp;
 

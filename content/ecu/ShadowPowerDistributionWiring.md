@@ -77,13 +77,13 @@ The following settings must be configured for this mode to operate.
 1. Ignition Switch Source Input selected to OFF&nbsp;
 
 
-![Image](</lib/NewItem993.png>)
+![Image](</img/NewItem993.png>)
 
 
 2. EFI Relay OFF Time&nbsp;
 
 
-![Image](</lib/NewItem992.png>)
+![Image](</img/NewItem992.png>)
 
 
 
@@ -122,13 +122,13 @@ The following settings must be configured for this mode to operate.
 1. Ignition Switch Source Input selected to Dedicated – Ign -Sw. In this case this input is shared with DI10.
 
 
-&nbsp; &nbsp; ![Image](</lib/NewItem991.png>)
+&nbsp; &nbsp; ![Image](</img/NewItem991.png>)
 
 
 2. EFI Relay OFF Time&nbsp;
 
 
-![Image](</lib/NewItem990.png>)
+![Image](</img/NewItem990.png>)
 
 
 

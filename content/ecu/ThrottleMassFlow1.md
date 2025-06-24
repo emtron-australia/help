@@ -12,7 +12,7 @@ The image below illustrates the basic elements required to calculate TMF.
 
 
 
-![Image](</lib/Throttle Drawing13.jpg>)
+![Image](</img/Throttle Drawing13.jpg>)
 
 
 
@@ -41,11 +41,11 @@ Although these calculation are complex, the TMF setup process for the user is ke
 
 * Correct Selection/assignment of sensors and Enabling of TMF
 
-![Image](</lib/NewItem912.png>)
+![Image](</img/NewItem912.png>)
 
 * Fuel Model Mode selection \*\* Note – if TMF is Enabled above – it will generate channels regardless of the Fuel Model Mode Selection
 
-![Image](</lib/NewItem911.png>)
+![Image](</img/NewItem911.png>)
 
 * If Outflow is scaled – TMF Air Mass will read same as MAP air mass (speed density) as above. &nbsp;
 
@@ -66,7 +66,7 @@ Although these calculation are complex, the TMF setup process for the user is ke
 
 * Eventually at higher pressure ratios, TMF may not be as accurate as other air mass measurements (SD, etc).&nbsp; Use logging or live data to generate blend areas for TMF to SD or other dynamic airmass functions.
 
-![Image](</lib/NewItem910.png>)
+![Image](</img/NewItem910.png>)
 
 Orange – Indicates area where TMF is beginning go outflow (this will vary)
 
@@ -74,7 +74,7 @@ Blue – Note pressure ratio and other data to use in Blend Table at this point
 
 Green – Fully configured “Outflow Scaler” is generating TMF Air Mass the same as MAP Air Mass
 
-![Image](</lib/NewItem909.png>)
+![Image](</img/NewItem909.png>)
 
 &#49;00 = TMF
 
@@ -94,7 +94,7 @@ Depending on specific application, throttle area demand/effective area vs pressu
 
 
 
-![Image](</lib/NewItem179.png>)&nbsp;
+![Image](</img/NewItem179.png>)&nbsp;
 
 In this particular case the TMF signal at around 0.830 throttle pressure ratio is being unusable. &nbsp;
 
@@ -112,7 +112,7 @@ When the pressure ratio is near 1 and TMF cannot read, it will generate a TMF va
 Use the Outflow scalar to correct the TMF Air Mass calculations, and also the TMF Correction Table which will be enabled under the Tuning -\> Fuel section. &nbsp;
 
 
-![Image](</lib/NewItem818.png>)
+![Image](</img/NewItem818.png>)
 
 Improper "Outflow Scale" setting.&nbsp; Adjust Throttle Mass Flow Outflow Scaler to correct
 
@@ -121,10 +121,10 @@ Improper "Outflow Scale" setting.&nbsp; Adjust Throttle Mass Flow Outflow Scaler
 \*\* If TMF is higher than it should be, *increase* value
 
 
-![Image](</lib/NewItem819.png>)
+![Image](</img/NewItem819.png>)
 
 
-![Image](</lib/NewItem892.png>)
+![Image](</img/NewItem892.png>)
 
 A correctly configured TMF outflow scaler should also translate to torque calculations. &nbsp;
 
@@ -150,7 +150,7 @@ The Throttle Body Area table tells the ECU how much actual throttle area is effe
 Tuning -\> Engine Functions -\> Throttle Body Model -\> Throttle Body Area Table
 
 
-![Image](</lib/NewItem178.png>)
+![Image](</img/NewItem178.png>)
 
 
 This 2D table is all that is needed to appropriately map the given throttle area vs throttle position.&nbsp; As mentioned previously, this allows for extremely fast and accurate mapping of the engine when TMF is active. &nbsp;
@@ -188,7 +188,7 @@ The same can be done matching TMF air mass VS MAP air mass
 
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 
@@ -200,24 +200,24 @@ The same can be done matching TMF air mass VS MAP air mass
 Comparing validated and air mass torque channels can be done various ways.&nbsp; Sweeping the throttle throughout it's range, or by temporarily using the Pedal to Throttle Area Demand Translation Clamp table :
 
 
-![Image](</lib/NewItem913.png>)
+![Image](</img/NewItem913.png>)
 
 
 **Validating Throttle Area Torque (Engine Torque - TMF) using Launch Control**
 
 
-Another way to validate Throttle Area and TMF Torque, would be to force the ECU into a "Torque Management" function (such as with **Throttle Plate(PID)** Torque Managed - [Launch Control](<LaunchControl.md>)) -\> ![Image](</lib/NewItem805.png>)
+Another way to validate Throttle Area and TMF Torque, would be to force the ECU into a "Torque Management" function (such as with **Throttle Plate(PID)** Torque Managed - [Launch Control](<LaunchControl.md>)) -\> ![Image](</img/NewItem805.png>)
 
 
 Once a torque target is selected/forced, the "Engine Torque TMF" channels should match the standard Engine Torque channels, otherwise the Throttle Area table is incorrect (Throttle Area under -\> Tuning -\> Engine Functions -\> Throttle Body Model -\> Throttle Body Area
 
 
-![Image](</lib/NewItem809.png>)
+![Image](</img/NewItem809.png>)
 
 Example of where Engine Torque TMF and Engine Torque are not matching due to incorrect Throttle Area settings
 
 
-![Image](</lib/NewItem810.png>)
+![Image](</img/NewItem810.png>)
 
 Corrected Throttle Area table so Engine Torques further aligned
 
@@ -234,9 +234,9 @@ TMF Correction Table (Tuning -\> Fuel -\> TMF Correction Table) becomes active w
 
 This correction table essentially exists to help remove an error remaining in the system across a wide variety of load \& rpm conditions.
 
-![Image](</lib/NewItem828.png>)
+![Image](</img/NewItem828.png>)
 
-![Image](</lib/NewItem829.png>)
+![Image](</img/NewItem829.png>)
 
 Demonstrating error in TMF Calculation that needs to be corrected in TMF Correction Table
 

@@ -4,7 +4,7 @@ title: "Gearshift - Paddle"
 
 **Gearshift without “shift position” – Tolerance Voltage**
 
-![Image](</lib/NewItem917.png>)
+![Image](</img/NewItem917.png>)
 
 Larger tolerance voltage number will achieve next gear stable sooner.&nbsp; Consider volt change per gear, to determine tolerance volt. &nbsp;
 
@@ -12,7 +12,7 @@ Gear volt spread is 0.60x volt.&nbsp; 0.225 tolerance will achieve “gear chang
 
 This is a way control the shift timing if using “Next Gear Stable” function
 
-![Image](</lib/NewItem916.png>)
+![Image](</img/NewItem916.png>)
 
 Above example is vehicle using a static cut value (75%). &nbsp;
 
@@ -26,13 +26,13 @@ Mechanical lag of linakge, air lines, etc – all contribute to needing pre-load
 
 Cars with high forward momentum will need pre-loading to ensure the middle phase of the gearshift happens at the right time, when the dogs are fully dis-engaged.&nbsp;
 
-![Image](</lib/NewItem915.png>)
+![Image](</img/NewItem915.png>)
 
 Observe engine in full cut off, engine speed decelerating, but speed still increasing.&nbsp; The barrel has not turned at the right time (when the engine speed decelerated) and caught the previous gear deceleration side of the dog hanging the upshift up. &nbsp;
 
 Pre-loading can be done with Torque Reduction Delay table, or if Shift Position is available, in full closed loop -\>
 
-![Image](</lib/NewItem914.png>)
+![Image](</img/NewItem914.png>)
 
 
 **Torque Reduction and Re-Introduction**

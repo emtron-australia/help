@@ -5,10 +5,10 @@ title: "Accel Sens Table"
 **Accel Sens Table**
 
 
-![Image](</lib/Z Axis35.jpg>)
+![Image](</img/Z Axis35.jpg>)
 
 
-![Image](</lib/Z Axis36.jpg>)
+![Image](</img/Z Axis36.jpg>)
 
 
 The Accel Sensitivity Table is the multiplication factor as a percentage of fuel added, based on the rate of change of the Accel/Decel mode&nbsp;

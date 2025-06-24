@@ -29,7 +29,7 @@ These settings allow for the lockout of the pedal filter based on the pedal posi
 
 
 
-![Image](</lib/NewItem225.png>)
+![Image](</img/NewItem225.png>)
 
 
 ***
@@ -60,7 +60,7 @@ Using dPedal Position Sensor 1 and Pedal Position Sensor 1, the Throttle Area De
 
 
 
-![Image](</lib/Untitled183.png>)
+![Image](</img/Untitled183.png>)
 
 
 
@@ -71,7 +71,7 @@ Reviewing PC/ECU logs will allow the user to achieve the desired effect. &nbsp;
 * Bottom Plot shows the Pedal Position Sensor (green trace) vs Pedal Position Demand (white trace)
 
 
-![Image](</lib/NewItem174.png>)
+![Image](</img/NewItem174.png>)
 
 
 

@@ -2,4 +2,4 @@
 title: "Dash setup"
 ---
 
-![Image](</lib/Dash 13.jpg>)
+![Image](</img/Dash 13.jpg>)

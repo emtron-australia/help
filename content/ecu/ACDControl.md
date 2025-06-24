@@ -12,7 +12,7 @@ This function reads the pressure from the "Active Center Diff Pressure" input ch
 This function can be enabled when the Motorsport Differential Control Function is ON AND an Output Channel has been assigned. &nbsp;
 
 
-![Image](</lib/Untitled49.png>)
+![Image](</img/Untitled49.png>)
 
 
 
@@ -74,6 +74,6 @@ The hydraulic system can be primed using the "Test "Output" function. Simply ope
 **CAUTION:** Priming the pump should be done with care as the ECUs safety systems are disabled and pump damage may occur.
 
 
-![Image](</lib/NewItem90.png>)
+![Image](</img/NewItem90.png>)
 
 

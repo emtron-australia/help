@@ -20,4 +20,4 @@ When measuring Exhaust Back Pressure an Absolute Pressure Sensor MUST be used. (
 The ECU can applied EMAP correction when enabled.&nbsp; This ONLY applies when the Internal LSU4.9 control is used. This correction is not available to data on&nbsp; Analog inputs or CAN channel as it requires precise correction the sensors Pump Current.
 
 
-![Image](</lib/Untitled37.png>)
+![Image](</img/Untitled37.png>)

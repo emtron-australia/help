@@ -67,19 +67,19 @@ Examples:
 &#49;) Using Brake Pressure and Speed
 
 
-![Image](</lib/Untitled18.jpg>)
+![Image](</img/Untitled18.jpg>)
 
 
 &#50;) Using Brake Switch and Speed. 0 = Brake switch OFF, 1 = Brake Switch ON.
 
 
-![Image](</lib/Untitled21.jpg>)
+![Image](</img/Untitled21.jpg>)
 
 
 &#51;) Using Longitudinal g-force from the ECUs internal accelerometer and Speed.&nbsp; A negative g-force is braking.
 
 
-![Image](</lib/Untitled20.jpg>)
+![Image](</img/Untitled20.jpg>)
 
 
 

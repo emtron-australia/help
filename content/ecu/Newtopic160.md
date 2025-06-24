@@ -5,7 +5,7 @@ title: "Internal LSU Sensor Control"
 **Internal LSU Sensor Control**
 
 
-![Image](</lib/Int Lamb.jpg>)
+![Image](</img/Int Lamb.jpg>)
 
 
 The KV series ECU has the ability to interface directly to a Bosch Lambda Sensor(s), model LSU4.9.&nbsp;
@@ -23,14 +23,14 @@ The ECU assigns the correct the Heater Output Channel based on ECU Type and Seri
 * If "Lambda 2" Input Channel has the Input Source selected to "Internal Lambda 2" the function becomes enabled
 
 
-![Image](</lib/Untitled43.png>)
+![Image](</img/Untitled43.png>)
 
 
 
 Adjustments to the operation of On-board Lambda Sensor Control can be made from the Tuning view -\> Engine Functions -\> Internal LSU Sensor Control
 
 
-![Image](</lib/Int Lamb 1.jpg>)
+![Image](</img/Int Lamb 1.jpg>)
 
 
 The ECU uses all 6 sensor wires per sensor.&nbsp;
@@ -47,6 +47,6 @@ Although the sensor shutdown is outside the ECU's control, the status is constan
 
 
 
-![Image](</lib/LSU 49 Pinout - A11.jpg>)
+![Image](</img/LSU 49 Pinout - A11.jpg>)
 
 

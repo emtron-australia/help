@@ -4,7 +4,7 @@ title: "Engine Protection Control"
 
 **Engine Protection Control**&nbsp;
 
-![Image](</lib/Engine prot 1.jpg>)
+![Image](</img/Engine prot 1.jpg>)
 
 Emtron has 4 preset engine protection functions available in the software
 

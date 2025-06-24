@@ -5,7 +5,7 @@ title: "6: Bank Speed Density (MAP Bank1 + Bank2 )"
 **Bank Speed Density (MAP Bank1 + Bank2 )**
 
 
-![Image](</lib/Config Fuel25.jpg>)
+![Image](</img/Config Fuel25.jpg>)
 
 
 The ECU Independently controls the Fueling for the Engines Banks 1 and 2 using two MAP Sensors . Required when there

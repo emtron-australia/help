@@ -2,13 +2,13 @@
 title: "SL8 Pin Assignment Template"
 ---
 
-![Image](</lib/NewItem71.png>)
+![Image](</img/NewItem71.png>)
 
 **SL8 Pinout Summary**
 
 
 
-![Image](</lib/temp3.jpg>)
+![Image](</img/temp3.jpg>)
 
 
 | **Pin Name**        | **Pin #** | **Function**                                          | **Notes**                                                                                                |

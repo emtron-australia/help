@@ -5,10 +5,10 @@ title: "Launch Disarming"
 **Launch Disarming**&nbsp;
 
 
-![Image](</lib/Launch 7.jpg>)
+![Image](</img/Launch 7.jpg>)
 
 
-![Image](</lib/Launch 8.jpg>)
+![Image](</img/Launch 8.jpg>)
 
 
 **Launch Disarming Notes:**

@@ -2,9 +2,9 @@
 title: "Air Mass Modelled Setup"
 ---
 
-![Image](</lib/Untitled258.png>)
+![Image](</img/Untitled258.png>)
 
-![Image](</lib/Untitled259.png>)
+![Image](</img/Untitled259.png>)
 
 This function blends the Air Mass (g/cyl) selected in Parameter 1 and 2 to give a&nbsp; "Air Mass Modelled" runtime in g/cyl.&nbsp;
 

@@ -6,7 +6,7 @@ Fuel Trims for each cylinder can be turned on, and compensations applied to each
 
 
 
-![Image](</lib/NewItem739.png>)
+![Image](</img/NewItem739.png>)
 
 
 
@@ -19,5 +19,5 @@ Fuel Trims for each cylinder can be turned on, and compensations applied to each
 Each compensation table will appear individually under Fuel -\> Cylinder Trims
 
 
-![Image](</lib/NewItem740.png>)
+![Image](</img/NewItem740.png>)
 

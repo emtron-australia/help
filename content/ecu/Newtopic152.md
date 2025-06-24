@@ -10,7 +10,7 @@ A Z-Axis function allows for a definable blend or swap based on a definable X Ax
 The available Fuel Z-Axis table functions are enabled via [Fuel Table Control](<FuelTableControl.md>)
 
 
-![Image](</lib/Z Axis.jpg>)
+![Image](</img/Z Axis.jpg>)
 
 
 Once enabled, the Z-Axis is defined by the user
@@ -18,13 +18,13 @@ Once enabled, the Z-Axis is defined by the user
 Right mouse click on the table to enter Table Axis setup
 
 
-![Image](</lib/Z Axis11.jpg>)
+![Image](</img/Z Axis11.jpg>)
 
 
 Within the Axis setup, any runtime can be selected and utilized as the X Axis
 
 
-![Image](</lib/Z Axis12.jpg>)
+![Image](</img/Z Axis12.jpg>)
 
 % Ethanol Content runtime shown as an example above
 

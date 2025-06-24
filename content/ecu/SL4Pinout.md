@@ -2,7 +2,7 @@
 title: "SL4 Pinout"
 ---
 
-![Image](</lib/NewItem232.png>)
+![Image](</img/NewItem232.png>)
 
 
 
@@ -15,7 +15,7 @@ title: "SL4 Pinout"
 
 
 
-![Image](</lib/NewItem323.png>)
+![Image](</img/NewItem323.png>)
 
 **Looking into ECU connector**
 
@@ -48,7 +48,7 @@ title: "SL4 Pinout"
 | --------------------------------------------------------------------------------------------------------------------------- |
 
 
-![Image](</lib/NewItem322.png>)
+![Image](</img/NewItem322.png>)
 
 **Looking into ECU connector**
 

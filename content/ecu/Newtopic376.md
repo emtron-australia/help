@@ -10,7 +10,7 @@ Used by the ECU as the main feed forward value to determine the output duty cycl
 This table is used in Open Loop Mode
 
 
-![Image](</lib/NewItem693.png>)
+![Image](</img/NewItem693.png>)
 
 
 Initial position is the feed forward for Boost Valve Position %, and the closed loop PID if CL is active. &nbsp;

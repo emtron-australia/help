@@ -2,7 +2,7 @@
 title: "DTC's"
 ---
 
-![Image](</lib/NewItem989.png>)
+![Image](</img/NewItem989.png>)
 
 **Diagnostic Trouble Codes (DTC's)**
 
@@ -10,7 +10,7 @@ System errors within the ECU&nbsp; show up as DTC Errors illuminated in red in t
 
 They are also associated with the engine check light, should one be configured
 
-![Image](</lib/NewItem988.png>)
+![Image](</img/NewItem988.png>)
 
 The source of the error is straight forward to determine.
 
@@ -21,7 +21,7 @@ This list will contain all of the current errors.
 
 For this example, we will look at P0107 - Manifold Absolute Pressure Circuit Low Input.
 
-![Image](</lib/NewItem987.png>)
+![Image](</img/NewItem987.png>)
 
 Step 1&nbsp;
 

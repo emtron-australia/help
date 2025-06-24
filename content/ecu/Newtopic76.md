@@ -6,7 +6,7 @@ title: "Throttle Body Setup"
 **Throttle Body Setup**
 
 
-![Image](</lib/AAAA77.jpg>)
+![Image](</img/AAAA77.jpg>)
 
 
 **Throttle Body Diameter**
@@ -22,7 +22,7 @@ Allows the Throttle Body diameter to be scaled to correct for any system calibra
 Default Value = 0.0%
 
 
-![Image](</lib/Throttle Body Setup.jpg>)
+![Image](</img/Throttle Body Setup.jpg>)
 
 
 

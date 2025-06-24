@@ -39,7 +39,7 @@ This setting is used to increase/decrease the Engine Torque Target once the engi
 The margin is added to the Launch Torque target on entry and decays to the Launch Torque Target at a linear rate as the engine approaches the Launch RPM Target.
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 
@@ -89,7 +89,7 @@ Example:
 
 Trans Brake Switch Status could be used as a user channel input to trigger the transition from Launch Torque Target to Launch Moving Torque Target
 
-![Image](</lib/Launch 20.jpg>)
+![Image](</img/Launch 20.jpg>)
 
 
 **Launch Static Mode Speed Lockout**

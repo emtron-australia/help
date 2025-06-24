@@ -14,7 +14,7 @@ A Filter Window is a mathematical function that overlays the filter design helpi
 Once the filter design is complete, pressing Ok allows the filter coefficients to be calculated and the Knock Control system is ready to be used.&nbsp;
 
 
-![Image](</lib/Utitities 15.jpg>)
+![Image](</img/Utitities 15.jpg>)
 
 
-![Image](</lib/Utitities 1.jpg>)
+![Image](</img/Utitities 1.jpg>)

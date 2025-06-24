@@ -5,7 +5,7 @@ title: "0: Speed Density (MAP)"
 **Speed Density (MAP Sensor)**
 
 
-![Image](</lib/Config Fuel10.jpg>)
+![Image](</img/Config Fuel10.jpg>)
 
 
 The ECUs primary Fuel Model is Speed Density(MAP Sensor).&nbsp; The basis of this calculation is derived using the Ideal Gas Law;&nbsp; PV = nRT.
@@ -68,7 +68,7 @@ In this basic example, if the cylinder is filling to 96.6% of its volume, then 0
 The Fuel Table(s)are used to compensate for the volumetric efficiency (VE)&nbsp; of the engine at varying Engine Speeds and Loads. These tables represent the True VE of the engine. A typical table is shown in Figure 3 for a turbo charged engine.
 
 
-![Image](</lib/Untitled236.png>)
+![Image](</img/Untitled236.png>)
 
 Figure 3: Fuel VE Table
 
@@ -76,13 +76,13 @@ Figure 3: Fuel VE Table
 Also, the Stoichiometric Ratio will vary with Fuel Type. A Single Zone if the fuel type is fixed (Figure 4) can be used or a Table allowing the ECU to constantly correct for&nbsp; varying&nbsp; alcohol content. See Figure 5.
 
 
-![Image](</lib/Untitled237.png>)
+![Image](</img/Untitled237.png>)
 
 Figure 4: Stoich Ratio setup (single )
 
 
 
-![Image](</lib/Untitled233.png>)
+![Image](</img/Untitled233.png>)
 
 Figure 5: Stoich Ratio setup (table)
 
@@ -96,7 +96,7 @@ Once the Fuel Mass is determined, the Effective Injector Pulse Width can be calc
   * Fuel Pressure Correction.&nbsp; The&nbsp; Fuel Pressure Correction is a Fluid Dynamics equation, also called **Bernoulli's equation.** It allows the injector Flow Rate to be adjusted as the differential pressure across the injector changes. **NOTE**: This correction MUST be enabled using the "Fuel Model : Fuel Pressure" setting
 
 
-![Image](</lib/Untitled238.png>)
+![Image](</img/Untitled238.png>)
 
 **Figure 6: Fuel Density Table**
 
@@ -104,7 +104,7 @@ Once the Fuel Mass is determined, the Effective Injector Pulse Width can be calc
 
 **Flow Chart Overview for Speed Density Fuel Model:**
 
-![Image](</lib/SD Flow Chart4.jpg>)
+![Image](</img/SD Flow Chart4.jpg>)
 
 
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

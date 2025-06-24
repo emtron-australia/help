@@ -5,7 +5,7 @@ title: "Knock Lockouts"
 **Knock Lockouts**
 
 
-![Image](</lib/NewItem294.jpg>)
+![Image](</img/NewItem294.jpg>)
 
 
 * RPM Lo Lockout&nbsp; &nbsp; &nbsp; &nbsp; -&nbsp; &nbsp; Knock Control will be OFF below this RPM

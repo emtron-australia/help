@@ -2,7 +2,7 @@
 title: "SL6 Pinout"
 ---
 
-![Image](</lib/SL6 ECU Pinout - A3031.jpg>)
+![Image](</img/SL6 ECU Pinout - A3031.jpg>)
 
 
 
@@ -15,7 +15,7 @@ title: "SL6 Pinout"
 
 
 
-![Image](</lib/temp.jpg>)
+![Image](</img/temp.jpg>)
 
 **Looking into ECU connector**
 
@@ -49,7 +49,7 @@ title: "SL6 Pinout"
 
 
 
-![Image](</lib/temp1.jpg>)
+![Image](</img/temp1.jpg>)
 
 **Looking into ECU connector**
 

@@ -15,4 +15,4 @@ Engine Speed Calculation&nbsp;
 Sync Lockout RPM
 
 
-![Image](</lib/AA main11.jpg>)
+![Image](</img/AA main11.jpg>)

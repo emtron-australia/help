@@ -10,7 +10,7 @@ Defines the base ignition angle of the idle ignition control. &nbsp;
 This table can be expanded into a 3D look up table using any runtime for axis. &nbsp;
 
 
-![Image](</lib/Idle Ignition 4.jpg>)
+![Image](</img/Idle Ignition 4.jpg>)
 
 Above example shows the table spanned using Idle Target error \& dRPM
 

@@ -23,6 +23,6 @@ Target Offsets are specific tables and 2 additional user definable tables.
 
 
 
-![Image](</lib/Startup Target Offset Table 2.jpg>)
+![Image](</img/Startup Target Offset Table 2.jpg>)
 
 

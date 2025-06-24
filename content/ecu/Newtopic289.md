@@ -4,7 +4,7 @@ title: "Idle Ignition Closed Loop"
 
 **Idle Ignition Closed Loop**
 
-![Image](</lib/Idle Ignition 8.jpg>)
+![Image](</img/Idle Ignition 8.jpg>)
 
 
 The Emtron ECU adds closed loop correction factors to Idle Speed Ignition functions. &nbsp;

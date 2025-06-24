@@ -34,14 +34,14 @@ Throttle Mass Flow is the target for the idle speed control system, The Throttle
 Tuning -\> Engine Functions -\> Throttle Body Model -\> Throttle Body Area Table
 
 
-![Image](</lib/NewItem282.png>)
+![Image](</img/NewItem282.png>)
 
 
 This is the expected airflow in g/s for the engine at a given idle rpm \& temperature.&nbsp; A channel Air Mass Final – Flow g/s, generates the actual airflow consumed by the engine.
 
 Use this runtime to help set the values in this table.&nbsp; The more accurate this table is, the better the closed loop idle control will function
 
-![Image](</lib/NewItem281.jpg>)
+![Image](</img/NewItem281.jpg>)
 
 
 \*\* Air Mass Flow Final - Flow is only valid if your TMF air flow calculation is correctly set up and matching speed density and other mass air flow functions - assuming that your Air Mass Flow Final = the calculated Throttle Mass Flow.&nbsp; In some cases with high error between the mass flow calculation, and TMF - TMF Air Mass should be used
@@ -67,7 +67,7 @@ Idle Target Tracking RPM Range = 100
 Idle Target Tracking Decay&nbsp; = 25
 
 
-![Image](</lib/NewItem280.png>)
+![Image](</img/NewItem280.png>)
 
 
 **Closed loop:**
@@ -79,7 +79,7 @@ TMF Closed Loop control is superior to standard DBW Position Idle Control due to
 For initial setup use the following PID settings:
 
 
-![Image](</lib/NewItem279.png>)
+![Image](</img/NewItem279.png>)
 
 
 Proportional Gain Table = 0.50

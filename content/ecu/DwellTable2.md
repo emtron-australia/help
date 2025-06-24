@@ -5,10 +5,10 @@ title: "Dwell Table 2"
 **Dwell Table 2**&nbsp;
 
 
-![Image](</lib/Ignition12.jpg>)
+![Image](</img/Ignition12.jpg>)
 
 
-![Image](</lib/Ignition11.jpg>)
+![Image](</img/Ignition11.jpg>)
 
 
 The Dwell Table 2 is where the coil charge time factor is set before discharging to the spark to the plug.

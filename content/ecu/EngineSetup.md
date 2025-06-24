@@ -15,7 +15,7 @@ Start on the left side “Engine Setup”, and work your way over from left to r
 **WARNING: Improper entry in any part of the setup could be detrimental to the electronics AND the hardware\!**
 
 
-![Image](</lib/AA main8.jpg>)
+![Image](</img/AA main8.jpg>)
 
 
 Setup each tab from top to bottom.&nbsp; See help file for explanation of each individual function, as well as help text in the respective configuration screens. &nbsp;

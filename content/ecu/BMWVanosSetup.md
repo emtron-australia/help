@@ -23,7 +23,7 @@ BMW Engines that use high pressure BMW Motorsport VANOS&nbsp;
 When selecting these function types, there will be additional options available for choosing the specific channels for retard or advance channels. &nbsp;
 
 
-![Image](</lib/NewItem115.png>)
+![Image](</img/NewItem115.png>)
 
 
 **\*\*\*** BMW Motorsport VANOS is driven high side.&nbsp; If the installer chooses to drive low side, the solenoids MUST be modified as the flyback diodes will now allow them to be driven low. Diodes must be reversed or removed.\*\*\*

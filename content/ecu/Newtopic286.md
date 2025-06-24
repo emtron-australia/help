@@ -5,10 +5,10 @@ title: "Idle Ignition Control Setup"
 **Idle Ignition Control Setup**
 
 
-![Image](</lib/Idle Ignition 1.jpg>)
+![Image](</img/Idle Ignition 1.jpg>)
 
 
-![Image](</lib/Idle Ignition 2.jpg>)
+![Image](</img/Idle Ignition 2.jpg>)
 
 
 **Idle Ignition PID Enable**

@@ -96,21 +96,21 @@ Once an area has been identified that needs attention.
 
 The cursor is moved to highlight this area.
 
-![Image](</lib/NewItem844.png>)
+![Image](</img/NewItem844.png>)
 
 Returning to the referenced VE table in the tuning software.
 
 Pressing “O” will toggle the yellow box over the referenced cell/s.
 
-![Image](</lib/NewItem845.png>)
+![Image](</img/NewItem845.png>)
 
 Lambda vs Lambda target can be utilised via “M” - Manual entry lambda correction.
 
-![Image](</lib/NewItem846.png>)
+![Image](</img/NewItem846.png>)
 
 Or direct entry method can be utilised.
 
-![Image](</lib/NewItem847.png>)
+![Image](</img/NewItem847.png>)
 
 Working example:
 
@@ -151,53 +151,53 @@ Example: Lambda 1 active / Lambda control off
 
 Validation performed on chassis dyno
 
-![Image](</lib/NewItem858.png>)
+![Image](</img/NewItem858.png>)
 
 VE Table for purpose of demonstration
 
 The vehicle is driven and a PC log is produced recording the activity
 
-![Image](</lib/NewItem859.png>)
+![Image](</img/NewItem859.png>)
 
 Raw scatter plot is produced
 
 
-![Image](</lib/NewItem860.png>)
+![Image](</img/NewItem860.png>)
 
 Enter the Scatter Plot Setup (Right Mouse Click)
 
 
 
-![Image](</lib/NewItem861.png>)
+![Image](</img/NewItem861.png>)
 
 Confirm Plot Settings
 
 
-![Image](</lib/NewItem862.png>)
+![Image](</img/NewItem862.png>)
 
 Confirm Correction Settings
 
 
 
-![Image](</lib/NewItem863.png>)
+![Image](</img/NewItem863.png>)
 
 Set appropriate filters as required
 
 
-![Image](</lib/NewItem864.png>)
+![Image](</img/NewItem864.png>)
 
 Return to the filtered scatter plot
 
 
-![Image](</lib/NewItem865.png>)
+![Image](</img/NewItem865.png>)
 
 Apply the correction
 
 
-![Image](</lib/NewItem866.png>)
+![Image](</img/NewItem866.png>)
 
 Emtune with acknowledge when this is complete
 
 
-![Image](</lib/NewItem867.png>)
+![Image](</img/NewItem867.png>)
 

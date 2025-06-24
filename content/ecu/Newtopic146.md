@@ -13,20 +13,20 @@ Common uses for Fuel Model Blending would be when switching between MAF and Spee
 \*\* Note the Blend Function actually connects to MAP Modeling which allows for further blending of fuel model modes additionally.&nbsp; See - MAP Modeling
 
 
-![Image](</lib/AAAA113.jpg>)
+![Image](</img/AAAA113.jpg>)
 
 
 Select "blending" - Modes 3 or 4 in :
 
 &nbsp; &nbsp; Config -\> Fuel -\> Fuel Model Setup
 
-![Image](</lib/NewItem353.png>)
+![Image](</img/NewItem353.png>)
 
 
 This table is available for the user to control the ratio of which model is used.&nbsp;
 
 
-![Image](</lib/NewItem183.png>)
+![Image](</img/NewItem183.png>)
 
 
 MODE 3:

@@ -5,10 +5,10 @@ title: "Intake Cam Angle Target Tables"
 **Intake Cam Angle Target Tables**&nbsp;
 
 
-![Image](</lib/VVT 10.jpg>)
+![Image](</img/VVT 10.jpg>)
 
 
-![Image](</lib/VVT 11.jpg>)
+![Image](</img/VVT 11.jpg>)
 
 
 This is the Intake camshaft position command tables where the required camshaft position in degrees is set
@@ -28,7 +28,7 @@ Intake Cam Angle Target Table 2 can be accessed/activated via Cam Target Table C
 
 There are a variety of methods of integration available.
 
-![Image](</lib/VVT 12.jpg>)
+![Image](</img/VVT 12.jpg>)
 
 
 **\*\*\*WARNING\*\*\***

@@ -5,10 +5,10 @@ title: "Launch Table Control"
 **Launch Table Control** &nbsp;
 
 
-![Image](</lib/Launch 12.jpg>)
+![Image](</img/Launch 12.jpg>)
 
 
-![Image](</lib/Launch 1112.jpg>)
+![Image](</img/Launch 1112.jpg>)
 
 
 Selects the active control method of the Launch Control - 3 tables are available

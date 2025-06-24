@@ -5,7 +5,7 @@ title: "Ignition Spark Duration"
 **Ignition Spark Duration**
 
 
-![Image](</lib/Ignition7.jpg>)
+![Image](</img/Ignition7.jpg>)
 
 
 The user definable time factor after a firing event before the coil can be switched back on.

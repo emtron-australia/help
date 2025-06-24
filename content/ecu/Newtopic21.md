@@ -13,7 +13,7 @@ From the Welcome Screen, selecting Open File, or Open ECU (ECU Detected is requi
 
 From here, you can navigate through a number of menus, tabs, sub tabs, etc.&nbsp; &nbsp;
 
-![Image](</lib/Tabs  sub tabs.jpg>)
+![Image](</img/Tabs  sub tabs.jpg>)
 
 
 
@@ -48,7 +48,7 @@ Interpolate between cells using keys I, R, C (I will interpolate diagonally, R h
 Or use table maths.&nbsp; Typing numbers into the keyboard will allow you to add, subtract, multuply, divide, or increase/reduce %.&nbsp;
 
 
-![Image](</lib/NewItem775.png>)
+![Image](</img/NewItem775.png>)
 
 Selecting a lot of cells, also holding the CTRL key, allows you to drag them around with the arrow keys to move them around the table (so easily move a line/section around the map). &nbsp;
 
@@ -65,7 +65,7 @@ This is a useful tool when building *new* calibrations if the user is trying to 
 \*\*\*\* If Compensation (or other) Tables are not available, they must be enabled within the specific sub menu -\> Fuel -\> Fuel Table Control
 
 
-![Image](</lib/NewItem765.png>)
+![Image](</img/NewItem765.png>)
 
 
 **Fuel**
@@ -83,7 +83,7 @@ To properly estimate actual "inlet air temperature", the Emtron will generate a 
 
 The Charge Temperature Estimation table is available under Tuning -\> Fuel -\> Compensations -\> Charge Temperature Estimation&nbsp;
 
-![Image](</lib/NewItem764.png>)
+![Image](</img/NewItem764.png>)
 
 A value of 100 will set the Charge Temperature as Engine Temperature (commonly water temp), and a value of 0 will set the Charge Temperature as Inlet Air Temperature.&nbsp;
 
@@ -97,7 +97,7 @@ A careful blending of these values will allow the user to properly *estimate* th
 
 The Charge Temperature Runtime can also be "offset" by a table under Tuning -\> Fuel -\> Compensations -\> Charge Temperature Offset
 
-![Image](</lib/NewItem763.png>)
+![Image](</img/NewItem763.png>)
 
 
 The purpose of this table allow the Charge Temperature runtime to gain greater accuracy based on any other variables the user deems necessary
@@ -125,7 +125,7 @@ As mentioned in the fuel section, due to some differences in how the Charge Temp
 \*\* The values may be much *lower* where ignition compensation must be applied than normal vs compensating using standard Inlet Air Temperature&nbsp;
 
 
-![Image](</lib/NewItem762.png>)
+![Image](</img/NewItem762.png>)
 
 
 **Ignition Advance/Retard Rate Tables**
@@ -138,7 +138,7 @@ They dictate how quickly the ignition advance can be changed, and a table can be
 The values are in degrees/second.&nbsp; Maximum values are 3000 degrees/second.&nbsp;
 
 
-![Image](</lib/NewItem761.png>)
+![Image](</img/NewItem761.png>)
 
 
 
@@ -157,7 +157,7 @@ The Torque Management section allows the user to dictate various torque settings
 
 One main difference is if Drive By Wire throttle is used, the targeting structure is based on a Pedal Demand -\> Throttle area function. &nbsp;
 
-![Image](</lib/NewItem760.png>)
+![Image](</img/NewItem760.png>)
 
 Please see the Drive By Wire, Throttle Body Model, and Torque Management sections for more help on these sections. &nbsp;
 
@@ -178,7 +178,7 @@ Vehicle Dynamics section allows the user to dictate wheel sizes, gear ratios, sl
 For advanced Motorsport Functions to correctly operate, these settings must all be properly configured. &nbsp;
 
 
-![Image](</lib/NewItem759.png>)
+![Image](</img/NewItem759.png>)
 
 
 
@@ -190,7 +190,7 @@ Emtron has multiple methods of Gear Detection.&nbsp; In this section, these dete
 \*\* In order for Motorsport Functions to correctly operate, these settings must all be properly configured. &nbsp;
 
 
-![Image](</lib/NewItem758.png>)
+![Image](</img/NewItem758.png>)
 
 
 **Motorsport Functions**
@@ -201,14 +201,14 @@ Motorsport Functions section allows the user to tune functions related to "Motor
 Some noteworthy functions are and more complex functions are listed below simply as a preview of these complex functions :&nbsp;
 
 
-![Image](</lib/NewItem757.png>)
+![Image](</img/NewItem757.png>)
 
 \*\* Config -\> Functions -\> Motorsport Functions Setup shown
 
 
 When selecting Torque Limiting Launch Control, multiple types of Torque Limiting Launch are available under the tuning tab
 
-![Image](</lib/NewItem756.png>)
+![Image](</img/NewItem756.png>)
 
 See Launch Control Help section for more details on different Launch Control Programs
 
@@ -220,7 +220,7 @@ See Launch Control Help section for more details on different Launch Control Pro
 Emtron can control multiple types of Gearshift Control (mechanical gear stick, paddle shift, etc).&nbsp; Once enabled, there are many settings to further refine gearshift functions and very specific and special runtimes available.&nbsp; This is one of the most flexible systems in the ECU. &nbsp;
 
 
-![Image](</lib/NewItem755.png>)
+![Image](</img/NewItem755.png>)
 
 An example of "Upshift Gear %Position" which is the percentage between valid gear (between tolerance voltages if defined in the gear voltage input) being used to limit Ignition cut through a gearshift
 
@@ -232,7 +232,7 @@ An example of "Upshift Gear %Position" which is the percentage between valid gea
 Timer Functions section allows the user to tune functions related to "Timers".&nbsp; There are 5 user configurable timers, plus multiple standard timers, and a race timer. &nbsp;
 
 
-![Image](</lib/NewItem754.png>)
+![Image](</img/NewItem754.png>)
 
 These timers generate channels that can be used in the ECU in tables, functions, etc. &nbsp;
 

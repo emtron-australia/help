@@ -5,7 +5,7 @@ title: "Fuel Model: Expansion Ratio"
 **Fuel Model: Expansion Ratio**&nbsp;
 
 
-![Image](</lib/Config Fuel27.jpg>)
+![Image](</img/Config Fuel27.jpg>)
 
 
 &#48;: OFF

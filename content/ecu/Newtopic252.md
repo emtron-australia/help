@@ -4,10 +4,10 @@ title: "Exhaust Temperature Limit Setup"
 
 **Exhaust Temperature Limit Setup**
 
-![Image](</lib/13.jpg>)
+![Image](</img/13.jpg>)
 
 
-![Image](</lib/14.jpg>)&nbsp;
+![Image](</img/14.jpg>)&nbsp;
 
 
 **Engine Speed Limit**
@@ -108,14 +108,14 @@ Used for situations when you want to generate a Limit Request but not actually l
 
 **Exhaust Temperature Limit Table**
 
-![Image](</lib/15.jpg>)
+![Image](</img/15.jpg>)
 
 User defined Exhaust Temperature limit table. Limit is active above Deg C input values.
 
 
 **Exhaust Temperature Limit - Turn ON Delay Table (Sec)**
 
-![Image](</lib/16.jpg>)
+![Image](</img/16.jpg>)
 
 User defined limit activation delay table in seconds.
 

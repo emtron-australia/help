@@ -5,10 +5,10 @@ title: "Injection Timing Primary"
 **Injection Timing Primary**
 
 
-![Image](</lib/Z Axis23.jpg>)
+![Image](</img/Z Axis23.jpg>)
 
 
-![Image](</lib/Z Axis24.jpg>)
+![Image](</img/Z Axis24.jpg>)
 
 
 Injector timing units are values in degrees.
@@ -29,7 +29,7 @@ SOI/EOI (Determines start of injection or end of injection) function is controll
 Config -\> Fuel -\> Fuel Main -\> Injection Timing
 
 
-![Image](</lib/Z Axis25.jpg>)&nbsp;
+![Image](</img/Z Axis25.jpg>)&nbsp;
 
 
 

@@ -8,7 +8,7 @@ Fuel Sec Load (Secondary Load Compensation) can be turned on/off. &nbsp;
 The compensation can be turned on/off or be selected to be on via a User Function (only active when User Function is active). &nbsp;
 
 
-![Image](</lib/NewItem738.png>)
+![Image](</img/NewItem738.png>)
 
 
 **OFF –** The Compensation Table is Off

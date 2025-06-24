@@ -16,7 +16,7 @@ In some cases depending onm the hardware, an open loop a timing retard table can
 
 **Static Mode Example Data:**
 
-![Image](</lib/NewItem889.png>)
+![Image](</img/NewItem889.png>)
 
 In the above static example, you can see the ECU holding the “Launch Torque Target” (Yellow Arrows) in the second plot. &nbsp;
 

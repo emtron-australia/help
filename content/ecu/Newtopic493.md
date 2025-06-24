@@ -7,7 +7,7 @@ In addition to Motorsport and special features included in the firmware that uti
 
 
 
-![Image](</lib/NewItem954.png>)
+![Image](</img/NewItem954.png>)
 
 
 
@@ -17,7 +17,7 @@ Description automatically generated](<lib/NewItem953.png>)
 
 
 
-![Image](</lib/NewItem952.png>)
+![Image](</img/NewItem952.png>)
 
 
 For Throttle Torque limiting, "Lowest" TQ Lim will win.

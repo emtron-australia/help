@@ -5,7 +5,7 @@ title: "Injector Max Duty Clamp"
 **Injector Max Duty Clamp**
 
 
-![Image](</lib/Config Fuel7.jpg>)
+![Image](</img/Config Fuel7.jpg>)
 
 
 Clamps the Injector Duty Cycle.

@@ -5,10 +5,10 @@ title: "Launch PID Setup"
 ## Launch PID Setup
 
 
-![Image](</lib/Launch 21.jpg>)
+![Image](</img/Launch 21.jpg>)
 
 
-![Image](</lib/Launch 22.jpg>)
+![Image](</img/Launch 22.jpg>)
 
 
 **Launch System Delay**

@@ -25,4 +25,4 @@ Effective Pulsewidth Effective = Fuel Mass Final Corrected x  (1/Injector Mass 
 Effective Pulsewidth Effective = 0.0438 x 1/309 x 60 = 8.515ms
 
 
-![Image](</lib/AAAA114.jpg>)
+![Image](</img/AAAA114.jpg>)

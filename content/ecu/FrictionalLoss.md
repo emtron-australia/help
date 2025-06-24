@@ -19,7 +19,7 @@ Example - change the engine speed in neutral (with nothing dragging on the engin
 **\*\* Error in fuel model or basic setup will cause base torque values to not calculate correctly.&nbsp; Make sure there is no error in lambda target during tests.** &nbsp;
 
 
-![Image](</lib/NewItem801.png>)
+![Image](</img/NewItem801.png>)
 
 
 Torque Frictional Loss = -76.0
@@ -32,7 +32,7 @@ Engine Torque Uncorrected = -1.6
 Tuning -\> Engine Functions -\> Torque Management -\> Frictional Loss Table
 
 
-![Image](</lib/NewItem802.png>)
+![Image](</img/NewItem802.png>)
 
 
 

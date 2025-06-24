@@ -7,12 +7,12 @@ title: "Config"
 
 To enter the ECU configuration, click the Config tab at the top
 
-![Image](</lib/AAAA17.jpg>)
+![Image](</img/AAAA17.jpg>)
 
 
 This will give access the the Engine Setup, Fuel, Ignition, Channels, Functions \& Communications tabs
 
-![Image](</lib/AAAA18.jpg>)
+![Image](</img/AAAA18.jpg>)
 
 
 The Emtune software has a very systematical approach to configuration.&nbsp;
@@ -25,7 +25,7 @@ Start on the left side “Engine Setup”, and work your way over from left to r
 **WARNING: Improper entry in any part of the setup could be detrimental to the electronics AND the hardware\!**
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

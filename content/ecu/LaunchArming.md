@@ -4,10 +4,10 @@ title: "Launch Arming"
 
 **Launch Arming**&nbsp;
 
-![Image](</lib/Launch 5.jpg>)
+![Image](</img/Launch 5.jpg>)
 
 
-![Image](</lib/Launch 6.jpg>)
+![Image](</img/Launch 6.jpg>)
 
 
 **Launch Arming Notes:**&nbsp; &nbsp;

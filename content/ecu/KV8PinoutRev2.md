@@ -2,7 +2,7 @@
 title: "KV8 Pinout Rev2"
 ---
 
-![Image](</lib/NewItem227.png>)
+![Image](</img/NewItem227.png>)
 
 
 
@@ -16,7 +16,7 @@ title: "KV8 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem316.png>)
+![Image](</img/NewItem316.png>)
 
 &nbsp;**Looking into ECU connector**
 
@@ -58,7 +58,7 @@ title: "KV8 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem315.png>)
+![Image](</img/NewItem315.png>)
 
 **Looking into ECU connector**
 
@@ -92,7 +92,7 @@ title: "KV8 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem314.png>)
+![Image](</img/NewItem314.png>)
 
 &nbsp;&nbsp;
 
@@ -130,7 +130,7 @@ title: "KV8 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem313.png>)
+![Image](</img/NewItem313.png>)
 
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; **Looking into ECU connector**
 

@@ -5,7 +5,7 @@ title: "Secondary Balance Table"
 **Secondary Balance Table**&nbsp;
 
 
-![Image](</lib/Z Axis50.jpg>)
+![Image](</img/Z Axis50.jpg>)
 
 
 The Secondary Balance Table describes the ratio for the volume of fuel delivered by each injector to make the total amount of fuel for the injection event.&nbsp;
@@ -107,7 +107,7 @@ Using the data&nbsp; from the above Example 2:
 **&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (1 + 2.00)** &nbsp;
 
 
-![Image](</lib/Secondary Balance Table.jpg>)
+![Image](</img/Secondary Balance Table.jpg>)
 
 The above example is from a Mitsubishi EVO IX with staged injectors
 
@@ -120,11 +120,11 @@ The secondary balance table becomes the runtime the fuel density change is spann
 
 See Gasoline to Methanol examples below
 
-![Image](</lib/Duel fuel balance.jpg>)
+![Image](</img/Duel fuel balance.jpg>)
 
 The Stoichiometric custom table should also be spanned across the secondary blend runtime in this application.
 
-![Image](</lib/Duel fuel balance 2.jpg>)
+![Image](</img/Duel fuel balance 2.jpg>)
 
 
 

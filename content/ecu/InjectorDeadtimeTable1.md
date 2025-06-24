@@ -5,10 +5,10 @@ title: "Injector Deadtime Table"
 **Injector Dead Time Table**
 
 
-![Image](</lib/Z Axis60.jpg>)
+![Image](</img/Z Axis60.jpg>)
 
 
-![Image](</lib/Z Axis61.jpg>)
+![Image](</img/Z Axis61.jpg>)
 
 
 The Injector Dead Time Table is utilized by the ECU to compensate for the latency (or Deadtime) of the Primary injectors
@@ -29,12 +29,12 @@ Saturated injectors tend to have longer deadtimes when compared to peak \& hold 
 The Emtune software has commonly used Injector Deadtime Tables available in it that are only a right click of the mouse away.
 
 
-![Image](</lib/Z Axis62.jpg>)
+![Image](</img/Z Axis62.jpg>)
 
 
-![Image](</lib/Z Axis63.jpg>)
+![Image](</img/Z Axis63.jpg>)
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

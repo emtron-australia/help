@@ -12,7 +12,7 @@ Config View -\> Inputs -\> Input Pin Setup -\> VVT&nbsp;
 
 Example Config (quad cam VVT control):&nbsp;
 
-![Image](</lib/NewItem107.png>)
+![Image](</img/NewItem107.png>)
 
 
 Configure sensor inputs as required.&nbsp; Magnetic, Hall, DI threshold table, etc. &nbsp;

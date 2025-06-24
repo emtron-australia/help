@@ -4,7 +4,7 @@ title: "Torque Limit Gain Tables"
 
 # Torque Limit Ignition Retard Gain Table
 
-![Image](</lib/Untitled283.jpg>)
+![Image](</img/Untitled283.jpg>)
 
 
 This table calibrates the torque reduction % per degree.&nbsp; When a torque request is applied the ECU will calculate how much retard is required to achieve this torque request. &nbsp;
@@ -28,7 +28,7 @@ The ECU will calculate 20% of torque reduction - can be observed with Runtime "T
 See default table settings below. &nbsp; &nbsp;
 
 
-![Image](</lib/NewItem941.png>)
+![Image](</img/NewItem941.png>)
 
 
 Torque Reduction Ignition Retard Gain Table
@@ -37,7 +37,7 @@ Torque Reduction Ignition Retard Gain Table
 
 
 
-![Image](</lib/Untitled284.jpg>)
+![Image](</img/Untitled284.jpg>)
 
 
 This table calibrates the torque reduction % per %cut.&nbsp; When a torque request is applied the ECU will calculate how much cut is required to achieve this torque request. &nbsp;
@@ -45,7 +45,7 @@ This table calibrates the torque reduction % per %cut.&nbsp; When a torque reque
 
 See default table settings below. &nbsp; &nbsp;
 
-![Image](</lib/Torque man 14.jpg>)
+![Image](</img/Torque man 14.jpg>)
 
 Torque Reduction Cut Gain Table
 
@@ -54,7 +54,7 @@ Torque Reduction Cut Gain Table
 # Torque Limit Boost Target Margin Table&nbsp;
 
 
-![Image](</lib/Untitled285.jpg>)
+![Image](</img/Untitled285.jpg>)
 
 
 

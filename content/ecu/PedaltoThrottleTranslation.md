@@ -28,7 +28,7 @@ A typical runtime for the X-Axis is Engine Speed.
 
 
 
-![Image](</lib/Untitled196.png>)
+![Image](</img/Untitled196.png>)
 
 Pedal to Throttle Area Demand Translation table
 
@@ -45,13 +45,13 @@ Two examples are shown below.
 
 
 
-![Image](</lib/NewItem201.png>)
+![Image](</img/NewItem201.png>)
 
 Basic Throttle Area clamp table (no Throttle Demand Clamping is needed)
 
 
 
-![Image](</lib/NewItem200.png>)
+![Image](</img/NewItem200.png>)
 
 
 Advanced clamp table (based on Traction Target Error and Ground Speed Limiter)&nbsp;
@@ -92,13 +92,13 @@ As mentioned at the start, there are 3 tables which can be control in a variety 
 **Mode 5:** Allows Cal Slot Control to select the active table (See Cal Slot Control)
 
 
-![Image](</lib/NewItem199.png>)
+![Image](</img/NewItem199.png>)
 
 
 **Mode 6:**&nbsp; Enables a Z-Axis table that allows selection/blending of the active table,
 
 
-![Image](</lib/NewItem198.png>)
+![Image](</img/NewItem198.png>)
 
 Axis based on Front Axle Speed.&nbsp; Units are active table
 
@@ -112,7 +112,7 @@ Axis based on Front Axle Speed.&nbsp; Units are active table
 Pedal to Throttle Demand Translation Table 1 = DBW 1 Control .
 
 
-![Image](</lib/Untitled200.png>)&nbsp;
+![Image](</img/Untitled200.png>)&nbsp;
 
 
 
@@ -121,7 +121,7 @@ Pedal to Throttle Demand Translation Table 2 = DBW 2.&nbsp; This is used for com
 This is a good example of how Emtron allows you to **layer** multiple functions together to obtain a desired result
 
 
-![Image](</lib/Untitled201.png>)
+![Image](</img/Untitled201.png>)
 
 
 

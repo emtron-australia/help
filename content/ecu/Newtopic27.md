@@ -54,7 +54,7 @@ Emtron has two methods of generating slip channels so the traction control funct
 
 %Slip (Outputshaft Speed)
 
-![Image](</lib/NewItem246.png>)
+![Image](</img/NewItem246.png>)
 
 
 **%Slip (Drive Speed)**
@@ -425,19 +425,19 @@ These look up table define the amount of %Slip to be maintained by the ECU. Slip
 See the following examples:
 
 
-![Image](</lib/NewItem245.png>)
+![Image](</img/NewItem245.png>)
 
 A simple fixed value for traction control to become active
 
 
-![Image](</lib/NewItem244.png>)
+![Image](</img/NewItem244.png>)
 
 Traction Target vs Front Axle Speed
 
 &nbsp; &nbsp; \*\* Rear axle as Drive Speed
 
 
-![Image](</lib/NewItem243.png>)
+![Image](</img/NewItem243.png>)
 
 A more comprehensive table utilizing internal G-Force sensor (Lateral Accel)
 
@@ -456,7 +456,7 @@ Like any other “offset” table in Emtune, these tables add to the main target
 See the following example:
 
 
-![Image](</lib/NewItem242.png>)
+![Image](</img/NewItem242.png>)
 
 A more comprehensive use of the offset table utilizing KV series Internal G-Force sensor (Verticle Force), and a Rotary Position Switch to change the final Slip Target. &nbsp;
 
@@ -475,7 +475,7 @@ Amount of ignition retard the traction system can employ once the system is acti
 See the following example:
 
 
-![Image](</lib/NewItem241.png>)
+![Image](</img/NewItem241.png>)
 
 &nbsp;&nbsp;
 
@@ -539,7 +539,7 @@ This allows for very fast response as the ECU has a basic lookup table for %Cut 
 See the following example:
 
 
-![Image](</lib/NewItem240.png>)
+![Image](</img/NewItem240.png>)
 
 A more comprehensive use of the Feed Forward %Cut table utilizing the Traction Target Error calculation and gear recognition. &nbsp;
 
@@ -580,7 +580,7 @@ This clamps the maximum cut the traction control can apply based on the entered 
 See the following example:
 
 
-![Image](</lib/NewItem239.png>)
+![Image](</img/NewItem239.png>)
 
 
 \*\* Rear Axle Speed must be pre-configured

@@ -11,7 +11,7 @@ There are several runtimes the ECU generates to diagnose/validate triggers the E
 * Runtimes, Triggers/Limits, Engine Decoding/Engine Decoding Status
 
 
-![Image](</lib/NewItem341.png>)
+![Image](</img/NewItem341.png>)
 
 
 

@@ -5,7 +5,7 @@ title: "Stoich Ratio Setup"
 **Stoich Ratio Setup**
 
 
-![Image](</lib/Config Fuel3.jpg>)
+![Image](</img/Config Fuel3.jpg>)
 
 
 Used as part of the Fuel Model in conjunction with the Lambda Target to determine the required Fuel Mass.
@@ -34,4 +34,4 @@ Units: AFR
 A custom table allow the user to adjust the Stoich in real-time as the Fuel-type changes. An Ethanol example is shown below.
 
 
-![Image](</lib/Untitled233.png>)
+![Image](</img/Untitled233.png>)

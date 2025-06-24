@@ -5,7 +5,7 @@ title: "Lambda Target Tables"
 **Lambda Target Tables**&nbsp;
 
 
-![Image](</lib/AAAA90.jpg>)
+![Image](</img/AAAA90.jpg>)
 
 
 The Lambda Target Tables enable the user to define the Lambda target through the operation of the engine.

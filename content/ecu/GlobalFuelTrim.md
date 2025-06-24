@@ -5,10 +5,10 @@ title: "Global Fuel Trim"
 **Global Fuel Trim**&nbsp;
 
 
-![Image](</lib/AAAA73.jpg>)
+![Image](</img/AAAA73.jpg>)
 
 
-![Image](</lib/Global fuel.jpg>)
+![Image](</img/Global fuel.jpg>)
 
 
 This function applies a global or overall fuel trim.&nbsp;
@@ -32,7 +32,7 @@ Typical 0% (Recommended)
 
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 &nbsp;&nbsp; &nbsp; **Tuning Tip**: This is a tool to aid in configuration and initial setup.&nbsp;
 

@@ -13,12 +13,12 @@ From the Welcome Screen, selecting Open File, or Open ECU (ECU Detected is requi
 
 From here, you can navigate through a number of menus, tabs, sub tabs, etc.&nbsp; &nbsp;
 
-![Image](</lib/Tabs  sub tabs.jpg>)
+![Image](</img/Tabs  sub tabs.jpg>)
 
 
 For configuration, clicking the config tab at the top is where to start.&nbsp;
 
-![Image](</lib/Engine Setup.jpg>)
+![Image](</img/Engine Setup.jpg>)
 
 
 
@@ -36,7 +36,7 @@ Start on the left side “Engine Setup”, and work your way over from left to r
 
 
 
-![Image](</lib/Engine Main.jpg>)
+![Image](</img/Engine Main.jpg>)
 
 \
 
@@ -61,7 +61,7 @@ This section synchronizes the engine timing. &nbsp;
 &nbsp;&nbsp; &nbsp; If this does not occur - Adjust the ignition delay time until this is achieved. &nbsp;
 
 
-![Image](</lib/NewItem776.png>)
+![Image](</img/NewItem776.png>)
 
 
 
@@ -77,13 +77,13 @@ See [Quick Calibrations](<QuickCalibrations.md>)
 Define all your fuel setting under the Fuel heading.
 
 
-![Image](</lib/NewItem148.png>)
+![Image](</img/NewItem148.png>)
 
 
 **Fuel Flow Rate/Ref Injector Size**
 
 
-![Image](</lib/NewItem751.png>)
+![Image](</img/NewItem751.png>)
 
 The Ref Injector Size flow rate must match the **Ref Static Fuel Pressure** value
 
@@ -119,13 +119,13 @@ The airflow model will determine air mass flowing through engine a number of way
 **\*\* Not having the correct Stoich Ratio will bake large error into the entire model and compensations**
 
 
-![Image](</lib/NewItem750.png>)
+![Image](</img/NewItem750.png>)
 
 
-![Image](</lib/NewItem749.png>)
+![Image](</img/NewItem749.png>)
 
 
-![Image](</lib/NewItem748.png>)
+![Image](</img/NewItem748.png>)
 
 Above is showing how two fuel types can be used with different Stoich values with a "Dual Tune Enable Sw"&nbsp;
 
@@ -151,10 +151,10 @@ It should be taken into consideration that effective fuel pressure affects injec
 
 These values should be translated and entered into the tables as accurately as possible.&nbsp;
 
-![Image](</lib/Inject Dead time.jpg>)
+![Image](</img/Inject Dead time.jpg>)
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 
@@ -172,16 +172,16 @@ These values should be translated and entered into the tables as accurately as p
 &nbsp; &nbsp; (generally more sensitive at low pulse widths).&nbsp; These numbers can be positive or negative. &nbsp;
 
 
-![Image](</lib/NewItem146.png>)
+![Image](</img/NewItem146.png>)
 
 
 There is a full configuration function for peak and hold injection where you can define the injector type (saturated vs peak and hold), and define opening and hold currents. &nbsp;
 
 
-![Image](</lib/Driver setup.jpg>)
+![Image](</img/Driver setup.jpg>)
 
 
-![Image](</lib/PH.jpg>)
+![Image](</img/PH.jpg>)
 
 
 The injector test function also allows you to pulse each injector anytime the engine is off. &nbsp;
@@ -193,7 +193,7 @@ The injector test function also allows you to pulse each injector anytime the en
 Define all your ignition setting under the Ignition heading.
 
 
-![Image](</lib/NewItem145.png>)
+![Image](</img/NewItem145.png>)
 
 
 
@@ -266,13 +266,13 @@ DI 9-14 Low resolution 0-20v analog voltage input mode
 
 Starting on the left to right and moving through all required and optional inputs and setup. &nbsp;
 
-![Image](</lib/NewItem144.png>)
+![Image](</img/NewItem144.png>)
 
 
 
 Analog voltage config window:
 
-![Image](</lib/NewItem143.png>)
+![Image](</img/NewItem143.png>)
 
 Sensor input source, filter, calibration, clamp, fault settings, fault value (substitute value), DTC control, and DTC engine limit control are all configured here.&nbsp; There are a number of popular “pre-configured” sensor styles. &nbsp;
 
@@ -286,12 +286,12 @@ If using thermistors, “pull up” must be switched on (only available on ANV 7
 
 Example below is for MAP sensor failure, using TP and engine speed to populate active substitute.&nbsp;
 
-![Image](</lib/NewItem142.png>)
+![Image](</img/NewItem142.png>)
 
 
 A simple switch configuration for digital input (ignition switch dedicated input):
 
-![Image](</lib/NewItem141.png>)
+![Image](</img/NewItem141.png>)
 
 Input can be configured as a regular toggle switch, magnetic, hall, or momentary switch. &nbsp;
 
@@ -302,7 +302,7 @@ Pull up can be used for ground switch inputs (2 point config would be opposite, 
 
 For high speed inputs, configuration is similar:
 
-![Image](</lib/NewItem140.png>)
+![Image](</img/NewItem140.png>)
 
 High speed inputs (DI 1-8 **only**) should have “table” as threshold mode, as this will specify the cross over voltage point. &nbsp;
 
@@ -379,7 +379,7 @@ Spare fuel and ignition channels can be driven low side
 
 Below is an example of DBW function config.&nbsp;
 
-![Image](</lib/NewItem139.png>)
+![Image](</img/NewItem139.png>)
 
 The mode for DBW is selected, the appropriate output channels, driver type (half bridge), and output frequency. &nbsp;
 

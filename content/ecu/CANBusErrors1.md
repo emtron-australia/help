@@ -21,11 +21,11 @@ CAN Diagnostics information can be found under the Communications Tab in the Run
 * Emtron Transmitting data , but receiving device is missing from the CAN Bus.
 
 
-![Image](</lib/e.png>)
+![Image](</img/e.png>)
 
 
 
 * Emtron Transmitting data , but receiving device is missing from the CAN Bus **and** 120 Ohm terminating resistor **missing.**
 
 
-![Image](</lib/Untitled38.png>)
+![Image](</img/Untitled38.png>)

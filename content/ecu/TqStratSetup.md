@@ -5,7 +5,7 @@ title: "Torque Limit Strategy 1-5"
 # Torque Limit Strategy 1-5
 
 
-![Image](</lib/Untitled1100.jpg>)
+![Image](</img/Untitled1100.jpg>)
 
 
 &#53; different Torque Limit strategies can be configured.&nbsp; Different situations and scenarios may call for multiple methods of torque limiting strategies. &nbsp;
@@ -21,7 +21,7 @@ Launch Control may need more than one strategy that uses retard/cutting for stat
 **Torque Limit Strat Setup**
 
 
-![Image](</lib/NewItem942.png>)&nbsp;
+![Image](</img/NewItem942.png>)&nbsp;
 
 
 Choose Torque Limiting Priority&nbsp;

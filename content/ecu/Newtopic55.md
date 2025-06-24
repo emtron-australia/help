@@ -8,13 +8,13 @@ title: "Camshaft Closed Loop Control - PID Setup"
 **Applicable to both intake \& exhaust PID setup**
 
 
-![Image](</lib/VVT 15.jpg>)
+![Image](</img/VVT 15.jpg>)
 
 
 The positioning control of the Camshaft(s) is governed by the Emtron PID closed loop function.
 
 
-![Image](</lib/VVT 16.jpg>) &nbsp;
+![Image](</img/VVT 16.jpg>) &nbsp;
 
 
 **Intake Deadband +/-**&nbsp;
@@ -47,7 +47,7 @@ Having a correct feed forward duty cycle value allows for more precise control.
 
 This feed forward value is added to the control signal before the PID is applied. &nbsp;
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 
@@ -73,7 +73,7 @@ Toyota 2URFSE/2URGSE VVTiE Base frequency setting at 1000rpm
 
 **For PID Exhaust setup**
 
-![Image](</lib/VVT 1718.jpg>)
+![Image](</img/VVT 1718.jpg>)
 
 
 

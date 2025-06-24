@@ -5,7 +5,7 @@ title: "Limp Home Limits"
 This function provides Engine Speed Limiting when a DTC error occurs on an Input Channel. The operation of these table(s) can be controlled independently from each Input Channel setup page.
 
 
-![Image](</lib/Untitled16.jpg>)
+![Image](</img/Untitled16.jpg>)
 
 
 The following settings are not adjustable:

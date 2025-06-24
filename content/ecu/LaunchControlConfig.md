@@ -5,7 +5,7 @@ title: "Launch Control"
 Launch Control Config
 
 
-![Image](</lib/Untitled275.png>)
+![Image](</img/Untitled275.png>)
 
 
 

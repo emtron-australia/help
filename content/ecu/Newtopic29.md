@@ -2,4 +2,4 @@
 title: "Tuning"
 ---
 
-![Image](</lib/AAAA21.jpg>)
+![Image](</img/AAAA21.jpg>)

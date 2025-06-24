@@ -5,10 +5,10 @@ title: "Boost Control Setup"
 **Boost Control Setup**&nbsp;
 
 
-![Image](</lib/Boost Control 1.jpg>)
+![Image](</img/Boost Control 1.jpg>)
 
 
-![Image](</lib/Boost Control 2.jpg>)
+![Image](</img/Boost Control 2.jpg>)
 
 
 **Boost Control Mode**

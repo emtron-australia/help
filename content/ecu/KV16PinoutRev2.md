@@ -2,7 +2,7 @@
 title: "KV16 Pinout Rev2"
 ---
 
-![Image](</lib/NewItem229.png>)
+![Image](</img/NewItem229.png>)
 
 
 
@@ -14,7 +14,7 @@ title: "KV16 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem321.png>)
+![Image](</img/NewItem321.png>)
 
 &nbsp;**Looking into ECU connector**
 
@@ -58,7 +58,7 @@ title: "KV16 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem319.png>)
+![Image](</img/NewItem319.png>)
 
 **Looking into ECU connector**
 
@@ -92,7 +92,7 @@ title: "KV16 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem318.png>)
+![Image](</img/NewItem318.png>)
 
 &nbsp; **Looking into ECU connector**
 
@@ -126,7 +126,7 @@ title: "KV16 Pinout Rev2"
 
 
 
-![Image](</lib/NewItem317.png>)
+![Image](</img/NewItem317.png>)
 
 **Looking into ECU connector**
 

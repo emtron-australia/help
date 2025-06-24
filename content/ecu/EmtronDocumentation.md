@@ -2,4 +2,4 @@
 title: "Documentation"
 ---
 
-![Image](</lib/AAAA26.jpg>)
+![Image](</img/AAAA26.jpg>)

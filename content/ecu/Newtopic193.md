@@ -11,4 +11,4 @@ Controlled by Cranking Entry/Exit RPM settings under :&nbsp;
 Config -\> Engine Setup -\> Cranking RPM Entry/Exit
 
 
-![Image](</lib/NewItem356.png>)
+![Image](</img/NewItem356.png>)

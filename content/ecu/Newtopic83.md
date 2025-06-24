@@ -18,7 +18,7 @@ Engine Torque (Uncorrected) \& Engine RPM are commonly used (See example below)
 This table is user defined and must be validated by the tuner.&nbsp;
 
 
-![Image](</lib/NewItem296.jpg>)
+![Image](</img/NewItem296.jpg>)
 
 Example Shown - Porsche 996 (Uncorrected engine toque spanned against rpm)
 

@@ -2,7 +2,7 @@
 title: "Ethernet"
 ---
 
-![Image](</lib/NewItem986.png>)
+![Image](</img/NewItem986.png>)
 
 Ethernet connection.
 
@@ -12,13 +12,13 @@ Some users are still unable to configure an Ethernet port.&nbsp;
 
 Firmware 2.19.0 and on includes a wizard (Bottom right of the splash screen)
 
-![Image](</lib/NewItem985.png>)
+![Image](</img/NewItem985.png>)
 
 This will be visible when an ECU is no connected / detected.
 
 When the ECU is connected \& the IP address correctly configure, the software will acknowledge this in the bottom left corner
 
-![Image](</lib/NewItem984.png>)
+![Image](</img/NewItem984.png>)
 
 
 The process to manually configure windows 11+ is as follows:

@@ -4,10 +4,10 @@ title: "Secondary Injector Deadtime Table"
 
 
 
-![Image](</lib/Z Axis68.jpg>)
+![Image](</img/Z Axis68.jpg>)
 
 
-![Image](</lib/Z Axis69.jpg>)
+![Image](</img/Z Axis69.jpg>)
 
 
 The Injector Dead Time Table (Sec) is utilized by the ECU to compensate for the latency (or Deadtime) of the Secondary injectors
@@ -28,12 +28,12 @@ Saturated injectors tend to have longer deadtimes when compared to peak \& hold 
 The Emtune software has commonly used Injector Deadtime Tables available in it that are only a right click of the mouse away.
 
 
-![Image](</lib/Z Axis70.jpg>)
+![Image](</img/Z Axis70.jpg>)
 
-![Image](</lib/Z Axis71.jpg>)
+![Image](</img/Z Axis71.jpg>)
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

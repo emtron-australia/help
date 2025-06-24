@@ -11,7 +11,7 @@ Set CAN Baud Rate to 1Mbps&nbsp;
 &nbsp; &nbsp; Config -\> Communications -\> CAN Bus 1/2 -\> CAN Bus 1/2 Setup
 
 
-![Image](</lib/NewItem441.png>)
+![Image](</img/NewItem441.png>)
 
 
 
@@ -21,7 +21,7 @@ Set CAN Channel Settings as follows :&nbsp;
 &nbsp; &nbsp; Config -\> Communications -\> CAN Bus 1/2 - Channel 1-6 - &nbsp; &nbsp; 40 : Emtron 8 - way Keypad
 
 
-![Image](</lib/NewItem442.png>)
+![Image](</img/NewItem442.png>)
 
 
 Configure the Keypad behavior as follows :&nbsp;
@@ -30,7 +30,7 @@ Configure the Keypad behavior as follows :&nbsp;
 &nbsp; &nbsp; Config -\> Communications -\> Emtron CAN Devices -\> Emtron Keypad&nbsp;
 
 
-![Image](</lib/NewItem443.png>)
+![Image](</img/NewItem443.png>)
 
 
 Keypad button behavior has multiple modes of configuration
@@ -105,12 +105,12 @@ Assign Keypad inputs as follows :&nbsp;
 &nbsp; &nbsp; Config -\> Channels -\> Input Setup -\>&nbsp;
 
 
-![Image](</lib/NewItem444.png>)
+![Image](</img/NewItem444.png>)
 
 
 
 
-![Image](</lib/NewItem445.png>)
+![Image](</img/NewItem445.png>)
 
 
 

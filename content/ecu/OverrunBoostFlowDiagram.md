@@ -2,4 +2,4 @@
 title: "Overrun Boost Flow Diagram"
 ---
 
-![Image](</lib/ALS Flow Chart1.jpg>)
+![Image](</img/ALS Flow Chart1.jpg>)

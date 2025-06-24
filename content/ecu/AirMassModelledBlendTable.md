@@ -5,7 +5,7 @@ title: "Air Mass Modelled Blend Table"
 **Air Mass Modelled Blend Table**
 
 
-![Image](</lib/Ignition22.jpg>)
+![Image](</img/Ignition22.jpg>)
 
 Speed Density (Parameter 1) over Throttle Mass Flow (Parameter 2) shown as an example
 

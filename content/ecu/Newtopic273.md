@@ -5,10 +5,10 @@ title: "Lambda Control Setup"
 **Lambda Control Setup**
 
 
-![Image](</lib/Lambda Control Setup.jpg>)
+![Image](</img/Lambda Control Setup.jpg>)
 
 
-![Image](</lib/Lambda Control Setup 2.jpg>)
+![Image](</img/Lambda Control Setup 2.jpg>)
 
 
 * Engine Temp Lockout&nbsp; &nbsp; -&nbsp; &nbsp; Engine temp above which Lambda Control can become active

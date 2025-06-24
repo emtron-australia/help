@@ -18,5 +18,5 @@ Ie: 90 Deg for an 8 cylinder engine or 180&nbsp; Deg for 4 cylinder engine.&nbsp
 Maximum range is two engine cycles or 1440.0 degrees
 
 
-![Image](</lib/AA main13.jpg>)
+![Image](</img/AA main13.jpg>)
 

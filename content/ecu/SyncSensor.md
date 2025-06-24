@@ -5,14 +5,14 @@ title: "Sync Sensor"
 **Sync Sensor**&nbsp;
 
 
-![Image](</lib/AAAA1.jpg>)
+![Image](</img/AAAA1.jpg>)
 
 
 
 **Sync Sensor Type**&nbsp;
 
 
-![Image](</lib/AAAA2.jpg>)
+![Image](</img/AAAA2.jpg>)
 
 Inputting a numerical value from 0 to 2 enables setting of the sync sensor type.
 
@@ -46,7 +46,7 @@ Always use the dedicated trigger input pins on the ECU (Crank +/- Sync +/-)
 **Sync Sensor Edge**&nbsp;
 
 
-![Image](</lib/AAAA3.jpg>)
+![Image](</img/AAAA3.jpg>)
 
 Inputting a numerical value from 0 to 2 enables setting of the sync sensor edge type.
 
@@ -79,14 +79,14 @@ Rising and Falling
 Engines with multi-tooth sync sensors usually will have a “long” tooth during the “crank index point”.&nbsp; Normally, a custom decoding mode is needed to run the engine with multiple sync teeth, but in this case because there is a clear difference in signal on the sync input on each stroke (low vs high), the ECU can determine the stroke immediately (this is the fastest way to decode starting/720 sync).&nbsp; Set Sync Sensor Edge configuration to Rising and Falling for these trigger types. &nbsp;
 
 
-![Image](</lib/NewItem342.png>)
+![Image](</img/NewItem342.png>)
 
 
 
 **Sync Sensor Pullup**&nbsp;
 
 
-![Image](</lib/AAAA4.jpg>)
+![Image](</img/AAAA4.jpg>)
 
 The numerical disable/enable input to control the 5volt pull-up available for Hall Effect, Optical \& Proximity Sync sensors.
 

@@ -16,7 +16,7 @@ However, for it to function correctly, latency from o2 sensors signals must be p
 
 Tuning -\> Engine Functions -\> Lambda Control - Wideband -\> Lambda Transport Delay&nbsp;
 
-![Image](</lib/NewItem823.png>)
+![Image](</img/NewItem823.png>)
 
 
 
@@ -32,13 +32,13 @@ Lambda transport delay = the time (in seconds) measured it takes for the lambda 
 A simple way to tune this function is to put the engine at varying loads and make lambda target change while logging.&nbsp; Measure with the differences cursor ("D") in the logger to see the time it takes for the lambda to change from the original value to the new value.&nbsp; This is your "Lambda Transport Delay"
 
 
-![Image](</lib/NewItem825.png>)
+![Image](</img/NewItem825.png>)
 
 
 Next, populate the transport delay value (in seconds), into the "Lambda Transport Delay" table.&nbsp;
 
 
-![Image](</lib/NewItem826.png>)
+![Image](</img/NewItem826.png>)
 
 \*\* Example shown is 2D following Air Mass Flow Final (g/s) - but a 3D table axis is available for using standard values such as RPMxMAP, etc. &nbsp;
 

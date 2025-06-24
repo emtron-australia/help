@@ -8,10 +8,10 @@ title: "Idle Speed Control Setup (TMF)"
 **Tuning –\> Engine Functions –\> Idle Speed control –\> Idle Speed Control setup (TMF)**
 
 
-![Image](</lib/AAAA84.jpg>)
+![Image](</img/AAAA84.jpg>)
 
 
-![Image](</lib/Complete the Throttle mass flow set up1.jpg>)
+![Image](</img/Complete the Throttle mass flow set up1.jpg>)
 
 
 **Control method**

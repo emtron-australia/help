@@ -5,7 +5,7 @@ title: "Transient Fuel"
 **Transient Fuel** &nbsp;
 
 
-![Image](</lib/Z Axis30.jpg>)
+![Image](</img/Z Axis30.jpg>)
 
 
 Tuning transient functions in Emtune is done through a combination of function setup and table settings.&nbsp;

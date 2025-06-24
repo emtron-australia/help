@@ -5,13 +5,13 @@ title: "Crank Index Sensor"
 **Crank Index Sensor**
 
 
-![Image](</lib/AAA3.jpg>)
+![Image](</img/AAA3.jpg>)
 
 
 **Crank Sensor Type**
 
 
-![Image](</lib/AAA4.jpg>)
+![Image](</img/AAA4.jpg>)
 
 Inputting a numerical value from 0 to 2 enables setting of the crank sensor type.
 
@@ -45,7 +45,7 @@ Always use the dedicated trigger input pins on the ECU (Crank +/- Sync +/-)
 **Crank Sensor Edge**
 
 
-![Image](</lib/AAA5.jpg>)
+![Image](</img/AAA5.jpg>)
 
 Inputting a numerical value from 0 to 2 enables setting of the crank sensor edge type.
 
@@ -69,12 +69,12 @@ When using any other decoding mode (1 tooth per TDC, or Multi-Tooth Custom), **U
 Both Magnetic and Hall effect sensors have “fast” performance when the tone ring teeth pass the sensors on falling edge consistently.&nbsp;
 
 
-![Image](</lib/NewItem344.png>) &nbsp;
+![Image](</img/NewItem344.png>) &nbsp;
 
 An example of a magnetic sensors fast edge being the falling.
 
 
-![Image](</lib/NewItem343.png>)
+![Image](</img/NewItem343.png>)
 
 An example of a hall senor fast edge being the falling. &nbsp;
 
@@ -86,7 +86,7 @@ Triggering off the rising edge in either of the two above examples will cause th
 **Crank Sensor Pullup**
 
 
-![Image](</lib/AAA6.jpg>)
+![Image](</img/AAA6.jpg>)
 
 The numerical disable/enable input to control the 5volt pull-up available for Hall Effect, Optical \& Proximity Crank sensors.
 

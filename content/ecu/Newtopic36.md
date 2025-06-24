@@ -9,7 +9,7 @@ Diagnostic trouble codes (or fault codes) are codes that are stored by the ECU. 
 These DTC's identify a particular problem area and are intended to provide the user with a guide as to where a fault might be occurring within the vehicle. The ECU will always reply with a 'P' code or Powertrain code&nbsp;
 
 
-![Image](</lib/obd2-codes-explanation.png>)
+![Image](</img/obd2-codes-explanation.png>)
 
 
 ## Difference Between Generic \& Manufacturer Specific...

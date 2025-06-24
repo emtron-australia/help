@@ -2,6 +2,6 @@
 title: "Gear-Shift-Up-Shift-Flow"
 ---
 
-![Image](</lib/NewItem937.png>)
+![Image](</img/NewItem937.png>)
 
-![Image](</lib/NewItem938.png>)
+![Image](</img/NewItem938.png>)

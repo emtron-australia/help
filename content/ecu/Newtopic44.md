@@ -5,10 +5,10 @@ title: "Exhaust Cam Angle Target Tables"
 **Exhaust Cam Angle Target Tables**&nbsp;
 
 
-![Image](</lib/VVT 13.jpg>)
+![Image](</img/VVT 13.jpg>)
 
 
-![Image](</lib/VVT 14.jpg>)
+![Image](</img/VVT 14.jpg>)
 
 
 This is the Exhaust camshaft position command tables where the required camshaft position in degrees is set
@@ -28,7 +28,7 @@ Exhaust Cam Angle Target Table 2 can be accessed/activated via Cam Target Table 
 
 There are a variety of methods of integration available.
 
-![Image](</lib/VVT 12.jpg>)
+![Image](</img/VVT 12.jpg>)
 
 
 **\*\*\*WARNING\*\*\***

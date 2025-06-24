@@ -5,13 +5,13 @@ title: "Integral Gain Table"
 **Integral Gain Table**
 
 
-![Image](</lib/Lambda I gain.jpg>)
+![Image](</img/Lambda I gain.jpg>)
 
 
 Integral gain controls how much adaptive correction is needed over time.
 
 
-![Image](</lib/NewItem440.png>)
+![Image](</img/NewItem440.png>)
 
 
 &#48;.1 is a good starting value

@@ -4,7 +4,7 @@ title: "Cam Switch"
 
 # Cam Switch
 
-![Image](</lib/Cam Switch 1.jpg>)
+![Image](</img/Cam Switch 1.jpg>)
 
 
 The Emtron ECU Cam Switch function is a comprehensive function to control simple cam switch solenoids&nbsp;
@@ -39,10 +39,10 @@ There should be no frequency/PWM function enabled for this function.&nbsp; It is
 
 ## Function Setup
 
-![Image](</lib/Cam Switch 2.jpg>)
+![Image](</img/Cam Switch 2.jpg>)
 
 
-![Image](</lib/Cam Switch 3.jpg>)
+![Image](</img/Cam Switch 3.jpg>)
 
 ### RPM Lockout
 
@@ -103,7 +103,7 @@ Any number in between 1-99 is **hysteresis** mode which causes the output to rem
 
 
 
-![Image](</lib/Untitled162.png>)
+![Image](</img/Untitled162.png>)
 
 
 

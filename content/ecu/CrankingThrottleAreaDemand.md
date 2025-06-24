@@ -12,11 +12,11 @@ This table is available from the Engine Functions -\> Torque Management -\> Cran
 
 
 
-![Image](</lib/Untitled198.png>)
+![Image](</img/Untitled198.png>)
 
 
 
-![Image](</lib/Untitled197.png>)
+![Image](</img/Untitled197.png>)
 
 
 
@@ -26,7 +26,7 @@ This table is available from the Engine Functions -\> Torque Management -\> Cran
 This is available from the runtime (F3) menu , Torque or DBW 1/2 tab.
 
 
-![Image](</lib/Untitled199.png>)
+![Image](</img/Untitled199.png>)
 
 
 

@@ -16,7 +16,7 @@ The Y-Axis can spanned across any runtime or disabled
 
 \*\* The X-Axis MUST be set to the Cylinder Numbers
 
-![Image](</lib/NewItem299.jpg>)
+![Image](</img/NewItem299.jpg>)
 
 &nbsp;Example show - Porsche 996
 
@@ -24,7 +24,7 @@ The Y-Axis can spanned across any runtime or disabled
 This table is user defined and should only be adjusted and validated by an experienced tuner.
 
 
-![Image](</lib/NewItem298.jpg>)
+![Image](</img/NewItem298.jpg>)
 
 
 
@@ -44,6 +44,6 @@ This table is user defined and should only be adjusted and validated by an exper
 
 \*\* The X-Axis MUST be set to the Cylinder Numbers
 
-![Image](</lib/NewItem297.jpg>)
+![Image](</img/NewItem297.jpg>)
 
 Example show - Porsche 996 spanned against uncorrected engine torque

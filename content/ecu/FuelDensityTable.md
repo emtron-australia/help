@@ -5,10 +5,10 @@ title: "Fuel Density Table"
 **Fuel Density Table**&nbsp;
 
 
-![Image](</lib/Z Axis54.jpg>)
+![Image](</img/Z Axis54.jpg>)
 
 
-![Image](</lib/Z Axis55.jpg>)
+![Image](</img/Z Axis55.jpg>)
 
 
 The Fuel Density Table is utilized by the Fuel Model to determine the fuel mass. &nbsp;
@@ -23,13 +23,13 @@ This setting is particularly useful when using multiple fuel compositions such a
 The Emtune software has pre determined Fuel Density Tables available in it that are only a right click of the mouse away
 
 
-![Image](</lib/Z Axis56.jpg>)&nbsp;
+![Image](</img/Z Axis56.jpg>)&nbsp;
 
 
 By selecting "Load Table" you can quickly arrive at the correct density table to suit commonly used fuels.
 
 
-![Image](</lib/Z Axis57.jpg>)
+![Image](</img/Z Axis57.jpg>)
 
 
 The Ethanol Fuel Density Table.etf is as shown in the example above \& spans the increase in ethanol against gasoline.

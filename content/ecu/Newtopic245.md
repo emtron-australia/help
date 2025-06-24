@@ -4,10 +4,10 @@ title: "Engine Temperature Limit Setup"
 
 **Engine Temperature Limit Setup**&nbsp;
 
-![Image](</lib/Engine prot 2.jpg>)
+![Image](</img/Engine prot 2.jpg>)
 
 
-![Image](</lib/3.jpg>)
+![Image](</img/3.jpg>)
 
 
 **Engine Temp Limit**

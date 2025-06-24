@@ -19,7 +19,7 @@ The flow through a throttle body is governed by three physical elements:
 By combining all these elements the ECU can model the flow of fluid through the throttle body accounting for throttle plate thickness and throttle shaft size.&nbsp; One key piece of data is knowing the **pressure ratio** across the throttle body as shown in the below diagram,&nbsp; the other key piece of data is the current **throttle area**. If the pressure ratio and throttle area is known, the ECU can very accurately calculate the mass flow rate through a throttle body.
 
 
-![Image](</lib/Throttle Drawing13.jpg>)
+![Image](</img/Throttle Drawing13.jpg>)
 
 
 
@@ -61,7 +61,7 @@ The Throttle Mass Flow (g/s) becomes the target flow for the Idle Speed Control 
 
 
 
-![Image](</lib/Untitled214.png>)
+![Image](</img/Untitled214.png>)
 
 Typical TMF Idle Feed forward table in units of g/s
 

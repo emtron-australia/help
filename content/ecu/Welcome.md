@@ -7,7 +7,7 @@ title: "Welcome"
 
 
 
-![Image](</lib/NewItem949.png>)
+![Image](</img/NewItem949.png>)
 
 
 

@@ -5,5 +5,5 @@ title: "Fuel Modifier Tables"
 **Fuel Modifier Tables**&nbsp;
 
 
-![Image](</lib/AAAA106.jpg>)
+![Image](</img/AAAA106.jpg>)
 

@@ -8,7 +8,7 @@ title: "Math Expressions"
 A user definable mathematical equation that allows the user to generate channels for data analysis or to aid in rapidly validation tuning data. The expression is defined by a single line of text that can include most common mathematical operations and many advanced functions.
 
 
-![Image](</lib/NewItem957.png>)
+![Image](</img/NewItem957.png>)
 
 
 
@@ -173,7 +173,7 @@ See the table below for a list of the available functions and their usage.
 
 This is equivalent to the operation performed when pressing the L key during live tuning. The advantage here is that the the expression can be performed using the the current log cursor position values as inputs.
 
-![Image](</lib/NewItem962.png>)
+![Image](</img/NewItem962.png>)
 
 
 
@@ -190,7 +190,7 @@ Similar to the VE expression except that it gives a percentage offset value to b
 
 First the trim is calculated, then the trim is added to the cell value
 
-![Image](</lib/NewItem963.png>)
+![Image](</img/NewItem963.png>)
 
 
 
@@ -205,7 +205,7 @@ First the trim is calculated, then the trim is added to the cell value
 
 Similar to the VE expression except that it gives a percentage offset value to be used in the bank trim table. Assumes Bank 2 is measured by Lambda 2
 
-![Image](</lib/NewItem964.png>) &nbsp; &nbsp;
+![Image](</img/NewItem964.png>) &nbsp; &nbsp;
 
 
 
@@ -224,7 +224,7 @@ When the engine is accelerating, torque is positive. When the engine is decelera
 The expression checks the dRPM to make sure the engine is held at a near constant RPM (less than a generous 100 rpm/s in this example) where final torque should be 0nm. The abs() function is used to turn a negate dRPM value into a positive to simplify the \< (less than) logic. If the dRPM check is true, the current Engine torque value is subtracted from the cell value, if not 0 is subtracted from the cell value, ie. nothing happens.
 
 
-![Image](</lib/NewItem965.png>)
+![Image](</img/NewItem965.png>)
 
 
 
@@ -245,9 +245,9 @@ The expression finds the max knock (mK), then the average knock (aK), then the d
 *This is an example only and isn't intended to be useful as is for any or all applications. It does however show how functions and variables can be nested in a variety of ways.*
 
 
-![Image](</lib/NewItem972.png>)
+![Image](</img/NewItem972.png>)
 
 
-![Image](</lib/NewItem973.png>)
+![Image](</img/NewItem973.png>)
 
 

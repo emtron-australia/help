@@ -5,10 +5,10 @@ title: "Launch Control (RPM) Setup"
 **Launch Control (RPM) Setup**&nbsp;
 
 
-![Image](</lib/Launch 3.jpg>)
+![Image](</img/Launch 3.jpg>)
 
 
-![Image](</lib/Launch 4.jpg>)
+![Image](</img/Launch 4.jpg>)
 
 
 **Launch Control modes of operation.**

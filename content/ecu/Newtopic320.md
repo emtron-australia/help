@@ -5,10 +5,10 @@ title: "Main"
 **Main**
 
 
-![Image](</lib/Config Fuel29.jpg>)
+![Image](</img/Config Fuel29.jpg>)
 
 
-![Image](</lib/Config Fuel30.jpg>)
+![Image](</img/Config Fuel30.jpg>)
 
 
 The Calculated runtimes Main is where the Efficiency Calculation and Load Calculation runtimes are defined.

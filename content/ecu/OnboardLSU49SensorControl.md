@@ -20,7 +20,7 @@ The ECU assigns the correct the Heater Output Channel based on ECU Type and Seri
 * If "Lambda 2" Input Channel has the Input Source selected to "Internal Lambda 2" the function becomes enabled
 
 
-![Image](</lib/Untitled43.png>)
+![Image](</img/Untitled43.png>)
 
 
 
@@ -41,7 +41,7 @@ Although the sensor shutdown is outside the ECU's control, the status is constan
 
 
 
-![Image](</lib/LSU 49 Pinout - A11.jpg>)
+![Image](</img/LSU 49 Pinout - A11.jpg>)
 
 
 

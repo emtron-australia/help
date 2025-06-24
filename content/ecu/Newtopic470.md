@@ -16,7 +16,7 @@ title: "DBW Calibration Guide"
 
 2. Once Inputs and Outputs are set up, select a "Module File" that is closest to your throttle system
 
-&nbsp;![Image](</lib/NewItem869.png>)![Image](</lib/NewItem870.png>)
+&nbsp;![Image](</img/NewItem869.png>)![Image](</img/NewItem870.png>)
 
 This will pre-populate all basic settings for DBW throttle PID, response time, delay, etc. &nbsp;
 
@@ -25,14 +25,14 @@ This will pre-populate all basic settings for DBW throttle PID, response time, d
 
 Validate the Pedal is channels are tracking correctly in Runtimes (F3)&nbsp;
 
-![Image](</lib/NewItem871.png>)
+![Image](</img/NewItem871.png>)
 
 
 &#52;. &nbsp; Calibrate DBW positions using Auto Calibrate Procedure, See "DBW Calibrate Plate" here -\> [DBW 1/2 Configuration](<DBWSetup.md>)
 
 Validate the DBW Servo Position channels are tracking correctly in Runtimes (F3)
 
-![Image](</lib/NewItem872.png>)
+![Image](</img/NewItem872.png>)
 
 
 &#53;. &nbsp; Adjust PID to suit the throttle if is not moving/tracking appropriately -\> [DBW Closed Loop tables](<Newtopic47.md>)

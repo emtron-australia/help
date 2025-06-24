@@ -22,7 +22,7 @@ In both Speed Density and MAF modes the ECU performs the following steps to calc
 **Fuel Model: Charge Temp**
 
 
-![Image](</lib/Untitled227.png>)
+![Image](</img/Untitled227.png>)
 
 
 This setting ONLY applies when the Fuel Model is selected to Speed Density. There are 2 separate methods that control how the fueling is adjusted based on Charge Temperature.
@@ -38,7 +38,7 @@ This setting ONLY applies when the Fuel Model is selected to Speed Density. Ther
 **Fuel Model: Fuel Pressure**
 
 
-![Image](</lib/Untitled229.png>)
+![Image](</img/Untitled229.png>)
 
 
 This setting applies to ALL Fuel Models. A Fuel Pressure Sensor MUST be fitted.&nbsp; The ECU will correct/adjust the Injector Flow as the differential pressure across the injector changes. This means any fuel surge causing an sudden drop in fuel pressure the ECU can correct the fueling and maintain the correct mixture.
@@ -62,7 +62,7 @@ Used to help accurately calculate Fuel Density (g/ml) by spanning the x-axis on 
 If the Fuel Temp channel is not selected it defaults to 20 DegC which will then be used to span the Fuel Density Table. **Note**: If an Ethanol Sensor is selected the Fuel Temp information from the sensor is automatically copied into the Fuel Temp Runtime.
 
 
-![Image](</lib/Untitled234.png>)
+![Image](</img/Untitled234.png>)
 
 **Figure 1: Fuel Density Table**
 
@@ -80,7 +80,7 @@ Strongly recommended to use this sensor when running Ethanol based fuels. It all
 The Final Air and Fuel Mass used by the ECU can be viewed from the Runtime menu -\> Fuel Tab (F3). You can also view data from the Speed Density (SD) and MAF Sensor Calculations.&nbsp; See Figure 2.
 
 
-![Image](</lib/Untitled70.png>)
+![Image](</img/Untitled70.png>)
 
 **Figure 2. Final Mass values (Fuel and Air) shown in red box.**
 
@@ -93,7 +93,7 @@ The Final Air and Fuel Mass used by the ECU can be viewed from the Runtime menu 
 To configure the Fuel Model select the appropriate method from the&nbsp; **Config View -\> Fuel -\> Fuel Main -\> Fuel Model Setup**
 
 
-![Image](</lib/NewItem184.png>)
+![Image](</img/NewItem184.png>)
 
 
 ***
@@ -105,7 +105,7 @@ To configure the Fuel Model select the appropriate method from the&nbsp; **Confi
 There are additional Tables available to modify the Air Mass and Fuel Mass if required. These can be switching ON from **Tuning View -\> Fuel Table Control -\> Mass Modifier Tables**. See Figure 3.
 
 
-![Image](</lib/Untitled78.png>)
+![Image](</img/Untitled78.png>)
 
 
 **Figure 3: Mass Modifier Tables**

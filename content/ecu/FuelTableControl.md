@@ -21,14 +21,14 @@ Or a user defined blend across tables based on specified parameters.
 This allows a user defined level of complexity&nbsp;
 
 
-![Image](</lib/Fuel Table cont 3.jpg>)
+![Image](</img/Fuel Table cont 3.jpg>)
 
 Main VE Fuel Table Control Tab shown as an example.
 
 
 This level of complexity flexibility is common to all fuel control tables.
 
-![Image](</lib/Fuel Table cont 23.jpg>)&nbsp;
+![Image](</img/Fuel Table cont 23.jpg>)&nbsp;
 
 
 **Compensation Tables:**
@@ -43,5 +43,5 @@ More commonly used compensations are already named \& linked to their specific p
 With 2 additional User Comp tables where all parameters are defined by the user.
 
 
-![Image](</lib/Fuel Comp1.jpg>)
+![Image](</img/Fuel Comp1.jpg>)
 

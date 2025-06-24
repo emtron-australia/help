@@ -5,10 +5,10 @@ title: "Decel Sens Table"
 **Decel Sens Table**
 
 
-![Image](</lib/Z Axis45.jpg>)
+![Image](</img/Z Axis45.jpg>)
 
 
-![Image](</lib/Z Axis46.jpg>)
+![Image](</img/Z Axis46.jpg>)
 
 
 The Decel Sensitivity Table is the multiplication factor as a percentage of fuel removed, based on the rate of change of the Accel/Decel mode&nbsp;

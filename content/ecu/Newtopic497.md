@@ -5,7 +5,7 @@ title: "Sequential Addressing"
 Many CAN data sets in the ECU use a sequential addressing approach. This simply means that each message is on an ID that is some offset from the "Base Address".
 
 
-![Image](</lib/NewItem994.png>)
+![Image](</img/NewItem994.png>)
 
 
 In the above example, Pre-defined Tx Set 1 send it's first frame on ID 1250. The whole data set contains 10 frames. They're sent out incrementally from 1250.

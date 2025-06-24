@@ -5,7 +5,7 @@ title: "Overrun Boost (Anti Lag)"
 The Overrun Boost (ORB) or Anti-Lag System (ALS) can be switched ON using this menu.&nbsp;
 
 
-![Image](</lib/NewItem36.png>)
+![Image](</img/NewItem36.png>)
 
 
 Currently Only Mode 1 is available.&nbsp;

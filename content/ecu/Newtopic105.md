@@ -5,4 +5,4 @@ title: "File"
 **Emtune Main File Menu**&nbsp;
 
 
-![Image](</lib/File 12.jpg>)
+![Image](</img/File 12.jpg>)

@@ -5,7 +5,7 @@ title: "Idle Ignition Lockouts"
 **Idle Ignition Lockouts**
 
 
-![Image](</lib/Idle Ignition 3.jpg>)
+![Image](</img/Idle Ignition 3.jpg>)
 
 
 **TP1/PP1 Lockout**

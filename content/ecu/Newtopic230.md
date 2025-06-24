@@ -5,10 +5,10 @@ title: "Decel Clamp Table"
 **Decel Clamp Table**
 
 
-![Image](</lib/Z Axis44.jpg>)
+![Image](</img/Z Axis44.jpg>)
 
 
-![Image](</lib/Z Axis43.jpg>)
+![Image](</img/Z Axis43.jpg>)
 
 
 The Decel Clamp Compensation Table limits the maximum amount of PW reduction (percentage vs calculated PW) allowed by decel fuel. &nbsp;

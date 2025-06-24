@@ -10,7 +10,7 @@ title: "Logging"
 
 From the Welcome Screen, you can Open Log directly from there.&nbsp; This will open the software in a limited viewing mode where the logging view is only available. &nbsp;
 
-![Image](</lib/NewItem777.png>)
+![Image](</img/NewItem777.png>)
 
 
 
@@ -29,7 +29,7 @@ Select "Manage Log Files" or press hotkey (F7)
 Use the file menu to open PC/ECU Log file (".elf" files) and they will populate the log manager list so you can easily switch between log files
 
 
-![Image](</lib/NewItem778.png>)
+![Image](</img/NewItem778.png>)
 
 
 **PC Logging**
@@ -40,7 +40,7 @@ PC logging allows the ECU to record all channels available with the PC (at mediu
 
 Starting and stopping a PC log is done either in logging tab by clicking "PC Logger Start (F8)", or just by simply pressing "F8" key on the PC.&nbsp; Logging will confirm recording has begun on the bottom left with a Blue confirmation&nbsp;
 
-![Image](</lib/NewItem821.png>)
+![Image](</img/NewItem821.png>)
 
 
 \*\* All PC logs will auto save to your hard drive under the specified paths (File -\> Options)
@@ -48,7 +48,7 @@ Starting and stopping a PC log is done either in logging tab by clicking "PC Log
 
 When stopping the PC log, the ECU will direct you into the logging view (can be turned off - set ON by default)
 
-![Image](</lib/NewItem822.png>)
+![Image](</img/NewItem822.png>)
 
 
 
@@ -62,7 +62,7 @@ Use the file menu to save PC/ECU Log file (".elf" files) and they will populate 
 
 \*\* Double click the log file you want to save in a new location&nbsp;
 
-![Image](</lib/NewItem820.png>)
+![Image](</img/NewItem820.png>)
 
 &nbsp; &nbsp; \* PC Logs will auto save to your hard drive under the specified paths (File -\> Options)
 
@@ -74,13 +74,13 @@ Use the file menu to save PC/ECU Log file (".elf" files) and they will populate 
 With two or more log files in the log manager, Select the second log file and click "Toggle Log Overlay"
 
 
-![Image](</lib/NewItem779.png>)
+![Image](</img/NewItem779.png>)
 
 
 The overlay offset can be entered in, however inside the logger once the Log Manager is closed, hot keys can be used to shift the log view around&nbsp;
 
 
-![Image](</lib/NewItem780.png>)
+![Image](</img/NewItem780.png>)
 
 
 \*\* Right Clicking the logging area will show all hot keys available
@@ -98,7 +98,7 @@ Under the "View" tab, all management of the logging layout can be configured.&nb
 \*\* New Emtune version installations will ask you to overwrite the logging layout&nbsp;
 
 
-![Image](</lib/NewItem781.png>)
+![Image](</img/NewItem781.png>)
 
 
 **Setting up Graphs**
@@ -109,7 +109,7 @@ Right clicking in the page, then clicking Setup Graphs brings up the menu choice
 Choose your channels, min/max scales for each channel, what channel ultimately you want on your Y-Axis label
 
 
-![Image](</lib/NewItem782.png>)
+![Image](</img/NewItem782.png>)
 
 
 
@@ -124,7 +124,7 @@ There are also correction and filter settings that can further customize the XY 
 \*\* XY Plot Correction is covered in a different section
 
 
-![Image](</lib/NewItem783.png>)
+![Image](</img/NewItem783.png>)
 
 
 

@@ -16,7 +16,7 @@ The following steps should be used to configure the Idle Speed control system to
 Select either DBW 1 TMF or DBW 1 + 2 TMF
 
 
-![Image](</lib/Untitled215.png>)
+![Image](</img/Untitled215.png>)
 
 
 
@@ -30,7 +30,7 @@ Select either DBW 1 TMF or DBW 1 + 2 TMF
 3. Configure the Throttle Mass Flow model using the menu: Tuning -\> Engine Function -\> Throttle Body&nbsp; Model -\> Throttle Mass Flow Setup
 
 
-![Image](</lib/Untitled219.png>)
+![Image](</img/Untitled219.png>)
 
 
 **Step 1-** Select the throttle mass flow enable type that is applicable to your configuration. Example: ON x 1 DBW Throttle Body
@@ -52,7 +52,7 @@ Select either DBW 1 TMF or DBW 1 + 2 TMF
 &nbsp; &nbsp; &nbsp; Other more complicated methods are also available for advanced users..
 
 
-![Image](</lib/Untitled217.png>)
+![Image](</img/Untitled217.png>)
 
 
 **Step 3.** Set the Throttle 1 After Plate Pressure source. This is normally the MAP sensor
@@ -70,6 +70,6 @@ Repeat for Throttle 2 if applicable&nbsp;
 5. Confirm the Throttle Mass Flow calculations are operating, the data can be viewed from the Runtime menu (F3) -\> Engine Data Calculated tab
 
 
-![Image](</lib/Untitled221.png>)
+![Image](</img/Untitled221.png>)
 
 

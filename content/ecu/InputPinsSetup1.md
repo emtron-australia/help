@@ -11,7 +11,7 @@ There are two main groups of Input Setup Type - Analog Inputs and Digital Inputs
 **Analog Inputs**
 
 
-![Image](</lib/NewItem729.png>)
+![Image](</img/NewItem729.png>)
 
 Above example shows Manifold Pressure Sensor channel. &nbsp;
 
@@ -104,13 +104,13 @@ Off
 Some major sensor inputs (MAP, TPS, etc) have the ability to enable "Fault Table", where in fault mode, substitute values can be more than one value. &nbsp;
 
 
-![Image](</lib/NewItem730.png>)
+![Image](</img/NewItem730.png>)
 
 
 When enabling Fault Table, Fault Value becomes inactive.&nbsp; Clicking Edit Fault Table gives the user a larger table to add more than one value for substitute values
 
 
-![Image](</lib/NewItem731.png>)
+![Image](</img/NewItem731.png>)
 
 Axis for table is open, and as an example you can see for MAP substitute values, the axis is selected to look at TPS vs RPM
 
@@ -118,7 +118,7 @@ Axis for table is open, and as an example you can see for MAP substitute values,
 **Digital Inputs**
 
 
-![Image](</lib/NewItem732.png>)![Image](</lib/NewItem733.png>)
+![Image](</img/NewItem732.png>)![Image](</img/NewItem733.png>)
 
 Above examples show a Brake Switch Input and wheel speed input
 

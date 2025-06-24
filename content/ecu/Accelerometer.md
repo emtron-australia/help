@@ -25,14 +25,14 @@ Other features include:
 The digram below shows the orientation of each ECU axis.
 
 
-![Image](</lib/KV8\_white\_inc.jpg>)
+![Image](</img/KV8\_white\_inc.jpg>)
 
 
 
 The digram below shows the orientation of each axis reference from the vehicle.
 
 
-![Image](</lib/g-force axis diection.jpg>)
+![Image](</img/g-force axis diection.jpg>)
 
 
 The ECU allows each vehicle axis to be assigned to an ECU axis (X,Y,Z) .&nbsp; For example the Longitudinal Axis can be assigned to the ECUs X or Y or Z axis. This allows the ECU to be mounted at any position/orientation within the car.

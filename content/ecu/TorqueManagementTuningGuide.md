@@ -36,7 +36,7 @@ The main reason for this is the Throttle Body Area as calculated is the governin
 There are a number of "calculated" torque channels that the ECU will produce. &nbsp;
 
 
-![Image](</lib/NewItem798.png>)
+![Image](</img/NewItem798.png>)
 
 These channels can be viewed in Runtimes (F3), under the "Torque Tab".&nbsp;
 

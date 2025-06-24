@@ -27,7 +27,7 @@ Retarding ignition timing, cutting, or throttle area vs torque reduction % will 
 There are 3 different Launch RPM Torque Modes that can be selected in Launch Control Setup (See Launch Control Setup).&nbsp;
 
 
-![Image](</lib/NewItem888.png>)
+![Image](</img/NewItem888.png>)
 
 
 Option 0:&nbsp; RPM control using Throttle Mass Flow + Retard.&nbsp;
@@ -56,7 +56,7 @@ The channel correlates to how much retard will be applied vs the amount of Torqu
 This is a global function of the ECU, which is why it is under the Torque Management section.&nbsp; &nbsp;
 
 
-![Image](</lib/NewItem727.png>)
+![Image](</img/NewItem727.png>)
 
 \*\* Warning - The maximum value in this table (at 100% %Torque Reduction – Retard), must be at a higher value than the Static/Moving Ignition Retard Clamp
 

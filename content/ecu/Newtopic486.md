@@ -17,7 +17,7 @@ There are pre-defined Math Functions that can be selected, in which the Maths Fu
 **Derivative Speed Example**
 
 
-![Image](</lib/NewItem789.png>)
+![Image](</img/NewItem789.png>)
 
 
 
@@ -26,14 +26,14 @@ The example above is showing how the derivative math function can be used to cre
 Once created, the channel can be selected in the logger, live dash, or programmed as a Set Cell Value (Q). &nbsp;
 
 
-![Image](</lib/NewItem788.png>)
+![Image](</img/NewItem788.png>)
 
 
 
 **Simple Channel Re-naming**&nbsp;
 
 
-![Image](</lib/NewItem906.png>)
+![Image](</img/NewItem906.png>)
 
 
 The example above is showing how the User Pressure 2 channel name is being converted to a name that can be easily displayed. &nbsp;
@@ -51,7 +51,7 @@ The Exponential Filter math function is being used (a math channel MUST be selec
 In some cases, channels may need re-naming, but also an offset applied to them.&nbsp; Most commonly if a sensor needs a simple way to "zero" it's value.&nbsp; Instead of re-scaling the sensor in the sensor input every single time, this can be done in the calculated channels. &nbsp;
 
 
-![Image](</lib/NewItem907.png>)
+![Image](</img/NewItem907.png>)
 
 
 A User Position is set up here for a rear shock sensor.
@@ -59,7 +59,7 @@ A User Position is set up here for a rear shock sensor.
 The voltage range represents it's complete range (0-250mm)
 
 
-![Image](</lib/NewItem908.png>)
+![Image](</img/NewItem908.png>)
 
 
 The calculated channel is created using the "sum" Math Function.&nbsp;

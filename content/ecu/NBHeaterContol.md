@@ -5,7 +5,7 @@ title: "Lambda NB Sensor Heater Control"
 The Narrow Band Oxygen Sensor heater can be controlled using either switched or PWM mode. The method of control is adjusted from the Config View, Function Setup menu.&nbsp;
 
 
-![Image](</lib/Untitled8.jpg>)
+![Image](</img/Untitled8.jpg>)
 
 
 **Switched Mode**
@@ -32,7 +32,7 @@ The Narrow Band Oxygen Sensor heater can be controlled using either switched or 
 * The setup is complete. Now move to the tuning view.
 
 
-![Image](</lib/NewItem26.png>)
+![Image](</img/NewItem26.png>)
 
 
 * In the tuning view select Engine Functions -\> Narrow Band Heater 1 Table. This table now controls to switching of Auxiliary 4 and in turn controls the Lambda Heater.
@@ -50,7 +50,7 @@ The Narrow Band Oxygen Sensor heater can be controlled using either switched or 
 
 
 
-&nbsp;![Image](</lib/Untitled12.jpg>)
+&nbsp;![Image](</img/Untitled12.jpg>)
 
 
 
@@ -66,7 +66,7 @@ The Narrow Band Oxygen Sensor heater can be controlled using either switched or 
 * The setup is complete. Now move to the tuning view.
 
 
-![Image](</lib/NewItem27.png>)
+![Image](</img/NewItem27.png>)
 
 
 * In the tuning view select Engine Functions -\> Narrow Band Heater 1 Table. This table now controls the **Duty Cycle** applied to Auxiliary 4 and in turn controls the Lambda Heater
@@ -83,7 +83,7 @@ The Narrow Band Oxygen Sensor heater can be controlled using either switched or 
 &nbsp; &nbsp; Table value of 30%&nbsp; &nbsp; = 30% Duty Cycle
 
 
-![Image](</lib/Untitled14.jpg>)
+![Image](</img/Untitled14.jpg>)
 
 
 

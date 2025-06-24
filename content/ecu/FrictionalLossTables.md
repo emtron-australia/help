@@ -6,7 +6,7 @@ title: "Frictional Loss Tables"
 
 
 
-![Image](</lib/Untitled279.jpg>)
+![Image](</img/Untitled279.jpg>)
 
 
 The engine torque produced by combustion is calculated by the ECU and referred to as “Ideal” Engine Torque.  The moving parts within the engine have mass and are subject to frictional losses and therefore limit the actual torque available. As such, the estimate of torque required to overcome this drag effect is called Frictional Loss. This estimate is found in the Frictional Loss Table in units of Nm.  A default table is provided as a guide to be adjusted (See below)
@@ -14,7 +14,7 @@ The engine torque produced by combustion is calculated by the ECU and referred t
 These internal torque losses are mainly influenced by the cylinder count i.e. the more cylinders you have, the more moving parts and therefore more friction \& the more parasitic loss of torque.&nbsp;
 
 
-![Image](</lib/Torque man 10.jpg>)
+![Image](</img/Torque man 10.jpg>)
 
 
 **Calibrating Frictional Loss**&nbsp;
@@ -30,7 +30,7 @@ The engine must be actually mapped and calibrated before editing this table. An 
 
 
 
-![Image](</lib/Untitled280.jpg>)
+![Image](</img/Untitled280.jpg>)
 
 
 # Frictional Loss Offset Tables
@@ -39,6 +39,6 @@ The engine must be actually mapped and calibrated before editing this table. An 
 There are two (2) tables that allow offsetting of the frictional loss.&nbsp; One typical example will be adjusting the loss based on oil temperature.&nbsp;
 
 
-![Image](</lib/Untitled178.png>)
+![Image](</img/Untitled178.png>)
 
 

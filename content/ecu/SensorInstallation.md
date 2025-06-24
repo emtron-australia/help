@@ -15,7 +15,7 @@ The angle against the exhaust gas stream should be aimed as 90°. Maximum inclin
 
 
 
-![Image](</lib/NewItem327.png>)
+![Image](</img/NewItem327.png>)
 
 
 Also route the sensor cable to avoid high moisture locations – just a small amount of moisture is enough to provide a conductive path within the connector that will upset measurement from the sensor.&nbsp;

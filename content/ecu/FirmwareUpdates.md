@@ -109,12 +109,12 @@ title: "Firmware Release Notes"
 * G-Speed latching feature for rolling start calculations&nbsp;
 * Added generic wheel speed inputs with filtering tables and assignable channels **- Wheel Speed Input setup has changed and will require reconfiguration**
 
-![Image](</lib/NewItem951.png>)
+![Image](</img/NewItem951.png>)
 
 **Unfiltered Drive Speed**
 
 
-![Image](</lib/NewItem950.png>)
+![Image](</img/NewItem950.png>)
 
 **Filtered Drive Speed**
 
@@ -168,7 +168,7 @@ title: "Firmware Release Notes"
 
 1. Throttle Mass Flow calculation upgrade to Version 1.1. For tuning consistency the user can select the previous V1.0 or transition to the new V1.1. See Engine Functions -\> Throttle Body Model -\> Throttle Mass Flow Setup.&nbsp;
 
-![Image](</lib/Help23.png>)
+![Image](</img/Help23.png>)
 
 
 &nbsp;&nbsp; &nbsp; TMF V1.1 improvements available on ECU Firmware 2.18.0 or later:
@@ -189,7 +189,7 @@ title: "Firmware Release Notes"
 
 2. Lambda Sensor ADV 4.9 now supported.
 
-&nbsp;![Image](</lib/Help1.png>)
+&nbsp;![Image](</img/Help1.png>)
 
 3. Manifold Pressure Sensor Calibration added
 3. Flame function added&nbsp;
@@ -233,7 +233,7 @@ title: "Firmware Release Notes"
 
 1. Engine Speed Limit 1 now has the option to be Torque controlled. The ECU will target a user feed-forward Torque (Torque Target), then apply closed loop PID control to reach the Target RPM,&nbsp; finally converting Torque into a %Engine Fuel or Ignition Cut.&nbsp; See Config View -\> Engine Functions -\> RPM Limit 1
 
-![Image](</lib/Untitled242.png>)
+![Image](</img/Untitled242.png>)
 
 
 
@@ -245,13 +245,13 @@ title: "Firmware Release Notes"
 
 3. Torque based Launch Control. Three new Torque based launch strategies have been added giving significant improvement to engine speed control by precisly controlling the engines torque during the static and moving phases of Launch Control.&nbsp; ECU will target a user feed-forward Torque (Torque Target), then apply closed loop PID control to reach the Target Launch RPM,&nbsp; finally achieving the Torque Target by Throttle Plate control, or/and Ignition Retard or/and %Engine Cutting. The following modes are available, for more information please refer to the help.&nbsp;
 
-![Image](</lib/Untitled244.png>)
+![Image](</img/Untitled244.png>)
 
 
 
 4. Multi-tooth Trigger mode as a new Gap Detection option for engines that exhibit rapid acceleration/deceleration&nbsp; (engines with light flywheels and/or big camshafts)
 
-![Image](</lib/Untitled240.png>)
+![Image](</img/Untitled240.png>)
 
 
 5. Can-Am Application Build including full OEM CAN Integration&nbsp;
@@ -263,7 +263,7 @@ title: "Firmware Release Notes"
 
 8. New CAN Bus predefined Datasets available for the new Emtron Display
 
-![Image](</lib/Untitled245.png>)
+![Image](</img/Untitled245.png>)
 
 
 9. &nbsp;
@@ -311,7 +311,7 @@ title: "Firmware Release Notes"
 2. Sensor Ratiometric Correction added to selected Input Channels. This allows the ECU to correct a sensors output based on its supply voltage. The Manifold Pressure input channel example is shown below.
 
 
-![Image](</lib/Untitled225.png>)
+![Image](</img/Untitled225.png>)
 
 
 &nbsp;Click this link to download more information: Ratiometric Correction Download
@@ -359,7 +359,7 @@ title: "Firmware Release Notes"
 1. ECU Application Builds are now available. These are primarily OEM integration builds and can be installed into any ECU.&nbsp; Builds can be installed using the File -\> Build Management menu when available. Individual Application Build documentation will be available from the website. Currently the follow Build options are available:
 
 
-![Image](</lib/Untitled205.png>)
+![Image](</img/Untitled205.png>)
 
 
 2. Completed Nissan Patrol Y61 Application Build. This build allows unique application specific firmware to be installed into the ECU.&nbsp; The Y61 build includes the following:
@@ -381,7 +381,7 @@ title: "Firmware Release Notes"
     * Upshift Rev-match Max %Cut
     * Upshift Rev-match Cut Type&nbsp;
 
-&nbsp; &nbsp; ![Image](</lib/Untitled207.png>)
+&nbsp; &nbsp; ![Image](</img/Untitled207.png>)
 
 
 
@@ -403,7 +403,7 @@ title: "Firmware Release Notes"
 
 **NOTE: The "DBW Response Time" will need to be initialised after the firmware update. Recommended starting value is 8ms.**
 
-![Image](</lib/Untitled206.png>)
+![Image](</img/Untitled206.png>)
 
 
 
@@ -415,7 +415,7 @@ b) The DBW Target Filter has been converted into a digital Low Pass Filter with 
 
 **&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Recommended starting value is 15ms**
 
-![Image](</lib/Untitled208.png>)
+![Image](</img/Untitled208.png>)
 
 
 
@@ -432,7 +432,7 @@ b) The DBW Target Filter has been converted into a digital Low Pass Filter with 
 
 7. Added new Knock runtime Status "Knock Count Change Status". When the Knock Counter increments the Status turns to ON indicating there has been a Knock event. The Status will switch to OFF once all Knock events have stopped(counter stops incrementing). This Status is available in the User Channels and can be setup to control an external Knock warning system.&nbsp;
 
-![Image](</lib/Untitled172.png>)
+![Image](</img/Untitled172.png>)
 
 
 &#56;.&nbsp; &nbsp; Cruise Control update for Nissan R35 Plugin ECU
@@ -482,7 +482,7 @@ b) The DBW Target Filter has been converted into a digital Low Pass Filter with 
 
 &#53;) TMF Idle Speed Control - Idle to Pedal Crossover point is now adjustable.&nbsp;
 
-![Image](</lib/Untitled163.png>)
+![Image](</img/Untitled163.png>)
 
 
 &#54;) DTC Codes added for:
@@ -535,7 +535,7 @@ the correct throttle area for a given flow target (g/s) &nbsp;
 **NOTE: Please check and initialise this setting after the firmware update.**&nbsp; **Use the sample file for base settings.**
 
 
-![Image](</lib/Untitled152.png>)
+![Image](</img/Untitled152.png>)
 
 
 
@@ -550,37 +550,37 @@ can be used to span the Pedal to Throttle Demand Translation tables. For more He
 **NOTE: Please check and initialise this setting after the firmware update. Use the sample file for base settings.**
 
 
-![Image](</lib/Untitled154.png>)
+![Image](</img/Untitled154.png>)
 
 
 
 
 &#54;)&nbsp; AC Clutch Startup and RPM Lockouts added.&nbsp; **NOTE**: These will need to be initialized and set correctly&nbsp;
 
-![Image](</lib/Untitled153.png>)
+![Image](</img/Untitled153.png>)
 
 
 &#55;) Differential Control Override option added.
 
-![Image](</lib/Untitled155.png>)
+![Image](</img/Untitled155.png>)
 
 
 The Function status will update when this mode is active:
 
-![Image](</lib/Untitled156.png>)
+![Image](</img/Untitled156.png>)
 
 
 
 &#56;)&nbsp; Transmission Brake Bump PWM mode added. When the frequency of the Trans-brake solenoid is set to greater than 0Hz, the Bump function will modulate the solenoid at the duty cycle entered into the "transmission Brake&nbsp; Bump %DC Table"&nbsp;
 
 
-![Image](</lib/Untitled157.png>)
+![Image](</img/Untitled157.png>)
 
 
 &#57;) User Outputs On/Off Status can be selected as the Source Input for a digital Input Switch. Below picture shows Use Output 10 as the source Inputs for the Traction Enable Switch. When User 10 Output is ON, the Traction Switch will be ON
 
 
-![Image](</lib/Untitled158.png>)
+![Image](</img/Untitled158.png>)
 
 
 &#49;0) Added Fuel Tank 2 Level, Input Channel.
@@ -608,7 +608,7 @@ The Function status will update when this mode is active:
 &#49;) Added Boost Control Solenoid Deadtime Table to help linearise the boost solenoid(s) response. A "Boost Solenoid Deadtime" runtime has been added converting ms into %DC.
 
 
-![Image](</lib/Untitled129.png>)
+![Image](</img/Untitled129.png>)
 
 
 &#50;)&nbsp; Two new calculated runtime added:
@@ -618,7 +618,7 @@ The Function status will update when this mode is active:
   * Clutch Slip (Calculated). This is Clutch Slip based on Engine Speed and Input Shaft Speed (Calc)
 
 
-![Image](</lib/Untitled130.png>)'
+![Image](</img/Untitled130.png>)'
 
 
 
@@ -634,14 +634,14 @@ Key features:
 
 NOTE: g/s = lb/hr x 0.12599
 
-![Image](</lib/Untitled131.png>)
+![Image](</img/Untitled131.png>)
 
 
 * &nbsp;
   * Delivery Delay table defines the time for the Nitrous the travel from the solenoid to Nozzle when the solenoid is first turned ON. This includes the solenoid deadtime and transport delay.
   * Ignition Retard is done using a&nbsp; 3D table and spanning one axis from Total Nitrous Flow .. the more flow the more retard can be applied. &nbsp;
 
-&nbsp; &nbsp; &nbsp; ![Image](</lib/Untitled132.png>)
+&nbsp; &nbsp; &nbsp; ![Image](</img/Untitled132.png>)
 
 
 * &nbsp;
@@ -657,19 +657,19 @@ NOTE: g/s = lb/hr x 0.12599
 
 &#52; = Stage 4 ON
 
-![Image](</lib/Untitled133.png>) &nbsp; &nbsp;
+![Image](</img/Untitled133.png>) &nbsp; &nbsp;
 
 
 * &nbsp;
   * Comprehensive list of Nitrous runtimes under the Runtime menu -\> Motorsport 1 Tab
 
-![Image](</lib/Untitled134.png>)
+![Image](</img/Untitled134.png>)
 
 
 * &nbsp;
   * Nitrous Torque data has been added. For Gain control see the menu: Engine Functions -\> Torque Management -\> Engine Torque Setup.
 
-![Image](</lib/Untitled135.png>)
+![Image](</img/Untitled135.png>)
 
 
 
@@ -678,7 +678,7 @@ NOTE: g/s = lb/hr x 0.12599
 
 &#53;) Pedal and DBW Servo Position Error Tracking Threshold is now adjustable.
 
-![Image](</lib/Untitled136.png>)&nbsp;
+![Image](</img/Untitled136.png>)&nbsp;
 
 
 &#54;) Added more options to the&nbsp; "Reset Fuel Used " and "Reset Distance" settings.&nbsp;
@@ -712,7 +712,7 @@ NOTE: g/s = lb/hr x 0.12599
   * Fuel Model: Expansion Ratio. Option 3 has been added. "ON - EMAP Sensor 1/2&nbsp; AVG "
   * Internal Lambda Pressure Correction. More options have been added so Bank Lambda Pressure correction can be setup. The Options are: OFF, Exh Press 1, Exh Press 2, Exh Press Avg
 
-![Image](</lib/Untitled142.png>)
+![Image](</img/Untitled142.png>)
 
 
 Also the La Pressure Correction Rich/Lean Tables should be spanned using the new runtime " Exhaust Pressure Shared".&nbsp; This will allow the ECU to internally manage the axis parameter (Exh Press 1 or 2) based
@@ -720,13 +720,13 @@ Also the La Pressure Correction Rich/Lean Tables should be spanned using the new
 on the user settings. There are new Pressure Correction runtimes for each channel as shown below.
 
 
-![Image](</lib/Untitled137.png>)
+![Image](</img/Untitled137.png>)
 
 
 
 &#49;1) The RPM/Speed calculation used for Gear Position now has OutputShaft as a speed option (ie RPM/Output Shaft)&nbsp;
 
-&nbsp; &nbsp; ![Image](</lib/Untitled138.png>)
+&nbsp; &nbsp; ![Image](</img/Untitled138.png>)
 
 
 &#49;2) Wastegate Position 1 and 2 added with the option of % or cm for units. See Turbo Dynamics Tab on the Config View.
@@ -738,7 +738,7 @@ on the user settings. There are new Pressure Correction runtimes for each channe
   * Pump Bleed Override
   * Retry system allowing the ECU to restart the Pump in the event of a Timeout Condition (ie Pump could not reach Target Pressure)&nbsp;
 
-![Image](</lib/Untitled140.png>)
+![Image](</img/Untitled140.png>)
 
 
 
@@ -751,7 +751,7 @@ on the user settings. There are new Pressure Correction runtimes for each channe
 &#49;6) Traction Control has a new "Traction Control State" runtime that indicates when TC is working (shows OFF or ON) . So for example a User Channel could be configured to switch an output when the status shows ON. (Traction Control Light)
 
 
-![Image](</lib/NewItem172.png>)
+![Image](</img/NewItem172.png>)
 
 
 &#49;7)&nbsp; New Runtime: Outputshaft Speed "Ideal" . See Vehicle Functions -\> Vehicle Dynamics menu.
@@ -760,7 +760,7 @@ on the user settings. There are new Pressure Correction runtimes for each channe
 It is normally used to drag applications and represents the "ideal" or "target" Outputshaft Speed for a run. The ECU can then generated a %Output Slip based on this value and the actual Outputshaft speed. This %Output Slip can then be applied to the Traction Control system.
 
 
-![Image](</lib/Untitled143.png>)
+![Image](</img/Untitled143.png>)
 
 
 
@@ -770,7 +770,7 @@ It is normally used to drag applications and represents the "ideal" or "target" 
 &#49;9) New Traction Control mode : "%Slip (Outputshaft Speed)&nbsp;
 
 
-![Image](</lib/Untitled144.png>)
+![Image](</img/Untitled144.png>)
 
 
 
@@ -788,7 +788,7 @@ See Vehicle Functions -\> Vehicle Dynamics menu -\>Inputshaft Speed Calculated m
 &#50;3) Custom DBW 2 PID settings. These can be enabled from the DBW PID Setup menu.
 
 
-![Image](</lib/Untitled145.png>)
+![Image](</img/Untitled145.png>)
 
 
 
@@ -803,7 +803,7 @@ Example: During a 2rd to 3rd shift the Gear Detection Voltage channel will show 
 * &nbsp;
   * Upshift Cut tables have been separated out into Ignition and Fuel allowing more flexibility around cut strategies.&nbsp;
 
-![Image](</lib/Untitled149.png>)
+![Image](</img/Untitled149.png>)
 
 * &nbsp;
   * Rev-Match Calculation updated during the entire Up/Downshift event.&nbsp;
@@ -816,19 +816,19 @@ Example: Upshift from 2nd to 3rd. 2nd = 2.45V, 3rd = 3.15V. During an Upshift ev
 This information can be used for advanced Gearshift Control Strategies.
 
 
-![Image](</lib/Untitled146.png>)
+![Image](</img/Untitled146.png>)
 
 
 * &nbsp;
   * "Rev-match Control Range" settings added for both Upshift and Downshift.
 
-![Image](</lib/Untitled148.png>)
+![Image](</img/Untitled148.png>)
 
 
 * &nbsp;
   * Downshift Rev-match Timeout setting added&nbsp;
 
-![Image](</lib/Untitled151.png>)
+![Image](</img/Untitled151.png>)
 
 
 **Fixes/Improvements**
@@ -866,11 +866,11 @@ As TMF is a more effective way to manage the engine as high pressure ratio acros
 See Config view -\> Channels -\> Calculated Runtimes
 
 
-![Image](</lib/NewItem167.png>)
+![Image](</img/NewItem167.png>)
 
 
 
-![Image](</lib/NewItem168.png>)
+![Image](</img/NewItem168.png>)
 
 
 &#50;) Two new Fuel Models have been added allowing the MAP Modelled runtime to be used. These are:
@@ -887,7 +887,7 @@ See Config view -\> Channels -\> Calculated Runtimes
 &#51;) Options have been added to the Efficient and Load runtime options to account for the new MAP Modelled runtime.
 
 
-![Image](</lib/NewItem169.png>)
+![Image](</img/NewItem169.png>)
 
 
 &#52;) "Injector Nozzle Ref Pressure" setting has added to Fuel Main setup menu. This is used by the Fuel Pressure correction allowing the ECU to accurately determine Injector Nozzle Pressure.
@@ -896,14 +896,14 @@ See Config view -\> Channels -\> Calculated Runtimes
 **NOTE: Please check after the firmware update.**
 
 
-![Image](</lib/Untitled127.png>)
+![Image](</img/Untitled127.png>)
 
 
 
 &#53;) DBW Position feedback and Throttle Position inputs have been separated. The DBW Position feedback is now called "DBW  Servo Position Main/Sub". &nbsp;
 
 
-![Image](</lib/NewItem170.jpg>)
+![Image](</img/NewItem170.jpg>)
 
 
 **NOTE: If DBW is enabled please check these setting after the firmware update. In most situations the ECU will copy the Throttle Position Input channels settings into the new DBW Servo Position Main/Sub settings**
@@ -919,7 +919,7 @@ See Config view -\> Channels -\> Calculated Runtimes
 **NOTE: Please check this after the firmware update.**
 
 
-![Image](</lib/Untitled128.png>)
+![Image](</img/Untitled128.png>)
 
 
 &#55;) Engine decoding added
@@ -981,7 +981,7 @@ The Throttle Area to Throttle Position correlation table can be located in Engin
 **\*\*\* Please initialise/check this settings after the firmware update .\*\*\***
 
 
-![Image](</lib/Untitled211.png>)
+![Image](</img/Untitled211.png>)
 
 
 
@@ -1008,7 +1008,7 @@ The Throttle Area to Throttle Position correlation table can be located in Engin
 * &nbsp;
   * **Engine Torque = Ideal Torque - Frictional Loss**. Frictional Loss is an estimate of torque required to overcome engine friction. Make sure the Frictional loss table has been initialised correctly. If required import this table from the KV Sample file.
 
-![Image](</lib/Untitled125.png>)
+![Image](</img/Untitled125.png>)
 
 
 * &nbsp;
@@ -1022,7 +1022,7 @@ The Throttle Area to Throttle Position correlation table can be located in Engin
 * &nbsp;
   * A 2D table has been added to adjusted the Torque calculated by the ECU if required. See Tuning View -\>&nbsp; Torque Management -\> Engine Torque Ideal Correction Table. The Default values should be 1.000 and the x-axis. spanned using "Modelled Air Mass". The table allows a percentage correction based on Modelled Air Mass.
 
-![Image](</lib/Untitled210.png>)
+![Image](</img/Untitled210.png>)
 
 
 
@@ -1048,14 +1048,14 @@ The Throttle Area to Throttle Position correlation table can be located in Engin
 &nbsp; &nbsp; See Runtime menu -\> Calculated&nbsp; tab.
 
 
-&nbsp;&nbsp; &nbsp; &nbsp; ![Image](</lib/Untitled122.png>)
+&nbsp;&nbsp; &nbsp; &nbsp; ![Image](</img/Untitled122.png>)
 
 
 
 &#52;) A Charge Temperature Offset Table has been added. This can be used to offset the Charge Temperature. This offset should be applied to compensate for the charge cooling due to the latent heat properties in the fuel charge.&nbsp; Some fuels (such as Methanol) have an extremely high latent heat capacity &nbsp; Other factors such as Stoichiometric Ratio will influence the charge temperature. See Fuel -\> Compensations.
 
 
-![Image](</lib/Untitled124.png>)
+![Image](</img/Untitled124.png>)
 
 
 &#53;) Boost Control Target can be selected as Absolute or Gauge. **NOTE**: The ECU will always generate the final Boost Target as Absolute value.
@@ -1091,20 +1091,20 @@ Barometric Pressure of 80kPa. ECU Boost Target will be 230kPa, boost pressure in
 &#55;) Air Mass data now always displayed for any Load Input channel (MAP and MAF). See Runtime menu -\> Engine Sensors Tab.
 
 
-![Image](</lib/Untitled119.png>)
+![Image](</img/Untitled119.png>)
 
 
 &#56;) Final Air/Fuel Mass data for single and banked Fuel Models displayed in the Runtime menu -\> Fuel&nbsp; Tab.
 
 
-![Image](</lib/Untitled121.png>)
+![Image](</img/Untitled121.png>)
 
 
 
 &#57;) Fuel Model. Option 4 has been changed from "Blend MAP + MAF" to "Blend Modelled MAP + MAF". Modelled MAP can be generated by the tuner using different sensors and gives greater tuning flexibility.
 
 
-![Image](</lib/Untitled126.png>)
+![Image](</img/Untitled126.png>)
 
 
 
@@ -1120,7 +1120,7 @@ Barometric Pressure of 80kPa. ECU Boost Target will be 230kPa, boost pressure in
 &#49;4) Added Dual Boost Control(Bank control). This option allows x2 individual Boost Control functions to operate using 2 different MAP pressure source inputs. Normally used to control boost pressure independently on each engine bank when there is no common plenum. New run times provide PID and duty cycle data for the 2nd Boost Control function.
 
 
-![Image](</lib/Untitled117.png>)
+![Image](</img/Untitled117.png>)
 
 
 
@@ -1153,20 +1153,20 @@ Input "Manifold Pressure - Bank 1" controls fueling on Bank 1
 Input "Manifold Pressure - Bank 2" controls fueling on Bank 2
 
 
-![Image](</lib/Untitled112.png>)
+![Image](</img/Untitled112.png>)
 
 
 Individual air and fuel mass data is available under the Runtime menu -\> Fuel Tab.
 
 
-![Image](</lib/Untitled114.png>)
+![Image](</img/Untitled114.png>)
 
 
 
 &#53;) More options have been added to the Efficiency and Load custom runtime:
 
 
-![Image](</lib/Untitled115.png>)
+![Image](</img/Untitled115.png>)
 
 
 
@@ -1187,7 +1187,7 @@ Individual air and fuel mass data is available under the Runtime menu -\> Fuel T
 
 &#49;)&nbsp; Closed Loop Boost Control, PID Input channel is adjustable from the Boost Closed Loop Control -\> Boost PID Setup menu.
 
-![Image](</lib/NewItem125.png>)
+![Image](</img/NewItem125.png>)
 
 
 
@@ -1211,7 +1211,7 @@ You can now Scale the CAN data in the Inputs form. This means the 2D Calibration
 
  
 
-![Image](</lib/NewItem124.jpg>)
+![Image](</img/NewItem124.jpg>)
 
  
 
@@ -1241,7 +1241,7 @@ However, if you want to scale the CAN data, select "Calibration Type" to "Custom
 An Immobiliser option can also be enabled within this function. The Engine Start Inhibit function when ON, will disable Fuel and Ignition.
 
 
-![Image](</lib/Untitled102.png>)
+![Image](</img/Untitled102.png>)
 
 
 &#51;) Torque Functional Loss table added. An estimate of torque required to overcome engine friction. This value gets subtracted from the calculated Engine Torque.
@@ -1260,7 +1260,7 @@ An Immobiliser option can also be enabled within this function. The Engine Start
   * Boost Pressure - Bank 1
   * Boost Pressure - Bank 2
 
-![Image](</lib/Untitled103.png>)
+![Image](</img/Untitled103.png>)
 
 
 &#56;) Additional Functionality added to DBW 2:
@@ -1274,7 +1274,7 @@ An Immobiliser option can also be enabled within this function. The Engine Start
 &#57;) New Fuel Model mode added; "Mass Air Flow 1/2 Individual&nbsp; (Separated Plenum)".&nbsp; On some engine configurations the plenum is not common and each bank operates independently. This Fuel Model allows ECU to independently control the Fueling for the Engine Banks 1 and 2 using&nbsp; two MAF Sensors . Dedicated runtimes also product Air and Fuel Mass information for each Bank.
 
 
-![Image](</lib/Untitled106.png>)
+![Image](</img/Untitled106.png>)
 
 
 &#49;0) The Boost Control Input or Set point for the PID Control is now adjustable.
@@ -1282,28 +1282,28 @@ An Immobiliser option can also be enabled within this function. The Engine Start
 **&nbsp;\*\*\* Please re-check this setting after the firmware update to make sure its set correctly for the application.\*\*\***
 
 
-![Image](</lib/Untitled108.png>)
+![Image](</img/Untitled108.png>)
 
 
 
 &#49;1) Overrun Fuel Cut Ramp Time setting added. Allows the transition into Fuel Cut to be smoother.
 
 
-![Image](</lib/Untitled109.png>)
+![Image](</img/Untitled109.png>)
 
 
 
 &#49;2) DBW Closed Loop Idle Speed can now be selected to use both DBW 1 and DBW 2.
 
 
-![Image](</lib/Untitled110.png>)
+![Image](</img/Untitled110.png>)
 
 
 
 &#49;3) Inputs for Volume Flow Meters 1 and 2 added. Scaling is L/min.
 
 
-![Image](</lib/Untitled111.png>)
+![Image](</img/Untitled111.png>)
 
 
 ***
@@ -1324,13 +1324,13 @@ An Immobiliser option can also be enabled within this function. The Engine Start
 **NOTE.** This setting should be switched ON at the start of the tuning process.
 
 
-![Image](</lib/Untitled81.png>)
+![Image](</img/Untitled81.png>)
 
 
 &#50;) The runtime menu now gives more Runtime Data and Status Data on the parameters being used in the Fuel Model.. See the ECU Runtime menu -\> Fuel 2 tab
 
 
-![Image](</lib/Untitled83.png>)
+![Image](</img/Untitled83.png>)
 
 
 &#51;)&nbsp; Changes have been made to the Fuel Model - Fuel Pressure mode allowing Fuel Pressure Correction on fuel systems that run a fixed fuel pressure.
@@ -1338,7 +1338,7 @@ An Immobiliser option can also be enabled within this function. The Engine Start
 **&nbsp;\*\*\* Please re-check this setting after the firmware update to make sure its set correctly for the application.\*\*\***
 
 
-![Image](</lib/Untitled88.png>)
+![Image](</img/Untitled88.png>)
 
 
 &#52;)&nbsp; Minimum Effective Injector Pulsewidth has been added.
@@ -1346,7 +1346,7 @@ An Immobiliser option can also be enabled within this function. The Engine Start
 **&nbsp;\*\*\* Please check these settings after the firmware update to make sure its set correctly for the application.\*\*\***
 
 
-![Image](</lib/Untitled86.png>)
+![Image](</img/Untitled86.png>)
 
 
 
@@ -1372,7 +1372,7 @@ Electronic - Paddle Shift-&nbsp; When Paddle Shift is selected the&nbsp; Up Shif
 The Runtime Menu (F3) provides a large amount of data including the actual gearshift time in milliseconds.&nbsp;
 
 
-![Image](</lib/Untitled99.png>)
+![Image](</img/Untitled99.png>)
 
 
 &#54;) **Rolling Launch Control** Function added. Rolling Launch Control will limit the Vehicle Speed once moving by limiting the Engine Speed.
@@ -1381,7 +1381,7 @@ The Runtime Menu (F3) provides a large amount of data including the actual gears
 The system becomes enabled when the Rolling Launch&nbsp; Switch is ON.&nbsp; When the switch transitions from OFF -\> ON the ECU will record the current speed of the selected channel and this is used in a 3D Target Table to determine the actual speed limit. This allows either a 1:1 ratio (as shown below in switch position 1) or a custom ratio (switch position 2-4)
 
 
-![Image](</lib/Untitled100.png>)
+![Image](</img/Untitled100.png>)
 
 
 
@@ -1422,7 +1422,7 @@ The Runtime information has also been improved providing more information on the
   * **x10 CAN Distance Inputs**
 
 
-![Image](</lib/NewItem103.png>)
+![Image](</img/NewItem103.png>)
 
 
 This CAN data can be received by the ECU using Custom Receive Datasets. There are 4 new CAN Receive Channels that can be configured to receive the following grouped data:
@@ -1440,7 +1440,7 @@ This CAN data can be received by the ECU using Custom Receive Datasets. There ar
 Each Group can be scaled. 20 parameters are allowed per Dataset. Example shown below:
 
 
-![Image](</lib/NewItem102.png>)
+![Image](</img/NewItem102.png>)
 
 
 &#49;2) Gear Position can be calculated from either Voltage or Ratio (rpm/speed). Now both these calculations are done together which means both runtimes are always available. &nbsp;
@@ -1460,7 +1460,7 @@ Each Group can be scaled. 20 parameters are allowed per Dataset. Example shown b
 &#49;5) ECU Scope Function (Requires FPGA firmware 1.90 of later). 4 Channels can now be sampled simultaneously up to 100ksps
 
 
-![Image](</lib/NewItem101.png>)
+![Image](</img/NewItem101.png>)
 
 
 &#49;6)&nbsp; New Input Channels added:
@@ -1468,7 +1468,7 @@ Each Group can be scaled. 20 parameters are allowed per Dataset. Example shown b
 * &nbsp;
   * Angles of Rotation, Roll, Pitch, Yaw. See F3 Menu -\> Vehicle Sensors Tab. Setup from Config View -\> Inputs -\> Vehicle Tab
 
-&nbsp; &nbsp; ![Image](</lib/Untitled90.png>)
+&nbsp; &nbsp; ![Image](</img/Untitled90.png>)
 
 * &nbsp;
   * Steering Angle (**NOTE:** For CAN Bus OEM applications this setting will need to be initialised. Select Input Source to "CAN OEM")
@@ -1493,14 +1493,14 @@ Gear Request -1 = Reverse when Gear Request Sw1 is ON
 Gear Request 3 =&nbsp; 3rd when Gear Request Sw1 and Sw2 are ON ..etc
 
 
-![Image](</lib/Untitled91.png>)
+![Image](</img/Untitled91.png>)
 
 
 
 &#49;9) New Gear Output Binary function. The BInary Combination entered into the Table controls which Gear Solenoids are ON and OFF.
 
 
-![Image](</lib/Untitled96.png>)
+![Image](</img/Untitled96.png>)
 
 
 Example: When Requested Gear 2 selected, Gear Solenoid 1 and 4 are ON. All other solenoids are OFF.
@@ -1512,12 +1512,12 @@ Example: When Requested Gear 2 selected, Gear Solenoid 1 and 4 are ON. All other
 * Runtimes menu shows current Emtron CAN devices on the Bus
 
 
-![Image](</lib/Untitled84.png>)
+![Image](</img/Untitled84.png>)
 
 * ELC CAN Bus setup menu in the Config View -\> Communications -\> Emtron CAN Devices. From here you can Label each ELC device and change the CAN ID&nbsp; data is transmitted on. You can also control the operation of the ELC device(s) if required.
 
 
-![Image](</lib/Untitled85.png>)
+![Image](</img/Untitled85.png>)
 
 
 
@@ -1537,13 +1537,13 @@ Example: When Requested Gear 2 selected, Gear Solenoid 1 and 4 are ON. All other
 "Tolerance table" gives adjustability using a table. Use the "Tolerance Table" check box to enable this Table.
 
 
-![Image](</lib/un1.png>)
+![Image](</img/un1.png>)
 
 
 &#50;3) DBW 1 Override Target runtimes now generated.
 
 
-![Image](</lib/Untitled97.png>)
+![Image](</img/Untitled97.png>)
 
 
 &#50;4) Engine Speed for every Cylinder is calculated for every cylinder. See the Runtime Menu (F3) -\> Triggers/Limits Tab
@@ -1605,7 +1605,7 @@ Trigger decoding Modes added:
 When the engine enters Idle Conditions and DBW Target Table is switched from the normal DBW 1 Table 1 or 2 or 3 to the Idle Speed Initial Position Table
 
 
-![Image](</lib/Project1.jpg>)
+![Image](</img/Project1.jpg>)
 
 
 
@@ -1623,7 +1623,7 @@ See the Plugin Sample Files for examples on these settings.
 &#50;) In-depth Help has be written explaining the ECU's different Fuel Models. This includes running the ECU using the MAF Sensor and Blend mode allowing the Speed Density calculated values and MAF sensor measured values to be blended. Select F1 on the Fuel Model Setup menu.
 
 
-![Image](</lib/Untitled73.png>)
+![Image](</img/Untitled73.png>)
 
 
 &#51;) Turbo Thermodynamic calculated runtimes have been added. This includes:
@@ -1646,13 +1646,13 @@ To calculate this data the following Inputs are required:
 This data can use overlaid on Compressor MAPs to look at the overall performance of the turbo.&nbsp;
 
 
-![Image](</lib/Untitled76.png>)
+![Image](</img/Untitled76.png>)
 
 
 &#52;) ECU now supports 2 Mass Air Flow Sensor inputs. The ECU will sum these when the Fuel Model is selected to MAF Mode. See Runtime menu -\> Engine Sensors
 
 
-![Image](</lib/Untitled75.png>)
+![Image](</img/Untitled75.png>)
 
 
 &#53;) New Torque Management Settings
@@ -1661,13 +1661,13 @@ This data can use overlaid on Compressor MAPs to look at the overall performance
 a) Requested Torque Tables. Two more tables have been added giving 3 in total. These are now controlled using the "Requested Torque Table Control" option. This allows individual tables selection, or table selection controlled through the Cal Slot function. There are also new Requested Torque runtimes to match (see F3 menu -\> Calculated Tab)
 
 
-![Image](</lib/Torque1.jpg>)
+![Image](</img/Torque1.jpg>)
 
 
 b) Measured Torque Tables. The Engine Torque can be entered into a Table. An Offset Table is also available allowing the Torque to be trimmed based on Ignition Angle for example. See KV Sample File.
 
 
-&nbsp; &nbsp; ![Image](</lib/Untitled58.png>)
+&nbsp; &nbsp; ![Image](</img/Untitled58.png>)
 
 
 
@@ -1687,7 +1687,7 @@ Settings can be adjusted from the Engine Functions -\> Torque Management menu.
   * Filtering options have been enabled for each axis, from each corresponding Input Setup Menu. Value 0 - 30 can be used. The higher the number the more filtering.
 
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Image](</lib/Untitled57.png>)
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![Image](</img/Untitled57.png>)
 
 
 &#55;) Lambda 1 and 2 Input Channels changes:
@@ -1700,7 +1700,7 @@ Settings can be adjusted from the Engine Functions -\> Torque Management menu.
   * The FIlter, Fault Value&nbsp; and DTC menus options are now available when the Input Source is set to "Internal Lambda 1/2"&nbsp;
 
 
-![Image](</lib/Untitled54.png>)
+![Image](</img/Untitled54.png>)
 
 
 &#56;) Added DBW1 Minimum Target Clamp. Can be adjusted from the DBW 1 PID Setup menu.
@@ -1717,27 +1717,27 @@ plates response is unpredictable.&nbsp; The setting clamps the minimum Target va
 * &nbsp;
   * New runtime data displaying Fuel and Air Mass data for MAF and Speed Density Fuel Models. Also added Mass Modifiers. See Runtimes Menu (F3) -\>Fuel Tab.
 
-![Image](</lib/Untitled79.png>)
+![Image](</img/Untitled79.png>)
 
 
 * &nbsp;
   * &nbsp;New Acceleration values under the Calculated Tab. The Accel calculation uses the Longitude g-force from the on-board accelerometer to calculable vehicle acceleration in units of m/s/s or Km/hr/s. For example acceleration of 1g equates to 35.3 km/hr/s. This means the vehicle is accelerating at 35.4 km/hr every second.
 
-&nbsp;&nbsp; &nbsp; &nbsp; ![Image](</lib/Untitled56.png>)
+&nbsp;&nbsp; &nbsp; &nbsp; ![Image](</img/Untitled56.png>)
 
 
 
 * &nbsp;
   * New Calculated Engine Torque data.&nbsp;
 
-&nbsp; &nbsp; &nbsp; ![Image](</lib/Untitled55.png>)
+&nbsp; &nbsp; &nbsp; ![Image](</img/Untitled55.png>)
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 * &nbsp;
   * Lambda 1 and 2 LTFT range values:
 
-&nbsp;&nbsp; &nbsp; &nbsp; ![Image](</lib/Untitled50.png>)
+&nbsp;&nbsp; &nbsp; &nbsp; ![Image](</img/Untitled50.png>)
 
 
 
@@ -1765,7 +1765,7 @@ Also extended the number of inputs that can be used to control this function. No
 See F3 menu -\> Motorsport Tab for runtimes.
 
 
-![Image](</lib/Untitled46.png>)
+![Image](</img/Untitled46.png>)
 
 
 
@@ -1802,7 +1802,7 @@ See F3 menu -\> Motorsport Tab for runtimes.
 &#50;0) Subaru SI Drive modes (Sport, Intelligent, Sport Sharp) can be selected as a source channel on Switched Inputs.
 
 
-![Image](</lib/Untitled80.png>)
+![Image](</img/Untitled80.png>)
 
 
 
@@ -1845,7 +1845,7 @@ See F3 menu -\> Motorsport Tab for runtimes.
 Remember that all the On-board/Internal Lambda data is available from the F3 menu, Lambda Tab.
 
 
-![Image](</lib/Untitled45.png>)
+![Image](</img/Untitled45.png>)
 
 
 
@@ -1855,7 +1855,7 @@ Remember that all the On-board/Internal Lambda data is available from the F3 men
 &#53;) Motorsport Water Spray Function added. There are 4 individual channels available. These can be used to spray the Intercooler, Brakes, Radiators etc. Lockout conditions Enable/Disable the function. Once enabled a 3D table can be used to adjust the output Duty Cycle. The ECU Runtime menu -\> Status Tab will provide function status information.
 
 
-![Image](</lib/Untitled42.png>)&nbsp; &nbsp; ![Image](</lib/Untitled41.png>)
+![Image](</img/Untitled42.png>)&nbsp; &nbsp; ![Image](</img/Untitled41.png>)
 
 
 
@@ -1882,7 +1882,7 @@ Remember that all the On-board/Internal Lambda data is available from the F3 men
 &#49;) Exhaust Pressure Correction tables added for Lambda 1 and Lambda 2 Inputs. The correction can be enabled from the Config View, Lambda 1/2 Input Setup Form. **An Exhaust Pressure Sensor must be fitted to use this function. An Absolute Pressure Sensor MUST be used.**
 
 
-![Image](</lib/Untitled35.png>)
+![Image](</img/Untitled35.png>)
 
 
 There are two tables to select from; Rich and Lean. Table values will be initialised after a firmware upgrade. Sample values can also be used from the KV8 sample file.
@@ -1948,7 +1948,7 @@ NOTE: Option 2 allows the Pre-Crank injection function to trigger ONLY once whil
 &#57;) Knock Control. Two new Status Flags have been added. "Knock Short Term" and Knock Long Term. These get set to ON if any Knock Short/Long Term Ign Trim is not zero. i.e when the knock control is active and retarding ignition timing. One possible use is to span the Lambda Offset Table with this status so the Lambda Target can be adjusted during a Knock event.
 
 
-![Image](</lib/Untitled28.png>)
+![Image](</img/Untitled28.png>)
 
 
 
@@ -2319,7 +2319,7 @@ NOTE: Option 2 allows the Pre-Crank injection function to trigger ONLY once whil
 **Target during crank and post start will provide the required engine flare. A DBW table example is shown below:**
 
 
-![Image](</lib/Untitled27.jpg>)
+![Image](</img/Untitled27.jpg>)
 
 
 ***

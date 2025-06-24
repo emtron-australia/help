@@ -5,7 +5,7 @@ title: "Idle Ignition PID Gain"
 **Idle Ignition PID Gain**
 
 
-![Image](</lib/Idle Ignition 6.jpg>)
+![Image](</img/Idle Ignition 6.jpg>)
 
 
 **Proportional Gain**

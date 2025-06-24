@@ -2,4 +2,4 @@
 title: "KV Series ECU Wiring Rev 2"
 ---
 
-![Image](</lib/NewItem230.png>)
+![Image](</img/NewItem230.png>)

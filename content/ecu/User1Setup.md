@@ -5,7 +5,7 @@ title: "User 1 Setup"
 User outputs are configured from this menu item.&nbsp; Once the function has been enabled in the Functions setup menu the following form may be configured to control the output or status&nbsp; :
 
 
-![Image](</lib/useroutputform1.png>)
+![Image](</img/useroutputform1.png>)
 
 
 
@@ -18,12 +18,12 @@ Once the result is true the output will perform depending on the how the functio
 &#49;) Switched. In this mode when the Result is "TRUE" the output simply turns ON
 
 
-![Image](</lib/NewItem14.jpg>)
+![Image](</img/NewItem14.jpg>)
 
 
 &#50;) Switch Table.  When the Result is TRUE the Table becomes active .0 = Output = off, 100.0 = ON.&nbsp; Any other setting does nothing to the output.
 
-![Image](</lib/NewItem13.jpg>)
+![Image](</img/NewItem13.jpg>)
 
 
 

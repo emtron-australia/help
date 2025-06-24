@@ -10,4 +10,4 @@ Click the link below to download or visit Emtron www Downloads
 
 R32
 
-[![Image](</lib/NewItem676.png>)](<https://emtron.world/download/2564/> "target=\"\_blank\"")
+[![Image](</img/NewItem676.png>)](<https://emtron.world/download/2564/> "target=\"\_blank\"")

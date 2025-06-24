@@ -6,7 +6,7 @@ title: "User Torque Limits 1-5"
 
 
 
-![Image](</lib/Untitled1101.jpg>)
+![Image](</img/Untitled1101.jpg>)
 
 
 In addition to Motorsport and special features included in the firmware that utilize Torque Management (Launch Control, Traction Control, Engine Speed limiting), there are furthermore 5 User Configurable Torque Limits.&nbsp;
@@ -20,13 +20,13 @@ The User Torque Limits must be enabled in the Function Output Setup
 Furthermore, a Custom Label can be assigned to the function
 
 
-![Image](</lib/NewItem944.png>)
+![Image](</img/NewItem944.png>)
 
 
 **Torque Limit Control Setup**
 
 
-![Image](</lib/NewItem943.png>)
+![Image](</img/NewItem943.png>)
 
 
 Choose Strat to use for each Torque Limit
@@ -74,7 +74,7 @@ Select Tq Limit User Enable
 This entry value in Nm is the torque target when the limit is active.&nbsp;
 
 
-![Image](</lib/NewItem945.png>)
+![Image](</img/NewItem945.png>)
 
 
 **User Torque Limit Correction Table (%)**

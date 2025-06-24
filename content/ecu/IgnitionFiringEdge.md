@@ -5,7 +5,7 @@ title: "Ignition Firing Edge"
 **Ignition Firing Edge**
 
 
-![Image](</lib/Ignition3.jpg>)
+![Image](</img/Ignition3.jpg>)
 
 
 Sets the edge at which the ECU commands the coil to be fired.&nbsp; Nearly all modern coils have a build-in ignitor module and use a falling spark edge.&nbsp;

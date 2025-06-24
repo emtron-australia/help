@@ -37,7 +37,7 @@ Barometric Pressure of 80kPa. ECU Boost Target will be 230kPa, boost pressure in
 
 
 
-![Image](</lib/NewItem712.png>)
+![Image](</img/NewItem712.png>)
 
 
 &#51; tables are available depending on CAL slot control or Boost Table Control

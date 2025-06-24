@@ -7,10 +7,10 @@ title: "Main Idle Target Table"
 This look up table tells the ECU the desired RPM target for Idle Speed Control.  
 
 
-![Image](</lib/AAAA82.jpg>)
+![Image](</img/AAAA82.jpg>)
 
 
-![Image](</lib/Main Idle Target Table.jpg>)
+![Image](</img/Main Idle Target Table.jpg>)
 
 
 Above example shows the table spanned in 3D using Engine Temperature and Drive speed as the axis.  

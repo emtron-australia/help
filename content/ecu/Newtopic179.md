@@ -15,4 +15,4 @@ and engine temp sensor inputs.
 &#48;% - Charge Temp = Air Temp &nbsp;
 
 
-![Image](</lib/AAAA118.jpg>)
+![Image](</img/AAAA118.jpg>)

@@ -8,7 +8,7 @@ Fuel Modifier tables can be turned on/off. &nbsp;
 These tables compensate the raw air mass or fuel mass calculation within the model
 
 
-![Image](</lib/NewItem742.png>)
+![Image](</img/NewItem742.png>)
 
 
 
@@ -21,4 +21,4 @@ These tables compensate the raw air mass or fuel mass calculation within the mod
 Each compensation table will appear individually under Fuel -\> Fuel Modifier Tables
 
 
-![Image](</lib/NewItem743.png>)
+![Image](</img/NewItem743.png>)

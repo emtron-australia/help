@@ -5,7 +5,7 @@ title: "Idle Ignition PID Setup"
 **Idle Ignition PID Setup**
 
 
-![Image](</lib/Idle Ignition 5.jpg>)
+![Image](</img/Idle Ignition 5.jpg>)
 
 
 **Control Rate**

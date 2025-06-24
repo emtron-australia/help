@@ -19,26 +19,26 @@ Proper gear detection and channel calculation such as **Input shaft Speed (Calc)
 Inputshaft speed Calculated can be derived from looking at Outputshaft Speed Channels -\> Vehicle Dynamics -\> Inputshaft Speed Calculated
 
 
-![Image](</lib/NewItem884.png>)
+![Image](</img/NewItem884.png>)
 
 
 "1" Output Shaft Speed Calculated is derive from selecting a calibrated speed channel.&nbsp; -\>&nbsp; Vehicle Functions -\> Vehicle Dynamics -\> Outputshaft Speed Calculated
 
 
-![Image](</lib/NewItem880.png>)
+![Image](</img/NewItem880.png>)
 
 
 
 \*\* The ECU generates this channel by deriving the speed through the wheel circumference and final drive under Vehicle Dynamics -\> Vehicle Main Setup -\>&nbsp;
 
 
-![Image](</lib/NewItem883.png>)
+![Image](</img/NewItem883.png>)
 
 
 
 The Inputshaft speed is calculated furthermore through the Transmission Ratio Table.&nbsp; Vehicle Dynamics -\> Transmission Gear Ratio Table -\>
 
-![Image](</lib/NewItem885.png>)
+![Image](</img/NewItem885.png>)
 
 
 
@@ -50,7 +50,7 @@ To validate Inputshaft speed (Calc), logging engine speed vs Inputshaft Speed (C
 
 
 
-![Image](</lib/NewItem887.png>)
+![Image](</img/NewItem887.png>)
 
 
 
@@ -58,7 +58,7 @@ To validate Inputshaft speed (Calc), logging engine speed vs Inputshaft Speed (C
 Also by looking at runtimes for channel comparisons can be done -\>&nbsp;
 
 
-![Image](</lib/NewItem886.png>)
+![Image](</img/NewItem886.png>)
 
 
 \*\* Note Gear Ratio (Input/Outputshaft) *(calculated from Input shaft speed (Calc) vs Output shaft Speed (Calc)* vs Gearbox Ratio *(Transmission Ratio tabe)* is the same

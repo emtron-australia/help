@@ -8,10 +8,10 @@ title: "Crank RPM Exit"
 Used to determine the Engine Speed which is considered as running. Various compensations also use this value to determine when to be enabled.&nbsp; &nbsp;
 
 
-![Image](</lib/AA main3.jpg>)&nbsp; &nbsp;
+![Image](</img/AA main3.jpg>)&nbsp; &nbsp;
 
 
-![Image](</lib/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![Image](</img/Tuning Tip.jpg>) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 **Tuning Tip**:&nbsp;
 

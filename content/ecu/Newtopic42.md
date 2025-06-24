@@ -5,10 +5,10 @@ title: "Cam Lockouts"
 **CAM Lockouts**
 
 
-![Image](</lib/VVT 1.jpg>)
+![Image](</img/VVT 1.jpg>)
 
 
-![Image](</lib/VVT 2.jpg>)
+![Image](</img/VVT 2.jpg>)
 
 
 **RPM Lockout**&nbsp;

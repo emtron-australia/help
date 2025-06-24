@@ -8,7 +8,7 @@ title: "Idle Ignition Control"
 The Emtron ECU supports idle speed control via ignition timing correction. &nbsp;
 
 
-![Image](</lib/Idle Ignition 7.jpg>)
+![Image](</img/Idle Ignition 7.jpg>)
 
 
 Select the control system and appropriate outputs via&nbsp;

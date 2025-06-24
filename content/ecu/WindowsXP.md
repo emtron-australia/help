@@ -14,16 +14,16 @@ To setup the Ethernet on Windows XP ready for the ECU connection use the followi
 * The below menu should be visible. Select "Local Area Connection"
 
 
-![Image](</lib/E15.jpg>)
+![Image](</img/E15.jpg>)
 
 
 * Select TCP/IP then click Properties
 
-![Image](</lib/E25.jpg>)
+![Image](</img/E25.jpg>)
 
 
 * Select "Use the following IP address" and enter in the address 192.168.1.50. The Subnet should automatically default to 255.255.255.0. Click OK.
 
-![Image](</lib/E26.jpg>)
+![Image](</img/E26.jpg>)
 
 * Done. Connect the Emtron Ethernet cable.

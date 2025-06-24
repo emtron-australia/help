@@ -5,10 +5,10 @@ title: "LTFT Setup"
 **LTFT Setup (Long Term Fuel Trim)**
 
 
-![Image](</lib/LTFT Setup.jpg>)
+![Image](</img/LTFT Setup.jpg>)
 
 
-![Image](</lib/LTFT Setup 2.jpg>)
+![Image](</img/LTFT Setup 2.jpg>)
 
 
 * LTFT Post Start Lockout&nbsp; &nbsp; -&nbsp; &nbsp; Delay in which LTFT can become active after start up

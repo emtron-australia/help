@@ -9,4 +9,4 @@ When using Mode 6 in Boost Target Table Control, Boost Target Table Z-Axis Setup
 Blend through the 3 different Boost Target Tables using Emtron available Runtimes.&nbsp;
 
 
-![Image](</lib/NewItem696.png>)
+![Image](</img/NewItem696.png>)

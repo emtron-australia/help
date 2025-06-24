@@ -5,7 +5,7 @@ title: "Injector Channel Setup"
 **Injector Channel Setup**
 
 
-![Image](</lib/Z Axis51.jpg>)
+![Image](</img/Z Axis51.jpg>)
 
 
 This tables assigns an Injection Channel to a Cylinder Number. &nbsp;
@@ -19,7 +19,7 @@ A 0 value indicates this channel is not used for Fueling and is therefore availa
 ***Example 1*:** KV12 ECU,&nbsp; 10 Cylinder application, 10 Sequential Injectors allocated on Injection Channels 1- 10
 
 
-![Image](</lib/Untitled.jpg>)
+![Image](</img/Untitled.jpg>)
 
 
 
@@ -49,7 +49,7 @@ Sequential Primary Injectors: Allocated on Injection Channels 1-8.&nbsp;
 Sequential Secondary Injectors: Allocated on Injection Channels 9-16.&nbsp;
 
 
-![Image](</lib/NewItem42.png>)
+![Image](</img/NewItem42.png>)
 
 
 **\*\* Staging mode must have primary cylinders start with Cylinder 1**
@@ -68,7 +68,7 @@ In this mode the odd injector channels are fired on one cycle, and even injector
 
 &#54; injectors connected **individually** on a 6 cylinder engine
 
-![Image](</lib/NewItem893.png>)
+![Image](</img/NewItem893.png>)
 
 ECU will activate 1+3+5 on one TDC, 2+4+6 on the next (odd and even)
 
@@ -81,7 +81,7 @@ ECU will activate 1+3+5 on one TDC, 2+4+6 on the next (odd and even)
 
 If the engine has dual banks (123 / 456), and the firing order is 1536242, the installer can re-order the cylinders vs injector outputs to synchronize firing per bank
 
-![Image](</lib/NewItem903.png>)
+![Image](</img/NewItem903.png>)
 
 
 ECU will activate&nbsp; 1+3+5 on one TDC, 2+4+6 on the next (odd and even)
@@ -100,7 +100,7 @@ This will fire 1+2+3 *cylinders* on one cycle, 4+5+6 on the next
 
 If the engine has dual banks (1357 / 2468), and the firing order is 18436572, the installer can re-order the cylinders vs injector outputs to synchronize firing per bank
 
-![Image](</lib/NewItem904.png>)
+![Image](</img/NewItem904.png>)
 
 
 ECU will activate&nbsp; 1+3+5+7 on one TDC, 2+4+6+8 on the next (odd and even)
@@ -113,7 +113,7 @@ Cylinder Numbers &nbsp; &nbsp; 12345678
 
 If the engine has dual banks (1234 / 5678), and the firing order is 15486372, the installer can re-order the cylinders vs injector outputs to synchronize firing per bank
 
-![Image](</lib/NewItem905.png>)
+![Image](</img/NewItem905.png>)
 
 
 ECU will activate&nbsp; 1+3+5+7 on one TDC, 2+4+6+8 on the next (odd and even)
@@ -131,7 +131,7 @@ ECU will activate&nbsp; 1+2+3+4 on one TDC, 5+6+7+8 on the next (odd and even)
 
 &#50; injectors connected with 3 injectors paired to each output on a 6 cylinder engine
 
-![Image](</lib/NewItem894.png>)
+![Image](</img/NewItem894.png>)
 
 Engine will fire output 1 on one TDC, 2 on the next
 
@@ -171,7 +171,7 @@ Sequential Primary Injectors: Allocated on Injection Channels 1-4.&nbsp;
 Grouped Secondary Injectors: One injector on each Injection Channel 5,6,7,8
 
 
-![Image](</lib/NewItem40.png>)
+![Image](</img/NewItem40.png>)
 
 
 ***Example 4*:**
@@ -181,7 +181,7 @@ Sequential Primary Injectors: Allocated on Injection Channels 1-8.&nbsp;
 Grouped Secondary Injectors: Two injectors on each Injection Channel 9,10.
 
 
-![Image](</lib/NewItem41.png>)
+![Image](</img/NewItem41.png>)
 
 
 

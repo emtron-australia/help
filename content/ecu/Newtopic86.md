@@ -9,7 +9,7 @@ The ECU can control an EFI relay, allowing for management of its own power suppl
 The below image shows the internal operation of the EFI Relay system. The control on the EFI Relay output (Low side driver) is managed by a diode OR gate i.e if the Ignition Switch input is ON OR the ECU Control is ON, the EFI Relay output will be ON and providing a ground.&nbsp;
 
 
-![Image](</lib/Untitled224.png>)
+![Image](</img/Untitled224.png>)
 
 
 
