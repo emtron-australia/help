@@ -1,13 +1,14 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://docs.emtronaustralia.com.au/'
 languageCode = 'en-us'
 title = 'Emtron Help'
-theme = 'techdoc'
+theme = 'hugo-theme-relearn'
 disablePathToLower = true
 
 [params]
     menu_style = "slide-menu"
-
+    editURL = "https://github.com/emtron-australia/online-help/tree/master/content/${FilePath}"
+    [[params.themeVariant]]
+        identifier = 'zen-dark'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
