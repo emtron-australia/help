@@ -5,3 +5,7 @@ theme = 'techdoc'
 
 [params]
     menu_style = "open-menu"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
