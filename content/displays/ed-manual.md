@@ -11,3 +11,4 @@ title: "Emtron Display Manual"
 
 * [Shift Lights](shift-lights)
 * [Switch Logic](switch-logic)
+* [Mathematics](maths)
