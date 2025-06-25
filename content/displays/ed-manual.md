@@ -2,6 +2,10 @@
 title: "Emtron Display Manual"
 ---
 
+## Overview
+
+* [Emtron ED10M Datasheet](datasheet-ed10m)
+
 ## Wiring and Installation
 
 * [Emtron ED7 Pinout](pinout-ed7)

@@ -7,6 +7,8 @@ disablePathToLower = true
 [params]
   menu_style = "slide-menu"
   editURL = "https://github.com/emtron-australia/help/tree/master/content/${FilePath}"
+  disableRootBreadcrumb = true
+  disableInlineCopyToClipBoard = true
 
 [[params.themeVariant]]
   identifier = 'zen-dark'
@@ -23,3 +25,16 @@ disablePathToLower = true
 [[module.mounts]]
   source = 'img'
   target = 'static/img'
+
+[outputs]
+  home = [
+    'html',
+  ]
+  page = [
+    'html',
+    'rss',
+    'print',
+  ]
+  section = [
+    'html',
+  ]
