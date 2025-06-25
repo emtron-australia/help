@@ -9,3 +9,6 @@ If you don’t want to use the shift calculation, set the input channel to ‘No
 ## Shift Pattern
 
 The shift patterns are selected based on the input channel value. The pattern with the nearest value equal to or less than the input channel value is displayed.
+
+
+> TIP: Drag the LEDs to copy the colours around
