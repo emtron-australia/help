@@ -5,10 +5,21 @@ theme = 'hugo-theme-relearn'
 disablePathToLower = true
 
 [params]
-    menu_style = "slide-menu"
-    editURL = "https://github.com/emtron-australia/help/tree/master/content/${FilePath}"
-    [[params.themeVariant]]
-        identifier = 'zen-dark'
+  menu_style = "slide-menu"
+  editURL = "https://github.com/emtron-australia/help/tree/master/content/${FilePath}"
+
+[[params.themeVariant]]
+  identifier = 'zen-dark'
+
 [caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[caches.images]
+  dir = ':cacheDir/images'
+
+# This is so that the image path works when previewing markdown and in the final build
+[[module.mounts]]
+  source = 'static'
+  target = 'static'
+
+[[module.mounts]]
+  source = 'img'
+  target = 'static/img'
