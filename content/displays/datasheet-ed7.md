@@ -4,7 +4,6 @@ revision: 1
 ---
 
 ![ED7 Front View](/img/ed7_front.png)
-![ED7 Rear View](/img/ed7_rear.png)
 
 ## 1.0 General
 
