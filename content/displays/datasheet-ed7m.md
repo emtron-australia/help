@@ -1,10 +1,10 @@
 ---
-title: "Emtron ED10M Datasheet"
+title: "Emtron ED7M Datasheet"
 revision: 1
 ---
 
-![](/img/ed10m_front.png)
-![](/img/ed10m_rear.png)
+![](/img/ed7m_front.png)
+![](/img/ed7m_rear.png)
 
 ## 1.0 General
 
@@ -23,7 +23,7 @@ revision: 1
 
 - Aluminium 6061 grade CNC billet enclosure
 - Enclosure size 284 X 140mm
-- Weight: 1790g
+- Weight: 1310g
 - Connector system: 55 Pin Circular Mil Spec Series III Connector
 - Pin diameter: 1 mm
 - Current rating: maximum 5.0A per pin at 22AWG
@@ -40,7 +40,7 @@ revision: 1
 
 ## 2.0 Main Features
 
-- 10.3 inch TFT Screen -- 1920 \* 768 Resolution
+- 7.0 inch TFT Screen -- 1280 x 768 Resolution
 - Anti Glare / Scratch Resistant Optical Bonded Glass
 - 16x High Intensity RGB  LEDs
 - High Speed Gigabit Ethernet 1000Mbps 
