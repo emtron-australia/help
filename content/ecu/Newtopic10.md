@@ -1,4 +1,0 @@
----
-title: "Vertical G Force "
----
-

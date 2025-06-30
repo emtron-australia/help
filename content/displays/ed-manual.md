@@ -16,6 +16,6 @@ title: "Emtron Display Manual"
 
 ## Functions
 
-* [Shift Lights](shift-lights)
-* [Switch Logic](switch-logic)
-* [Mathematics](maths)
+* [Shift Lights](../functions/shift-lights)
+* [Switch Logic](../functions/switch-logic)
+* [Mathematics](../functions/maths)
