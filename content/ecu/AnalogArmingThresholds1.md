@@ -1,4 +1,0 @@
----
-title: "Analog Arming Thresholds"
----
-

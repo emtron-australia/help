@@ -2,7 +2,7 @@
 title: "Emtron Display Manual"
 ---
 
-## Overview
+## Datasheets
 
 * [Emtron ED10M Datasheet](datasheet-ed10m)
 * [Emtron ED7M Datasheet](datasheet-ed7m)
@@ -16,6 +16,6 @@ title: "Emtron Display Manual"
 
 ## Functions
 
-* [Shift Lights](shift-lights)
-* [Switch Logic](switch-logic)
-* [Mathematics](maths)
+* [Shift Lights](../functions/shift-lights)
+* [Switch Logic](../functions/switch-logic)
+* [Mathematics](../functions/maths)

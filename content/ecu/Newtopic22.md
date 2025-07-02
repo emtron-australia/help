@@ -1,5 +1,0 @@
----
-title: "Upshift Flow Chart"
----
-
-###

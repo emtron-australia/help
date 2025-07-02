@@ -1,0 +1,4 @@
+---
+title: "Terminating Resistors "
+---
+
