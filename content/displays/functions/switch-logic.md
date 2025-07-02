@@ -1,5 +1,6 @@
 ---
 title: "Switch Logic"
+description: "How to configure the switching input logic on the device"
 ---
 
 Switch Inputs allow any input channel to be used for binary switch logic. The output is either 0 when inactive/off or 1 when active/on.

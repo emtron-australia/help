@@ -1,8 +1,9 @@
 ---
 title: "Engine Management"
+weight: 1
 ---
 
-![Image](</img/emtron-aus-logo-white.png>)
+![Image](</img/emtron-white.svg>)
 
 Welcome to the Emtune Software manual.
 

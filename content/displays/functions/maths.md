@@ -1,5 +1,6 @@
 ---
 title: "Math Functions"
+description: "How to configure the real time math processing system"
 ---
 
 Math functions are evaluated at 100hz.

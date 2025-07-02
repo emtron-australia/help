@@ -1,5 +1,5 @@
 ---
-title: "Emtron ED7 Datasheet"
+title: "ED7 Datasheet"
 revision: 1
 ---
 

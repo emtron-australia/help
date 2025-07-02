@@ -1,6 +1,8 @@
 ---
 title: "Shift Lights"
+description: "How to configure the shift lights on the device"
 ---
+
 ## Shift Calculation
 
 The shift calculation writes to the `Shift Indication` channel. The value progresses from 1 to 99, then 100 when the 100% value is met or exceeded.

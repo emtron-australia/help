@@ -1,12 +1,7 @@
 ---
-title: "Emtron Display Manual"
+title: "Getting Started"
+weight: 2
 ---
-
-## Datasheets
-
-* [Emtron ED10M Datasheet](datasheet-ed10m)
-* [Emtron ED7M Datasheet](datasheet-ed7m)
-* [Emtron ED7 Datasheet](datasheet-ed7)
 
 ## Wiring and Installation
 
@@ -19,3 +14,9 @@ title: "Emtron Display Manual"
 * [Shift Lights](../functions/shift-lights)
 * [Switch Logic](../functions/switch-logic)
 * [Mathematics](../functions/maths)
+
+## Datasheets
+
+* [Emtron ED10M Datasheet](datasheet-ed10m)
+* [Emtron ED7M Datasheet](datasheet-ed7m)
+* [Emtron ED7 Datasheet](datasheet-ed7)

@@ -1,7 +1,6 @@
 ---
 title: "Functions"
+weight: 3
 ---
 
-- [Math Functions](maths)
-- [Shift Lights](shift-lights) 
-- [Switch Logic](switch-logic) 
+{{% children sort="weight" depth=2 description="true" %}}
