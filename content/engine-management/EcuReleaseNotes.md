@@ -1,5 +1,6 @@
 ---
 title: "Firmware Release Notes"
+weight: 1
 ---
 
 **After an ECU firmware upgrade, please read ALL the firmware update information from the previously installed version up to and including the current version.&nbsp; Connect to Emtune and apply any changes to ensure the ECU is correctly configured to run the latest firmware.**

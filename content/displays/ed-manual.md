@@ -2,7 +2,7 @@
 title: "Emtron Display Manual"
 ---
 
-## Overview
+## Datasheets
 
 * [Emtron ED10M Datasheet](datasheet-ed10m)
 * [Emtron ED7M Datasheet](datasheet-ed7m)

@@ -1,5 +1,6 @@
 ---
 title: "Display Release Notes"
+weight: 1
 ---
 
 ---
