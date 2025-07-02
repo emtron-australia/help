@@ -3,8 +3,8 @@ title: "Tables"
 description: "How to add and configure two dimensional tables"
 ---
 
-Tables work the very similar to how ECU tables work. They have an x and y axis where [channels](../concepts/channels-and-events#channels) are assigned as inputs. The corresponding table value is looked up then output to the assigned channel.
+Tables function similarly to ECU tables, featuring an X and Y axis where [channels](../concepts/channels-and-events#channels) are assigned as inputs.
 
-Values are interpolate between cells providing a smooth output.
+The system looks up the corresponding table value and outputs it to the assigned channel. Values are interpolated between cells to ensure a smooth output.
 
-There is no limit on the number of tables you can create.
+There is no limit to the number of tables you can create.
