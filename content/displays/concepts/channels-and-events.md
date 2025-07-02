@@ -55,8 +55,7 @@ Inputs receive channel values or events. For example, a gauge on a display can b
 ### Outputs
 
 Outputs write data to channels or events. Key distinctions between channels and events as outputs include:
-
- * A channel can only be written to by a single function to avoid conflicts, which could lead to erratic behavior. The system cannot detect this error.
+ * {{% badge style="caution" %}}A channel can only be written to by a single function. Failing to do so will result in conflicts and erratic behavior.{{% /badge %}} The system cannot detect this error.
  * An event can be triggered by multiple functions without issue, as events are discrete and do not hold continuous values.
 
 ### Chaining
