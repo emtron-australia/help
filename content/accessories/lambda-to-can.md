@@ -92,7 +92,7 @@ All devices control the Bosch LSU4.9 Lambda Sensor and are compatible with all E
 
 Each device has a M4 x 1.5 thread tapped into the base of the enclosure and can be used for mounting. In high vibration applications rubber mounting is recommended.
 
-**CAUTION:** When mounting the device inside the engine compartment, it should be positioned in cooler areas and away from heat sources such as exhaust manifolds. Any unnecessary radiated heat may affect device performance.
+{{% icon style="warning" %}} *CAUTION* When mounting the device inside the engine compartment, it should be positioned in cooler areas and away from heat sources such as exhaust manifolds. Any unnecessary radiated heat may affect device performance.
 
 ## 3.1 ELC1/2 Wiring
 
@@ -101,27 +101,25 @@ The pinouts are shown below in Table 3.0 and Table 3.1.
 ![](/img/elc/image8.jpeg)
 **Power and CAN Flying Loom Connector: DTM 4 pin (M).**
 
-|     |            |             |
-|-----|------------|-------------|
-| Pin | Function   | Wire Colour |
-| 1   | Ground     | Black       |
-| 2   | CAN Lo     | Green       |
-| 3   | CAN Hi     | Yellow      |
-| 4   | 12V Supply | Red         |
+| Pin | Function   | Wire Colour                                          |
+|:---:|------------|------------------------------------------------------|
+|  1  | Ground     | {{% icon icon="circle-dot" style="black" %}} Black   |
+|  2  | CAN Lo     | {{% icon icon="circle-dot" style="green" %}} Green   |
+|  3  | CAN Hi     | {{% icon icon="circle-dot" style="yellow" %}} Yellow |
+|  4  | 12V Supply | {{% icon icon="circle-dot" style="red" %}} Red       |
 
 Table 3.0. ELC Power and CAN Deustch Connector Pinout
 
 **Lambda Flying Loom Connector: Bosch LSU 4.9 (F)**
 
-|     |                     |             |
-|-----|---------------------|-------------|
-| Pin | Function            | Wire Colour |
-| 1   | Pump Current        | Red         |
-| 2   | Virtual Ground      | Yellow      |
-| 3   | Heater Ground       | White       |
-| 4   | Heater 12 Supply    | Grey        |
-| 5   | Cal Resistor        | Orange      |
-| 6   | Nernst Cell Voltage | Black       |
+| Pin | Function            | Wire Colour                                          |
+|:---:|---------------------|------------------------------------------------------|
+|  1  | Pump Current        | {{% icon icon="circle-dot" style="red" %}} Red       |
+|  2  | Virtual Ground      | {{% icon icon="circle-dot" style="yellow" %}} Yellow |
+|  3  | Heater Ground       | {{% icon icon="circle-dot" style="white" %}} White   |
+|  4  | Heater 12 Supply    | {{% icon icon="circle-dot" style="grey" %}} Grey     |
+|  5  | Cal Resistor        | {{% icon icon="circle-dot" style="orange" %}} Orange |
+|  6  | Nernst Cell Voltage | {{% icon icon="circle-dot" style="black" %}} Black   |
 
 Table 3.1 ELC1/2 LSU 4.9 Connector Pinout
 
@@ -129,23 +127,23 @@ Table 3.1 ELC1/2 LSU 4.9 Connector Pinout
 
 ![](/img/elc/image9.jpeg)
 
-|                                                          |
-|----------------------------------------------------------|
+
 | Mating Connector Loom Side (Deutsch Autosport AS Series) |
+|----------------------------------------------------------|
 | AS612-35PD (Green)                                       |
 
-|     |                                        |                           |
-|-----|----------------------------------------|---------------------------|
+
 | Pin | Function                               | Bosch Datasheet Reference |
-| 1   | 14 V Supply                            |                           |
-| 2   | Ground                                 |                           |
-| 3   | CAN Hi                                 |                           |
-| 4   | CAN Lo                                 |                           |
-| 5   | Lambda 1 Pump Current                  | APE                       |
-| 6   | Lambda 1 Nernst Cell Voltage           | RE                        |
-| 7   | Lambda 1 Cal Resistor                  |                           |
-| 8   | Lambda 1 Virtual Ground                | IPN                       |
-| 9   | Lambda 2 Pump Current                  | APE                       |
+|:---:|----------------------------------------|---------------------------|
+|  1  | 14 V Supply                            |                           |
+|  2  | Ground                                 |                           |
+|  3  | CAN Hi                                 |                           |
+|  4  | CAN Lo                                 |                           |
+|  5  | Lambda 1 Pump Current                  | APE                       |
+|  6  | Lambda 1 Nernst Cell Voltage           | RE                        |
+|  7  | Lambda 1 Cal Resistor                  |                           |
+|  8  | Lambda 1 Virtual Ground                | IPN                       |
+|  9  | Lambda 2 Pump Current                  | APE                       |
 | 10  | Lambda 2 Nernst Cell Voltage           | RE                        |
 | 11  | Lambda 2 Cal Resistor                  |                           |
 | 12  | Lambda 2 Virtual Ground                | IPN                       |
@@ -166,15 +164,14 @@ Table 3.2. ELC2M Pinout
 
 **Lambda Connector: Bosch LSU 4.9 (F)**
 
-|     |                     |             |
-|-----|---------------------|-------------|
-| Pin | Function            | Wire Colour |
-| 1   | Pump Current        | Red         |
-| 2   | Virtual Ground      | Yellow      |
-| 3   | Heater Ground       | White       |
-| 4   | Heater 12 Supply    | Grey        |
-| 5   | Cal Resistor        | Orange      |
-| 6   | Nernst Cell Voltage | Black       |
+| Pin | Function            | Wire Colour                                          |
+|:---:|---------------------|------------------------------------------------------|
+|  1  | Pump Current        | {{% icon icon="circle-dot" style="red" %}} Red       |
+|  2  | Virtual Ground      | {{% icon icon="circle-dot" style="yellow" %}} Yellow |
+|  3  | Heater Ground       | {{% icon icon="circle-dot" style="white" %}} White   |
+|  4  | Heater 12 Supply    | {{% icon icon="circle-dot" style="grey" %}} Grey     |
+|  5  | Cal Resistor        | {{% icon icon="circle-dot" style="orange" %}} Orange |
+|  6  | Nernst Cell Voltage | {{% icon icon="circle-dot" style="black" %}} Black   |
 
 Table 3.3. Bosch LSU 4.9 Sensor Pinout
 
@@ -184,9 +181,7 @@ Table 3.3. Bosch LSU 4.9 Sensor Pinout
 
 Figure 3.0. LSU4.9 Connector Pinout
 
-**NOTE: To avoid signal errors and loss of accuracy, a cable of a maximum length of 1.5 m between sensor and ELC is recommended.**
-
-##
+{{% badge style="note" %}}To avoid signal errors and loss of accuracy, a cable of a maximum length of 1.5 m between sensor and ELC is recommended.{{% /badge %}}
 
 ## 3.4 CAN Bus Wiring
 

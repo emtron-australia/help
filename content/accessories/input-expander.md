@@ -20,7 +20,6 @@ EIC10 kit pictured.
 
 When purchasing an EIC16M the loom side mating Autosport connector is not included but can be purchased separately.
 
-
 # 1.0 Description
 
 ![](/img/iec/image6.jpeg)
@@ -111,7 +110,7 @@ The EIC10 is designed to increase the Input channel capability of all Emtron ECU
 
 Each device has a M4 x 1.5 thread tapped into the base of the enclosure and can be used for mounting. In high vibration applications rubber mounting is recommended.
 
-**CAUTION:** When mounting the device inside the engine compartment, it should be positioned in cooler areas and away from heat sources such as exhaust manifolds. Any unnecessary radiated heat may affect device performance.
+{{% icon style="warning" %}} CAUTION: When mounting the device inside the engine compartment, it should be positioned in cooler areas and away from heat sources such as exhaust manifolds. Any unnecessary radiated heat may affect device performance.
 
 ## 3.1 EIC10 Pinout
 
@@ -121,34 +120,33 @@ The pinouts are shown below in Table 3.0 and Table 3.1.
 
 **Power and CAN Flying Loom Connector: DTM 4 pin (M).**
 
-|     |            |             |
-|-----|------------|-------------|
-| Pin | Function   | Wire Colour |
-| 1   | Ground     | BLACK       |
-| 2   | CAN Lo     | GREEN       |
-| 3   | CAN Hi     | YELLOW      |
-| 4   | 12V Supply | RED         |
+| Pin | Function   | Wire Colour                                          |
+|-----|------------|------------------------------------------------------|
+| 1   | Ground     | {{% icon icon="circle-dot" style="black" %}} BLACK   |
+| 2   | CAN Lo     | {{% icon icon="circle-dot" style="green" %}} GREEN   |
+| 3   | CAN Hi     | {{% icon icon="circle-dot" style="yellow" %}} YELLOW |
+| 4   | 12V Supply | {{% icon icon="circle-dot" style="red" %}} RED       |
 
 Table3.0. EIC10 Power and CAN Deustch Connector Pinout
 
 ![](/img/iec/image9.jpeg)
 **Analog Input Flying Loom Connector: DTM 12 pin (F).**
 
-|     |                            |               |        |             |
-|-----|----------------------------|---------------|--------|-------------|
-| Pin | Function                   | Voltage Range | Pullup | Wire Colour |
-| 1   | Analog Voltage 1           | 0 - 5.0V      | No     | BRN         |
-| 2   | Analog Voltage 2           | 0 - 5.0V      | No     | BLUE        |
-| 3   | Analog Voltage 3           | 0 - 5.0V      | No     | GREY        |
-| 4   | Analog Voltage 4           | 0 - 5.0V      | No     | W/GREY      |
-| 5   | Analog Voltage 5           | 0 - 5.0V      | Yes    | W/BLUE      |
-| 6   | 5V Sensor Supply           |               |        | W/BRN       |
-| 7   | Analog Sensor 0V Reference |               |        | W/RED       |
-| 8   | Analog Voltage 6           | 0 - 5.0V      | Yes    | W/BLACK     |
-| 9   | Analog Voltage 7/ Freq 1   | 0 - 16.0V     | Yes    | W/OR        |
-| 10  | Analog Voltage 8/ Freq 2   | 0 - 16.0V     | Yes    | OR          |
-| 11  | Analog Voltage 9/ Freq 3   | 0 - 16.0V     | Yes    | WHITE       |
-| 12  | Analog Voltage 10/Freq 4   | 0 - 16.0V     | Yes    | PUR         |
+
+| Pin | Function                   | Voltage Range | Pullup                                  | Wire Colour                                                                                       |
+|:---:|----------------------------|---------------|-----------------------------------------|---------------------------------------------------------------------------------------------------|
+|  1  | Analog Voltage 1           | 0 - 5.0V      | {{% icon icon="xmark" style="red" %}}   | {{% icon icon="circle-dot" style="sienna" %}} BRN                                                 |
+|  2  | Analog Voltage 2           | 0 - 5.0V      | {{% icon icon="xmark" style="red" %}}   | {{% icon icon="circle-dot" style="blue" %}} BLUE                                                  |
+|  3  | Analog Voltage 3           | 0 - 5.0V      | {{% icon icon="xmark" style="red" %}}   | {{% icon icon="circle-dot" style="grey" %}} GREY                                                  |
+|  4  | Analog Voltage 4           | 0 - 5.0V      | {{% icon icon="xmark" style="red" %}}   | {{% icon icon="circle-dot" style="white" %}}/{{% icon icon="circle-dot" style="grey" %}} W/GREY   |
+|  5  | Analog Voltage 5           | 0 - 5.0V      | {{% icon icon="check" style="green" %}} | {{% icon icon="circle-dot" style="white" %}}/{{% icon icon="circle-dot" style="blue" %}} W/BLUE   |
+|  6  | 5V Sensor Supply           |               |                                         | {{% icon icon="circle-dot" style="white" %}}/{{% icon icon="circle-dot" style="sienna" %}} W/BRN  |
+|  7  | Analog Sensor 0V Reference |               |                                         | {{% icon icon="circle-dot" style="white" %}}/{{% icon icon="circle-dot" style="red" %}} W/RED     |
+|  8  | Analog Voltage 6           | 0 - 5.0V      | {{% icon icon="check" style="green" %}} | {{% icon icon="circle-dot" style="white" %}}/{{% icon icon="circle-dot" style="black" %}} W/BLACK |
+|  9  | Analog Voltage 7 / Freq 1  | 0 - 16.0V     | {{% icon icon="check" style="green" %}} | {{% icon icon="circle-dot" style="white" %}}/{{% icon icon="circle-dot" style="orange" %}} W/OR   |
+| 10  | Analog Voltage 8 / Freq 2  | 0 - 16.0V     | {{% icon icon="check" style="green" %}} | OR                                                                                                |
+| 11  | Analog Voltage 9 / Freq 3  | 0 - 16.0V     | {{% icon icon="check" style="green" %}} | {{% icon icon="circle-dot" style="white" %}} WHITE                                                |
+| 12  | Analog Voltage 10 /Freq 4  | 0 - 16.0V     | {{% icon icon="check" style="green" %}} | {{% icon icon="circle-dot" style="purple" %}} PUR                                                 |
 
 Table3.1. EIC10 Input Deustch Connector Pinout (DTM06-12SA)
 
@@ -156,36 +154,35 @@ Table3.1. EIC10 Input Deustch Connector Pinout (DTM06-12SA)
 
 ![](/img/iec/image10.jpeg)
 
-|                                                          |
-|----------------------------------------------------------|
 | Mating Connector Loom Side (Deutsch Autosport AS Series) |
+|----------------------------------------------------------|
 | AS612-35SA (Yellow)                                      |
 
-|     |                               |               |         |
-|-----|-------------------------------|---------------|---------|
-| Pin | Function                      | Voltage Range | Pull-Up |
-| 1   | 14 V Supply                   |               |         |
-| 2   | Ground                        |               |         |
-| 3   | CAN Hi                        |               |         |
-| 4   | CAN Lo                        |               |         |
-| 5   | Analog Voltage 1              | 0.0 – 5.0V    | No      |
-| 6   | Analog Voltage 2              | 0.0 – 5.0V    | No      |
-| 7   | Analog Voltage 3              | 0.0 – 5.0V    | No      |
-| 8   | Analog Voltage 4              | 0.0 – 5.0V    | No      |
-| 9   | Analog Voltage 5              | 0.0 – 5.0V    | No      |
-| 10  | Analog Voltage 6              | 0.0 – 5.0V    | No      |
-| 11  | Analog Voltage 7              | 0.0 – 5.0V    | No      |
-| 12  | Analog Voltage 8              | 0.0 – 5.0V    | No      |
-| 13  | Analog Voltage 9              | 0.0 – 5.0V    | Yes     |
-| 14  | Analog Voltage 10             | 0.0 – 5.0V    | Yes     |
-| 15  | Analog Voltage 11             | 0.0 – 5.0V    | Yes     |
-| 16  | Analog Voltage 12             | 0.0 – 5.0V    | Yes     |
-| 17  | Analog Voltage 13/Frequency 1 | 0.0 – 16.0V   | Yes     |
-| 18  | Analog Voltage 14/Frequency 2 | 0.0 – 16.0V   | Yes     |
-| 19  | Analog Voltage 15/Frequency 3 | 0.0 – 16.0V   | Yes     |
-| 20  | Analog Voltage 16/Frequency 4 | 0.0 – 16.0V   | Yes     |
-| 21  | 5.0V Sensor Supply            |               |         |
-| 22  | 0V Analog Sensor Reference    |               |         |
+
+| Pin | Function                      | Voltage Range | Pull-Up                                 |
+|:---:|-------------------------------|---------------|-----------------------------------------|
+|  1  | 14 V Supply                   |               |                                         |
+|  2  | Ground                        |               |                                         |
+|  3  | CAN Hi                        |               |                                         |
+|  4  | CAN Lo                        |               |                                         |
+|  5  | Analog Voltage 1              | 0.0 – 5.0V    | {{% icon icon="xmark" style="red" %}}   |
+|  6  | Analog Voltage 2              | 0.0 – 5.0V    | {{% icon icon="xmark" style="red" %}}   |
+|  7  | Analog Voltage 3              | 0.0 – 5.0V    | {{% icon icon="xmark" style="red" %}}   |
+|  8  | Analog Voltage 4              | 0.0 – 5.0V    | {{% icon icon="xmark" style="red" %}}   |
+|  9  | Analog Voltage 5              | 0.0 – 5.0V    | {{% icon icon="xmark" style="red" %}}   |
+| 10  | Analog Voltage 6              | 0.0 – 5.0V    | {{% icon icon="xmark" style="red" %}}   |
+| 11  | Analog Voltage 7              | 0.0 – 5.0V    | {{% icon icon="xmark" style="red" %}}   |
+| 12  | Analog Voltage 8              | 0.0 – 5.0V    | {{% icon icon="xmark" style="red" %}}   |
+| 13  | Analog Voltage 9              | 0.0 – 5.0V    | {{% icon icon="check" style="green" %}} |
+| 14  | Analog Voltage 10             | 0.0 – 5.0V    | {{% icon icon="check" style="green" %}} |
+| 15  | Analog Voltage 11             | 0.0 – 5.0V    | {{% icon icon="check" style="green" %}} |
+| 16  | Analog Voltage 12             | 0.0 – 5.0V    | {{% icon icon="check" style="green" %}} |
+| 17  | Analog Voltage 13/Frequency 1 | 0.0 – 16.0V   | {{% icon icon="check" style="green" %}} |
+| 18  | Analog Voltage 14/Frequency 2 | 0.0 – 16.0V   | {{% icon icon="check" style="green" %}} |
+| 19  | Analog Voltage 15/Frequency 3 | 0.0 – 16.0V   | {{% icon icon="check" style="green" %}} |
+| 20  | Analog Voltage 16/Frequency 4 | 0.0 – 16.0V   | {{% icon icon="check" style="green" %}} |
+| 21  | 5.0V Sensor Supply            |               |                                         |
+| 22  | 0V Analog Sensor Reference    |               |                                         |
 
 Table 3.2. EIC16M Pinout
 
