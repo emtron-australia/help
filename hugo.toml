@@ -1,6 +1,6 @@
 baseURL = 'https://docs.emtronaustralia.com.au/'
 languageCode = 'en-us'
-title = 'Emtron Help'
+title = 'Emtron Resource Centre'
 theme = 'hugo-theme-relearn'
 disablePathToLower = true
 pluralizeListTitles = false
