@@ -5,13 +5,13 @@ description: "How to configure the switching input logic on the device"
 
 Switch Inputs allow any input channel to be used for binary switch logic. The output is either 0 when inactive/off or 1 when active/on.
 
-### Input Channel:
+### Input Channel
 The channel used as the input value source.
 
-### Output Channel:
+### Output Channel
 The channel that contains the final result of the switch logic.
 
-### Detection Mode:
+### Detection Mode
 Determines the switches behaviour.
  - **Active Low:** Transitions to ON when the input is less than or equal to `Low Threshold`. Does not transition back to OFF until the input is greater than or equal to `High Threshold`. *Typical use: Low side switch.*
  - **Active High:** Transitions to ON when the input is greater or equal to than `High Threshold`. Does not transition back to OFF until the input is less than or equal to `Low Threshold`. *Typical use: High side switch.*
