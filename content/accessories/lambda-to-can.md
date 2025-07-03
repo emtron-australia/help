@@ -101,12 +101,12 @@ The pinouts are shown below in Table 3.0 and Table 3.1.
 ![](/img/elc/image8.jpeg)
 **Power and CAN Flying Loom Connector: DTM 4 pin (M).**
 
-| Pin | Function   | Wire Colour                                          |
-|:---:|------------|------------------------------------------------------|
-|  1  | Ground     | {{% icon icon="circle-dot" style="black" %}} Black   |
-|  2  | CAN Lo     | {{% icon icon="circle-dot" style="green" %}} Green   |
-|  3  | CAN Hi     | {{% icon icon="circle-dot" style="yellow" %}} Yellow |
-|  4  | 12V Supply | {{% icon icon="circle-dot" style="red" %}} Red       |
+| Pin | Function   | 
+|:---:|------------|
+|  1  | Ground     |
+|  2  | CAN Lo     |
+|  3  | CAN Hi     | 
+|  4  | 12V Supply | 
 
 Table 3.0. ELC Power and CAN Deustch Connector Pinout
 
