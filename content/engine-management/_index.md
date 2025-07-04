@@ -10,3 +10,7 @@ Welcome to the Emtune Software manual.
 The latest software updates are available from:
 
 [https://emtron.world/downloads/](<https://emtron.world/downloads/>)
+
+---
+
+{{% children sort="weight" depth=2 %}}

@@ -1,6 +1,6 @@
 ---
-title: "Getting Started"
-weight: 2
+title: "Accessories"
+weight: 10
 ---
 
 {{% children sort="weight" depth=1 %}}

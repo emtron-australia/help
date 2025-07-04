@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "SL Series"
 weight: 2
 ---
 

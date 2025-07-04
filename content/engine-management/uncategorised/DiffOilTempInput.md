@@ -1,4 +1,0 @@
----
-title: "Diff Oil Temp"
----
-
