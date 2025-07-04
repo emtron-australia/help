@@ -1,5 +1,5 @@
 ---
-title: "Emtron Help"
+title: "Emtron Resource Centre"
 ---
 
 ## Manuals
