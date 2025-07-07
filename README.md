@@ -9,6 +9,9 @@ All documentation lives in the `content` directory. The website will automatical
 Each directory (category) needs a file called `_index.md` which tells the site what the title is, and what to show when the category itself is clicked on, for example: showing a list of child topics.
 ![_index.md example](/img/readme/index_md.png)
 
+### Weight
+The `Weight: x` property controls the ordering of categories. The lowest weight will float to the top while the highest weight will sink to the bottom. When the property is opmited, the highest weight is set by default. The number can be any integer value. 
+
 ### Images
 Images live in the `img` directory. You can put images in there then reference them in any content file.
 
@@ -56,7 +59,7 @@ A much more feature rich editing experience involves using VS Code the edit the 
    ```
    ![hugo serve](/img/readme/hugo_serve.png)
 
-   Open your browser and naviagte to http://localhost:1313/ to view the live site. Whenever you save a file, the site will instantly rebuild and update with your changes.
+   Open your browser and navigate to http://localhost:1313/ to view the live site. Whenever you save a file, the site will instantly rebuild and update with your changes.
    ![localhost:1313](/img/readme/localhost.png)
 9. **Commit and Push Changes:** 
    1. When you're done editing. **Commit you changes** with a commit message in the git client by pushing `Commit x files to master`.
