@@ -2,6 +2,7 @@
 
 ## Basics
 The Emtron Resource Centre website runs on [Hugo](https://gohugo.io/), a website framework that displays content using the mardown file format. Markdown is a simple syntax for formatting text and displaying content.
+
 Refer here for a good [Markdown Guide](https://www.markdownguide.org/cheat-sheet/).
 
 All documentation lives in the `content` directory. The website will automatically display pages and lay them out into categories based on the directory structure.
@@ -58,10 +59,20 @@ A much more feature rich editing experience involves using VS Code the edit the 
    Open your browser and naviagte to http://localhost:1313/ to view the live site. Whenever you save a file, the site will instantly rebuild and update with your changes.
    ![localhost:1313](/img/readme/localhost.png)
 9. **Commit and Push Changes:** 
-   1. When you're done editing. Commit you changes with a commit message in the git client by pushing `Commit x files to master`.
+   1. When you're done editing. **Commit you changes** with a commit message in the git client by pushing `Commit x files to master`.
    ![git commit](/img/readme/git_commit.png)
-   2. Push the changes to the remote repository.
-   
+   2. **Push the changes** to the remote repository by clicking `Push origin`.
+   ![git push](/img/readme/git_push.png)
+10. **DONE!** After a few minutes, the real website will rebuild and update automatically.
+
+### Regular Edit Workflow
+Once setup, the workflow for updating the website is very simple.
+1. Fetch and pull the repository to sync up.
+2. Open VS Code and open the repo folder.
+3. Optionally, run the ```hugo serve``` command in the terminal to launch the live preview.
+4. Edit away...
+5. Commit and push changes.
+
 
 
 
