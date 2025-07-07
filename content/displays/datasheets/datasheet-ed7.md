@@ -1,6 +1,7 @@
 ---
 title: "ED7 Datasheet"
 revision: 1
+weight: 1
 ---
 
 ![ED7 Front View](/img/ed7_front.png)

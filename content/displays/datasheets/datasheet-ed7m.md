@@ -1,6 +1,7 @@
 ---
 title: "ED7M Datasheet"
 revision: 1
+weight: 2
 ---
 
 ![](/img/ed7m_front.png)

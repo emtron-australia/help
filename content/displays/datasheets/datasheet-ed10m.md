@@ -1,6 +1,7 @@
 ---
 title: "ED10M Datasheet"
 revision: 1
+weight: 3
 ---
 
 ![](/img/ed10m_front.png)
