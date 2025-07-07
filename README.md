@@ -53,13 +53,13 @@ A much more feature rich editing experience involves using VS Code the edit the 
    ```
    hugo serve 
    ```
-   If you want to render content marked as draft enter:
+   *If you want to render content marked as draft enter:*
    ```
-   hugo serve --buildDrafs
+   hugo serve --buildDrafts
    ```
    ![hugo serve](/img/readme/hugo_serve.png)
 
-   Open your browser and navigate to http://localhost:1313/ to view the live site. Whenever you save a file, the site will instantly rebuild and update with your changes.
+   3. Open your browser and navigate to http://localhost:1313/ to view the live site. Whenever you save a file, the site will instantly rebuild and update with your changes.
    ![localhost:1313](/img/readme/localhost.png)
 9. **Commit and Push Changes:** 
    1. When you're done editing. **Commit you changes** with a commit message in the git client by pushing `Commit x files to master`.
