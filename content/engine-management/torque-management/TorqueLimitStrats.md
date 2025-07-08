@@ -4,7 +4,7 @@ title: "Torque Limit Strategies"
 
 A total of 5 different Torque Limit strategies can be configured. Different situations and scenarios may call for multiple methods of torque limiting strategies.
 
-Torque Strategies can use a combination of Throttle Area, Ignition Retard, and Cutting to achie ve the requested torque target. A priority system is used to determine the prefferred method of torque reduction, this is particularly useful during long sustained Torque Limit conditions.
+Torque Strategies can use a combination of Throttle Area, Ignition Retard, and Cutting to achieve the requested torque target. A priority system is used to determine the prefferred method of torque reduction, this is particularly useful during long sustained Torque Limit conditions.
 
 The first priority is always given preference, however should the chosen priority mode not achieve the torque target before hitting a clamp value or during the time it takes for Throttle Air Mass to change, the next priority mode will be used.
 
@@ -19,3 +19,5 @@ When the Torque Limit is entered, the Throttle Area will begin to transition to 
 Should be torque target still not be met and the Retard applied has reached the max clamp, the system will shift to Priority 3 to complete the torque reduction with cutting.
 
 Similarly, when the Ignition Retard is enough to maintain the torque reduction, the cutting will be removed. Finally, once the Throttle Area is able to sustain the Torque Limit, the Ignition Retard will be removed.
+
+![Torque Limit Flow](/img/torque/tq_limit_flow.png)

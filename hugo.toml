@@ -2,7 +2,7 @@ baseURL = 'https://docs.emtronaustralia.com.au/'
 languageCode = 'en-us'
 title = 'Emtron Resource Centre'
 theme = 'hugo-theme-relearn'
-disablePathToLower = true
+disablePathToLower = false
 pluralizeListTitles = false
 
 [params]
