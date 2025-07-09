@@ -10,5 +10,5 @@ weight: 1
    - *Emtune software will communicate to the ECU over a static IP address which must be configured.*
 4. Read the [KV Series Hardware Manual](../datasheets/kv-hardware-manual.md)
 5. Read the particular [ECU Data sheet](./engine-management/datasheets/_index.md)
-6. Familiarise your self with the [Emtron EFI relay control & power distribution](../wiring/kv-series/kv-power-distribution-wiring.md)
+6. Familiarise your self with the [Emtron EFI relay control & power distribution](../wiring/PowerSupplyWiring.md)
 7. Read the help, familiarize yourself with the software and don't be afraid to ask for assistance if you get stuck or unsure.
