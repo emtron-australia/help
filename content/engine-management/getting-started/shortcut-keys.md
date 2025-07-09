@@ -15,7 +15,7 @@ weight: 5
 | **[** | Scroll between views Left |
 | **]** | Scroll between views Right |
 
-## Table Direct Entry**
+## Table Direct Entry
 | Key | Function |
 | --- | -------- |
 |**Pg Up** | Increment value by 0.1 |
