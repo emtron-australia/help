@@ -1,6 +1,6 @@
 ---
 title: "Torque Management"
-weight: 3
+weight: 5
 ---
 
 ![Torque Limit Log](/img/torque/tq_lim_log.png)
