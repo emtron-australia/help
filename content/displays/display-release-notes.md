@@ -1,5 +1,5 @@
 ---
-title: "Release Notes"
+title: "Display Release Notes"
 weight: 1
 ---
 
