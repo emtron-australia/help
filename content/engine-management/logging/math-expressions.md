@@ -2,24 +2,15 @@
 title: "Math Expressions"
 ---
 
-# Math Expressions
-
-
 A user definable mathematical equation that allows the user to generate channels for data analysis or to aid in rapidly validation tuning data. The expression is defined by a single line of text that can include most common mathematical operations and many advanced functions.
 
 
 ![Image](</img/NewItem957.png>)
+In the above example, the expression `cv - (if(abs(a) \< 100, b, 0))` is used.
 
-
-
-In the above example, the expression "**cv - (if(abs(a) \< 100, b, 0))**" is used.&nbsp;
-
-When the Q key is pressed, the expression takes the current table cell value "**cv**" and subtracts Engine Torque (Uncorrected) "**b**", but only if the absolute Derivative Engine Speed "**a**" is less than 100 RPM/s, otherwise it subtracts nothing. This means it will automatically fill in the frictional loss table for you but it makes sure the engine speed is stable.
-
-
+When the Q key is pressed, the expression takes the current table cell value `cv` and subtracts Engine Torque (Uncorrected) `b`, but only if the absolute Derivative Engine Speed `a` is less than 100 RPM/s, otherwise it subtracts nothing. This means it will automatically fill in the frictional loss table for you but it makes sure the engine speed is stable.
 
 ## Syntax
-
 Spaces are ignored by the compiler and can be omitted or included to improve readability. There is no difference to the result.
 
 
@@ -53,11 +44,9 @@ Spaces are ignored by the compiler and can be omitted or included to improve rea
 | **,**                | Comma. Separates expressions or function arguments | x = y, x \* z min(x, y) | x = 5, x \* 2 min(12, 3)        | &#49;0 3                                                          |
 
 
-## &nbsp;
-
 ## Variables
 
-The letters 'a' through 'h' can be user assigned to any loggable ECU runtime parameter. These variables can then be used anywhere in the expression. The user assigned variables are updated with the current parameter value every time the expression is evaluated.
+The letters `a` through `h` can be user assigned to any loggable ECU runtime parameter. These variables can then be used anywhere in the expression. The user assigned variables are updated with the current parameter value every time the expression is evaluated.
 
 
 Some other variables such as "**pi**" are pre-assigned for use in the expression.
@@ -66,65 +55,56 @@ Some other variables such as "**pi**" are pre-assigned for use in the expression
 
 | Variable       | Type                       | Note                                                                                            |
 | -------------- | -------------------------- | ----------------------------------------------------------------------------------------------- |
-| User Variables |                            |                                                                                                 |
-| **a**          | Assignable Input Parameter |                                                                                                 |
-| **b**          | Assignable Input Parameter |                                                                                                 |
-| **b**          | Assignable Input Parameter |                                                                                                 |
-| **c**          | Assignable Input Parameter |                                                                                                 |
-| **d**          | Assignable Input Parameter |                                                                                                 |
-| **e**          | Assignable Input Parameter |                                                                                                 |
-| **f**          | Assignable Input Parameter |                                                                                                 |
-| **g**          | Assignable Input Parameter |                                                                                                 |
-| **h**          | Assignable Input Parameter |                                                                                                 |
-| Time           |                            |                                                                                                 |
-| **t**          | Time (seconds)             | Calculated Channels Only                                                                        |
-| **dt**         | Delta Time (seconds)       | Calculated Channels Only                                                                        |
-| Constants      |                            |                                                                                                 |
-| **pi**         | Constant                   |                                                                                                 |
+| **User Variables** |                            |                                                                                                 |
+| `a`          | Assignable Input Parameter |                                                                                                 |
+| `b`          | Assignable Input Parameter |                                                                                                 |
+| `b`          | Assignable Input Parameter |                                                                                                 |
+| `c`          | Assignable Input Parameter |                                                                                                 |
+| `d`          | Assignable Input Parameter |                                                                                                 |
+| `e`          | Assignable Input Parameter |                                                                                                 |
+| `f`          | Assignable Input Parameter |                                                                                                 |
+| `g`          | Assignable Input Parameter |                                                                                                 |
+| `h`          | Assignable Input Parameter |                                                                                                 |
+| **Time**           |                            |                                                                                                 |
+| `t`          | Time (seconds)             | Calculated Channels Only                                                                        |
+| `dt`         | Delta Time (seconds)       | Calculated Channels Only                                                                        |
+| **Constants**      |                            |                                                                                                 |
+| `pi`         | Constant                   |                                                                                                 |
 | Special        |                            |                                                                                                 |
-| **cv**         | Cell Value                 | Table Math Only. Represents the value of the table cell before any math operation is performed. |
-
-
+| `cv`         | Cell Value                 | Table Math Only. Represents the value of the table cell before any math operation is performed. |
 
 
 It's possible to create and assign variables within the expression. This can be useful for breaking up the expression to make it more readable.
 
 For example these two expressions are functionally equivalent:
+```
+cv * max(a, b, c, d)
+```
+```
+m = max(a, b, c, d), cv * m
+```
 
-&nbsp; &nbsp; **cv \* max(a, b, c, d)**
-
-&nbsp; &nbsp; **m = max(a, b, c, d), cv \* m**
-
-
-Here two separate operations are created and separated by the comma character. First a variable called "m" is created and assigned the result of the "max()" function. Secondly the table cell cell value "cv" is multiplied by "m". As there is no more work to do the expression returns the result of the second operation which then gets passed to the table to be used.\
+Here two separate operations are created and separated by the comma character. First a variable called `m` is created and assigned the result of the `max()` function. Secondly the table cell cell value `cv` is multiplied by `m`. As there is no more work to do the expression returns the result of the second operation which then gets passed to the table to be used.
 
 Variables can remember their value between iterations:
+```
+x = x + 1
+```
+The variable `x` is created and incremented by 1 every time the expression is evaluated.
 
+```
+y = 5, x = x + y
+```
+The variable `y` is created and assigned the constant value of 5. With every evaluation, `x` is increased by the value of `y` which in this case is 5.
 
-&nbsp; &nbsp; **x = x + 1**
-
-
-The variable "x" is created and incremented by 1 every time the expression is evaluated.
-
-
-
-&nbsp; &nbsp; **y = 5, x = x + y**
-
-
-The variable "y" is created and assigned the constant value of 5. With every evaluation, "x" is increased by the value of "y" which in this case is 5.
-
-
-
-*NOTE: The iterative nature of variables should be considered when writing expressions that may use them.*&nbsp;
-
+> **NOTE:** The iterative nature of variables should be considered when writing expressions that may use them.
 
 ## Functions
-
 Functions are purpose built computational blocks that take input arguments to output a result. Functions are called by their name followed by brackets containing a list of arguments separated by commas. For example:
 
-
+```
 result = func(arg1, arg2, arg3)
-
+```
 
 Some functions take a single input argument, some take more. Arguments can be any other valid syntax type such as constants, variables, other functions or logic expressions.
 
@@ -133,7 +113,7 @@ Some functions take a single input argument, some take more. Arguments can be an
 See the table below for a list of the available functions and their usage.
 
 
-*\* Optional Argument*
+*\*Optional Argument*
 
 
 | Function Abbreviation               | Full Name                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                           | Arguments                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Example                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -161,65 +141,54 @@ See the table below for a list of the available functions and their usage.
 
 ## Examples
 
-
 ### VE Table Quick Validate
-
-**cv \* (a / b)**
-
-*a = Lambda Avg*
-
-*b = Lambda Target*
-
+```
+cv * (a / b)
+```
+ - `a` = Lambda Avg
+ - `b` = Lambda Target
 
 This is equivalent to the operation performed when pressing the L key during live tuning. The advantage here is that the the expression can be performed using the the current log cursor position values as inputs.
 
 ![Image](</img/NewItem962.png>)
 
 
-
 ### Bank 1 Trim Table Quick Validate
-
-**trim = ((a / b) - 1) \* 100, cv + trim**
-
-*a = Lambda 1*
-
-*b = Lambda Target*
-
+```
+trim = ((a / b) - 1) * 100, cv + trim
+```
+ - `a` = Lambda 1*
+ - `b` = Lambda Target*
 
 Similar to the VE expression except that it gives a percentage offset value to be used in the bank trim table. Assumes Bank 1 is measured by Lambda 1.
 
-First the trim is calculated, then the trim is added to the cell value
+First the `trim` is calculated, then the `trim` is added to the cell value
 
 ![Image](</img/NewItem963.png>)
 
 
-
 ### Bank 2 Trim Table Quick Validate
-
-**trim = ((a / b) - 1) \* 100, cv + trim**
-
-*a = Lambda 2*
-
-*b = Lambda Target*
+```
+trim = ((a / b) - 1) * 100, cv + trim
+```
+ - `a` = Lambda 2
+ - `b` = Lambda Target
 
 
 Similar to the VE expression except that it gives a percentage offset value to be used in the bank trim table. Assumes Bank 2 is measured by Lambda 2
 
-![Image](</img/NewItem964.png>) &nbsp; &nbsp;
+![Image](</img/NewItem964.png>)
 
 
 
 ### Frictional Loss Table
-
-**cv - (if(abs(a) \< 100, b, 0))**
-
-*a = dRPM*
-
-*b = Engine Torque (Uncorrected)*
-
+```
+cv - (if(abs(a) < 100, b, 0))
+```
+ - `a` = dRPM
+ - `b` = Engine Torque (Uncorrected)
 
 When the engine is accelerating, torque is positive. When the engine is decelerating torque is negative. When the the engine speed is stable (unloaded free revving) the torque is 0. The frictional loss table is used to account for the internal drag of the engine rotating assembly in order to give the correct 0mn final torque value.
-
 
 The expression checks the dRPM to make sure the engine is held at a near constant RPM (less than a generous 100 rpm/s in this example) where final torque should be 0nm. The abs() function is used to turn a negate dRPM value into a positive to simplify the \< (less than) logic. If the dRPM check is true, the current Engine torque value is subtracted from the cell value, if not 0 is subtracted from the cell value, ie. nothing happens.
 
@@ -227,22 +196,19 @@ The expression checks the dRPM to make sure the engine is held at a near constan
 ![Image](</img/NewItem965.png>)
 
 
+### Calculated Channels
 
+**Extreme Example:** Knock Threshold Level Helper
+```
+mK = max(a,b,c,d,e,f,g,h), aK = av(a,b,c,d,e,f,g,h), dK = dv(mk, 0.1), lp(aK, if (dK <= 500, 95, 99.9)) * 3.2
+```
+ - `a` - `h` = Knk Level Cyl #
 
-### Calculated Channels: Knock Threshold Level Helper
+An example of using some nested expressions to generate a bit of an idea of what the ideal knock threshold value might be.
 
-**mK = max(a,b,c,d,e,f,g,h), aK = av(a,b,c,d,e,f,g,h), dK = dv(mk, 0.1),&nbsp; lp(aK, if (dK \<= 500, 95, 99.9)) \* 3.2**
+The expression finds the max knock (`mK`), then the average knock (`aK`), then the derivative of the max over 100ms. Next applies a low pass filter over the average, and adjusts the filter level depending on the derivative. Finally it multiplies the result by 3.2.
 
-*a - h = Knk Level Cyl #*
-
-
-An example of using some nested expressions to generate a bit of an idea of what the ideal knock threshold value might be.&nbsp;
-
-
-The expression finds the max knock (mK), then the average knock (aK), then the derivative of the max over 100ms. Next applies a low pass filter over the average, and adjusts the filter level depending on the derivative. Finally it multiplies the result by 3.2
-
-
-*This is an example only and isn't intended to be useful as is for any or all applications. It does however show how functions and variables can be nested in a variety of ways.*
+>This is an example only and isn't intended to be useful as is for any or all applications. It does however show how functions and variables can be nested in a variety of ways.
 
 
 ![Image](</img/NewItem972.png>)
