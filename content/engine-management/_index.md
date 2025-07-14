@@ -9,7 +9,7 @@ Welcome to the Emtune Software manual.
 
 The latest software updates are available from:
 
-[https://emtron.world/downloads/](<https://emtron.world/downloads/>)
+[https://downloads.emtronaustralia.com.au/](<https://downloads.emtronaustralia.com.au/>)
 
 ---
 
