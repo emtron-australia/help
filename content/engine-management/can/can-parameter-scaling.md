@@ -2,7 +2,7 @@
 title: "CAN Parameter Scaling"
 ---
 
-{{% badge style="info" %}}All values are 16 bit unsigned intergers, LSB Byte Order{{% /badge %}} 
+{{% notice style="info" %}}All values are 16 bit unsigned intergers, LSB Byte Order{{% /notice %}} 
 
 {{% badge style="info" %}}Unlisted runtimes are raw{{% /badge %}} 
 
