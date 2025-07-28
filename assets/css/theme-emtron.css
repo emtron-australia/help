@@ -2,4 +2,6 @@
 
 :root {
     --MAIN-BG-color: #121212;
+    --MENU-SECTIONS-BG-color: #1c1c1c;
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #121212;
 }
