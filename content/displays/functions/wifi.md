@@ -2,9 +2,9 @@
 title: "Wi-Fi"
 ---
 
-By default, the ED Series Displays will broadcast the following Wi-Fi networks.
-
 ## Default Network
+By default the ED Series Displays will broadcast the following Wi-Fi networks.
+
 | Model | SSID  | Passphrase |
 | ----- | ----- | ---------- |
 | ED10M | ED10M | ed10mwifi  |
