@@ -16,14 +16,14 @@ Spaces are ignored by the compiler and can be omitted or included to improve rea
 
 | Operator / Character | Description                                        | Usage                   | Example                         | Result                                                            |
 | -------------------- | -------------------------------------------------- | ----------------------- | ------------------------------- | ----------------------------------------------------------------- |
-| Arithmetic           |                                                    |                         |                                 |                                                                   |
+| **Arithmetic**           |                                                    |                         |                                 |                                                                   |
 | **\+**               | Add                                                | x + y                   | &#49;2 + 3                      | &#49;5                                                            |
 | **\-**               | Subtract                                           | x - y                   | &#49;2 - 3                      | &#57;                                                             |
 | **\***               | Multiply                                           | x \* y                  | &#49;2 \* 3                     | &#51;6                                                            |
 | **/**                | Divide                                             | x / y                   | &#49;2 / 3                      | &#52;                                                             |
 | **%**                | Modulus / Remainder                                | x % y                   | &#49;2 % 3 12 % 10              | &#48; 2                                                           |
 | **\*\***             | Power                                              | x \*\* y                | &#49;2 \*\* 3                   | &#49;728                                                          |
-| Logical              |                                                    |                         |                                 |                                                                   |
+| **Logical**              |                                                    |                         |                                 |                                                                   |
 | **\<**               | Less Than                                          | x \< y                  | &#49;2 \< 3 12 \< 34            | &#48; (false) 1 (true)                                            |
 | **\>**               | Greater Than                                       | x \> y                  | &#49;2 \> 3 12 \> 34            | &#49; (true) 0 (false)                                            |
 | **\==**              | Equal To                                           | x == y                  | &#49;2 == 3 12 == 12            | &#48; (false) 1 (true)                                            |
@@ -33,13 +33,13 @@ Spaces are ignored by the compiler and can be omitted or included to improve rea
 | **\&\&**             | And                                                | x \&\& y                | &#49;2 \&\& 3 1 \&\& 0 0 \&\& 0 | &#49; (true) *Both sides are non zero* 0 (false) 0 (false)        |
 | **\|\|**             | Or                                                 | x \|\| y                | &#49;2 \|\| 3 1 \|\| 0 0 \|\| 0 | &#49; (true)&nbsp; 1 (true) *Either side is non zero* *0 (false)* |
 | **\!**               | Negation                                           | x = \!y                 | x = \!1 x = \!0                 | x = 0 x = 1                                                       |
-| Bitwise              |                                                    |                         |                                 |                                                                   |
+| **Bitwise**              |                                                    |                         |                                 |                                                                   |
 | **\<\<**             | Shift Left                                         | x \<\< y                | &#53;6 \<\< 2                   | &#50;24                                                           |
 | **\>\>**             | Shift Right                                        | x \>\> y                | &#53;6 \>\> 2                   | &#49;4                                                            |
 | **\&**               | Bitwise And                                        | x \& y                  | &#53;6 \& 15                    | &#56;                                                             |
 | **\|**               | Bitwise Or                                         | x \| y                  | &#53;6 \| 15                    | &#54;3                                                            |
 | **\^**               | Bitwise XOR Bitwise Not (32 bit signed integer)    | x \^ y \^x              | &#53;6 \^ 15 \^56               | &#53;5 -57                                                        |
-| Other                |                                                    |                         |                                 |                                                                   |
+| **Other**                |                                                    |                         |                                 |                                                                   |
 | **\=**               | Assignment                                         | x = y                   | x = 5                           | Assigns value of 5 to variable "x"                                |
 | **,**                | Comma. Separates expressions or function arguments | x = y, x \* z min(x, y) | x = 5, x \* 2 min(12, 3)        | &#49;0 3                                                          |
 
@@ -77,22 +77,22 @@ Some other variables such as "**pi**" are pre-assigned for use in the expression
 It's possible to create and assign variables within the expression. This can be useful for breaking up the expression to make it more readable.
 
 For example these two expressions are functionally equivalent:
-```
+``` c
 cv * max(a, b, c, d)
 ```
-```
+``` c
 m = max(a, b, c, d), cv * m
 ```
 
 Here two separate operations are created and separated by the comma character. First a variable called `m` is created and assigned the result of the `max()` function. Secondly the table cell cell value `cv` is multiplied by `m`. As there is no more work to do the expression returns the result of the second operation which then gets passed to the table to be used.
 
 Variables can remember their value between iterations:
-```
+``` c
 x = x + 1
 ```
 The variable `x` is created and incremented by 1 every time the expression is evaluated.
 
-```
+``` c
 y = 5, x = x + y
 ```
 The variable `y` is created and assigned the constant value of 5. With every evaluation, `x` is increased by the value of `y` which in this case is 5.
@@ -102,7 +102,7 @@ The variable `y` is created and assigned the constant value of 5. With every eva
 ## Functions
 Functions are purpose built computational blocks that take input arguments to output a result. Functions are called by their name followed by brackets containing a list of arguments separated by commas. For example:
 
-```
+``` c
 result = func(arg1, arg2, arg3)
 ```
 
@@ -142,7 +142,7 @@ See the table below for a list of the available functions and their usage.
 ## Examples
 
 ### VE Table Quick Validate
-```
+``` c
 cv * (a / b)
 ```
  - `a` = Lambda Avg
@@ -154,7 +154,7 @@ This is equivalent to the operation performed when pressing the L key during liv
 
 
 ### Bank 1 Trim Table Quick Validate
-```
+``` c
 trim = ((a / b) - 1) * 100, cv + trim
 ```
  - `a` = Lambda 1*
@@ -168,7 +168,7 @@ First the `trim` is calculated, then the `trim` is added to the cell value
 
 
 ### Bank 2 Trim Table Quick Validate
-```
+``` c
 trim = ((a / b) - 1) * 100, cv + trim
 ```
  - `a` = Lambda 2
@@ -182,7 +182,7 @@ Similar to the VE expression except that it gives a percentage offset value to b
 
 
 ### Frictional Loss Table
-```
+``` c
 cv - (if(abs(a) < 100, b, 0))
 ```
  - `a` = dRPM
@@ -199,7 +199,7 @@ The expression checks the dRPM to make sure the engine is held at a near constan
 ### Calculated Channels
 
 **Extreme Example:** Knock Threshold Level Helper
-```
+``` c
 mK = max(a,b,c,d,e,f,g,h), aK = av(a,b,c,d,e,f,g,h), dK = dv(mk, 0.1), lp(aK, if (dK <= 500, 95, 99.9)) * 3.2
 ```
  - `a` - `h` = Knk Level Cyl #

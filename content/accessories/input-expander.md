@@ -142,9 +142,8 @@ The EIC16M has x4 software controlled pullup resistors on ANV13 and ANV16 using 
 
 A summary is shown in Table 3.2.
 
-|     |                               |                     |            |
-|-----|-------------------------------|---------------------|------------|
 | Pin | Function                      | Voltage Input Range | Pull-Up    |
+|-----|-------------------------------|---------------------|------------|
 | 13  | Analog Voltage 9              | 0.0 – 5.0V          | Yes – 5.0V |
 | 14  | Analog Voltage 10             | 0.0 – 5.0V          | Yes – 5.0V |
 | 15  | Analog Voltage 11             | 0.0 – 5.0V          | Yes – 5.0V |
@@ -171,9 +170,8 @@ The EIC16M has 4x Frequency Inputs which get shared with Analog Input pins as sh
 
 **EIC16M**
 
-|     |                               |
-|-----|-------------------------------|
 | Pin | Function                      |
+|-----|:------------------------------|
 | 17  | Analog Voltage 13/Frequency 1 |
 | 18  | Analog Voltage 14/Frequency 2 |
 | 19  | Analog Voltage 15/Frequency 3 |
@@ -187,9 +185,8 @@ Table 3.4. EIC16M Frequency Inputs Input Summary.
 
 To minimise signal contamination and maximise noise immunity, the wire pairs shown in Table 3.2 must be twisted. It is recommended to twist the wire pairs at a minimum one twist per 40mm of cable. This is very important and should always be implemented.
 
-|          |           |         |
-|----------|-----------|---------|
 | Pair 1   |           | Pair 2  |
+|----------|-----------|---------|
 | CAN High | <-------> | CAN Low |
 
 Table 3.3. CAN Hi and Lo wire pairing for twisting
@@ -575,9 +572,8 @@ The sensor is powered through a pullup resistor. The minimum supply voltage is 8
 
 Figure 6.0. Sensor Wiring
 
-|        |                    |            |             |                  |                                                             |
-|--------|--------------------|------------|-------------|------------------|-------------------------------------------------------------|
 | Supply | Pullup  Resistance | Low Output | High Output | Switching  Range | Comments                                                    |
+|--------|--------------------|------------|-------------|------------------|-------------------------------------------------------------|
 | 5V     | 330 Ohms           | 5.2V       | 5.2V        | 0.0V             | {{% icon icon="xmark" style="red" %}} Insufficient Current  |
 | 8V     | 330 Ohms           | 3.6V       | 5.9V        | 2.3V             | {{% icon icon="check" style="green" %}}    (see Figure 6.1) |
 | 12V    | 330 Ohms           | 7.6V       | 9.9V        | 2.3V             | {{% icon icon="check" style="green" %}}                     |

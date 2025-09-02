@@ -226,9 +226,8 @@ The ELC devices leave the factory programmed with individual serial numbers, but
 
 To minimise signal contamination and maximise noise immunity, the wire pairs shown in Table 3.2 must be twisted. It is recommended to twist the wire pairs at a minimum one twist per 40mm of cable. This is very important and should always be implemented on both CAN Bus and LSU Sensor wiring.
 
-|                     |           |                |
-|---------------------|-----------|----------------|
 | Pair 1              |           | Pair 2         |
+|---------------------|-----------|----------------|
 | CAN High            | <-------> | CAN Low        |
 | Pump Current        | <-------> | Cal Resistor   |
 | Nernst Cell Voltage | <-------> | Virtual Ground |
@@ -283,10 +282,7 @@ A lean reading will appear leaner than it really is.
 This predominantly becomes an issue in Turbocharged applications. This is the main reason you should position the sensor after the turbo where exhaust back-pressure is lowest.
 
 Excessive Exhaust Back Pressure (EMAP) can also damage the sensor. The following rule should be observed:
-
-|                                 |
-|---------------------------------|
-| Exhaust Back Pressure < 2.5 Bar |
+> Exhaust Back Pressure < 2.5 Bar
 
 When measuring Exhaust Back Pressure, an Absolute Pressure Sensor MUST be used. (i.e. **do not** use a Gauge Pressure Sensor). The ECU MUST have the Exhaust Manifold Pressure channel configured so data transmitted from ECU to ELC is valid.
 
