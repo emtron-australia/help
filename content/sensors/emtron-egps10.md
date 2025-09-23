@@ -2,7 +2,7 @@
 title: Emtron EGPS-10
 ---
 
-![EGPS-10](../../img/emtron-gps/gps1.png)
+![EGPS-10](../../img/emtron-gps/egps10.png)
 
 The Emtron EGPS-10 is a high-performance 10 Hz L1-band GNSS receiver designed for automotive navigation.
 
