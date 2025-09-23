@@ -1,6 +1,7 @@
 ---
 title: "Emtron GPS Module"
 weight: 4
+draft: true
 ---
 
 The Emtron GPS Module that ships with ED Series Displays communicates with the Display via RS232.
