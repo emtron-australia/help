@@ -22,7 +22,7 @@ weight: 1
 ### Physical
 
 - Aluminium 6061 grade CNC billet enclosure
-- Enclosure size 284 X 140mm
+- Enclosure size 199 X 142mm
 - Weight: 1310g
 - Connector system: 55 Pin Circular Mil Spec Series III Connector
 - Pin diameter: 1 mm
