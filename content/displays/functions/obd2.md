@@ -1,3 +1,7 @@
+---
+title: "OBD-II"
+description: "User guide for configuring and using the OBD2 scanner module"
+---
 # OBD2 Scanner User Guide
 
 ## Overview
