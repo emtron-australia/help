@@ -3,8 +3,34 @@ title: "Emtune Release Notes"
 weight: 2
 ---
 
+## Emtune V1.22
+*4 November 2025*
+
+`Includes ECU Firmware v2.20.20`
+### New Features
+ - Added support for Shadow logging download. *NOT currently available on from welcome screen. Open ECU first.*
+ - Added notes about Half Bridge Drivers to Output Setup form.
+ - Increased max idle area demand.
+ - Updated Dyno Comms.
+ - Updated help browser to use docs.emtronaustralia.com.au
+ - Added Home button to built in help browser.
+
+### Bug Fixes
+ - CAN Voltage visibility on Digital Input Setup form - Fixed.
+ - Calibration not working on Shadow DI 7+ on Input Setup form - Fixed.
+ - CAN Rx Parameters showing on R35 Launch control settings - Fixed.
+ - Torque Traction Z axis table not showing - Fixed.
+ - DI 7&8 not available as input voltage on SL Series - Fixed.
+ - Frictional Loss min/max clamps - Fixed.
+ - License check shutting down current version - Fixed.
+
+---
+
 ## Emtune V1.21
 *6 January 2025*
+
+`Includes ECU Firmware v2.20.0`
+
 ### New Features
  - Added Math Expression parser engine to Emtune.
    - Added Math Expression based Calculated Channels mode for use in the logger.
@@ -54,6 +80,9 @@ weight: 2
 
 ## Emtune Update V1.20
 *1 August 2023*
+
+`Includes ECU Firmware v2.19.0`
+
 ### New Features
  - MAJOR UPDATE - New unified application theme throughout. 
  - Updated Splash screen.
@@ -119,7 +148,10 @@ weight: 2
 ---
 
 ## Emtune Update V1.19
-*1 Sept 2020*
+*1 September 2020*
+
+`Includes ECU Firmware v2.18.0`
+
 ### New Features
  - MAJOR UPDATE - An expansion of the Emtron web server now adds the ability of Emtune auto updates and allows the latest version to operate in a backwards compatibility mode.  Emtune will detect the version of firmware in the connected ECU or desired ECU cal file opened in offline mode and will apply the correct menu settings.  This ensures calibration settings such as tables and menu items in Emtune will sync with the corresponding major firmware build version.  
  - Calculated Channel feature added to Emtune.  UI level functions added.  Ability to code custom channels with C language.  Calculated channels available in Emtune logging and Emtune gauges in realtime 

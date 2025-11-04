@@ -11,6 +11,50 @@ weight: 1
 
 ---
 
+## V2.20.20
+*4/11/2025*
+
+ - Added data logging to Shadow 8.
+ - Added Next Upshift Lockout Time to Gearshift Control.
+ - Added channels to axis selection.
+ - Added Gear Detection Tracking input selection to Gear Management so 2 sources can be used at once again.
+ - Added ORFC anti lag and rev match lockouts.
+ - Increase idle initial position clamp to 150g/s
+ - Traction control driver demand clamp status added
+ - Traction torque final clamped to 5000nm.
+ - Added ORFC Cruise control torque lockout.
+ - Compression Ratio correction applied to TMF Torque & Driver Demand Torque.
+ - Shadow DI min frequency now 2Hz (from 12Hz).
+ - Added Driver Demand Peak Manifold Pressure table. `Table must be setup after update for Driver Demand Torque to work.`
+ - Added Traction exit delay.
+ - Added EMAP Estimate baro compensation.
+ - R35 TCM can now be flashed with Emtron ECU in place.
+ - Added TM16 Torque Gearshift Control mode.
+ - Added TM16 CAN data set.
+
+
+**Improvements/Fixes**
+ - Fixed Fuel Rate (and Fuel Used) calculation (broken in 2.20.0).
+ - Updated Evo X CAN data.
+ - Fixed Ambient Temp Cal.
+ - Fixed fuel pump speed 2 PWM after power cycle.
+ - Fixed Cal slot table Y axis.
+ - Added max clamp of 10 to cruise up down counter.
+ - Fixed stepper motor control on Shadow 8.
+ - Cleaned up gear detection runtimes.
+ - Traction slip mode rapid on/off during lockouts fixed.
+ - Fixed Shadow single zone arming thresholds.
+ - NOS torque applied to uncorrected torque.
+ - NOS Status updated for clarity.
+ - Antilag DBW override on TA Table mode 7 fixed.
+ - Cruise paused-pedal error fixed.
+ - Shadow ethanol sensor on DI1-8.
+ - ORFC lockouts fixed.
+ - Fixed cornering speed calculation.
+ - Fixed DI High Range input ignoring arming threshold table.
+ - Fixed logging of User Switches and User Functions 11-15.
+
+--- 
 ## V2.20.0
 *20/12/2024*
 
