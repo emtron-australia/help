@@ -1,6 +1,16 @@
 @import "theme-zen-dark.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 :root {
+    --MAIN-font: "Inter", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    --MAIN-font-variation-settings: "none";
+    --MAIN-font-weight: 400;
+    --MAIN-letter-spacing: 0;
+
+    --MAIN-TITLES-font: "Inter", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    --MAIN-TITLES-font-variation-settings: "none";
+    --MAIN-TITLES-font-weight: 600;
+
     --MAIN-BG-color: #121212;
     --MENU-SECTIONS-BG-color: #1c1c1c;
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #121212;
