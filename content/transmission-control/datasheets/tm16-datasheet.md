@@ -247,4 +247,4 @@ The Emtron TM16 is a fully programmable Transmission Control Module aimed at con
  - 8GB Onboard eMMC logging memory.
 
 ### Programming
-All device configuration and firmware updates are done via ethernet connection with our free PC Software.
+All device configuration and firmware updates are done via ethernet connection with our free TMtune PC Software.
