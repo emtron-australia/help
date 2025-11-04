@@ -2,11 +2,9 @@
 title: "Throttle Mass Flow Setup"
 ---
 
-# Throttle Mass Flow Setup
-
+## Introduction
 
 ![Image](</img/TMF Setup.jpg>)
-
 
 Throttle Mass Flow (TMF) as the name indicates, is the rate at which **air mass** is flowing through a throttle body in units of grams/second (g/s). Using the throttle body size, throttle area, temperature, pre and post throttle pressures,the ECU can very accurately calculate air flow through the throttle body and therefore into the engine; this is known as the TMF Calculation. Other sensors that also generate air mass flow (g/s) data are Manifold Pressure and MAF sensors. The TMF Calculation is just another method of determining air mass flow and has benefits over MAP and MAF as discussed further down.
 
@@ -49,7 +47,7 @@ The TMF calculation can summarised in the below equation :
 
 ***
 
-**Settings**
+## Settings
 
 
 **Tuning -\> Engine Functions -\> Throttle Body Model -\> Throttle Mass Flow Setup**
@@ -178,7 +176,7 @@ The TMF is used to control throttle plate position to achieve a target torque an
 
 ***
 
-**Tuning TMF**
+## Tuning TMF
 
 
 Once TMF is appropriate set up, it can make mapping the engine when it is in use very fast.&nbsp; Using TMF wherever possible is strongly advised by Emtron, especially depending on what kind of dynamometer being used, test conditions, and more – often part throttle and proper transient setup is often forgiven due to time constraints. &nbsp;
@@ -225,7 +223,7 @@ Improper "Outflow Scale" setting.&nbsp; Adjust Throttle Mass Flow Outflow Scaler
 \*\* Throttle Mass Flow Air Flow values can only be compared to validated/tuned air flow values (tuned) such as MAP Air Mass or MAF Air Mass.&nbsp;
 
 
-**TMF Correction Table**
+### TMF Correction Table
 
 
 This correction table essentially exists to help remove an error remaining in the system across a wide variety of load \& rpm conditions.
@@ -240,8 +238,7 @@ This correction table essentially exists to help remove an error remaining in th
 Demonstrating error in TMF Calculation that needs to be corrected in TMF Correction Table
 
 
-**Tuning the Throttle Body Area Table**
-
+### Tuning the Throttle Body Area Table
 
 The Throttle Body Area table tells the ECU how much actual throttle area is effective at different throttle positions.&nbsp; This is key to the ECUs further Torque Managing functions, as accurate air mass measurement and actual engine torque go hand in hand. &nbsp;
 

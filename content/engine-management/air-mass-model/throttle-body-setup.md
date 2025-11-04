@@ -2,11 +2,8 @@
 title: "Throttle Body Setup"
 ---
 
-**Introduction**&nbsp;
-
-
+## Introduction
 The Throttle Body setup consists of 2 main parts:
-
 
 * Throttle body diameter and scaler.&nbsp;
 * Throttle body area table.&nbsp;
@@ -21,12 +18,7 @@ Settings are adjusted from the Engine Functions -\> Throttle Body Model menu. Th
 See the [DBW Torque Management](<DBWTorqueMang.md>)&nbsp; help topic for more information on the process of converting Pedal Position to Throttle Area to DBW Servo target. &nbsp;
 
 
-***
-
-
-**Throttle Body Setup**&nbsp;
-
-
+## Throttle Body Setup
 The Throttle Body diameter and scaler can be adjusted from this menu.&nbsp;
 
 
@@ -34,12 +26,7 @@ The Throttle Body diameter and scaler can be adjusted from this menu.&nbsp;
 ![Image](</img/Untitled188.png>)&nbsp;
 
 
-
-***
-
-
-**Throttle Body Area Table**
-
+## Throttle Body Area Table
 
 The Throttle Body Area table is a 40 cell correlation table; it gives the direct relationship between Throttle Area and Throttle Position (Servo Position). The ECU uses this table to convert any Throttle Area request into Servo Position which is then used as the DBW Target. Throttle Body templates are available to load into the ECU from the File -\> Import Module File menu.
 

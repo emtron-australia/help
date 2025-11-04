@@ -1,26 +1,20 @@
 ---
-title: "Tuning Throttle Body Area"
+title: "Throttle Body Area Tuning"
+draft: true
 ---
 
-# Tuning Throttle Body Area
-
-
 Throttle Mass Flow (TMF) as the name indicates, is the rate at which **air mass** is flowing through a throttle body in units of grams/second (g/s). Using the throttle body size, throttle area, temperature, pre and post throttle pressures,the ECU can very accurately calculate air flow through the throttle body and therefore into the engine; this is known as the TMF Calculation. Other sensors that also generate air mass flow (g/s) data are Manifold Pressure and MAF sensors. The TMF Calculation is just another method of determining air mass flow and has benefits over MAP and MAF as discussed further down.
-
 
 The image below illustrates the basic elements required to calculate TMF.
 
 
-
 ![Image](</img/Throttle Drawing13.jpg>)
-
 
 
 Getting into more detail, the flow through a throttle body is governed by three physical elements, Conversation of mass, Newtons second law of motion for fluids and Conservation of energy. By combining these elements the ECU can model the flow of fluid through the throttle body accounting for throttle plate thickness and throttle shaft size.&nbsp; By then including real-time data such as the **pressure ratio** across the throttle plate and the instantaneous **throttle area,** the ECU can precisely calculate the mass flow rate through a throttle body.
 
 
 Although these calculation are complex, the TMF setup process for the user is kept as simple as possible with the following inputs and setup required:
-
 
 ***
 

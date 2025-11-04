@@ -1,5 +1,5 @@
 ---
-title: "Engine User Torque Limits"
+title: "User Torque Limits"
 ---
 
 In addition to Motorsport and special features included in the firmware that utilize Torque Management (Launch Control, Traction Control, Engine Speed limiting), there are 5 User Configurable Torque Limits.
