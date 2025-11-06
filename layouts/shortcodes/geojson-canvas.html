@@ -28,6 +28,8 @@
 </canvas>
 
 <div style="margin-top: 10px; text-align: center;">
+    <button id="pauseBtn-{{ .Ordinal }}"
+        style="padding: 8px 16px; background-color: #ff6b6b; color: white; border: none; border-radius: 4px; font-size: 14px; cursor: pointer; margin-right: 10px;">Pause</button>
     <a href="{{ $geoPath }}" download
         style="display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-size: 14px;">Download
         Track (GeoJSON)</a>
@@ -86,9 +88,9 @@
                 const rotX = nx * cos - ny * sin;
                 const rotY = nx * sin + ny * cos;
 
-                // Isometric projection
+                // Isometric projection (flipped to view from above)
                 const iso_x = (rotX - rotY) * 0.866;
-                const iso_y = (rotX + rotY) * 0.5;
+                const iso_y = -(rotX + rotY) * 0.5;
 
                 // Scale and center on canvas - increased zoom
                 const scale = Math.min(width, height) * 1.1;
@@ -147,10 +149,55 @@
             }
 
             let startTime = Date.now();
+            let isPaused = false;
+            let pausedTime = 0;
+            let dragAngle = 0;
+            let isDragging = false;
+            let dragStartX = 0;
+
+            const pauseBtn = document.getElementById('pauseBtn-{{ .Ordinal }}');
+
+            pauseBtn.addEventListener('click', function () {
+                isPaused = !isPaused;
+                if (isPaused) {
+                    pausedTime = (Date.now() - startTime) / 1000;
+                    pauseBtn.textContent = 'Play';
+                    pauseBtn.style.backgroundColor = '#51cf66';
+                    canvas.style.cursor = 'grab';
+                } else {
+                    startTime = Date.now() - (pausedTime * 1000);
+                    pauseBtn.textContent = 'Pause';
+                    pauseBtn.style.backgroundColor = '#ff6b6b';
+                    canvas.style.cursor = 'default';
+                }
+            });
+
+            canvas.addEventListener('mousedown', function (e) {
+                if (!isPaused) return;
+                isDragging = true;
+                dragStartX = e.clientX;
+                canvas.style.cursor = 'grabbing';
+            });
+
+            document.addEventListener('mousemove', function (e) {
+                if (!isDragging) return;
+                const deltaX = e.clientX - dragStartX;
+                dragAngle += deltaX * 0.005;
+                dragStartX = e.clientX;
+                drawFrame(dragAngle);
+            });
+
+            document.addEventListener('mouseup', function () {
+                isDragging = false;
+                canvas.style.cursor = 'grab';
+            });
+
             function animate() {
-                const elapsed = (Date.now() - startTime) / 1000;
-                const angle = (elapsed * 0.5) % (Math.PI * 2);
-                drawFrame(angle);
+                if (!isPaused) {
+                    const elapsed = (Date.now() - startTime) / 1000;
+                    const angle = (elapsed * 0.4) % (Math.PI * 2);
+                    drawFrame(angle);
+                }
                 requestAnimationFrame(animate);
             }
             animate();
