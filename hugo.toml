@@ -11,6 +11,12 @@ pluralizeListTitles = false
   disableRootBreadcrumb = true
   disableInlineCopyToClipBoard = true
 
+[markup.renderer]
+  unsafe = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
 [[params.themeVariant]]
   identifier = 'emtron'
 

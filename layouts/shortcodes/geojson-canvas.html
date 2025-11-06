@@ -1,0 +1,152 @@
+{{- $attributes := dict }} <!-- For extra HTML attributes like class or style -->
+{{- $options := dict "width" 800 "height" 400 "bgcolor" "#fff" }} <!-- Default canvas options -->
+{{- $geojson := "" }} <!-- Required GeoJSON path -->
+
+{{- range $k, $v := .Params }}
+{{- if eq $k "geojson" }}
+{{- $geojson = $v }}
+{{- else if in (slice "width" "height" "bgcolor") $k }}
+{{- $options = $options | merge (dict $k $v) }}
+{{- else }}
+{{- $attributes = $attributes | merge (dict $k $v) }}
+{{- end }}
+{{- end }}
+
+{{- if not $geojson }}
+{{- errorf "The geojson-canvas shortcode requires a 'geojson' parameter with the file path." }}
+{{- end }}
+{{- $geoPath := $geojson }}
+{{- if not (strings.HasPrefix $geojson "http") }}
+{{- if not (strings.HasPrefix $geojson "/") }}
+{{- $geoPath = "/" $geojson | strings.TrimLeft "/" }}
+{{- end }}
+{{- end }}
+<canvas id="canvas-{{ .Ordinal }}" width="{{ $options.width }}" height="{{ $options.height }}"
+    style="border: 1px solid #ccc; background-color: transparent; {{- if $attributes.style }} {{ $attributes.style }} {{- end }}">
+</canvas>
+
+<div style="margin-top: 10px; text-align: center;">
+    <a href="{{ $geoPath }}" download
+        style="display: inline-block; padding: 8px 16px; background-color: #0066cc; color: white; text-decoration: none; border-radius: 4px; font-size: 14px;">Download
+        Track (GeoJSON)</a>
+</div>
+
+<script>
+    fetch('{{ $geoPath }}')
+        .then(response => {
+            if (!response.ok) throw new Error('HTTP error, status: ' + response.status);
+            return response.json();
+        })
+        .then(geojson => {
+            const canvas = document.getElementById('canvas-{{ .Ordinal }}');
+            const ctx = canvas.getContext('2d');
+            const width = canvas.width;
+            const height = canvas.height;
+
+            // Make canvas background transparent
+            ctx.clearRect(0, 0, width, height);
+
+            // Calculate bounds of all features
+            let minLon = Infinity, maxLon = -Infinity, minLat = Infinity, maxLat = -Infinity;
+
+            if (!geojson.features) {
+                return;
+            }
+
+            // Find bounds
+            geojson.features.forEach(feature => {
+                const coords = [];
+                if (feature.geometry.type === 'LineString') {
+                    coords.push(...feature.geometry.coordinates);
+                } else if (feature.geometry.type === 'Polygon') {
+                    feature.geometry.coordinates.forEach(ring => coords.push(...ring));
+                } else if (feature.geometry.type === 'MultiPolygon') {
+                    feature.geometry.coordinates.forEach(polygon => {
+                        polygon.forEach(ring => coords.push(...ring));
+                    });
+                }
+                coords.forEach(coord => {
+                    minLon = Math.min(minLon, coord[0]);
+                    maxLon = Math.max(maxLon, coord[0]);
+                    minLat = Math.min(minLat, coord[1]);
+                    maxLat = Math.max(maxLat, coord[1]);
+                });
+            });
+
+            // Create projection with proper scaling
+            const lonRange = maxLon - minLon;
+            const latRange = maxLat - minLat;
+            const padding = 40;
+
+            function project(lon, lat) {
+                // Use aspect ratio to maintain proper proportions
+                const xRange = width - 2 * padding;
+                const yRange = height - 2 * padding;
+
+                // Scale both dimensions equally based on the smaller ratio
+                const lonScale = xRange / lonRange;
+                const latScale = yRange / latRange;
+                const scale = Math.min(lonScale, latScale);
+
+                const scaledWidth = lonRange * scale;
+                const scaledHeight = latRange * scale;
+
+                // Center the scaled map on the canvas
+                const offsetX = (xRange - scaledWidth) / 2 + padding;
+                const offsetY = (yRange - scaledHeight) / 2 + padding;
+
+                const x = (lon - minLon) * scale + offsetX;
+                const y = (maxLat - lat) * scale + offsetY;
+                return [x, y];
+            }
+
+            // Draw GeoJSON features
+            geojson.features.forEach((feature, idx) => {
+                const featureName = feature.properties && feature.properties.name ? feature.properties.name : '';
+                const featureNameLower = featureName.toLowerCase();
+
+                // Determine stroke color based on feature name
+                let strokeColor = '#aaaaaa'; // Default gray
+
+                if (featureNameLower === 'start') {
+                    strokeColor = '#00FF00'; // Green for start
+                } else if (featureNameLower.includes('sector')) {
+                    strokeColor = '#0066ff'; // Blue for sectors
+                } else if (featureNameLower === 'trackouter' || featureNameLower === 'trackinner') {
+                    strokeColor = '#cccccc'; // Bright grey for track boundaries
+                } else if (/^[sc]\d+$/i.test(featureName)) {
+                    strokeColor = '#555555'; // Darker grey for corners and straights
+                }
+
+                if (feature.geometry.type === 'LineString') {
+                    ctx.beginPath();
+                    feature.geometry.coordinates.forEach((coord, i) => {
+                        const [x, y] = project(coord[0], coord[1]);
+                        if (i === 0) ctx.moveTo(x, y);
+                        else ctx.lineTo(x, y);
+                    });
+                    ctx.strokeStyle = strokeColor;
+                    ctx.lineWidth = 2;
+                    ctx.stroke();
+                } else if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'MultiPolygon') {
+                    const polygons = feature.geometry.type === 'Polygon' ? [feature.geometry.coordinates] : feature.geometry.coordinates;
+                    polygons.forEach(polygon => {
+                        polygon.forEach(ring => {
+                            ctx.beginPath();
+                            ring.forEach((coord, i) => {
+                                const [x, y] = project(coord[0], coord[1]);
+                                if (i === 0) ctx.moveTo(x, y);
+                                else ctx.lineTo(x, y);
+                            });
+                            ctx.closePath();
+                            ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+                            ctx.fill();
+                            ctx.strokeStyle = strokeColor;
+                            ctx.stroke();
+                        });
+                    });
+                }
+            });
+        })
+        .catch(error => console.error('Error loading GeoJSON:', error));
+</script>
