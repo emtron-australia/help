@@ -44,3 +44,7 @@ Australia Tracks
 ## Morgan Raceway
 
 {{< geojson-canvas geojson="/tracks/Morgan Raceway.geojson" >}}
+
+## Mallala Raceway
+
+{{< geojson-canvas geojson="/tracks/Mallala Raceway.geojson" >}}
