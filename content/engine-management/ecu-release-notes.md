@@ -11,8 +11,8 @@ weight: 1
 
 ---
 
-## V2.20.20
-*4/11/2025*
+## V2.20.22
+*18/11/2025*
 
  - Added data logging to Shadow 8.
  - Added Next Upshift Lockout Time to Gearshift Control.

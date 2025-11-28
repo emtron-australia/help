@@ -4,9 +4,9 @@ weight: 2
 ---
 
 ## Emtune V1.22
-*4 November 2025*
+*18 November 2025*
 
-`Includes ECU Firmware v2.20.20`
+`Includes ECU Firmware v2.20.22`
 ### New Features
  - Added support for Shadow logging download. *NOT currently available on from welcome screen. Open ECU first.*
  - Added notes about Half Bridge Drivers to Output Setup form.
