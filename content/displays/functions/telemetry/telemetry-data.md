@@ -12,7 +12,7 @@ description: "Real-time cloud-based data streaming platform enabling vehicles to
 
 **Telemetry Consumer** is for advanced usage and should be `DISABLED` for a standard telemetry setup.
 
-### Setup: ED7/ED10
+### Setup: ED7/ED7M/ED10M
 
 Assuming you have an active telemetry license and the [authentication settings](telemetry#authentication) configured in Display Studio, you can now configure the telemetry function.
 

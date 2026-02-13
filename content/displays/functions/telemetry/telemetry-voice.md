@@ -6,7 +6,7 @@ description: "Real-time audio communication feature allowing users to conduct vo
 
 ## Quick Start
 
-### Setup: ED7/ED10
+### Setup: ED7M/ED10M
 
 Assuming you have an active voice license and the [authentication settings](telemetry#authentication) configured in Display Studio, you can now configure the voice comms function.
 

@@ -62,7 +62,15 @@ Once logged in, from your Dashboard, click the `Activate Telemetry` button.
 
 Once the details have been filled out, click `Activate Now` to complete the process.
 
-### Setup - ED7/ED10
+### Supported Devices
+
+| Product | Data | Text | Voice |
+|---------|:----:|:----:|:-----:|
+| ED7     |  ✅   |  ✅   |   ❌   |
+| ED7M    |  ✅   |  ✅   |   ✅   |
+| ED10M   |  ✅   |  ✅   |   ✅   |
+
+### Setup - ED7/ED7M/ED10M
 
 #### Authentication
 
