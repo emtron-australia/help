@@ -1,0 +1,14 @@
+---
+title: "Ethernet Wiring"
+---
+
+The TCM uses 10/100Base-T Ethernet communications. It only requires 4 wires (2 pairs) to operate.
+
+| Signal | MTC Pin | RJ45 Pin | Colour       |
+|--------|---------|----------|--------------|
+| Rx+    | C20     | 3        | Orange/White |
+| Rx-    | C21     | 6        | Orange       |
+| Tx+    | C22     | 1        | Green/White  |
+| Tx-    | C23     | 2        | Green        |
+
+> No special ethernet configuration is required. TMtune will detect the device using an IPv6 Link Local Address.
