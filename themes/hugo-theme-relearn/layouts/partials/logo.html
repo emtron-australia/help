@@ -1,5 +1,1 @@
-          <!-- CSS styles are in layouts/partials/custom-header.html -->
-          <a id="R-logo" href="{{ partial "permalink.gotmpl" (dict "to" .Site.Home) }}">
-{{ partial "shortcodes/image.html" (dict "page" . "url" "/img/emtron-white.svg?border=false&inlinecontent&lightbox=false&shadow=false") }}
-            <div class="logo-title">{{ .Site.Params.linkTitle | default .Site.Title }}</div>
-          </a>
+{{- partialCached "auto-logo.html" site.Home }}

@@ -17,6 +17,9 @@ pluralizeListTitles = false
 [markup.goldmark.renderer]
   unsafe = true
 
+[markup.goldmark.parser.attribute]
+  block = true
+
 [[params.themeVariant]]
   identifier = 'emtron'
 
