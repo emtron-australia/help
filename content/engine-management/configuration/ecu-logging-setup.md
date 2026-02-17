@@ -7,20 +7,20 @@ weight: 16
 
 ## ECU Logger
 
-All Emtron ECUs have ECU logging capabilities.  \
-To configure the ECU logger, with the ECU or Cal File open navigate to Logging -> ECU Logger -> Setup 
+All Emtron ECUs have ECU logging capabilities.
+To configure the ECU logger, with the ECU or Cal File open navigate to `Logging -> ECU Logger -> Setup`
 
 ![Image](</img/NewItem784.png>)
 
-The menu that opens up will allow the user to configure the following options 
+The menu that opens up will allow the user to configure the following options
 
 ## Config
 
-Set the maximum memory size 
+Set the maximum memory size
 
-Set the Mode 
+Set the Mode
 
-    Continous = Logging memory will overwrite when full 
+    Continous = Logging memory will overwrite when full
 
     One Shot = Logging will stop once memory is full
 
@@ -30,13 +30,13 @@ Set the general conditions for how the ECU logger will start/stop here
 
 ## Data Set Configuration
 
-There are 6 data sets that can hold 50 channels each.  
+There are 6 data sets that can hold 50 channels each.
 
-Each data set has select-able "Logging Rate" so the user can manage what channels are being recorded at what speeds.  
+Each data set has select-able "Logging Rate" so the user can manage what channels are being recorded at what speeds.
 
 ![Image](</img/NewItem785.png>)
 
-** EFI Relay control is very important for stable logging recording, this is due to memory transfer from high speed ram in the ECU to permanent memory when the ECU is shut down.  
+** EFI Relay control is very important for stable logging recording, this is due to memory transfer from high speed ram in the ECU to permanent memory when the ECU is shut down.
 
 ECU logging allows ECU Engine and Vehicle data to be transferred into memory and then permanently stored. When required the data can then be downloaded from the ECU using Emtune so it can be analyzed.
 

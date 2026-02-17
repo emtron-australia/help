@@ -7,6 +7,6 @@ weight: 25
 
 Click the link below to download or visit Emtron www Downloads
 
-EVO4_8
+![Image](</img/NewItem581.png>)
 
-[![Image](</img/NewItem581.png>)](<https://emtron.world/download/2599/> "target="_blank"")
+[Download Here](https://downloads.emtronaustralia.com.au/files/13_Technical%20Documents/Magnetic-Resistive%20Sensor%20Wiring%20-%20Emtron.pdf)

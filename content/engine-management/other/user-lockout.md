@@ -1,11 +1,11 @@
 ---
-title: "User Lockout "
+title: "User Lockout"
 weight: 38
 ---
 
 User Lockout
 
-A user channel can be configured to create a lockout.  
+A user channel can be configured to create a lockout.
 
 0: OFF
 
