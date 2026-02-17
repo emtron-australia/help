@@ -1,5 +1,5 @@
 ---
-title: "VDC Setup"
+title: "Nissan GTR R35 VDC Setup"
 weight: 41
 ---
 
@@ -7,13 +7,13 @@ weight: 41
 
 ## Nissan Vehicle Dynamic Control (VDC)
 
-The Nissan Vehicle Dynamic Control (VDC) uses various sensors to monitor driver inputs and vehicle motion. 
+The Nissan Vehicle Dynamic Control (VDC) uses various sensors to monitor driver inputs and vehicle motion.
 
-The system takes control of braking and control of the engine output to achieve optimal performance, whilst keeping the vehicle on the steered path. 
+The system takes control of braking and control of the engine output to achieve optimal performance, whilst keeping the vehicle on the steered path.
 
-It is extremely important that the engine management system integrates seamlessly to achieve the correct functionality. 
+It is extremely important that the engine management system integrates seamlessly to achieve the correct functionality.
 
-The Emtron R35 GT-R Plugin ECU is designed to replicate the OEM engine torque output by accepting and abiding by torque requests from the VDC system. 
+The Emtron R35 GT-R Plugin ECU is designed to replicate the OEM engine torque output by accepting and abiding by torque requests from the VDC system.
 
 ![Image](</img/AAAA69.jpg>)
 
@@ -23,7 +23,7 @@ The Emtron R35 GT-R Plugin ECU is designed to replicate the OEM engine torque ou
 
 The VDC can request a Nm Torque Reduction/Limit  using a combination of 2 methods:
 
-1) Throttle Plate Area control (TMF) 
+1) Throttle Plate Area control (TMF)
 
 2) Engine Cutting
 
@@ -39,7 +39,7 @@ Flow calculations to derive the required Throttle Area for a given Torque Target
 
 In some situations this may be insufficient to limit Engine Torque so a blend of Throttle Area
 
-reduction and engine cutting maybe required. 
+reduction and engine cutting maybe required.
 
 ## CAUTION: When selected to OFF, the ECU will ignore the Torque Limit Throttle requests from the VDC module.
 
@@ -55,7 +55,7 @@ Default: Throttle.
 
 The VDC can request a Nm Torque Reduction/Limit using a combination of 2 methods:
 
-1) Throttle Plate Area control (TMF) 
+1) Throttle Plate Area control (TMF)
 
 2) Engine Cutting
 
@@ -65,7 +65,7 @@ uses a series of calculations to convert the Torque reduction request into eithe
 
 or/and Engine Cut percentage.
 
-The VDC secondary Torque Limiting is done by Engine Cutting. 
+The VDC secondary Torque Limiting is done by Engine Cutting.
 
 A VDC Torque Limit (Nm) using Engine Cutting gets converted by the ECU into a calibrated
 
@@ -95,9 +95,9 @@ Default: Ignition Cut.
 
 Used when VDC Torque Limiting is controlled with Engine Cutting.
 
-Allows the cutting pattern to be selected. 
+Allows the cutting pattern to be selected.
 
-All patterns will achieve the calculated torque and will simply affect the cylinder order of cutting. 
+All patterns will achieve the calculated torque and will simply affect the cylinder order of cutting.
 
 Default: Sequential Pattern 1
 
@@ -113,11 +113,11 @@ Default: Sequential Pattern 1
 
 ![Image](</img/AAAA42.jpg>)
 
-A VDC Torque Limit (Nm) gets converted by the ECU into a Throttle Area output called "Throttle Area Demand - VDC". 
+A VDC Torque Limit (Nm) gets converted by the ECU into a Throttle Area output called "Throttle Area Demand - VDC".
 
-The ECUs uses complex Throttle Mass Flow calculations which are influenced strongly by the Pressure Ratio inputs before 
+The ECUs uses complex Throttle Mass Flow calculations which are influenced strongly by the Pressure Ratio inputs before
 
-and after the throttle plate.  This filter gets applied to this ratio and is used to smooth the input torque requests. 
+and after the throttle plate.  This filter gets applied to this ratio and is used to smooth the input torque requests.
 
 0 = OFF (more aggressive VDC Control)
 
@@ -127,9 +127,9 @@ and after the throttle plate.  This filter gets applied to this ratio and is use
 
 ![Image](</img/AAAA43.jpg>)
 
-A VDC Torque Limit (Nm) gets converted by the ECU into a Throttle Area output called "Throttle Area Demand - VDC". 
+A VDC Torque Limit (Nm) gets converted by the ECU into a Throttle Area output called "Throttle Area Demand - VDC".
 
-The output (Throttle Area) can be filtered by adjusting this setting before its used to control the Throttle Plate Area. 
+The output (Throttle Area) can be filtered by adjusting this setting before its used to control the Throttle Plate Area.
 
 0 = OFF (more aggressive VDC Control)
 
@@ -139,11 +139,11 @@ Plot "Throttle Area Demand %" (filtered value)  vs "Throttle Area Demand - VDC" 
 
 the filtering effects.
 
-This can be used to smooth the throttle area demand %. 
+This can be used to smooth the throttle area demand %.
 
 Increasing the filter will smooth the throttle demand.
 
-However it is important to understand that any filter will reduce the response of the system. 
+However it is important to understand that any filter will reduce the response of the system.
 
 ## VDC Torque Limit- Throttle Area Min Clamp
 
@@ -153,7 +153,7 @@ The VDC Torque Limit (Nm) with Throttle Plate control uses Throttle Mass
 
 Flow calculations to derive the required Throttle Area for a given Torque Target.
 
-This setting controls the Minimum amount of Throttle Area the ECU can apply for a given Torque Limit request. 
+This setting controls the Minimum amount of Throttle Area the ECU can apply for a given Torque Limit request.
 
 0% = OFF
 
@@ -161,11 +161,11 @@ Example.: 60%
 
 This means the Throttle Area is clamped between 60% and Max%
 
-This is the minimum throttle area % that the system can apply during the VDC event. 
+This is the minimum throttle area % that the system can apply during the VDC event.
 
-Increasing this will cause the VDC system to favor more cutting to reduce torque to the request target. 
+Increasing this will cause the VDC system to favor more cutting to reduce torque to the request target.
 
-An extreme of this setting would be 100% which means the throttle is not able to reduce. 
+An extreme of this setting would be 100% which means the throttle is not able to reduce.
 
 ## VDC Torque Limit- Throttle Area Max Clamp
 
@@ -175,9 +175,9 @@ The VDC Torque Limit (Nm) with Throttle Plate control uses Throttle Mass
 
 Flow calculations to derive the required Throttle Area for a given Torque Target.
 
-This setting controls the Max amount of Throttle Area the ECU can apply for a given 
+This setting controls the Max amount of Throttle Area the ECU can apply for a given
 
-Torque Limit request. 
+Torque Limit request.
 
 0% = OFF
 
@@ -193,11 +193,11 @@ This means the Throttle Area is clamped between Min% Value and 90%.
 
 A VDC Torque Limit (Nm) using Engine Cutting gets converted by the ECU into a calibrated
 
-Percentage  
+Percentage
 
-This setting controls the Maximum amount of Cut the ECU can apply for a given 
+This setting controls the Maximum amount of Cut the ECU can apply for a given
 
-Torque Limit request. 
+Torque Limit request.
 
 Example.: 50%
 
@@ -205,15 +205,15 @@ This means the Maximum Cut applied to the Engine will be clamped to 50%
 
 This is set to 50% by default
 
-Note: In situations where the torque is unable to meet the request target fast enough or at all, this setting would need to be increased. Lowering this setting will cause the VDC system to favor more throttle reduction. 
+Note: In situations where the torque is unable to meet the request target fast enough or at all, this setting would need to be increased. Lowering this setting will cause the VDC system to favor more throttle reduction.
 
 ## VDC Calibrate - Throttle
 
 ![Image](</img/AAAA47.jpg>)
 
-**CAUTION** The setting will override the Throttle Plate control and reduce the Throttle Area to achieve the entered Torque value. 
+**CAUTION** The setting will override the Throttle Plate control and reduce the Throttle Area to achieve the entered Torque value.
 
-The setting allows the VDC system to be calibrated and should be done so in a controlled environment only and preferably on a dynamometer. 
+The setting allows the VDC system to be calibrated and should be done so in a controlled environment only and preferably on a dynamometer.
 
 ONLY becomes active when VDC Calibrate Throttle Area  < Pedal Throttle Area Request
 

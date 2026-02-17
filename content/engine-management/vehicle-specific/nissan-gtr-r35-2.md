@@ -1,5 +1,5 @@
 ---
-title: "Nissan GTR R35"
+title: "Nissan GTR R35 Plugin Manual"
 weight: 119
 ---
 

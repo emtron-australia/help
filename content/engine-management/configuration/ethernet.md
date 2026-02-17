@@ -3,13 +3,11 @@ title: "Ethernet"
 weight: 20
 ---
 
-![Image](</img/NewItem986.png>)
-
 Ethernet connection.
 
-Further to the already comprehensive instructions in the Help file. 
+Further to the already comprehensive instructions in the Help file.
 
-Some users are still unable to configure an Ethernet port. 
+Some users are still unable to configure an Ethernet port.
 
 Firmware 2.19.0 and on includes a wizard (Bottom right of the splash screen)
 

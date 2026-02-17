@@ -1,6 +1,6 @@
 ---
-title: "VDC Boost Target Margin Table"
-weight: 59
+title: "Nissan GTR R35 VDC Boost Target Margin Table"
+weight: 120
 ---
 
 ## VDC Boost Target Margin Table
