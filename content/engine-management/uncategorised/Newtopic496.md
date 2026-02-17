@@ -1,4 +1,0 @@
----
-title: "Driver Demand Torque"
----
-

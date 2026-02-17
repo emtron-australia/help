@@ -1,5 +1,6 @@
 ---
 title: "CAN Torque Limit"
+weight: 60
 ---
 
 The ECU can receive Torque Limit Request(s) over the CAN Bus. 
@@ -19,13 +20,13 @@ The frame contains 2 torque limits, the lowest one will be applied (assuming it'
 
 | **Signal**                      | **Start Bit** | **Length** | **Factor** | **Offset** | **Note**                                                                                                                                                                                     |
 | ------------------------------- | ------------- | ---------- | ---------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CAN Torque Limit 1 (NM)         | &#48;         | &#49;6     | &#48;.1    | \-500      | Absolute engine torque limit. -500 = Off.                                                                                                                                                    |
-| CAN Torque Limit 2 (NM)         | &#49;6        | &#49;6     | &#48;.1    | \-500      | Absolute engine torque limit. -500 = Off.                                                                                                                                                    |
-| CAN Torque Limit 1 Strat Select | &#51;2        | &#52;      | &#49;      | &#48;      | Selects the torque limit strategy used to apply the torque limit.                                                                                                                            |
-| CAN Torque Limit 2 Strat Select | &#51;6        | &#52;      | &#49;      | &#48;      | Selects the torque limit strategy used to apply the torque limit.                                                                                                                            |
-| CAN Torque Limit 1 User Mode    | &#52;0        | &#52;      | &#49;      | &#48;      | Can be used to span a table axis. Values of 0-15.                                                                                                                                            |
-| CAN Torque Limit 2 User Mode    | &#52;4        | &#52;      | &#49;      | &#48;      | Can be used to span a table axis. Values of 0-15.                                                                                                                                            |
-| CAN Torque Loss                 | &#52;8        | &#49;0     | &#49;      | &#48;      | Applies a reduction to the ECU's Uncorrected Torque calculation. Can be used to account for drive train losses. **Should always be 0 unless you have very good reason to change it\!** |
+| CAN Torque Limit 1 (NM)         | 0         | 16     | 0.1    | -500      | Absolute engine torque limit. -500 = Off.                                                                                                                                                    |
+| CAN Torque Limit 2 (NM)         | 16        | 16     | 0.1    | -500      | Absolute engine torque limit. -500 = Off.                                                                                                                                                    |
+| CAN Torque Limit 1 Strat Select | 32        | 4      | 1      | 0      | Selects the torque limit strategy used to apply the torque limit.                                                                                                                            |
+| CAN Torque Limit 2 Strat Select | 36        | 4      | 1      | 0      | Selects the torque limit strategy used to apply the torque limit.                                                                                                                            |
+| CAN Torque Limit 1 User Mode    | 40        | 4      | 1      | 0      | Can be used to span a table axis. Values of 0-15.                                                                                                                                            |
+| CAN Torque Limit 2 User Mode    | 44        | 4      | 1      | 0      | Can be used to span a table axis. Values of 0-15.                                                                                                                                            |
+| CAN Torque Loss                 | 48        | 10     | 1      | 0      | Applies a reduction to the ECU's Uncorrected Torque calculation. Can be used to account for drive train losses. **Should always be 0 unless you have very good reason to change it!** |
 
 > **Note:** All data is Unsigned, Little Endian (LSB First) format.
 
@@ -35,7 +36,6 @@ Example CAN Channel Setup:
 
 ![Image](</img/NewItem996.png>)
 
-
 Received raw data can be viewed in the F3 window on the CAN Tab.
 
 ![Image](</img/NewItem997.png>)
@@ -44,10 +44,7 @@ Final CAN Torque limit result is shown here:
 
 ![Image](</img/NewItem998.png>)
 
-
-The CAN Torque Limit User Mode 1 \& 2 values are available to be used anywhere in the ECU as table axis' or inputs to user functions.
-
-
+The CAN Torque Limit User Mode 1 & 2 values are available to be used anywhere in the ECU as table axis' or inputs to user functions.
 
 To use the incoming torque limit, you must setup a User Torque Limit. This allows the tuner to decide how they want the ECU to act on the incoming torque limit request.
 
@@ -56,7 +53,6 @@ To use the CAN Torque Limit Strat Select value, set the Strat Mode to CAN Tq Req
 ![Image](</img/NewItem999.png>)
 
 {{% badge style="info" %}}If the CAN Torque Limit Strat Select value is zero and The User Torque Limit Strat Mode is set to CAN Tq Strat Request, no limit will be applied.{{% /badge %}}
-
 
 Setup the Torque Limit's Main Table to utilize the CAN Rx Torque Limit value. You can also use the CAN Torque Limit User Modes like in the example below.
 

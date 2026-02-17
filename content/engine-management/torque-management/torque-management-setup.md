@@ -1,5 +1,6 @@
 ---
 title: "Torque Management Setup"
+weight: 75
 ---
 
 ![Image](</img/Untitled281.jpg>)
@@ -11,10 +12,8 @@ This clamp value sets the maximum amount of ignition timing retard the ECU is ab
 
 > **Note**: An insufficient clamp value will result in an insufficient torque reduction when requested resulting in an failed torque reduction event
 
-
 ## Torque Nitrous Gain
 In applications where Nitrous is used to increase torque. The ECU calculates this torque increase however if required the gain of this torque increase can be used to trim the output.
-
 
 ## BSFC
 The brake specific fuel consumption of an engine depends on many factors including thermal efficiency, mechanical efficiency and air to fuel ratios.
@@ -23,8 +22,7 @@ Brake specific fuel consumption should be set at Lambda 1.000. The ECU will auto
 
 **Typical Value:** 304 - 243 g/kW.h
 
-
-**Conversion:**
+## Conversion:
  - 364 g/kW.h = 0.60 lb/hp.h
  - 304 g/kW.h  = 0.50 lb/hp.h
  - 244 g/kW.h  = 0.40 lb/hp.h

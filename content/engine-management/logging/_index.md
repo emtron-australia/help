@@ -1,6 +1,6 @@
 ---
 title: "Logging"
-weight: 6
+weight: 100
 ---
 
 {{% children sort="weight" depth=2 %}}

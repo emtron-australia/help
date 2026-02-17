@@ -1,6 +1,6 @@
 ---
 title: "Datasheets"
-weight: 100
+weight: 110
 ---
 
-{{% children sort="weight" depth=1 %}}
+{{% children sort="weight" depth=2 %}}

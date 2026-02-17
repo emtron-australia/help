@@ -1,12 +1,12 @@
 ---
 title: "Turbo Speed"
+weight: 18
 ---
 
 Turbo Speed is available on Channels DI 1- 8 on KV Series and DI1-4 on SL Series. 
 The units are RPM
 
 > **Tip:** See [Speed Inputs](./speed.md) for information on sensor setup.
-
 
 ## Turbo Speed Calculation
 ```

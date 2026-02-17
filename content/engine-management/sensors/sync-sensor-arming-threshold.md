@@ -1,0 +1,29 @@
+---
+title: "Sync Sensor Arming Threshold"
+weight: 32
+---
+
+## Sync Sensor Arming Threshold
+
+Arming thresholds for digital signals (including crank and sync sensors) describe the level in which the voltage level must go **above** before the signal can be valid.  Regardless of signal (magnetic, or digital), the threshold voltage level must be reached before the signal can be considered valid.  
+
+** The threshold value does not mean this is the value in which the ECU "triggers".  
+
+![Image](</img/AAAA5.jpg>)
+
+![Image](</img/CrankIndex.png>)
+
+Typical Arming Threshold values for a Magnetic Crank Sensor
+
+Magnetic sensors increase the magnitude of the wave form with rpm 
+
+![Image](</img/AAAA6.jpg>)
+
+Typical Arming Threshold values for Hall Effect Crank Sensor
+
+**Note:** This option is available on ALL trigger types. 
+
+On any square wave 0- 5V signal it is recommend to set the arming threshold to 2.0V flat across the table.
+
+** Use the scope function within the Emtron to validate the voltage threshold to be used.  **See Scope - Uses of Scope**
+

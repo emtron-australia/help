@@ -1,4 +1,0 @@
----
-title: "Z-Axis Setup"
----
-

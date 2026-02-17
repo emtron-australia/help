@@ -1,4 +1,0 @@
----
-title: "Start/Stop Switch"
----
-
