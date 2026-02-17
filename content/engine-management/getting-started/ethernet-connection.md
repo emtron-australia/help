@@ -5,7 +5,6 @@ weight: 2
 
 ## Connecting the ECU
 
-
 ### Communication Cable
 
 The Emtron proprietary communication cable translates standard high speed Ethernet to a Lemo connector that feeds directly into the ECU header.
@@ -25,7 +24,6 @@ The pin configuration for the Lemo receiver is as follows.
 | Orange/White | B33 (RX+) |
 | Orange | B34 (RX-) |
 
-
 ### KV series
 
 ![Image](</img/KV D Plug.jpg>)
@@ -37,11 +35,10 @@ The pin configuration for the Lemo receiver is as follows.
 | Orange/White | D25 (RX+) |
 | Orange | D26 (RX-) |
 
-
 ## IP Config
 The Emtune software will communicate to the ECU over a static IP address.
 
-Set your IP and subnet to the following on the Ethernet port you will be using on your PC.&nbsp;
+Set your IP and subnet to the following on the Ethernet port you will be using on your PC. 
 
 **IP:** 192.168.1.50
 **Subnet:** 255.255.255.0
@@ -75,11 +72,11 @@ To setup the Ethernet on Windows 10 ready for the ECU connection use the followi
 
 ![Image](</img/W10 Eth 2.jpg>)
 
-* Left Click Settings Icon -&nbsp; 2nd from bottom on Left
+* Left Click Settings Icon -  2nd from bottom on Left
 
 ![Image](</img/W10 Eth 3.jpg>)
 
-* Left Click "Network \& Internet" - Top Right
+* Left Click "Network & Internet" - Top Right
 
 ![Image](</img/W10 Eth 4.jpg>)
 
@@ -119,7 +116,7 @@ To setup the Ethernet on Windows 8.1 ready for the ECU connection use the follow
 
 Or alternatively if the search function doesn't provide this:
 
-Start \> Control Panel \> Network and Sharing Center. 
+Start > Control Panel > Network and Sharing Center. 
 Once in this menu select "Change Adapter Settings"
 
 ![Image](</img/AAAA31.jpg>)
@@ -146,7 +143,6 @@ Once in this menu select "Change Adapter Settings"
 
 * Done. Connect the Emtron Ethernet cable.
 
-
 ### Windows 7
 To setup the Ethernet on Windows 7 ready for the ECU connection use the following steps.
 
@@ -156,7 +152,7 @@ To setup the Ethernet on Windows 7 ready for the ECU connection use the followin
 
 or alternatively if the search function doesn't provide this:
 
-Start \> Control Panel \> Network and Internet \> Network and Sharing Center. 
+Start > Control Panel > Network and Internet > Network and Sharing Center. 
 Once in this menu select "Change Adapter Settings"
 
 ![Image](</img/NewItem29.png>)

@@ -1,6 +1,6 @@
 ---
-title: "Build Packages"
-weight: 11
+title: "Builds"
+weight: 125
 ---
 
-{{% children sort="auto" depth=1 %}}
+{{% children sort="weight" depth=2 %}}

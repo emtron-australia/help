@@ -1,5 +1,6 @@
 ---
 title: "CAN Parameter Scaling"
+weight: 131
 ---
 
 {{% notice style="info" %}}All values are 16 bit unsigned intergers, LSB Byte Order{{% /notice %}} 

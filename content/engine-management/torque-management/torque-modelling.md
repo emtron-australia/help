@@ -34,7 +34,6 @@ Engine Torque (Uncorrected) = (Engine Torque Ideal - Torque Frictional Loss) x E
  - Throttle (Throttle Mass Flow function(s) can close the throttle plate, reducing the Air Mass and hence Engine Torque. For example VDC control)
  - Nitrous (This will increase Engine Torque)
 
-
 ## Driver Demand Torque (Nm)
 The Driver Demand Torque is the torque requested by the driver, primarily as a function of engine speed and pedal position to give a requested throttle area. We know through mathematical modeling that from throttle area we can calculate airflow and from airflow we can calculate torque.
 
@@ -62,12 +61,10 @@ It is worth mentioning the Boost Target and how the Boost Target table should be
 ![Boost Target Table](</img/Untitled202.png>)
 > Nissan GT-R R35 Boost Target table.
 
-
 ## Torque Runtime Data
-Engine Torque and Driver Demand Torque data is available in the Runtime Values(F3) \> Torque Data tab.
+Engine Torque and Driver Demand Torque data is available in the Runtime Values(F3) > Torque Data tab.
 
 ![Torque F3](/img/torque/tq_f3.png)
-
 
 ## Torque Limit Ignition Retard Scaling Table
 This table calibrates the torque reduction % per degree. When a torque request is applied the ECU will calculate how much retard is required to achieve this torque request.
@@ -78,13 +75,11 @@ This table calibrates the torque reduction % per degree. When a torque request i
 
 In a wide variety of applications, the default table shown above will give very useable results.
 
-
 ## Torque Limit Cut Gain Table
 This table calibrates the torque reduction % per %cut. When a torque request is applied the ECU will calculate how much cut is required to achieve this torque request.
 
 ![Image](/img/torque/tq_cut_gain.png)
 > Typical Torque Reduction Cut Gain Table
-
 
 ## Torque Corrections
 ![Torque Correction Tables](/img/torque/tq_corr_tables.png)

@@ -1,5 +1,6 @@
 ---
 title: "ECU Logger"
+weight: 105
 ---
 
 ## Overview
@@ -10,11 +11,11 @@ The ECU logging uses 2 types of memory for data storage.
 1. RAM (Volatile - ECU requires power to maintain the stored data).
 2. Flash Memory (Non-volatile - Data is permanently stored).
 
-**Stage 1**
+## Stage 1
 
 The logging starts by first transferring data into a large high speed DDR RAM buffer. This can store up to 32MB of data. RAM memory is volatile which means when the power is removed the data is lost. It is fast and has an unlimited number of Write(Store) and Read cycles.
 
-**Stage 2**
+## Stage 2
 
 As the RAM data can be lost when the ECU is powered down, the data must be periodically transfered into Flash Memory where is can be permanently stored. Flash memory has a limited number of write (Store) cycles which is why the data can only be stored periodically. The following condition(s) are used to control this storing:
 
@@ -67,7 +68,6 @@ Time(s) = (Memory Size (bytes) / 2 ) / (Logging Rate x Number of Parameters)
 ```
 
 > **NOTE**: When the logging mode is set to "Circular" this is the time to complete one logging cycle
-
 
 **Example1** : 
  - Dataset 1 Logging Rate = 100Hz. Logging 20 parameters. 

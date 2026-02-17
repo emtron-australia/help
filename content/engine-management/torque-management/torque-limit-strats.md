@@ -1,5 +1,6 @@
 ---
 title: "Torque Limit Strategies"
+weight: 74
 ---
 
 A total of 5 different Torque Limit strategies can be configured. Different situations and scenarios may call for multiple methods of torque limiting strategies.
@@ -8,7 +9,7 @@ Torque Strategies can use a combination of Throttle Area, Ignition Retard, and C
 
 The first priority is always given preference, however should the chosen priority mode not achieve the torque target before hitting a clamp value or during the time it takes for Throttle Air Mass to change, the next priority mode will be used.
 
-**Example:**
+## Example:
  - Priority 1 = Throttle Area
  - Priority 2 = Ignition Retard
  - Priority 3 = Fuel/Ign Cutting

@@ -1,0 +1,14 @@
+---
+title: "Fuel Temperature"
+weight: 39
+---
+
+This sensor should use Analog Input Channels 7 -12 as these have configurable pull-up resistors.
+
+## Filter Settings
+
+FIlter Setting Minimum = 0  (OFF)
+
+FIlter Setting Maximum = 50 
+
+Recommended Filter Range = 35 - 40

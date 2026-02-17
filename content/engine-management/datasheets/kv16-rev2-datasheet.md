@@ -3,28 +3,23 @@ title: "KV16 Rev2 Data Sheet"
 weight: 3
 ---
 
-# General &nbsp; &nbsp; &nbsp; &nbsp;
+# General        
 
+Emtron’s KV16 is a wire in ECU with extreme flexibility.  Industry leading I/O count will ensure you do not have to make any sacrifices when configuring your engine and vehicle.  This ECU will support up to 16 Channels of fuel and 12 Channels fully sequential Ignition.  Every KV16 is housed in a durable billet Aluminium enclosure and includes up to 32MB permanent memory for on board logging, 4-channel oscilloscope function, DBW control up to 4 channels, dual on-board LSU4.9 Lambda controllers, dual digital Knock control, Ethernet communications and 3 axis G-force sensing to name a few.
 
-Emtron’s KV16 is a wire in ECU with extreme flexibility.&nbsp; Industry leading I/O count will ensure you do not have to make any sacrifices when configuring your engine and vehicle.&nbsp; This ECU will support up to 16 Channels of fuel and 12 Channels fully sequential Ignition.&nbsp; Every KV16 is housed in a durable billet Aluminium enclosure and includes up to 32MB permanent memory for on board logging, 4-channel oscilloscope function, DBW control up to 4 channels, dual on-board LSU4.9 Lambda controllers, dual digital Knock control, Ethernet communications and 3 axis G-force sensing to name a few.
-
-
-
-**Power Supply**
+## Power Supply
 
 * Operating voltage: 6.0 to 22.0 Volts DC (ECU shutdowns at 24.0V)
 * Operating current: 390mA at 14.0V (excluding sensor and load currents)
 * Reverse battery protection via external fuse
 * “Smart” battery transient protection
 
-
-**Operating Temperature**
+## Operating Temperature
 
 * Max operating range: -30 to 110°C (-22 to 230°F)
 * Recommended operating range: -30 to 85°C (-22 to 185°F)
 
-
-**Physical**
+## Physical
 
 * Aluminium 6061 grade CNC billet enclosure
 * Enclosure size 134 mm x 162 mm x 27 mm
@@ -32,22 +27,21 @@ Emtron’s KV16 is a wire in ECU with extreme flexibility.&nbsp; Industry leadin
 * Connector system: 120-way Super Seal waterproof connectors with gold plated contacts
 
 - Pin diameter: 1 mm
-- Current rating: maximum 15A per pin (wire gauge dependant)&nbsp;
+- Current rating: maximum 15A per pin (wire gauge dependant) 
 
 * Connector A: 26 pin Key 2 Super Seal
 * Connector B: 34 pin Key 2 Super Seal
 * Connector C: 34 pin Key 1 Super Seal
 * Connector D: 26 pin Key 1 Super Seal
 
-
-**Internal**
+## Internal
 
 * Dual 100MHz processors
-* &#53;00Mb DDR RAM (0.5Gb)
-* &#51;2MB ECU logging memory
+* 500Mb DDR RAM (0.5Gb)
+* 32MB ECU logging memory
 
   * Over 1200 channels available
-  * &#49;Hz to 500Hz logging rate
+  * 1Hz to 500Hz logging rate
 
 * Oscilloscope 4-channel function with 32MB storage
 
@@ -59,29 +53,26 @@ Emtron’s KV16 is a wire in ECU with extreme flexibility.&nbsp; Industry leadin
 
   * Range 40 - 115.0 kPa
 
-* &#51;-Axis accelerometer
+* 3-Axis accelerometer
 
-  * &#49;6-Bit resolution
-  * \+2g/+4g/+8g dynamically selectable full-scale
-  * Output data rate 500Hz &nbsp;
-
+  * 16-Bit resolution
+  * +2g/+4g/+8g dynamically selectable full-scale
+  * Output data rate 500Hz  
 
 ***
 
 # Outputs
 
-
-**&#49;6x Port Injector Outputs—high or low ohm**
+## 16x Port Injector Outputs—high or low ohm
 
 * Flyback Voltage Clamp 70V
-* Independent Saturated or Peak \& Hold control per channel
-* &#56;A Peak, 4A hold, 10A Limit Injector Control
+* Independent Saturated or Peak & Hold control per channel
+* 8A Peak, 4A hold, 10A Limit Injector Control
 * Outputs can be used for ground switching, 6A Continuous, 10A Limit
 * All outputs are short circuit and over current protected
 * No Flywheel diodes (external diode(s) required for VVT control)
 
-
-**&#49;2x Ignition Outputs**
+## 12x Ignition Outputs
 
 * Open collector outputs with Logic Level outputs
 * Adjustable Ignition drive current (35mA or 70mA)
@@ -90,12 +81,11 @@ Emtron’s KV16 is a wire in ECU with extreme flexibility.&nbsp; Industry leadin
 * No Flywheel diodes (external diode(s) required for VVT control)
 * Ignitor must be used between ECU and coil
 
-
-**&#49;6x Auxiliary Outputs**
+## 16x Auxiliary Outputs
 
 * Variable Valve Timing (VVT) and Variable Valve Timing Electric (VTiE), Drive by Wire (DBW) up to 2 throttle bodies, dual boost control, gearshift solenoids, stepper motor and many more.
 * All outputs have PWM control, maximum frequency = 15 kHz
-* Flywheel diodes integrated into all outputs&nbsp;
+* Flywheel diodes integrated into all outputs 
 
   * Auxiliary 1-8 Flywheel to the “ECU Supply” pin D1 connector D
   * Auxiliary 9-12 Flywheel to the “ECU 9-12 Supply” pin D20 connector D
@@ -103,78 +93,69 @@ Emtron’s KV16 is a wire in ECU with extreme flexibility.&nbsp; Industry leadin
 
 * All outputs are short circuit and over current protected
 
-&nbsp; &nbsp; **Low Side Drivers**
+    **Low Side Drivers**
 
-* Auxiliary 1-4: Low Side 4A continuous, 6A peak modulated, 8A limit&nbsp;
+* Auxiliary 1-4: Low Side 4A continuous, 6A peak modulated, 8A limit 
 * Auxiliary 5-8: Low Side 2.5A continuous, 4A peak modulated, 5A limit
 
-**High Side Drivers**
+## High Side Drivers
 
 * Auxiliary 1-8: High Side 4A continuous, 9A limit
 
-**Half Bridge Drivers**
+## Half Bridge Drivers
 
-* Auxiliary 9-12: Half Bridge 5A continuous and 8A limit.&nbsp; Can be used as Low Side, High Side or together for DC motor control (DBW up to 2x channels)
-* Auxiliary 13-16: Half Bridge 15.0A continuous (pin limited).&nbsp; Can be used as Low Side, High Side or together for DC motor control (DBW up to 2x channels)
+* Auxiliary 9-12: Half Bridge 5A continuous and 8A limit.  Can be used as Low Side, High Side or together for DC motor control (DBW up to 2x channels)
+* Auxiliary 13-16: Half Bridge 15.0A continuous (pin limited).  Can be used as Low Side, High Side or together for DC motor control (DBW up to 2x channels)
 
 (**NOTE**: Auxiliary 9 -16 can be used to control up to 4x DBW throttle bodies)
 
-
-
-**&#49;x EFI Relay Output**
+## 1x EFI Relay Output
 
 * Low Side Driver for relay control. Current limited to 200mA (Output will switch ON when Ignition Switch Input (D15) is greater than 4V).
 
-
-**&#49;x Analog Output Buffered**&nbsp;
+## 1x Analog Output Buffered
 
 * Voltage range 0.0 - 5.0V, output current 100mA
 
+## 1x Shield Output
 
-**&#49;x Shield Output**
-
-* Connection for Trigger and Knock shielded cables. Short to battery protection&nbsp;
-
+* Connection for Trigger and Knock shielded cables. Short to battery protection 
 
 ***
 
 # Inputs
 
-
-**&#49;6x Analog Voltage/Temperature Inputs.**&nbsp;
+## 16x Analog Voltage/Temperature Inputs.
 
 * Fully configurable including custom calibrations
 * Switchable 1k ohm pull-up resistors on ANV 7-12 (available on 6 channels)
 * Accepts a 0.0 - 5.000V analog input range. Resolution is 1.22mV (12-Bit)
 * Input Impedance 100k Ohms to ground
-* &#49;60Hz Low pass filter
+* 160Hz Low pass filter
 
-
-**&#56;x Digital/Speed Inputs (DI 1 - 8)**&nbsp;
+## 8x Digital/Speed Inputs (DI 1 - 8)
 
 * Frequency range from 0.0Hz up the 30.0kHz on all 8 channels
 * Magnetic and hall/optical effect sensor compatible with programmable trigger edge(s)
 * Independent programmable frequency-based arming threshold control, range 0.0 - 12.0V
 * Wheel speed, output shaft speed, turbo speed and other frequency-based signals
 * VVT position(s) up to 4 channels available on DI 1- 4.
-* Accepts a 0.0 - 20.0V analog input.&nbsp; Effective resolution is 4.88mV (10-Bit)
+* Accepts a 0.0 - 20.0V analog input.  Effective resolution is 4.88mV (10-Bit)
 
 - On/Off switched inputs: AC request, launch enable, cruise switch, table control switching etc with programable switch-based arming threshold control, range 0.0 - 20.0V
 
 * Switchable 4k7 ohm pull-up resistors on all 8 channels to 10.0V
 * Maximum/Minimum input signal amplitude +/- 80V
 
-
-**&#54;x Digital/Switched Inputs (DI 9 - 14)**
+## 6x Digital/Switched Inputs (DI 9 - 14)
 
 * On/Off switched inputs: AC request, Launch enable, cruise switch, table control switching etc with programable switch-based arming threshold control, range 0.0 - 20.0V
 * Accepts a 0.0 -20.0 V analog input. Effective resolution is 19.61mV (8-Bit)
 * Switchable 4k7 ohm pull-up resistors on all 6 channels to 10.0V
 
+## 2x Knock Inputs
 
-**&#50;x Knock Inputs**
-
-* &#50; Independent knock input channels
+* 2 Independent knock input channels
 * Using Bosch, Digital Knock Integrated Circuit Technology with programmable digital filter coefficients
 * Center frequency configurable from 500Hz - 25kHz
 * Bandwidth window from 100Hz - 5kHz
@@ -183,96 +164,80 @@ Emtron’s KV16 is a wire in ECU with extreme flexibility.&nbsp; Industry leadin
 * Cylinder selectable knock input
 * Knock control available on ALL Ignition modes (Direct, Wasted, Distributor etc)
 
+## 1x Dedicated Ignition Switch Input
 
-**&#49;x Dedicated Ignition Switch Input**
+* 6.0 - 20.0V input used for EFI Relay Control. (With input > 4V the EFI Relay output (D9) will switch ON)
 
-* &#54;.0 - 20.0V input used for EFI Relay Control. (With input \> 4V the EFI Relay output (D9) will switch ON)
-
-
-**&#50;x Crank Index and Sync Engine Decoding Inputs**
+## 2x Crank Index and Sync Engine Decoding Inputs
 
 * Magnetic and Hall effect sensor compatible with programable trigger edge(s)
 * “True” zero crossing detection on magnetic signals for precise engine position decoding.
 * Programmable independent arming threshold control from 0.1V to 12.0V
 * Switchable 4k7 ohm pull-up resistor to 5V
-* OEM patterns supported&nbsp;
+* OEM patterns supported 
 * Maximum input signal amplitude +/- 80V
 * Input Impedance 39k ohms to ground
-
 
 ***
 
 # Lambda
 
+## Two Lambda channels supporting the Bosch LSU 4.9 sensor
 
-**Two Lambda channels supporting the Bosch LSU 4.9 sensor**
-
-
-* Using Bosch integrated circuit technology for precise sensor control&nbsp;
-* Nernst cell temperature measurement for dynamic PID closed loop heater control&nbsp;
-* Lambda range: 0.580 La to 10.000 La&nbsp;
+* Using Bosch integrated circuit technology for precise sensor control 
+* Nernst cell temperature measurement for dynamic PID closed loop heater control 
+* Lambda range: 0.580 La to 10.000 La 
 * Diagnostics available for each pin and includes, Short to ground, Short to Vbat, Open Load
-
 
 ***
 
 # Voltage and Ground Supplies
 
+## 1x ECU Supply Input
 
-**&#49;x ECU Supply Input**
-
-* &#49;5.0A Max (pin limited)
-* &#54;V - 22.0V Range
+* 15.0A Max (pin limited)
+* 6V - 22.0V Range
 * Supplies ECU power
 * Supplies Auxiliary 1-8 High Side Drivers
 
+## 1x Auxiliary 9-12 Supply Input
 
-**&#49;x Auxiliary 9-12 Supply Input**&nbsp;
-
-* &#49;5.0A Max (pin limited)
+* 15.0A Max (pin limited)
 * Power supply for Auxiliary channels 9 -12. (See KV Series Power Distribution Wiring - A10.pdf for more information on how this should be wired)
 
+## 1x Auxiliary 13-16 Supply Input
 
-**&#49;x Auxiliary 13-16 Supply Input**&nbsp;
-
-* &#49;5.0A Max (pin limited)
+* 15.0A Max (pin limited)
 * Power supply for Auxiliary channels 13 -16. See KV Series Power Distribution Wiring - A10.pdf for more information on how this should be wired)
 
+## 2x 5.0V Sensor Supply
 
-**&#50;x 5.0V Sensor Supply**
-
-* &#53;V Vref1 output current 400mA
-* &#53;V Vref2 output current 400mA&nbsp;
-* Accuracy: +/- 1.0% at 25 °C&nbsp;
+* 5V Vref1 output current 400mA
+* 5V Vref2 output current 400mA 
+* Accuracy: +/- 1.0% at 25 °C 
 * Short circuit, Reverse Battery Protection, Thermal overload protection
-* Operating temperature range -40°C&nbsp; ~ 125°C
+* Operating temperature range -40°C  ~ 125°C
 
-
-**&#49;x 8.0V Sensor Supply**
+## 1x 8.0V Sensor Supply
 
 * Output current 600mA
 * Accuracy: +/- 1.0% at 25 °C
 * Short circuit, Reverse battery protection, Thermal overload protection
-* Operating temperature range -40°C&nbsp; ~ 125°C
+* Operating temperature range -40°C  ~ 125°C
 
+## 6x ECU Main Grounds
 
-**&#54;x ECU Main Grounds**
+* 15.0A per pin, total 60A
 
-* &#49;5.0A per pin, total 60A
-
-
-**&#50;x Sensor 0V Reference**&nbsp;
+## 2x Sensor 0V Reference
 
 * Analog Sensor 0V Reference with short to battery protection
 
-
-**NOTE:** The **Sensor 0V Reference** pin(s) are specialised ground outputs for all analog sensors.&nbsp; Connect direct to the sensor 0V pin, **DO NOT** connect to the Engine Block or ECU Ground.
-
+**NOTE:** The **Sensor 0V Reference** pin(s) are specialised ground outputs for all analog sensors.  Connect direct to the sensor 0V pin, **DO NOT** connect to the Engine Block or ECU Ground.
 
 ***
 
 # Communications
 
-
-* &#49;x High Speed Ethernet 100Mbps for tuning software connection
-* &#50;x CAN 2.0B 1Mbps/ 6 Channels per node, total 128 messages
+* 1x High Speed Ethernet 100Mbps for tuning software connection
+* 2x CAN 2.0B 1Mbps/ 6 Channels per node, total 128 messages

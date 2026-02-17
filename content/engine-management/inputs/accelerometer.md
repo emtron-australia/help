@@ -1,5 +1,6 @@
 ---
 title: "Accelerometer"
+weight: 16
 ---
 
 ## Overview
@@ -17,12 +18,11 @@ Other features include:
 ## Orientation
 The digram below shows the orientation of each ECU axis.
 
-![Image](</img/KV8\_white\_inc.jpg>)
+![Image](</img/KV8_white_inc.jpg>)
 
 The digram below shows the orientation of each axis reference from the vehicle.
 
 ![Image](</img/g-force axis diection.jpg>)
-
 
 The ECU allows each vehicle axis to be assigned to an ECU axis (X,Y,Z). For example the Longitudinal Axis can be assigned to the ECUs X or Y or Z axis. This allows the ECU to be mounted at any position/orientation within the car.
 
@@ -37,7 +37,6 @@ Longitudinal **negative** g-force = Braking. Typical values: -1.5 to -1.8g
 Lateral **negative** g-force = Turning Left. Typical value for race car on slicks : -1.8g
 
 Lateral **positive** g-force = Turning Right. Typical value for race car on slicks : 1.8g
-
 
 ## Accelerometer Full Range
 This sets the maximum g-force that can be measured in any axis. There are 3 Full Range modes adjustable through EMtune.

@@ -1,0 +1,19 @@
+---
+title: "Lambda Control Setup"
+weight: 56
+---
+
+## Lambda Control Setup
+
+![Image](</img/Lambda Control Setup.jpg>)
+
+![Image](</img/Lambda Control Setup 2.jpg>)
+
+* Engine Temp Lockout    -    Engine temp above which Lambda Control can become active
+* RPM Lo Lockout    -    Lambda control will be switched OFF below this RPM
+* RPM Hi Lockout    -    Lambda control will be switched OFF above this RPM
+* Recovery Delay    -    Delay in which Lambda Control can become active once within the lockout criteria
+* Post Start Delay    -    Delay in which Lambda Control can become active after start up
+
+d**** NOTE: When using the Internal Lambda the Closed Loop will not start until either or both sensors are ready to operate. 
+

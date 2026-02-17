@@ -1,0 +1,3085 @@
+{
+  "summary": {
+    "totalFiles": 492,
+    "emptyOrMinimalFiles": 0,
+    "fileWithContent": 492,
+    "duplicateFilenameCount": 39,
+    "duplicateFilenames": {
+      "nissan-gtr-r35.md": 2,
+      "logging.md": 2,
+      "secondary-load-table.md": 3,
+      "lambda-target-tables.md": 2,
+      "fuel-modifier-tables.md": 2,
+      "compensations.md": 2,
+      "starting.md": 2,
+      "cylinder-trims.md": 2,
+      "z-axis-setup.md": 2,
+      "map-comp-table.md": 2,
+      "gear-comp-table.md": 2,
+      "user-comp-table-1.md": 2,
+      "user-comp-table-2.md": 2,
+      "tuning.md": 2,
+      "compensation-tables.md": 3,
+      "starting-tables.md": 2,
+      "cylinder-trim-tables.md": 2,
+      "scope.md": 2,
+      "uses-of-scope.md": 2,
+      "trigger-requests.md": 2,
+      "cranksync-sensor-arming-threshold-settings.md": 2,
+      "improper-edge-configuration-for-cranksync-sensor.md": 2,
+      "scope-voltage-clipping.md": 2,
+      "improper-cranksync-sensor-polarity.md": 2,
+      "lsu-49-pinout.md": 3,
+      "proportional-gain-table.md": 4,
+      "integral-gain-table.md": 4,
+      "main-idle-target-table.md": 2,
+      "initial-position-table.md": 2,
+      "derivative-gain-table.md": 3,
+      "emtron-can-devices.md": 2,
+      "idle-speed-tuning-guide.md": 3,
+      "engine-functions.md": 2,
+      "motorsport-functions.md": 2,
+      "timer-functions.md": 2,
+      "gear-management.md": 2,
+      "gear-position-rpmspeed-setup.md": 2,
+      "gear-position-inputoutputshaft-speed-setup.md": 2,
+      "windows.md": 2
+    },
+    "topCategories": [
+      [
+        "gear",
+        17
+      ],
+      [
+        "idle",
+        16
+      ],
+      [
+        "boost",
+        15
+      ],
+      [
+        "lambda",
+        14
+      ],
+      [
+        "fuel",
+        13
+      ],
+      [
+        "upshift",
+        13
+      ],
+      [
+        "engine",
+        12
+      ],
+      [
+        "downshift",
+        12
+      ],
+      [
+        "emtron",
+        12
+      ],
+      [
+        "ignition",
+        11
+      ],
+      [
+        "launch",
+        9
+      ],
+      [
+        "gearshift",
+        8
+      ],
+      [
+        "exhaust",
+        8
+      ],
+      [
+        "knock",
+        7
+      ],
+      [
+        "charge",
+        6
+      ],
+      [
+        "secondary",
+        5
+      ],
+      [
+        "starting",
+        5
+      ],
+      [
+        "cylinder",
+        5
+      ],
+      [
+        "user",
+        5
+      ],
+      [
+        "main",
+        5
+      ]
+    ]
+  },
+  "mapping": [
+    {
+      "originalFilename": "Newtopic.md",
+      "suggestedFilename": "timers.md",
+      "title": "Timers",
+      "description": "title: \"Timers\""
+    },
+    {
+      "originalFilename": "Newtopic1.md",
+      "suggestedFilename": "ecu-password-protection.md",
+      "title": "ECU Password Protection",
+      "description": "title: \"ECU Password Protection\""
+    },
+    {
+      "originalFilename": "Newtopic10.md",
+      "suggestedFilename": "vertical-g-force.md",
+      "title": "Vertical G Force ",
+      "description": "title: \"Vertical G Force \""
+    },
+    {
+      "originalFilename": "Newtopic100.md",
+      "suggestedFilename": "nissan-gtr-r35.md",
+      "title": "Nissan GTR R35",
+      "description": "title: \"Nissan GTR R35\""
+    },
+    {
+      "originalFilename": "Newtopic101.md",
+      "suggestedFilename": "functions.md",
+      "title": "Functions",
+      "description": "title: \"Functions\""
+    },
+    {
+      "originalFilename": "Newtopic102.md",
+      "suggestedFilename": "engine-protection-status-oilfueltemp.md",
+      "title": "Engine Protection Status (Oil/Fuel/Temp)",
+      "description": "title: \"Engine Protection Status (Oil/Fuel/Temp)\""
+    },
+    {
+      "originalFilename": "Newtopic103.md",
+      "suggestedFilename": "gearshift-downshift-status.md",
+      "title": "Gearshift Downshift Status",
+      "description": "title: \"Gearshift Downshift Status\""
+    },
+    {
+      "originalFilename": "Newtopic104.md",
+      "suggestedFilename": "gearshift-compressor-status.md",
+      "title": "Gearshift Compressor Status",
+      "description": "title: \"Gearshift Compressor Status\""
+    },
+    {
+      "originalFilename": "Newtopic105.md",
+      "suggestedFilename": "file.md",
+      "title": "File",
+      "description": "title: \"File\""
+    },
+    {
+      "originalFilename": "Newtopic106.md",
+      "suggestedFilename": "logging.md",
+      "title": "Logging",
+      "description": "title: \"Logging\""
+    },
+    {
+      "originalFilename": "Newtopic107.md",
+      "suggestedFilename": "diagnostics.md",
+      "title": "Diagnostics",
+      "description": "title: \"Diagnostics\""
+    },
+    {
+      "originalFilename": "Newtopic108.md",
+      "suggestedFilename": "utilities.md",
+      "title": "Utilities",
+      "description": "title: \"Utilities\""
+    },
+    {
+      "originalFilename": "Newtopic109.md",
+      "suggestedFilename": "live-data.md",
+      "title": "Live Data",
+      "description": "title: \"Live Data\""
+    },
+    {
+      "originalFilename": "Newtopic11.md",
+      "suggestedFilename": "roll.md",
+      "title": "Roll ",
+      "description": "title: \"Roll \""
+    },
+    {
+      "originalFilename": "Newtopic110.md",
+      "suggestedFilename": "3-throttle-mass-flow-tmf-airmass-modelled-blend.md",
+      "title": "3: Throttle Mass Flow (TMF) + AirMass Modelled (Blend)",
+      "description": "title: \"3: Throttle Mass Flow (TMF) + AirMass Modelled (Blend)\""
+    },
+    {
+      "originalFilename": "Newtopic111.md",
+      "suggestedFilename": "engine-protection-control.md",
+      "title": "Engine Protection Control",
+      "description": "title: \"Engine Protection Control\""
+    },
+    {
+      "originalFilename": "Newtopic112.md",
+      "suggestedFilename": "gearshift-control-status.md",
+      "title": "Gearshift Control Status",
+      "description": "title: \"Gearshift Control Status\""
+    },
+    {
+      "originalFilename": "Newtopic113.md",
+      "suggestedFilename": "gearshift-upshift-status.md",
+      "title": "Gearshift Upshift Status",
+      "description": "title: \"Gearshift Upshift Status\""
+    },
+    {
+      "originalFilename": "Newtopic114.md",
+      "suggestedFilename": "open-ecu-f12.md",
+      "title": "Open ECU  F12",
+      "description": "title: \"Open ECU  F12\""
+    },
+    {
+      "originalFilename": "Newtopic115.md",
+      "suggestedFilename": "send-file-to-ecu.md",
+      "title": "Send File to ECU",
+      "description": "title: \"Send File to ECU\""
+    },
+    {
+      "originalFilename": "Newtopic116.md",
+      "suggestedFilename": "store-cal-f4.md",
+      "title": "Store Cal  F4",
+      "description": "title: \"Store Cal  F4\""
+    },
+    {
+      "originalFilename": "Newtopic117.md",
+      "suggestedFilename": "open-file.md",
+      "title": "Open File",
+      "description": "title: \"Open File\""
+    },
+    {
+      "originalFilename": "Newtopic118.md",
+      "suggestedFilename": "import-module-file.md",
+      "title": "Import Module File",
+      "description": "title: \"Import Module File\""
+    },
+    {
+      "originalFilename": "Newtopic119.md",
+      "suggestedFilename": "close-file.md",
+      "title": "Close File",
+      "description": "title: \"Close File\""
+    },
+    {
+      "originalFilename": "Newtopic12.md",
+      "suggestedFilename": "pitch.md",
+      "title": "Pitch ",
+      "description": "title: \"Pitch \""
+    },
+    {
+      "originalFilename": "Newtopic120.md",
+      "suggestedFilename": "save.md",
+      "title": "Save",
+      "description": "title: \"Save\""
+    },
+    {
+      "originalFilename": "Newtopic121.md",
+      "suggestedFilename": "save-as.md",
+      "title": "Save As",
+      "description": "title: \"Save As\""
+    },
+    {
+      "originalFilename": "Newtopic122.md",
+      "suggestedFilename": "undo.md",
+      "title": "Undo",
+      "description": "title: \"Undo\""
+    },
+    {
+      "originalFilename": "Newtopic123.md",
+      "suggestedFilename": "edit-comments.md",
+      "title": "Edit Comments",
+      "description": "title: \"Edit Comments\""
+    },
+    {
+      "originalFilename": "Newtopic124.md",
+      "suggestedFilename": "configure-parameters.md",
+      "title": "Configure Parameters",
+      "description": "title: \"Configure Parameters\""
+    },
+    {
+      "originalFilename": "Newtopic125.md",
+      "suggestedFilename": "dash-setup.md",
+      "title": "Dash setup",
+      "description": "title: \"Dash setup\""
+    },
+    {
+      "originalFilename": "Newtopic126.md",
+      "suggestedFilename": "configure-guage-tabs.md",
+      "title": "Configure Guage Tabs",
+      "description": "title: \"Configure Guage Tabs\""
+    },
+    {
+      "originalFilename": "Newtopic127.md",
+      "suggestedFilename": "open-dtc.md",
+      "title": "Open DTC",
+      "description": "title: \"Open DTC\""
+    },
+    {
+      "originalFilename": "Newtopic128.md",
+      "suggestedFilename": "reset-dtc.md",
+      "title": "Reset DTC",
+      "description": "title: \"Reset DTC\""
+    },
+    {
+      "originalFilename": "Newtopic129.md",
+      "suggestedFilename": "event-log-ctrl-e.md",
+      "title": "Event Log    Ctrl + E",
+      "description": "title: \"Event Log    Ctrl + E\""
+    },
+    {
+      "originalFilename": "Newtopic13.md",
+      "suggestedFilename": "vehicle-yaw-rate.md",
+      "title": "Vehicle Yaw Rate",
+      "description": "title: \"Vehicle Yaw Rate\""
+    },
+    {
+      "originalFilename": "Newtopic130.md",
+      "suggestedFilename": "acknowledge-events-shift-ctrl-e.md",
+      "title": "Acknowledge Events      Shift + Ctrl + E",
+      "description": "title: \"Acknowledge Events      Shift + Ctrl + E\""
+    },
+    {
+      "originalFilename": "Newtopic131.md",
+      "suggestedFilename": "reset-ecu-statistics.md",
+      "title": "Reset ECU Statistics",
+      "description": "title: \"Reset ECU Statistics\""
+    },
+    {
+      "originalFilename": "Newtopic132.md",
+      "suggestedFilename": "reset-table-invert-settings.md",
+      "title": "Reset Table Invert Settings",
+      "description": "title: \"Reset Table Invert Settings\""
+    },
+    {
+      "originalFilename": "Newtopic133.md",
+      "suggestedFilename": "set-password.md",
+      "title": "Set Password",
+      "description": "title: \"Set Password\""
+    },
+    {
+      "originalFilename": "Newtopic134.md",
+      "suggestedFilename": "clear-password.md",
+      "title": "Clear Password",
+      "description": "title: \"Clear Password\""
+    },
+    {
+      "originalFilename": "Newtopic135.md",
+      "suggestedFilename": "build-management.md",
+      "title": "Build Management ",
+      "description": "title: \"Build Management \""
+    },
+    {
+      "originalFilename": "Newtopic136.md",
+      "suggestedFilename": "show-ecu-overveiw.md",
+      "title": "Show ECU Overveiw",
+      "description": "title: \"Show ECU Overveiw\""
+    },
+    {
+      "originalFilename": "Newtopic137.md",
+      "suggestedFilename": "full-screen-f11.md",
+      "title": "Full Screen     F11",
+      "description": "title: \"Full Screen     F11\""
+    },
+    {
+      "originalFilename": "Newtopic138.md",
+      "suggestedFilename": "table-full-screen-ctrl-f11.md",
+      "title": "Table Full Screen     Ctrl + F11",
+      "description": "title: \"Table Full Screen     Ctrl + F11\""
+    },
+    {
+      "originalFilename": "Newtopic139.md",
+      "suggestedFilename": "exit.md",
+      "title": "Exit",
+      "description": "title: \"Exit\""
+    },
+    {
+      "originalFilename": "Newtopic14.md",
+      "suggestedFilename": "ac-system-pressure.md",
+      "title": "AC System Pressure ",
+      "description": "title: \"AC System Pressure \""
+    },
+    {
+      "originalFilename": "Newtopic140.md",
+      "suggestedFilename": "highest-priority-fi-cut-status.md",
+      "title": "Highest Priority F/I Cut Status",
+      "description": "title: \"Highest Priority F/I Cut Status\""
+    },
+    {
+      "originalFilename": "Newtopic141.md",
+      "suggestedFilename": "secondary-load-table.md",
+      "title": "Secondary Load Table",
+      "description": "title: \"Secondary Load Table\""
+    },
+    {
+      "originalFilename": "Newtopic142.md",
+      "suggestedFilename": "lambda-target-tables.md",
+      "title": "Lambda Target Tables",
+      "description": "title: \"Lambda Target Tables\""
+    },
+    {
+      "originalFilename": "Newtopic143.md",
+      "suggestedFilename": "injection-timing-tables.md",
+      "title": "Injection Timing Tables",
+      "description": "title: \"Injection Timing Tables\""
+    },
+    {
+      "originalFilename": "Newtopic144.md",
+      "suggestedFilename": "fuel-modifier-tables.md",
+      "title": "Fuel Modifier Tables",
+      "description": "title: \"Fuel Modifier Tables\""
+    },
+    {
+      "originalFilename": "Newtopic145.md",
+      "suggestedFilename": "ve-blend-table.md",
+      "title": "VE Blend Table",
+      "description": "title: \"VE Blend Table\""
+    },
+    {
+      "originalFilename": "Newtopic146.md",
+      "suggestedFilename": "fuel-model-blending-control.md",
+      "title": "Fuel Model Blending control",
+      "description": "title: \"Fuel Model Blending control\""
+    },
+    {
+      "originalFilename": "Newtopic147.md",
+      "suggestedFilename": "compensations.md",
+      "title": "Compensations",
+      "description": "title: \"Compensations\""
+    },
+    {
+      "originalFilename": "Newtopic148.md",
+      "suggestedFilename": "starting.md",
+      "title": "Starting",
+      "description": "title: \"Starting\""
+    },
+    {
+      "originalFilename": "Newtopic149.md",
+      "suggestedFilename": "transient-fuel.md",
+      "title": "Transient Fuel",
+      "description": "title: \"Transient Fuel\""
+    },
+    {
+      "originalFilename": "Newtopic15.md",
+      "suggestedFilename": "fuel-tank-pressure.md",
+      "title": "Fuel Tank Pressure ",
+      "description": "title: \"Fuel Tank Pressure \""
+    },
+    {
+      "originalFilename": "Newtopic150.md",
+      "suggestedFilename": "cylinder-trims.md",
+      "title": "Cylinder Trims",
+      "description": "title: \"Cylinder Trims\""
+    },
+    {
+      "originalFilename": "Newtopic151.md",
+      "suggestedFilename": "bank-trims.md",
+      "title": "Bank Trims",
+      "description": "title: \"Bank Trims\""
+    },
+    {
+      "originalFilename": "Newtopic152.md",
+      "suggestedFilename": "z-axis-setup.md",
+      "title": "Z-Axis Setup",
+      "description": "title: \"Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic153.md",
+      "suggestedFilename": "secondary-load-table.md",
+      "title": "Secondary Load Table",
+      "description": "title: \"Secondary Load Table\""
+    },
+    {
+      "originalFilename": "Newtopic154.md",
+      "suggestedFilename": "compensations.md",
+      "title": "Compensations",
+      "description": "title: \"Compensations\""
+    },
+    {
+      "originalFilename": "Newtopic155.md",
+      "suggestedFilename": "starting.md",
+      "title": "Starting",
+      "description": "title: \"Starting\""
+    },
+    {
+      "originalFilename": "Newtopic156.md",
+      "suggestedFilename": "transient.md",
+      "title": "Transient",
+      "description": "title: \"Transient\""
+    },
+    {
+      "originalFilename": "Newtopic157.md",
+      "suggestedFilename": "cylinder-trims.md",
+      "title": "Cylinder Trims",
+      "description": "title: \"Cylinder Trims\""
+    },
+    {
+      "originalFilename": "Newtopic158.md",
+      "suggestedFilename": "trailing-split-table.md",
+      "title": "Trailing Split Table",
+      "description": "title: \"Trailing Split Table\""
+    },
+    {
+      "originalFilename": "Newtopic159.md",
+      "suggestedFilename": "z-axis-setup.md",
+      "title": "Z-Axis Setup",
+      "description": "title: \"Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic16.md",
+      "suggestedFilename": "calculated-runtimes.md",
+      "title": "Calculated Runtimes",
+      "description": "title: \"Calculated Runtimes\""
+    },
+    {
+      "originalFilename": "Newtopic160.md",
+      "suggestedFilename": "internal-lsu-sensor-control.md",
+      "title": "Internal LSU Sensor Control",
+      "description": "title: \"Internal LSU Sensor Control\""
+    },
+    {
+      "originalFilename": "Newtopic161.md",
+      "suggestedFilename": "lambda-control-narrow-band.md",
+      "title": "Lambda Control - Narrow Band",
+      "description": "title: \"Lambda Control - Narrow Band\""
+    },
+    {
+      "originalFilename": "Newtopic163.md",
+      "suggestedFilename": "vdc-setup.md",
+      "title": "VDC Setup",
+      "description": "title: \"VDC Setup\""
+    },
+    {
+      "originalFilename": "Newtopic164.md",
+      "suggestedFilename": "vdc-torque-gain.md",
+      "title": "VDC Torque Gain",
+      "description": "title: \"VDC Torque Gain\""
+    },
+    {
+      "originalFilename": "Newtopic165.md",
+      "suggestedFilename": "vdc-boost-target-margin-table.md",
+      "title": "VDC Boost Target Margin Table",
+      "description": "title: \"VDC Boost Target Margin Table\""
+    },
+    {
+      "originalFilename": "Newtopic166.md",
+      "suggestedFilename": "tcm-setup.md",
+      "title": "TCM Setup",
+      "description": "title: \"TCM Setup\""
+    },
+    {
+      "originalFilename": "Newtopic167.md",
+      "suggestedFilename": "tcm-throttle-torque-gain.md",
+      "title": "TCM Throttle Torque Gain",
+      "description": "title: \"TCM Throttle Torque Gain\""
+    },
+    {
+      "originalFilename": "Newtopic168.md",
+      "suggestedFilename": "tcm-retard-torque-gain.md",
+      "title": "TCM Retard Torque Gain",
+      "description": "title: \"TCM Retard Torque Gain\""
+    },
+    {
+      "originalFilename": "Newtopic169.md",
+      "suggestedFilename": "tcm-torque-limit-engine-cut-setup.md",
+      "title": "TCM Torque Limit Engine Cut Setup",
+      "description": "title: \"TCM Torque Limit Engine Cut Setup\""
+    },
+    {
+      "originalFilename": "Newtopic170.md",
+      "suggestedFilename": "can-torque-reported-modifier.md",
+      "title": "CAN Torque Reported Modifier",
+      "description": "title: \"CAN Torque Reported Modifier\""
+    },
+    {
+      "originalFilename": "Newtopic171.md",
+      "suggestedFilename": "lambda-target-1-offset-table-1.md",
+      "title": "Lambda Target 1 Offset Table 1",
+      "description": "title: \"Lambda Target 1 Offset Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic172.md",
+      "suggestedFilename": "lambda-target-1-offset-table-2.md",
+      "title": "Lambda Target 1 Offset Table 2",
+      "description": "title: \"Lambda Target 1 Offset Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic173.md",
+      "suggestedFilename": "lambda-table-2.md",
+      "title": "Lambda Table 2",
+      "description": "title: \"Lambda Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic174.md",
+      "suggestedFilename": "lambda-target-2-offset-table-1.md",
+      "title": "Lambda Target 2 Offset Table 1",
+      "description": "title: \"Lambda Target 2 Offset Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic175.md",
+      "suggestedFilename": "injection-timing-primary.md",
+      "title": "Injection Timing Primary",
+      "description": "title: \"Injection Timing Primary\""
+    },
+    {
+      "originalFilename": "Newtopic176.md",
+      "suggestedFilename": "air-mass-modifier-table.md",
+      "title": "Air Mass Modifier Table",
+      "description": "title: \"Air Mass Modifier Table\""
+    },
+    {
+      "originalFilename": "Newtopic177.md",
+      "suggestedFilename": "fuel-mass-modifier-table.md",
+      "title": "Fuel Mass Modifier Table",
+      "description": "title: \"Fuel Mass Modifier Table\""
+    },
+    {
+      "originalFilename": "Newtopic178.md",
+      "suggestedFilename": "engine-temperature-comp-table-1.md",
+      "title": "Engine Temperature Comp Table 1",
+      "description": "title: \"Engine Temperature Comp Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic179.md",
+      "suggestedFilename": "charge-temperature-estimate-table.md",
+      "title": "Charge Temperature Estimate Table",
+      "description": "title: \"Charge Temperature Estimate Table\""
+    },
+    {
+      "originalFilename": "Newtopic18.md",
+      "suggestedFilename": "basic-configuration.md",
+      "title": "Basic Configuration",
+      "description": "title: \"Basic Configuration\""
+    },
+    {
+      "originalFilename": "Newtopic180.md",
+      "suggestedFilename": "charge-temperature-offset-table.md",
+      "title": "Charge Temperature Offset Table",
+      "description": "title: \"Charge Temperature Offset Table\""
+    },
+    {
+      "originalFilename": "Newtopic181.md",
+      "suggestedFilename": "charge-temperature-comp-table-1.md",
+      "title": "Charge Temperature Comp Table 1",
+      "description": "title: \"Charge Temperature Comp Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic182.md",
+      "suggestedFilename": "map-comp-table.md",
+      "title": "MAP Comp table",
+      "description": "title: \"MAP Comp table\""
+    },
+    {
+      "originalFilename": "Newtopic183.md",
+      "suggestedFilename": "gear-comp-table.md",
+      "title": "Gear Comp Table",
+      "description": "title: \"Gear Comp Table\""
+    },
+    {
+      "originalFilename": "Newtopic184.md",
+      "suggestedFilename": "engine-temperature-comp-table-2.md",
+      "title": "Engine Temperature Comp Table 2",
+      "description": "title: \"Engine Temperature Comp Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic185.md",
+      "suggestedFilename": "charge-temperature-comp-table-2.md",
+      "title": "Charge Temperature Comp Table 2",
+      "description": "title: \"Charge Temperature Comp Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic186.md",
+      "suggestedFilename": "exhaust-pressure-comp-table.md",
+      "title": "Exhaust Pressure Comp Table",
+      "description": "title: \"Exhaust Pressure Comp Table\""
+    },
+    {
+      "originalFilename": "Newtopic187.md",
+      "suggestedFilename": "fuel-temperature-comp-table.md",
+      "title": "Fuel Temperature Comp Table",
+      "description": "title: \"Fuel Temperature Comp Table\""
+    },
+    {
+      "originalFilename": "Newtopic188.md",
+      "suggestedFilename": "fuel-pressure-comp-table.md",
+      "title": "Fuel Pressure Comp Table",
+      "description": "title: \"Fuel Pressure Comp Table\""
+    },
+    {
+      "originalFilename": "Newtopic189.md",
+      "suggestedFilename": "user-comp-table-1.md",
+      "title": "User Comp Table 1",
+      "description": "title: \"User Comp Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic19.md",
+      "suggestedFilename": "boost-control.md",
+      "title": "Boost Control",
+      "description": "title: \"Boost Control\""
+    },
+    {
+      "originalFilename": "Newtopic190.md",
+      "suggestedFilename": "user-comp-table-2.md",
+      "title": "User Comp Table 2",
+      "description": "title: \"User Comp Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic191.md",
+      "suggestedFilename": "starting-setup.md",
+      "title": "Starting Setup",
+      "description": "title: \"Starting Setup\""
+    },
+    {
+      "originalFilename": "Newtopic192.md",
+      "suggestedFilename": "pre-injection-comp-table-1.md",
+      "title": "Pre Injection Comp Table 1",
+      "description": "title: \"Pre Injection Comp Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic193.md",
+      "suggestedFilename": "crank-comp-table-1.md",
+      "title": "Crank Comp Table 1",
+      "description": "title: \"Crank Comp Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic194.md",
+      "suggestedFilename": "post-start-comp-table-1.md",
+      "title": "Post Start Comp Table 1",
+      "description": "title: \"Post Start Comp Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic195.md",
+      "suggestedFilename": "pre-injection-comp-table-2.md",
+      "title": "Pre Injection Comp Table 2",
+      "description": "title: \"Pre Injection Comp Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic196.md",
+      "suggestedFilename": "crank-comp-table-2.md",
+      "title": "Crank Comp Table 2",
+      "description": "title: \"Crank Comp Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic197.md",
+      "suggestedFilename": "post-start-comp-table-2.md",
+      "title": "Post Start Comp Table 2",
+      "description": "title: \"Post Start Comp Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic198.md",
+      "suggestedFilename": "engine-temperature-comp-table.md",
+      "title": "Engine Temperature Comp Table",
+      "description": "title: \"Engine Temperature Comp Table\""
+    },
+    {
+      "originalFilename": "Newtopic199.md",
+      "suggestedFilename": "charge-temperature-comp-table.md",
+      "title": "Charge Temperature Comp Table",
+      "description": "title: \"Charge Temperature Comp Table\""
+    },
+    {
+      "originalFilename": "Newtopic2.md",
+      "suggestedFilename": "obd-ii-j1979.md",
+      "title": "OBD II J1979",
+      "description": "title: \"OBD II J1979\""
+    },
+    {
+      "originalFilename": "Newtopic20.md",
+      "suggestedFilename": "boost-target-clamp-table.md",
+      "title": "Boost Target Clamp Table",
+      "description": "title: \"Boost Target Clamp Table\""
+    },
+    {
+      "originalFilename": "Newtopic200.md",
+      "suggestedFilename": "map-comp-table.md",
+      "title": "MAP Comp Table",
+      "description": "title: \"MAP Comp Table\""
+    },
+    {
+      "originalFilename": "Newtopic201.md",
+      "suggestedFilename": "gear-comp-table.md",
+      "title": "Gear Comp table",
+      "description": "title: \"Gear Comp table\""
+    },
+    {
+      "originalFilename": "Newtopic202.md",
+      "suggestedFilename": "user-comp-table-1.md",
+      "title": "User Comp Table 1",
+      "description": "title: \"User Comp Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic203.md",
+      "suggestedFilename": "user-comp-table-2.md",
+      "title": "User Comp Table 2",
+      "description": "title: \"User Comp Table 2\""
+    },
+    {
+      "originalFilename": "Newtopic204.md",
+      "suggestedFilename": "cranking-table.md",
+      "title": "Cranking Table",
+      "description": "title: \"Cranking Table\""
+    },
+    {
+      "originalFilename": "Newtopic205.md",
+      "suggestedFilename": "post-start-table.md",
+      "title": "Post Start Table",
+      "description": "title: \"Post Start Table\""
+    },
+    {
+      "originalFilename": "Newtopic206.md",
+      "suggestedFilename": "ignition-transient-setup.md",
+      "title": "Ignition Transient Setup",
+      "description": "title: \"Ignition Transient Setup\""
+    },
+    {
+      "originalFilename": "Newtopic207.md",
+      "suggestedFilename": "ignition-accel-clamp-table.md",
+      "title": "Ignition Accel Clamp Table",
+      "description": "title: \"Ignition Accel Clamp Table\""
+    },
+    {
+      "originalFilename": "Newtopic208.md",
+      "suggestedFilename": "ignition-accel-sens-table.md",
+      "title": "Ignition Accel Sens Table",
+      "description": "title: \"Ignition Accel Sens Table\""
+    },
+    {
+      "originalFilename": "Newtopic209.md",
+      "suggestedFilename": "ignition-accel-decay-table.md",
+      "title": "Ignition Accel Decay Table",
+      "description": "title: \"Ignition Accel Decay Table\""
+    },
+    {
+      "originalFilename": "Newtopic21.md",
+      "suggestedFilename": "tuning.md",
+      "title": "Tuning",
+      "description": "title: \"Tuning\""
+    },
+    {
+      "originalFilename": "Newtopic210.md",
+      "suggestedFilename": "ignition-decel-clamp-table.md",
+      "title": "Ignition Decel Clamp Table",
+      "description": "title: \"Ignition Decel Clamp Table\""
+    },
+    {
+      "originalFilename": "Newtopic211.md",
+      "suggestedFilename": "ignition-decel-sens-table.md",
+      "title": "Ignition Decel Sens Table",
+      "description": "title: \"Ignition Decel Sens Table\""
+    },
+    {
+      "originalFilename": "Newtopic212.md",
+      "suggestedFilename": "ignition-decel-decay-table.md",
+      "title": "Ignition Decel Decay Table",
+      "description": "title: \"Ignition Decel Decay Table\""
+    },
+    {
+      "originalFilename": "Newtopic213.md",
+      "suggestedFilename": "ignition-advance-rate-table.md",
+      "title": "Ignition Advance Rate Table",
+      "description": "title: \"Ignition Advance Rate Table\""
+    },
+    {
+      "originalFilename": "Newtopic214.md",
+      "suggestedFilename": "ignition-retard-rate-table.md",
+      "title": "Ignition Retard Rate Table",
+      "description": "title: \"Ignition Retard Rate Table\""
+    },
+    {
+      "originalFilename": "Newtopic215.md",
+      "suggestedFilename": "ignition-main-table-z-axis-setup.md",
+      "title": "Ignition Main Table Z-Axis Setup",
+      "description": "title: \"Ignition Main Table Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic216.md",
+      "suggestedFilename": "dwell-table-z-axis-setup.md",
+      "title": "Dwell Table Z-Axis Setup",
+      "description": "title: \"Dwell Table Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic217.md",
+      "suggestedFilename": "ignition-main-tables.md",
+      "title": "Ignition Main Tables",
+      "description": "title: \"Ignition Main Tables\""
+    },
+    {
+      "originalFilename": "Newtopic218.md",
+      "suggestedFilename": "compensation-tables.md",
+      "title": "Compensation Tables",
+      "description": "title: \"Compensation Tables\""
+    },
+    {
+      "originalFilename": "Newtopic219.md",
+      "suggestedFilename": "starting-tables.md",
+      "title": "Starting Tables",
+      "description": "title: \"Starting Tables\""
+    },
+    {
+      "originalFilename": "Newtopic22.md",
+      "suggestedFilename": "upshift-flow-chart.md",
+      "title": "Upshift Flow Chart",
+      "description": "title: \"Upshift Flow Chart\""
+    },
+    {
+      "originalFilename": "Newtopic220.md",
+      "suggestedFilename": "cylinder-trim-tables.md",
+      "title": "Cylinder Trim Tables",
+      "description": "title: \"Cylinder Trim Tables\""
+    },
+    {
+      "originalFilename": "Newtopic221.md",
+      "suggestedFilename": "secondary-load-table.md",
+      "title": "Secondary Load Table",
+      "description": "title: \"Secondary Load Table\""
+    },
+    {
+      "originalFilename": "Newtopic222.md",
+      "suggestedFilename": "dwell-tables.md",
+      "title": "Dwell Tables",
+      "description": "title: \"Dwell Tables\""
+    },
+    {
+      "originalFilename": "Newtopic223.md",
+      "suggestedFilename": "accel-decay-table.md",
+      "title": "Accel Decay Table",
+      "description": "title: \"Accel Decay Table\""
+    },
+    {
+      "originalFilename": "Newtopic224.md",
+      "suggestedFilename": "main-ve-table-z-axis-setup.md",
+      "title": "Main VE Table Z-Axis Setup",
+      "description": "title: \"Main VE Table Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic225.md",
+      "suggestedFilename": "accel-clamp-table.md",
+      "title": "Accel Clamp Table",
+      "description": "title: \"Accel Clamp Table\""
+    },
+    {
+      "originalFilename": "Newtopic226.md",
+      "suggestedFilename": "accel-sens-table.md",
+      "title": "Accel Sens Table",
+      "description": "title: \"Accel Sens Table\""
+    },
+    {
+      "originalFilename": "Newtopic227.md",
+      "suggestedFilename": "decel-decay-table.md",
+      "title": "Decel Decay Table",
+      "description": "title: \"Decel Decay Table\""
+    },
+    {
+      "originalFilename": "Newtopic228.md",
+      "suggestedFilename": "precrank-z-axis-setup.md",
+      "title": "PreCrank Z-Axis Setup",
+      "description": "title: \"PreCrank Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic229.md",
+      "suggestedFilename": "crank-z-axis-setup.md",
+      "title": "Crank Z-Axis Setup",
+      "description": "title: \"Crank Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic23.md",
+      "suggestedFilename": "aux-output-supplement.md",
+      "title": "Aux Output Supplement",
+      "description": "title: \"Aux Output Supplement\""
+    },
+    {
+      "originalFilename": "Newtopic230.md",
+      "suggestedFilename": "decel-clamp-table.md",
+      "title": "Decel Clamp Table",
+      "description": "title: \"Decel Clamp Table\""
+    },
+    {
+      "originalFilename": "Newtopic231.md",
+      "suggestedFilename": "accel-engine-temperature-comp-table.md",
+      "title": "Accel Engine Temperature Comp Table",
+      "description": "title: \"Accel Engine Temperature Comp Table\""
+    },
+    {
+      "originalFilename": "Newtopic232.md",
+      "suggestedFilename": "decel-sens-table.md",
+      "title": "Decel Sens Table",
+      "description": "title: \"Decel Sens Table\""
+    },
+    {
+      "originalFilename": "Newtopic233.md",
+      "suggestedFilename": "post-start-z-axis-setup.md",
+      "title": "Post Start Z-Axis Setup",
+      "description": "title: \"Post Start Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic234.md",
+      "suggestedFilename": "engine-temp-comp-z-axis-setup.md",
+      "title": "Engine Temp Comp Z-Axis Setup",
+      "description": "title: \"Engine Temp Comp Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic235.md",
+      "suggestedFilename": "charge-temperature-z-axis-setup.md",
+      "title": "Charge Temperature Z-Axis Setup",
+      "description": "title: \"Charge Temperature Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic236.md",
+      "suggestedFilename": "lambda-target-z-axis-setup.md",
+      "title": "Lambda Target Z-Axis Setup",
+      "description": "title: \"Lambda Target Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic237.md",
+      "suggestedFilename": "main-ve-tables.md",
+      "title": "Main VE Tables",
+      "description": "title: \"Main VE Tables\""
+    },
+    {
+      "originalFilename": "Newtopic238.md",
+      "suggestedFilename": "compensation-tables.md",
+      "title": "Compensation Tables",
+      "description": "title: \"Compensation Tables\""
+    },
+    {
+      "originalFilename": "Newtopic239.md",
+      "suggestedFilename": "starting-tables.md",
+      "title": "Starting Tables",
+      "description": "title: \"Starting Tables\""
+    },
+    {
+      "originalFilename": "Newtopic24.md",
+      "suggestedFilename": "idle-speed-control-configuration-tmf.md",
+      "title": "Idle Speed Control Configuration (TMF)",
+      "description": "title: \"Idle Speed Control Configuration (TMF)\""
+    },
+    {
+      "originalFilename": "Newtopic240.md",
+      "suggestedFilename": "cylinder-trim-tables.md",
+      "title": "Cylinder Trim Tables",
+      "description": "title: \"Cylinder Trim Tables\""
+    },
+    {
+      "originalFilename": "Newtopic241.md",
+      "suggestedFilename": "secondary-load-tables.md",
+      "title": "Secondary Load Tables",
+      "description": "title: \"Secondary Load Tables\""
+    },
+    {
+      "originalFilename": "Newtopic242.md",
+      "suggestedFilename": "lambda-target-tables.md",
+      "title": "Lambda Target Tables",
+      "description": "title: \"Lambda Target Tables\""
+    },
+    {
+      "originalFilename": "Newtopic243.md",
+      "suggestedFilename": "fuel-modifier-tables.md",
+      "title": "Fuel Modifier Tables",
+      "description": "title: \"Fuel Modifier Tables\""
+    },
+    {
+      "originalFilename": "Newtopic244.md",
+      "suggestedFilename": "fuel-bank-trim-tables.md",
+      "title": "Fuel Bank Trim Tables",
+      "description": "title: \"Fuel Bank Trim Tables\""
+    },
+    {
+      "originalFilename": "Newtopic245.md",
+      "suggestedFilename": "engine-temperature-limit-setup.md",
+      "title": "Engine Temperature Limit Setup",
+      "description": "title: \"Engine Temperature Limit Setup\""
+    },
+    {
+      "originalFilename": "Newtopic246.md",
+      "suggestedFilename": "oil-pressure-limit-setup.md",
+      "title": "Oil Pressure Limit Setup",
+      "description": "title: \"Oil Pressure Limit Setup\""
+    },
+    {
+      "originalFilename": "Newtopic247.md",
+      "suggestedFilename": "vvt-sys-status.md",
+      "title": "VVT Sys Status",
+      "description": "title: \"VVT Sys Status\""
+    },
+    {
+      "originalFilename": "Newtopic248.md",
+      "suggestedFilename": "launch-status.md",
+      "title": "Launch Status",
+      "description": "title: \"Launch Status\""
+    },
+    {
+      "originalFilename": "Newtopic249.md",
+      "suggestedFilename": "fuel-pressure-limit-setup.md",
+      "title": "Fuel Pressure Limit Setup",
+      "description": "title: \"Fuel Pressure Limit Setup\""
+    },
+    {
+      "originalFilename": "Newtopic25.md",
+      "suggestedFilename": "downshift-flow-chart.md",
+      "title": "Downshift Flow Chart",
+      "description": "title: \"Downshift Flow Chart\""
+    },
+    {
+      "originalFilename": "Newtopic250.md",
+      "suggestedFilename": "orfc-status.md",
+      "title": "ORFC Status",
+      "description": "title: \"ORFC Status\""
+    },
+    {
+      "originalFilename": "Newtopic251.md",
+      "suggestedFilename": "traction-control-status.md",
+      "title": "Traction Control Status",
+      "description": "title: \"Traction Control Status\""
+    },
+    {
+      "originalFilename": "Newtopic252.md",
+      "suggestedFilename": "exhaust-temperature-limit-setup.md",
+      "title": "Exhaust Temperature Limit Setup",
+      "description": "title: \"Exhaust Temperature Limit Setup\""
+    },
+    {
+      "originalFilename": "Newtopic254.md",
+      "suggestedFilename": "calculated-channel-setup.md",
+      "title": "Calculated Channel Setup",
+      "description": "title: \"Calculated Channel Setup\""
+    },
+    {
+      "originalFilename": "Newtopic255.md",
+      "suggestedFilename": "engine-speed-limiter-setup.md",
+      "title": "Engine Speed Limiter Setup",
+      "description": "title: \"Engine Speed Limiter Setup\""
+    },
+    {
+      "originalFilename": "Newtopic256.md",
+      "suggestedFilename": "rpm-limit-turn-on-delay-table.md",
+      "title": "RPM Limit - Turn ON Delay Table",
+      "description": "title: \"RPM Limit - Turn ON Delay Table\""
+    },
+    {
+      "originalFilename": "Newtopic257.md",
+      "suggestedFilename": "rpm-limit-table.md",
+      "title": "RPM Limit Table",
+      "description": "title: \"RPM Limit Table\""
+    },
+    {
+      "originalFilename": "Newtopic258.md",
+      "suggestedFilename": "rpm-limit-user-12-offset-table.md",
+      "title": "RPM Limit - User 1/2 Offset Table",
+      "description": "title: \"RPM Limit - User 1/2 Offset Table\""
+    },
+    {
+      "originalFilename": "Newtopic259.md",
+      "suggestedFilename": "upshift-request-enable-table.md",
+      "title": "Upshift Request Enable Table",
+      "description": "title: \"Upshift Request Enable Table\""
+    },
+    {
+      "originalFilename": "Newtopic26.md",
+      "suggestedFilename": "throttle-body-model.md",
+      "title": "Throttle Body Model",
+      "description": "title: \"Throttle Body Model\""
+    },
+    {
+      "originalFilename": "Newtopic260.md",
+      "suggestedFilename": "scope.md",
+      "title": "Scope",
+      "description": "title: \"Scope\""
+    },
+    {
+      "originalFilename": "Newtopic261.md",
+      "suggestedFilename": "scope-utility.md",
+      "title": "Scope Utility",
+      "description": "title: \"Scope Utility\""
+    },
+    {
+      "originalFilename": "Newtopic262.md",
+      "suggestedFilename": "uses-of-scope.md",
+      "title": "Uses of Scope",
+      "description": "title: \"Uses of Scope\""
+    },
+    {
+      "originalFilename": "Newtopic263.md",
+      "suggestedFilename": "trigger-requests.md",
+      "title": "Trigger Requests",
+      "description": "title: \"Trigger Requests\""
+    },
+    {
+      "originalFilename": "Newtopic264.md",
+      "suggestedFilename": "cranksync-sensor-arming-threshold-settings.md",
+      "title": "Crank/Sync Sensor Arming Threshold Settings",
+      "description": "title: \"Crank/Sync Sensor Arming Threshold Settings\""
+    },
+    {
+      "originalFilename": "Newtopic265.md",
+      "suggestedFilename": "improper-edge-configuration-for-cranksync-sensor.md",
+      "title": "Improper Edge Configuration for Crank/Sync Sensor",
+      "description": "title: \"Improper Edge Configuration for Crank/Sync Sensor\""
+    },
+    {
+      "originalFilename": "Newtopic266.md",
+      "suggestedFilename": "scope-voltage-clipping.md",
+      "title": "Scope Voltage Clipping",
+      "description": "title: \"Scope Voltage Clipping\""
+    },
+    {
+      "originalFilename": "Newtopic267.md",
+      "suggestedFilename": "improper-cranksync-sensor-polarity.md",
+      "title": "Improper Crank/Sync Sensor Polarity",
+      "description": "title: \"Improper Crank/Sync Sensor Polarity\""
+    },
+    {
+      "originalFilename": "Newtopic268.md",
+      "suggestedFilename": "sync-position.md",
+      "title": "Sync Position %",
+      "description": "title: \"Sync Position %\""
+    },
+    {
+      "originalFilename": "Newtopic269.md",
+      "suggestedFilename": "generic-dash-configuration.md",
+      "title": "Generic Dash Configuration",
+      "description": "title: \"Generic Dash Configuration\""
+    },
+    {
+      "originalFilename": "Newtopic27.md",
+      "suggestedFilename": "traction-control.md",
+      "title": "Traction Control",
+      "description": "title: \"Traction Control\""
+    },
+    {
+      "originalFilename": "Newtopic270.md",
+      "suggestedFilename": "lsu-49-pinout.md",
+      "title": "LSU 4.9 Pinout",
+      "description": "title: \"LSU 4.9 Pinout\""
+    },
+    {
+      "originalFilename": "Newtopic271.md",
+      "suggestedFilename": "ecu-plugin-user-manuals.md",
+      "title": "ECU Plugin User Manuals",
+      "description": "title: \"ECU Plugin User Manuals\""
+    },
+    {
+      "originalFilename": "Newtopic272.md",
+      "suggestedFilename": "nissan-gtr-r35.md",
+      "title": "Nissan GTR R35",
+      "description": "title: \"Nissan GTR R35\""
+    },
+    {
+      "originalFilename": "Newtopic273.md",
+      "suggestedFilename": "lambda-control-setup.md",
+      "title": "Lambda Control Setup",
+      "description": "title: \"Lambda Control Setup\""
+    },
+    {
+      "originalFilename": "Newtopic274.md",
+      "suggestedFilename": "ltft-setup.md",
+      "title": "LTFT Setup",
+      "description": "title: \"LTFT Setup\""
+    },
+    {
+      "originalFilename": "Newtopic275.md",
+      "suggestedFilename": "dual-lambda-cylinder-setup.md",
+      "title": "Dual Lambda Cylinder Setup",
+      "description": "title: \"Dual Lambda Cylinder Setup\""
+    },
+    {
+      "originalFilename": "Newtopic276.md",
+      "suggestedFilename": "lambda-transport-delay.md",
+      "title": "Lambda Transport Delay",
+      "description": "title: \"Lambda Transport Delay\""
+    },
+    {
+      "originalFilename": "Newtopic277.md",
+      "suggestedFilename": "ltft-range-table.md",
+      "title": "LTFT Range Table",
+      "description": "title: \"LTFT Range Table\""
+    },
+    {
+      "originalFilename": "Newtopic278.md",
+      "suggestedFilename": "lean-stft-limit-table.md",
+      "title": "Lean STFT Limit Table",
+      "description": "title: \"Lean STFT Limit Table\""
+    },
+    {
+      "originalFilename": "Newtopic279.md",
+      "suggestedFilename": "rich-stft-limit-table.md",
+      "title": "Rich STFT Limit Table",
+      "description": "title: \"Rich STFT Limit Table\""
+    },
+    {
+      "originalFilename": "Newtopic28.md",
+      "suggestedFilename": "lambda-table-1.md",
+      "title": "Lambda Table 1",
+      "description": "title: \"Lambda Table 1\""
+    },
+    {
+      "originalFilename": "Newtopic280.md",
+      "suggestedFilename": "lean-ltft-limit-table.md",
+      "title": "Lean LTFT Limit Table",
+      "description": "title: \"Lean LTFT Limit Table\""
+    },
+    {
+      "originalFilename": "Newtopic281.md",
+      "suggestedFilename": "rich-ltft-limit-table.md",
+      "title": "Rich LTFT Limit Table",
+      "description": "title: \"Rich LTFT Limit Table\""
+    },
+    {
+      "originalFilename": "Newtopic282.md",
+      "suggestedFilename": "lambda-control-pid-setup.md",
+      "title": "Lambda Control PID Setup",
+      "description": "title: \"Lambda Control PID Setup\""
+    },
+    {
+      "originalFilename": "Newtopic283.md",
+      "suggestedFilename": "proportional-gain-table.md",
+      "title": "Proportional Gain Table",
+      "description": "title: \"Proportional Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic284.md",
+      "suggestedFilename": "integral-gain-table.md",
+      "title": "Integral Gain Table",
+      "description": "title: \"Integral Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic285.md",
+      "suggestedFilename": "launch-static-rpm-target-table.md",
+      "title": "Launch Static RPM Target Table",
+      "description": "title: \"Launch Static RPM Target Table\""
+    },
+    {
+      "originalFilename": "Newtopic286.md",
+      "suggestedFilename": "idle-ignition-control-setup.md",
+      "title": "Idle Ignition Control Setup",
+      "description": "title: \"Idle Ignition Control Setup\""
+    },
+    {
+      "originalFilename": "Newtopic287.md",
+      "suggestedFilename": "idle-ignition-lockouts.md",
+      "title": "Idle Ignition Lockouts",
+      "description": "title: \"Idle Ignition Lockouts\""
+    },
+    {
+      "originalFilename": "Newtopic288.md",
+      "suggestedFilename": "base-idle-ignition-table.md",
+      "title": "Base Idle Ignition Table",
+      "description": "title: \"Base Idle Ignition Table\""
+    },
+    {
+      "originalFilename": "Newtopic289.md",
+      "suggestedFilename": "idle-ignition-closed-loop.md",
+      "title": "Idle Ignition Closed Loop",
+      "description": "title: \"Idle Ignition Closed Loop\""
+    },
+    {
+      "originalFilename": "Newtopic29.md",
+      "suggestedFilename": "tuning.md",
+      "title": "Tuning",
+      "description": "title: \"Tuning\""
+    },
+    {
+      "originalFilename": "Newtopic290.md",
+      "suggestedFilename": "idle-ignition-pid-setup.md",
+      "title": "Idle Ignition PID Setup",
+      "description": "title: \"Idle Ignition PID Setup\""
+    },
+    {
+      "originalFilename": "Newtopic291.md",
+      "suggestedFilename": "idle-ignition-pid-gain.md",
+      "title": "Idle Ignition PID Gain",
+      "description": "title: \"Idle Ignition PID Gain\""
+    },
+    {
+      "originalFilename": "Newtopic292.md",
+      "suggestedFilename": "idle-speed-control-setup.md",
+      "title": "Idle Speed Control Setup",
+      "description": "title: \"Idle Speed Control Setup\""
+    },
+    {
+      "originalFilename": "Newtopic293.md",
+      "suggestedFilename": "idle-speed-control-lockouts.md",
+      "title": "Idle Speed Control Lockouts",
+      "description": "title: \"Idle Speed Control Lockouts\""
+    },
+    {
+      "originalFilename": "Newtopic294.md",
+      "suggestedFilename": "main-idle-target-table.md",
+      "title": "Main Idle Target Table",
+      "description": "title: \"Main Idle Target Table\""
+    },
+    {
+      "originalFilename": "Newtopic295.md",
+      "suggestedFilename": "initial-position-table.md",
+      "title": "Initial Position Table",
+      "description": "title: \"Initial Position Table\""
+    },
+    {
+      "originalFilename": "Newtopic296.md",
+      "suggestedFilename": "position-offsets.md",
+      "title": "Position Offsets",
+      "description": "title: \"Position Offsets\""
+    },
+    {
+      "originalFilename": "Newtopic297.md",
+      "suggestedFilename": "idle-closed-loop-control.md",
+      "title": "Idle Closed Loop Control",
+      "description": "title: \"Idle Closed Loop Control\""
+    },
+    {
+      "originalFilename": "Newtopic298.md",
+      "suggestedFilename": "idle-pid-setup.md",
+      "title": "Idle PID Setup",
+      "description": "title: \"Idle PID Setup\""
+    },
+    {
+      "originalFilename": "Newtopic299.md",
+      "suggestedFilename": "proportional-gain-table.md",
+      "title": "Proportional Gain Table",
+      "description": "title: \"Proportional Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic3.md",
+      "suggestedFilename": "lsu-49-adv-lsu-49-comparison.md",
+      "title": "LSU 4.9 ADV / LSU 4.9 Comparison ",
+      "description": "title: \"LSU 4.9 ADV / LSU 4.9 Comparison \""
+    },
+    {
+      "originalFilename": "Newtopic30.md",
+      "suggestedFilename": "gearshift-control-tuning.md",
+      "title": "Gearshift Control Tuning",
+      "description": "title: \"Gearshift Control Tuning\""
+    },
+    {
+      "originalFilename": "Newtopic300.md",
+      "suggestedFilename": "integral-gain-table.md",
+      "title": "Integral Gain Table",
+      "description": "title: \"Integral Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic301.md",
+      "suggestedFilename": "derivative-gain-table.md",
+      "title": "Derivative Gain Table",
+      "description": "title: \"Derivative Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic302.md",
+      "suggestedFilename": "minmax-deviation-from-initial-position-table.md",
+      "title": "Min/Max Deviation From Initial Position Table",
+      "description": "title: \"Min/Max Deviation From Initial Position Table\""
+    },
+    {
+      "originalFilename": "Newtopic303.md",
+      "suggestedFilename": "elc-manual.md",
+      "title": "ELC Manual",
+      "description": "title: \"ELC Manual\""
+    },
+    {
+      "originalFilename": "Newtopic304.md",
+      "suggestedFilename": "emtron-can-devices.md",
+      "title": "Emtron CAN Devices",
+      "description": "title: \"Emtron CAN Devices\""
+    },
+    {
+      "originalFilename": "Newtopic305.md",
+      "suggestedFilename": "eic-manual.md",
+      "title": "EIC Manual",
+      "description": "title: \"EIC Manual\""
+    },
+    {
+      "originalFilename": "Newtopic306.md",
+      "suggestedFilename": "etc-manual.md",
+      "title": "ETC Manual",
+      "description": "title: \"ETC Manual\""
+    },
+    {
+      "originalFilename": "Newtopic308.md",
+      "suggestedFilename": "magnetic-resistive-sensor-wiring.md",
+      "title": "Magnetic-Resistive Sensor Wiring",
+      "description": "title: \"Magnetic-Resistive Sensor Wiring\""
+    },
+    {
+      "originalFilename": "Newtopic309.md",
+      "suggestedFilename": "sensorsaccesories.md",
+      "title": "Sensors/Accesories",
+      "description": "title: \"Sensors/Accesories\""
+    },
+    {
+      "originalFilename": "Newtopic31.md",
+      "suggestedFilename": "orfc-setup.md",
+      "title": "ORFC Setup",
+      "description": "title: \"ORFC Setup\""
+    },
+    {
+      "originalFilename": "Newtopic310.md",
+      "suggestedFilename": "emtron-1-bar-map-sensor.md",
+      "title": "Emtron 1 Bar MAP Sensor",
+      "description": "title: \"Emtron 1 Bar MAP Sensor\""
+    },
+    {
+      "originalFilename": "Newtopic311.md",
+      "suggestedFilename": "emtron-4-bar-map-sensor.md",
+      "title": "Emtron 4 Bar MAP Sensor",
+      "description": "title: \"Emtron 4 Bar MAP Sensor\""
+    },
+    {
+      "originalFilename": "Newtopic312.md",
+      "suggestedFilename": "nissan-r32-r34.md",
+      "title": "Nissan R32-R34",
+      "description": "title: \"Nissan R32-R34\""
+    },
+    {
+      "originalFilename": "Newtopic313.md",
+      "suggestedFilename": "subaru-my06-my15.md",
+      "title": "Subaru MY06-MY15",
+      "description": "title: \"Subaru MY06-MY15\""
+    },
+    {
+      "originalFilename": "Newtopic314.md",
+      "suggestedFilename": "application-build.md",
+      "title": "Application Build ",
+      "description": "title: \"Application Build \""
+    },
+    {
+      "originalFilename": "Newtopic315.md",
+      "suggestedFilename": "nissan-patrol-y61.md",
+      "title": "Nissan Patrol Y61",
+      "description": "title: \"Nissan Patrol Y61\""
+    },
+    {
+      "originalFilename": "Newtopic316.md",
+      "suggestedFilename": "mitsubishi-evo-9.md",
+      "title": "Mitsubishi EVO 9",
+      "description": "title: \"Mitsubishi EVO 9\""
+    },
+    {
+      "originalFilename": "Newtopic317.md",
+      "suggestedFilename": "rotary-switch-10-position.md",
+      "title": "Rotary Switch 10 Position",
+      "description": "title: \"Rotary Switch 10 Position\""
+    },
+    {
+      "originalFilename": "Newtopic318.md",
+      "suggestedFilename": "mitsubishi-evo-4-8.md",
+      "title": "Mitsubishi EVO 4-8",
+      "description": "title: \"Mitsubishi EVO 4-8\""
+    },
+    {
+      "originalFilename": "Newtopic319.md",
+      "suggestedFilename": "lsu-49-pinout.md",
+      "title": "LSU 4.9 Pinout",
+      "description": "title: \"LSU 4.9 Pinout\""
+    },
+    {
+      "originalFilename": "Newtopic32.md",
+      "suggestedFilename": "idle-speed-control-setup-tmf.md",
+      "title": "Idle Speed Control Setup (TMF)",
+      "description": "title: \"Idle Speed Control Setup (TMF)\""
+    },
+    {
+      "originalFilename": "Newtopic320.md",
+      "suggestedFilename": "main.md",
+      "title": "Main",
+      "description": "title: \"Main\""
+    },
+    {
+      "originalFilename": "Newtopic321.md",
+      "suggestedFilename": "air-mass-modelled.md",
+      "title": "Air Mass Modelled",
+      "description": "title: \"Air Mass Modelled\""
+    },
+    {
+      "originalFilename": "Newtopic322.md",
+      "suggestedFilename": "idle-speed-tuning-guide.md",
+      "title": "Idle Speed Tuning Guide",
+      "description": "title: \"Idle Speed Tuning Guide\""
+    },
+    {
+      "originalFilename": "Newtopic323.md",
+      "suggestedFilename": "exploring-advanced-functions.md",
+      "title": "Exploring Advanced Functions",
+      "description": "title: \"Exploring Advanced Functions\""
+    },
+    {
+      "originalFilename": "Newtopic324.md",
+      "suggestedFilename": "manifold-pressure-estimate.md",
+      "title": "Manifold Pressure Estimate",
+      "description": "title: \"Manifold Pressure Estimate\""
+    },
+    {
+      "originalFilename": "Newtopic325.md",
+      "suggestedFilename": "manifold-pressure-estimate-setup.md",
+      "title": "Manifold Pressure Estimate Setup",
+      "description": "title: \"Manifold Pressure Estimate Setup\""
+    },
+    {
+      "originalFilename": "Newtopic326.md",
+      "suggestedFilename": "manifold-pressure-estimate-table.md",
+      "title": "Manifold Pressure Estimate Table",
+      "description": "title: \"Manifold Pressure Estimate Table\""
+    },
+    {
+      "originalFilename": "Newtopic327.md",
+      "suggestedFilename": "exhaust-pressure-estimate.md",
+      "title": "Exhaust Pressure Estimate",
+      "description": "title: \"Exhaust Pressure Estimate\""
+    },
+    {
+      "originalFilename": "Newtopic328.md",
+      "suggestedFilename": "exhaust-pressure-estimate-setup.md",
+      "title": "Exhaust Pressure Estimate Setup",
+      "description": "title: \"Exhaust Pressure Estimate Setup\""
+    },
+    {
+      "originalFilename": "Newtopic329.md",
+      "suggestedFilename": "exhaust-pressure-estimate-table.md",
+      "title": "Exhaust Pressure Estimate Table",
+      "description": "title: \"Exhaust Pressure Estimate Table\""
+    },
+    {
+      "originalFilename": "Newtopic33.md",
+      "suggestedFilename": "tmf-idle-speed-control.md",
+      "title": "TMF Idle Speed Control",
+      "description": "title: \"TMF Idle Speed Control\""
+    },
+    {
+      "originalFilename": "Newtopic330.md",
+      "suggestedFilename": "ethanol-content-sensor-continental.md",
+      "title": "Ethanol Content Sensor - Continental",
+      "description": "title: \"Ethanol Content Sensor - Continental\""
+    },
+    {
+      "originalFilename": "Newtopic331.md",
+      "suggestedFilename": "ls1-dbw-throttle-body-pinout.md",
+      "title": "LS1 DBW Throttle Body Pinout",
+      "description": "title: \"LS1 DBW Throttle Body Pinout\""
+    },
+    {
+      "originalFilename": "Newtopic332.md",
+      "suggestedFilename": "v7-v9-h6-isc-pinout-subaru.md",
+      "title": "V7-V9 & H6 ISC Pinout - Subaru",
+      "description": "title: \"V7-V9 & H6 ISC Pinout - Subaru\""
+    },
+    {
+      "originalFilename": "Newtopic333.md",
+      "suggestedFilename": "bipolar-stepper-motor-pinout-delco.md",
+      "title": "Bipolar Stepper Motor Pinout - Delco",
+      "description": "title: \"Bipolar Stepper Motor Pinout - Delco\""
+    },
+    {
+      "originalFilename": "Newtopic334.md",
+      "suggestedFilename": "lsu-49-pinout.md",
+      "title": "LSU 4.9 Pinout",
+      "description": "title: \"LSU 4.9 Pinout\""
+    },
+    {
+      "originalFilename": "Newtopic335.md",
+      "suggestedFilename": "enable-rpm-table.md",
+      "title": "Enable RPM Table",
+      "description": "title: \"Enable RPM Table\""
+    },
+    {
+      "originalFilename": "Newtopic336.md",
+      "suggestedFilename": "recover-rpm-table.md",
+      "title": "Recover RPM Table",
+      "description": "title: \"Recover RPM Table\""
+    },
+    {
+      "originalFilename": "Newtopic337.md",
+      "suggestedFilename": "orfc-on-delay-table.md",
+      "title": "ORFC On Delay Table",
+      "description": "title: \"ORFC On Delay Table\""
+    },
+    {
+      "originalFilename": "Newtopic338.md",
+      "suggestedFilename": "gearshift-compressor-setup.md",
+      "title": "Gearshift Compressor Setup",
+      "description": "title: \"Gearshift Compressor Setup\""
+    },
+    {
+      "originalFilename": "Newtopic339.md",
+      "suggestedFilename": "gearshift-setup.md",
+      "title": "Gearshift Setup",
+      "description": "title: \"Gearshift Setup\""
+    },
+    {
+      "originalFilename": "Newtopic34.md",
+      "suggestedFilename": "idle-speed-control-lockouts-tmf.md",
+      "title": "Idle Speed Control Lockouts (TMF)",
+      "description": "title: \"Idle Speed Control Lockouts (TMF)\""
+    },
+    {
+      "originalFilename": "Newtopic340.md",
+      "suggestedFilename": "upshift-control.md",
+      "title": "Upshift Control",
+      "description": "title: \"Upshift Control\""
+    },
+    {
+      "originalFilename": "Newtopic341.md",
+      "suggestedFilename": "upshift-setup.md",
+      "title": "Upshift Setup",
+      "description": "title: \"Upshift Setup\""
+    },
+    {
+      "originalFilename": "Newtopic342.md",
+      "suggestedFilename": "4-mass-air-flow-sensor-maf-airmass-modelled-blend.md",
+      "title": "4: Mass Air Flow Sensor (MAF) + AirMass Modelled (Blend)",
+      "description": "title: \"4: Mass Air Flow Sensor (MAF) + AirMass Modelled (Blend)\""
+    },
+    {
+      "originalFilename": "Newtopic343.md",
+      "suggestedFilename": "8-air-mass-modelled-parameter-blend.md",
+      "title": "8: Air Mass Modelled (Parameter Blend)",
+      "description": "title: \"8: Air Mass Modelled (Parameter Blend)\""
+    },
+    {
+      "originalFilename": "Newtopic344.md",
+      "suggestedFilename": "0-speed-density-map.md",
+      "title": "0: Speed Density (MAP)",
+      "description": "title: \"0: Speed Density (MAP)\""
+    },
+    {
+      "originalFilename": "Newtopic345.md",
+      "suggestedFilename": "2-mass-air-flow-sensor-maf.md",
+      "title": "2: Mass Air Flow Sensor (MAF)",
+      "description": "title: \"2: Mass Air Flow Sensor (MAF)\""
+    },
+    {
+      "originalFilename": "Newtopic346.md",
+      "suggestedFilename": "emtron-can-devices.md",
+      "title": "Emtron CAN Devices",
+      "description": "title: \"Emtron CAN Devices\""
+    },
+    {
+      "originalFilename": "Newtopic347.md",
+      "suggestedFilename": "custom-tx-data-sets.md",
+      "title": "Custom TX Data Sets",
+      "description": "title: \"Custom TX Data Sets\""
+    },
+    {
+      "originalFilename": "Newtopic348.md",
+      "suggestedFilename": "custom-rx-data-sets.md",
+      "title": "Custom RX Data Sets",
+      "description": "title: \"Custom RX Data Sets\""
+    },
+    {
+      "originalFilename": "Newtopic349.md",
+      "suggestedFilename": "emtron-can-device-programming.md",
+      "title": "Emtron CAN Device Programming",
+      "description": "title: \"Emtron CAN Device Programming\""
+    },
+    {
+      "originalFilename": "Newtopic35.md",
+      "suggestedFilename": "idle-speed-tuning-guide.md",
+      "title": "Idle Speed Tuning Guide",
+      "description": "title: \"Idle Speed Tuning Guide\""
+    },
+    {
+      "originalFilename": "Newtopic350.md",
+      "suggestedFilename": "emtron-lambda-to-can-elcelcm-setup.md",
+      "title": "Emtron Lambda to CAN (ELC/ELCM) Setup",
+      "description": "title: \"Emtron Lambda to CAN (ELC/ELCM) Setup\""
+    },
+    {
+      "originalFilename": "Newtopic351.md",
+      "suggestedFilename": "emtron-thermocouple-to-can-expansion.md",
+      "title": "Emtron Thermocouple to CAN Expansion",
+      "description": "title: \"Emtron Thermocouple to CAN Expansion\""
+    },
+    {
+      "originalFilename": "Newtopic352.md",
+      "suggestedFilename": "emtron-etc8m-setup.md",
+      "title": "Emtron ETC8M Setup",
+      "description": "title: \"Emtron ETC8M Setup\""
+    },
+    {
+      "originalFilename": "Newtopic353.md",
+      "suggestedFilename": "emtron-etc4-setup.md",
+      "title": "Emtron ETC4 Setup",
+      "description": "title: \"Emtron ETC4 Setup\""
+    },
+    {
+      "originalFilename": "Newtopic354.md",
+      "suggestedFilename": "emtron-input-to-can-expansion.md",
+      "title": "Emtron Input to CAN Expansion",
+      "description": "title: \"Emtron Input to CAN Expansion\""
+    },
+    {
+      "originalFilename": "Newtopic355.md",
+      "suggestedFilename": "emtron-eic16m-setup.md",
+      "title": "Emtron EIC16M Setup",
+      "description": "title: \"Emtron EIC16M Setup\""
+    },
+    {
+      "originalFilename": "Newtopic356.md",
+      "suggestedFilename": "emtron-eic10-setup.md",
+      "title": "Emtron EIC10 Setup",
+      "description": "title: \"Emtron EIC10 Setup\""
+    },
+    {
+      "originalFilename": "Newtopic357.md",
+      "suggestedFilename": "ethernet.md",
+      "title": "Ethernet",
+      "description": "title: \"Ethernet\""
+    },
+    {
+      "originalFilename": "Newtopic358.md",
+      "suggestedFilename": "engine-torque-correction.md",
+      "title": "Engine Torque Correction",
+      "description": "title: \"Engine Torque Correction\""
+    },
+    {
+      "originalFilename": "Newtopic359.md",
+      "suggestedFilename": "driver-demand-torque-correction-table.md",
+      "title": "Driver Demand Torque Correction Table",
+      "description": "title: \"Driver Demand Torque Correction Table\""
+    },
+    {
+      "originalFilename": "Newtopic36.md",
+      "suggestedFilename": "dtc-codes.md",
+      "title": "DTC Codes",
+      "description": "title: \"DTC Codes\""
+    },
+    {
+      "originalFilename": "Newtopic360.md",
+      "suggestedFilename": "can-bus-torque-modifier.md",
+      "title": "CAN Bus Torque Modifier",
+      "description": "title: \"CAN Bus Torque Modifier\""
+    },
+    {
+      "originalFilename": "Newtopic361.md",
+      "suggestedFilename": "power-supply.md",
+      "title": "Power Supply",
+      "description": "title: \"Power Supply\""
+    },
+    {
+      "originalFilename": "Newtopic362.md",
+      "suggestedFilename": "torque-limit-gain-tables.md",
+      "title": "Torque Limit Gain Tables",
+      "description": "title: \"Torque Limit Gain Tables\""
+    },
+    {
+      "originalFilename": "Newtopic363.md",
+      "suggestedFilename": "fuel-model-overview.md",
+      "title": "Fuel Model Overview",
+      "description": "title: \"Fuel Model Overview\""
+    },
+    {
+      "originalFilename": "Newtopic364.md",
+      "suggestedFilename": "air-mass-modelled-bank-1.md",
+      "title": "Air Mass Modelled Bank 1",
+      "description": "title: \"Air Mass Modelled Bank 1\""
+    },
+    {
+      "originalFilename": "Newtopic365.md",
+      "suggestedFilename": "air-mass-modelled-bank-2.md",
+      "title": "Air Mass Modelled Bank 2",
+      "description": "title: \"Air Mass Modelled Bank 2\""
+    },
+    {
+      "originalFilename": "Newtopic366.md",
+      "suggestedFilename": "1-speed-density-bap.md",
+      "title": "1: Speed Density (BAP)",
+      "description": "title: \"1: Speed Density (BAP)\""
+    },
+    {
+      "originalFilename": "Newtopic367.md",
+      "suggestedFilename": "5-bank-mass-air-flow-sensormaf-bank1-bank2.md",
+      "title": "5: Bank Mass Air Flow Sensor(MAF Bank1 + Bank2 )",
+      "description": "title: \"5: Bank Mass Air Flow Sensor(MAF Bank1 + Bank2 )\""
+    },
+    {
+      "originalFilename": "Newtopic368.md",
+      "suggestedFilename": "6-bank-speed-density-map-bank1-bank2.md",
+      "title": "6: Bank Speed Density (MAP Bank1 + Bank2 )",
+      "description": "title: \"6: Bank Speed Density (MAP Bank1 + Bank2 )\""
+    },
+    {
+      "originalFilename": "Newtopic369.md",
+      "suggestedFilename": "7-bank-airmass-modelled-airmass-modelled-bank1-bank2.md",
+      "title": "7: Bank AirMass Modelled (AirMass Modelled Bank1 + Bank2 )",
+      "description": "title: \"7: Bank AirMass Modelled (AirMass Modelled Bank1 + Bank2 )\""
+    },
+    {
+      "originalFilename": "Newtopic37.md",
+      "suggestedFilename": "vvt.md",
+      "title": "VVT",
+      "description": "title: \"VVT\""
+    },
+    {
+      "originalFilename": "Newtopic370.md",
+      "suggestedFilename": "boost-control-setup.md",
+      "title": "Boost Control Setup",
+      "description": "title: \"Boost Control Setup\""
+    },
+    {
+      "originalFilename": "Newtopic371.md",
+      "suggestedFilename": "boost-olcl-lockouts.md",
+      "title": "Boost OL/CL Lockouts",
+      "description": "title: \"Boost OL/CL Lockouts\""
+    },
+    {
+      "originalFilename": "Newtopic372.md",
+      "suggestedFilename": "boost-solenoid-deadtime-table.md",
+      "title": "Boost Solenoid Deadtime Table",
+      "description": "title: \"Boost Solenoid Deadtime Table\""
+    },
+    {
+      "originalFilename": "Newtopic373.md",
+      "suggestedFilename": "overall-target-trim.md",
+      "title": "Overall Target Trim",
+      "description": "title: \"Overall Target Trim\""
+    },
+    {
+      "originalFilename": "Newtopic374.md",
+      "suggestedFilename": "boost-target-tables.md",
+      "title": "Boost Target Tables",
+      "description": "title: \"Boost Target Tables\""
+    },
+    {
+      "originalFilename": "Newtopic375.md",
+      "suggestedFilename": "boost-target-table-123.md",
+      "title": "Boost Target Table 1/2/3",
+      "description": "title: \"Boost Target Table 1/2/3\""
+    },
+    {
+      "originalFilename": "Newtopic376.md",
+      "suggestedFilename": "initial-position-table.md",
+      "title": "Initial Position Table",
+      "description": "title: \"Initial Position Table\""
+    },
+    {
+      "originalFilename": "Newtopic377.md",
+      "suggestedFilename": "target-offset-tables.md",
+      "title": "Target Offset Tables",
+      "description": "title: \"Target Offset Tables\""
+    },
+    {
+      "originalFilename": "Newtopic378.md",
+      "suggestedFilename": "compensation-tables.md",
+      "title": "Compensation Tables",
+      "description": "title: \"Compensation Tables\""
+    },
+    {
+      "originalFilename": "Newtopic379.md",
+      "suggestedFilename": "boost-closed-loop-control.md",
+      "title": "Boost Closed Loop Control",
+      "description": "title: \"Boost Closed Loop Control\""
+    },
+    {
+      "originalFilename": "Newtopic38.md",
+      "suggestedFilename": "intakelh.md",
+      "title": "Intake(LH)",
+      "description": "title: \"Intake(LH)\""
+    },
+    {
+      "originalFilename": "Newtopic380.md",
+      "suggestedFilename": "boost-pid-setup.md",
+      "title": "Boost PID Setup",
+      "description": "title: \"Boost PID Setup\""
+    },
+    {
+      "originalFilename": "Newtopic381.md",
+      "suggestedFilename": "proportional-gain-table.md",
+      "title": "Proportional Gain Table",
+      "description": "title: \"Proportional Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic382.md",
+      "suggestedFilename": "integral-gain-table.md",
+      "title": "Integral Gain Table",
+      "description": "title: \"Integral Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic383.md",
+      "suggestedFilename": "derivative-gain-table.md",
+      "title": "Derivative Gain Table",
+      "description": "title: \"Derivative Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic384.md",
+      "suggestedFilename": "minmax-duty-tables.md",
+      "title": "Min/Max Duty Tables",
+      "description": "title: \"Min/Max Duty Tables\""
+    },
+    {
+      "originalFilename": "Newtopic385.md",
+      "suggestedFilename": "posneg-integral-limit-tables.md",
+      "title": "Pos/Neg Integral Limit Tables",
+      "description": "title: \"Pos/Neg Integral Limit Tables\""
+    },
+    {
+      "originalFilename": "Newtopic386.md",
+      "suggestedFilename": "boost-target-table-control.md",
+      "title": "Boost Target Table Control",
+      "description": "title: \"Boost Target Table Control\""
+    },
+    {
+      "originalFilename": "Newtopic387.md",
+      "suggestedFilename": "boost-target-table-z-axis-setup.md",
+      "title": "Boost Target Table Z-Axis Setup",
+      "description": "title: \"Boost Target Table Z-Axis Setup\""
+    },
+    {
+      "originalFilename": "Newtopic388.md",
+      "suggestedFilename": "upshift-torque-reduction-delay.md",
+      "title": "Upshift Torque Reduction Delay",
+      "description": "title: \"Upshift Torque Reduction Delay\""
+    },
+    {
+      "originalFilename": "Newtopic389.md",
+      "suggestedFilename": "upshift-torque-reduction-ignfuel-cut-level.md",
+      "title": "Upshift Torque Reduction Ign/Fuel %Cut Level",
+      "description": "title: \"Upshift Torque Reduction Ign/Fuel %Cut Level\""
+    },
+    {
+      "originalFilename": "Newtopic39.md",
+      "suggestedFilename": "intake-rh.md",
+      "title": "Intake RH",
+      "description": "title: \"Intake RH\""
+    },
+    {
+      "originalFilename": "Newtopic390.md",
+      "suggestedFilename": "upshift-torque-reduction-ignition-retard.md",
+      "title": "Upshift Torque Reduction Ignition Retard",
+      "description": "title: \"Upshift Torque Reduction Ignition Retard\""
+    },
+    {
+      "originalFilename": "Newtopic391.md",
+      "suggestedFilename": "upshift-rev-match-enable-table.md",
+      "title": "Upshift Rev-Match Enable Table",
+      "description": "title: \"Upshift Rev-Match Enable Table\""
+    },
+    {
+      "originalFilename": "Newtopic392.md",
+      "suggestedFilename": "upshift-rev-match-rpm-target-correction.md",
+      "title": "Upshift Rev-Match RPM Target Correction",
+      "description": "title: \"Upshift Rev-Match RPM Target Correction\""
+    },
+    {
+      "originalFilename": "Newtopic393.md",
+      "suggestedFilename": "upshift-dbw-position.md",
+      "title": "Upshift DBW Position ",
+      "description": "title: \"Upshift DBW Position \""
+    },
+    {
+      "originalFilename": "Newtopic394.md",
+      "suggestedFilename": "upshift-throttle-duration.md",
+      "title": "Upshift Throttle Duration",
+      "description": "title: \"Upshift Throttle Duration\""
+    },
+    {
+      "originalFilename": "Newtopic395.md",
+      "suggestedFilename": "upshift-next-gear-torque-recovery-delay.md",
+      "title": "Upshift Next Gear Torque Recovery Delay",
+      "description": "title: \"Upshift Next Gear Torque Recovery Delay\""
+    },
+    {
+      "originalFilename": "Newtopic396.md",
+      "suggestedFilename": "upshift-next-gear-solenoid-hold-time.md",
+      "title": "Upshift Next Gear Solenoid Hold Time",
+      "description": "title: \"Upshift Next Gear Solenoid Hold Time\""
+    },
+    {
+      "originalFilename": "Newtopic397.md",
+      "suggestedFilename": "gear-force-positive.md",
+      "title": "Gear Force Positive",
+      "description": "title: \"Gear Force Positive\""
+    },
+    {
+      "originalFilename": "Newtopic398.md",
+      "suggestedFilename": "downshift-control.md",
+      "title": "Downshift Control",
+      "description": "title: \"Downshift Control\""
+    },
+    {
+      "originalFilename": "Newtopic399.md",
+      "suggestedFilename": "downshift-setup.md",
+      "title": "Downshift Setup",
+      "description": "title: \"Downshift Setup\""
+    },
+    {
+      "originalFilename": "Newtopic40.md",
+      "suggestedFilename": "exhaustlh.md",
+      "title": "Exhaust(LH)",
+      "description": "title: \"Exhaust(LH)\""
+    },
+    {
+      "originalFilename": "Newtopic400.md",
+      "suggestedFilename": "downshift-request-enable-table.md",
+      "title": "Downshift Request Enable Table",
+      "description": "title: \"Downshift Request Enable Table\""
+    },
+    {
+      "originalFilename": "Newtopic401.md",
+      "suggestedFilename": "downshift-pre-cut-time.md",
+      "title": "Downshift Pre-Cut Time",
+      "description": "title: \"Downshift Pre-Cut Time\""
+    },
+    {
+      "originalFilename": "Newtopic402.md",
+      "suggestedFilename": "downshift-solenoid-delay.md",
+      "title": "Downshift Solenoid Delay",
+      "description": "title: \"Downshift Solenoid Delay\""
+    },
+    {
+      "originalFilename": "Newtopic403.md",
+      "suggestedFilename": "downshift-ignition-retard.md",
+      "title": "Downshift Ignition Retard",
+      "description": "title: \"Downshift Ignition Retard\""
+    },
+    {
+      "originalFilename": "Newtopic404.md",
+      "suggestedFilename": "fault-mode-cut-time.md",
+      "title": "Fault Mode Cut Time",
+      "description": "title: \"Fault Mode Cut Time\""
+    },
+    {
+      "originalFilename": "Newtopic405.md",
+      "suggestedFilename": "downshift-rev-match-rpm-target-correction.md",
+      "title": "Downshift Rev-Match RPM Target Correction",
+      "description": "title: \"Downshift Rev-Match RPM Target Correction\""
+    },
+    {
+      "originalFilename": "Newtopic406.md",
+      "suggestedFilename": "downshift-dbw-position.md",
+      "title": "Downshift DBW Position ",
+      "description": "title: \"Downshift DBW Position \""
+    },
+    {
+      "originalFilename": "Newtopic407.md",
+      "suggestedFilename": "downshift-throttle-duration.md",
+      "title": "Downshift Throttle Duration",
+      "description": "title: \"Downshift Throttle Duration\""
+    },
+    {
+      "originalFilename": "Newtopic408.md",
+      "suggestedFilename": "downshift-next-gear-ignition-recovery-time.md",
+      "title": "Downshift Next Gear Ignition Recovery Time",
+      "description": "title: \"Downshift Next Gear Ignition Recovery Time\""
+    },
+    {
+      "originalFilename": "Newtopic409.md",
+      "suggestedFilename": "downshift-next-gear-solenoid-hold-time.md",
+      "title": "Downshift Next Gear Solenoid Hold Time",
+      "description": "title: \"Downshift Next Gear Solenoid Hold Time\""
+    },
+    {
+      "originalFilename": "Newtopic41.md",
+      "suggestedFilename": "exhaust-rh.md",
+      "title": "Exhaust RH",
+      "description": "title: \"Exhaust RH\""
+    },
+    {
+      "originalFilename": "Newtopic410.md",
+      "suggestedFilename": "gear-force-negative.md",
+      "title": "Gear Force Negative",
+      "description": "title: \"Gear Force Negative\""
+    },
+    {
+      "originalFilename": "Newtopic411.md",
+      "suggestedFilename": "transient-setup.md",
+      "title": "Transient Setup",
+      "description": "title: \"Transient Setup\""
+    },
+    {
+      "originalFilename": "Newtopic412.md",
+      "suggestedFilename": "secondary-balance-table.md",
+      "title": "Secondary Balance Table",
+      "description": "title: \"Secondary Balance Table\""
+    },
+    {
+      "originalFilename": "Newtopic413.md",
+      "suggestedFilename": "injector-linearisation-table-sec.md",
+      "title": "Injector Linearisation Table (Sec)",
+      "description": "title: \"Injector Linearisation Table (Sec)\""
+    },
+    {
+      "originalFilename": "Newtopic414.md",
+      "suggestedFilename": "function-output-setup.md",
+      "title": "Function Output Setup",
+      "description": "title: \"Function Output Setup\""
+    },
+    {
+      "originalFilename": "Newtopic415.md",
+      "suggestedFilename": "engine-functions.md",
+      "title": "Engine Functions",
+      "description": "title: \"Engine Functions\""
+    },
+    {
+      "originalFilename": "Newtopic416.md",
+      "suggestedFilename": "vehicle-functions-1.md",
+      "title": "Vehicle Functions 1",
+      "description": "title: \"Vehicle Functions 1\""
+    },
+    {
+      "originalFilename": "Newtopic417.md",
+      "suggestedFilename": "vehicle-functions-2.md",
+      "title": "Vehicle Functions 2",
+      "description": "title: \"Vehicle Functions 2\""
+    },
+    {
+      "originalFilename": "Newtopic418.md",
+      "suggestedFilename": "motorsport-functions.md",
+      "title": "Motorsport Functions",
+      "description": "title: \"Motorsport Functions\""
+    },
+    {
+      "originalFilename": "Newtopic419.md",
+      "suggestedFilename": "timer-functions.md",
+      "title": "Timer Functions",
+      "description": "title: \"Timer Functions\""
+    },
+    {
+      "originalFilename": "Newtopic42.md",
+      "suggestedFilename": "cam-lockouts.md",
+      "title": "Cam Lockouts",
+      "description": "title: \"Cam Lockouts\""
+    },
+    {
+      "originalFilename": "Newtopic420.md",
+      "suggestedFilename": "user-functions.md",
+      "title": "User Functions",
+      "description": "title: \"User Functions\""
+    },
+    {
+      "originalFilename": "Newtopic421.md",
+      "suggestedFilename": "turbo-dynamics.md",
+      "title": "Turbo Dynamics",
+      "description": "title: \"Turbo Dynamics\""
+    },
+    {
+      "originalFilename": "Newtopic422.md",
+      "suggestedFilename": "oem.md",
+      "title": "OEM",
+      "description": "title: \"OEM\""
+    },
+    {
+      "originalFilename": "Newtopic423.md",
+      "suggestedFilename": "manifold-pressure-bank-1.md",
+      "title": "Manifold Pressure - Bank 1",
+      "description": "title: \"Manifold Pressure - Bank 1\""
+    },
+    {
+      "originalFilename": "Newtopic424.md",
+      "suggestedFilename": "boost-pressure.md",
+      "title": "Boost Pressure",
+      "description": "title: \"Boost Pressure\""
+    },
+    {
+      "originalFilename": "Newtopic425.md",
+      "suggestedFilename": "boost-pressure-bank-1.md",
+      "title": "Boost Pressure - Bank 1",
+      "description": "title: \"Boost Pressure - Bank 1\""
+    },
+    {
+      "originalFilename": "Newtopic426.md",
+      "suggestedFilename": "boost-pressure-bank-2.md",
+      "title": "Boost Pressure - Bank 2",
+      "description": "title: \"Boost Pressure - Bank 2\""
+    },
+    {
+      "originalFilename": "Newtopic427.md",
+      "suggestedFilename": "throttle-position-2.md",
+      "title": "Throttle Position 2",
+      "description": "title: \"Throttle Position 2\""
+    },
+    {
+      "originalFilename": "Newtopic428.md",
+      "suggestedFilename": "mass-air-flow-meter-bank-1.md",
+      "title": "Mass Air Flow Meter Bank 1",
+      "description": "title: \"Mass Air Flow Meter Bank 1\""
+    },
+    {
+      "originalFilename": "Newtopic429.md",
+      "suggestedFilename": "mass-air-flow-meter-bank-2.md",
+      "title": "Mass Air Flow Meter Bank 2",
+      "description": "title: \"Mass Air Flow Meter Bank 2\""
+    },
+    {
+      "originalFilename": "Newtopic43.md",
+      "suggestedFilename": "intake-cam-angle-target-tables.md",
+      "title": "Intake Cam Angle Target Tables",
+      "description": "title: \"Intake Cam Angle Target Tables\""
+    },
+    {
+      "originalFilename": "Newtopic430.md",
+      "suggestedFilename": "inlet-temp-before-ic.md",
+      "title": "Inlet Temp Before IC",
+      "description": "title: \"Inlet Temp Before IC\""
+    },
+    {
+      "originalFilename": "Newtopic431.md",
+      "suggestedFilename": "ic-water-temperature.md",
+      "title": "IC Water Temperature",
+      "description": "title: \"IC Water Temperature\""
+    },
+    {
+      "originalFilename": "Newtopic432.md",
+      "suggestedFilename": "fuel-pressure-1.md",
+      "title": "Fuel Pressure 1",
+      "description": "title: \"Fuel Pressure 1\""
+    },
+    {
+      "originalFilename": "Newtopic433.md",
+      "suggestedFilename": "exhaust-manifold-pressure-2.md",
+      "title": "Exhaust Manifold Pressure 2",
+      "description": "title: \"Exhaust Manifold Pressure 2\""
+    },
+    {
+      "originalFilename": "Newtopic434.md",
+      "suggestedFilename": "ac-pressure-switch.md",
+      "title": "AC Pressure Switch",
+      "description": "title: \"AC Pressure Switch\""
+    },
+    {
+      "originalFilename": "Newtopic435.md",
+      "suggestedFilename": "ac-evap-temperature-switch.md",
+      "title": "AC Evap Temperature Switch",
+      "description": "title: \"AC Evap Temperature Switch\""
+    },
+    {
+      "originalFilename": "Newtopic436.md",
+      "suggestedFilename": "fuel-tank-2-level.md",
+      "title": "Fuel Tank 2 Level",
+      "description": "title: \"Fuel Tank 2 Level\""
+    },
+    {
+      "originalFilename": "Newtopic437.md",
+      "suggestedFilename": "volume-flow-meter-1.md",
+      "title": "Volume Flow Meter 1",
+      "description": "title: \"Volume Flow Meter 1\""
+    },
+    {
+      "originalFilename": "Newtopic438.md",
+      "suggestedFilename": "volume-flow-meter-2.md",
+      "title": "Volume Flow Meter 2",
+      "description": "title: \"Volume Flow Meter 2\""
+    },
+    {
+      "originalFilename": "Newtopic439.md",
+      "suggestedFilename": "clutch-pressure.md",
+      "title": "Clutch Pressure",
+      "description": "title: \"Clutch Pressure\""
+    },
+    {
+      "originalFilename": "Newtopic44.md",
+      "suggestedFilename": "exhaust-cam-angle-target-tables.md",
+      "title": "Exhaust Cam Angle Target Tables",
+      "description": "title: \"Exhaust Cam Angle Target Tables\""
+    },
+    {
+      "originalFilename": "Newtopic440.md",
+      "suggestedFilename": "startstop-switch.md",
+      "title": "Start/Stop Switch",
+      "description": "title: \"Start/Stop Switch\""
+    },
+    {
+      "originalFilename": "Newtopic441.md",
+      "suggestedFilename": "handbrake-switch.md",
+      "title": "Handbrake Switch",
+      "description": "title: \"Handbrake Switch\""
+    },
+    {
+      "originalFilename": "Newtopic442.md",
+      "suggestedFilename": "fuel-used-reset-switch.md",
+      "title": "Fuel Used Reset Switch",
+      "description": "title: \"Fuel Used Reset Switch\""
+    },
+    {
+      "originalFilename": "Newtopic443.md",
+      "suggestedFilename": "speed-limit-enable-switch.md",
+      "title": "Speed Limit Enable Switch",
+      "description": "title: \"Speed Limit Enable Switch\""
+    },
+    {
+      "originalFilename": "Newtopic444.md",
+      "suggestedFilename": "immobilizer-switch.md",
+      "title": "Immobilizer Switch",
+      "description": "title: \"Immobilizer Switch\""
+    },
+    {
+      "originalFilename": "Newtopic445.md",
+      "suggestedFilename": "distance-reset-switch.md",
+      "title": "Distance Reset Switch",
+      "description": "title: \"Distance Reset Switch\""
+    },
+    {
+      "originalFilename": "Newtopic446.md",
+      "suggestedFilename": "can-bus-termination.md",
+      "title": "CAN Bus Termination",
+      "description": "title: \"CAN Bus Termination\""
+    },
+    {
+      "originalFilename": "Newtopic447.md",
+      "suggestedFilename": "gear-request-switch-1.md",
+      "title": "Gear Request Switch 1",
+      "description": "title: \"Gear Request Switch 1\""
+    },
+    {
+      "originalFilename": "Newtopic448.md",
+      "suggestedFilename": "gear-request-switch-2.md",
+      "title": "Gear Request Switch 2",
+      "description": "title: \"Gear Request Switch 2\""
+    },
+    {
+      "originalFilename": "Newtopic449.md",
+      "suggestedFilename": "gear-request-switch-3.md",
+      "title": "Gear Request Switch 3",
+      "description": "title: \"Gear Request Switch 3\""
+    },
+    {
+      "originalFilename": "Newtopic45.md",
+      "suggestedFilename": "launch-fuel-enrichenlean-123.md",
+      "title": "Launch Fuel Enrich/Enlean 1/2/3",
+      "description": "title: \"Launch Fuel Enrich/Enlean 1/2/3\""
+    },
+    {
+      "originalFilename": "Newtopic450.md",
+      "suggestedFilename": "gear-request-switch-4.md",
+      "title": "Gear Request Switch 4",
+      "description": "title: \"Gear Request Switch 4\""
+    },
+    {
+      "originalFilename": "Newtopic451.md",
+      "suggestedFilename": "gear-request-switch-5.md",
+      "title": "Gear Request Switch 5",
+      "description": "title: \"Gear Request Switch 5\""
+    },
+    {
+      "originalFilename": "Newtopic452.md",
+      "suggestedFilename": "hill-start-switch.md",
+      "title": "Hill Start Switch",
+      "description": "title: \"Hill Start Switch\""
+    },
+    {
+      "originalFilename": "Newtopic453.md",
+      "suggestedFilename": "knock-studio.md",
+      "title": "Knock Studio",
+      "description": "title: \"Knock Studio\""
+    },
+    {
+      "originalFilename": "Newtopic454.md",
+      "suggestedFilename": "ecu-runtimes.md",
+      "title": "ECU Runtimes",
+      "description": "title: \"ECU Runtimes\""
+    },
+    {
+      "originalFilename": "Newtopic455.md",
+      "suggestedFilename": "cruise-enable-switch.md",
+      "title": "Cruise Enable Switch",
+      "description": "title: \"Cruise Enable Switch\""
+    },
+    {
+      "originalFilename": "Newtopic456.md",
+      "suggestedFilename": "cylinder-inhibit-function.md",
+      "title": "Cylinder Inhibit Function",
+      "description": "title: \"Cylinder Inhibit Function\""
+    },
+    {
+      "originalFilename": "Newtopic457.md",
+      "suggestedFilename": "dtc.md",
+      "title": "DTC",
+      "description": "title: \"DTC\""
+    },
+    {
+      "originalFilename": "Newtopic458.md",
+      "suggestedFilename": "scope.md",
+      "title": "Scope",
+      "description": "title: \"Scope\""
+    },
+    {
+      "originalFilename": "Newtopic459.md",
+      "suggestedFilename": "dbw-tmf-idle.md",
+      "title": "DBW TMF Idle",
+      "description": "title: \"DBW TMF Idle\""
+    },
+    {
+      "originalFilename": "Newtopic46.md",
+      "suggestedFilename": "cam-position-offsets.md",
+      "title": "Cam Position Offsets",
+      "description": "title: \"Cam Position Offsets\""
+    },
+    {
+      "originalFilename": "Newtopic460.md",
+      "suggestedFilename": "uses-of-scope.md",
+      "title": "Uses of Scope",
+      "description": "title: \"Uses of Scope\""
+    },
+    {
+      "originalFilename": "Newtopic461.md",
+      "suggestedFilename": "trigger-requests.md",
+      "title": "Trigger Requests",
+      "description": "title: \"Trigger Requests\""
+    },
+    {
+      "originalFilename": "Newtopic462.md",
+      "suggestedFilename": "cranksync-sensor-arming-threshold-settings.md",
+      "title": "Crank/Sync Sensor Arming Threshold Settings",
+      "description": "title: \"Crank/Sync Sensor Arming Threshold Settings\""
+    },
+    {
+      "originalFilename": "Newtopic463.md",
+      "suggestedFilename": "improper-edge-configuration-for-cranksync-sensor.md",
+      "title": "Improper Edge Configuration for Crank/Sync Sensor",
+      "description": "title: \"Improper Edge Configuration for Crank/Sync Sensor\""
+    },
+    {
+      "originalFilename": "Newtopic464.md",
+      "suggestedFilename": "scope-voltage-clipping.md",
+      "title": "Scope Voltage Clipping",
+      "description": "title: \"Scope Voltage Clipping\""
+    },
+    {
+      "originalFilename": "Newtopic465.md",
+      "suggestedFilename": "improper-cranksync-sensor-polarity.md",
+      "title": "Improper Crank/Sync Sensor Polarity",
+      "description": "title: \"Improper Crank/Sync Sensor Polarity\""
+    },
+    {
+      "originalFilename": "Newtopic466.md",
+      "suggestedFilename": "lambda-transport-delay-guide.md",
+      "title": "Lambda Transport Delay Guide",
+      "description": "title: \"Lambda Transport Delay Guide\""
+    },
+    {
+      "originalFilename": "Newtopic467.md",
+      "suggestedFilename": "tips-on-improving-your-emtune-tuning-efficiency.md",
+      "title": "Tips on Improving your Emtune tuning efficiency",
+      "description": "title: \"Tips on Improving your Emtune tuning efficiency\""
+    },
+    {
+      "originalFilename": "Newtopic468.md",
+      "suggestedFilename": "launch-arming.md",
+      "title": "Launch Arming",
+      "description": "title: \"Launch Arming\""
+    },
+    {
+      "originalFilename": "Newtopic469.md",
+      "suggestedFilename": "launch-disarming.md",
+      "title": "Launch Disarming",
+      "description": "title: \"Launch Disarming\""
+    },
+    {
+      "originalFilename": "Newtopic47.md",
+      "suggestedFilename": "dbw-closed-loop-tables.md",
+      "title": "DBW Closed Loop tables",
+      "description": "title: \"DBW Closed Loop tables\""
+    },
+    {
+      "originalFilename": "Newtopic470.md",
+      "suggestedFilename": "dbw-calibration-guide.md",
+      "title": "DBW Calibration Guide",
+      "description": "title: \"DBW Calibration Guide\""
+    },
+    {
+      "originalFilename": "Newtopic471.md",
+      "suggestedFilename": "launch-static-torque-target-table.md",
+      "title": "Launch Static Torque Target Table",
+      "description": "title: \"Launch Static Torque Target Table\""
+    },
+    {
+      "originalFilename": "Newtopic472.md",
+      "suggestedFilename": "gear-detection.md",
+      "title": "Gear Detection",
+      "description": "title: \"Gear Detection\""
+    },
+    {
+      "originalFilename": "Newtopic473.md",
+      "suggestedFilename": "launch-moving-torque-target-table.md",
+      "title": "Launch Moving Torque Target Table",
+      "description": "title: \"Launch Moving Torque Target Table\""
+    },
+    {
+      "originalFilename": "Newtopic474.md",
+      "suggestedFilename": "licence-expired.md",
+      "title": "Licence Expired",
+      "description": "title: \"Licence Expired\""
+    },
+    {
+      "originalFilename": "Newtopic475.md",
+      "suggestedFilename": "launch-fuel-enrichenlean-table.md",
+      "title": "Launch Fuel Enrich/Enlean Table",
+      "description": "title: \"Launch Fuel Enrich/Enlean Table\""
+    },
+    {
+      "originalFilename": "Newtopic476.md",
+      "suggestedFilename": "launch-control-tuning-guides.md",
+      "title": "Launch Control Tuning Guides",
+      "description": "title: \"Launch Control Tuning Guides\""
+    },
+    {
+      "originalFilename": "Newtopic477.md",
+      "suggestedFilename": "rpm-control-throttle-platepid-retard-table.md",
+      "title": "RPM Control: Throttle Plate(PID) + (Retard Table)",
+      "description": "title: \"RPM Control: Throttle Plate(PID) + (Retard Table)\""
+    },
+    {
+      "originalFilename": "Newtopic478.md",
+      "suggestedFilename": "idle-speed-tuning-guide.md",
+      "title": "Idle Speed Tuning Guide",
+      "description": "title: \"Idle Speed Tuning Guide\""
+    },
+    {
+      "originalFilename": "Newtopic479.md",
+      "suggestedFilename": "gear-management.md",
+      "title": "Gear Management",
+      "description": "title: \"Gear Management\""
+    },
+    {
+      "originalFilename": "Newtopic480.md",
+      "suggestedFilename": "gear-detection-setup.md",
+      "title": "Gear Detection Setup",
+      "description": "title: \"Gear Detection Setup\""
+    },
+    {
+      "originalFilename": "Newtopic481.md",
+      "suggestedFilename": "gear-position-rpmspeed-setup.md",
+      "title": "Gear Position (RPM/Speed) Setup",
+      "description": "title: \"Gear Position (RPM/Speed) Setup\""
+    },
+    {
+      "originalFilename": "Newtopic482.md",
+      "suggestedFilename": "gear-position-rpmspeed-setup.md",
+      "title": "Gear Position (RPM/Speed) Setup",
+      "description": "title: \"Gear Position (RPM/Speed) Setup\""
+    },
+    {
+      "originalFilename": "Newtopic483.md",
+      "suggestedFilename": "gear-position-inputoutputshaft-speed-setup.md",
+      "title": "Gear Position (Input/Outputshaft Speed) Setup",
+      "description": "title: \"Gear Position (Input/Outputshaft Speed) Setup\""
+    },
+    {
+      "originalFilename": "Newtopic484.md",
+      "suggestedFilename": "gear-position-inputoutputshaft-speed-setup.md",
+      "title": "Gear Position (Input/Outputshaft Speed) Setup",
+      "description": "title: \"Gear Position (Input/Outputshaft Speed) Setup\""
+    },
+    {
+      "originalFilename": "Newtopic485.md",
+      "suggestedFilename": "rpm-control-retard-pid-cutting-pid.md",
+      "title": "RPM Control: Retard (PID) >Cutting (PID)",
+      "description": "title: \"RPM Control: Retard (PID) >Cutting (PID)\""
+    },
+    {
+      "originalFilename": "Newtopic486.md",
+      "suggestedFilename": "calculated-channel-examples.md",
+      "title": "Calculated Channel Examples",
+      "description": "title: \"Calculated Channel Examples\""
+    },
+    {
+      "originalFilename": "Newtopic487.md",
+      "suggestedFilename": "pid-based-launch-control.md",
+      "title": "PID Based Launch Control",
+      "description": "title: \"PID Based Launch Control\""
+    },
+    {
+      "originalFilename": "Newtopic488.md",
+      "suggestedFilename": "gear-management.md",
+      "title": "Gear Management",
+      "description": "title: \"Gear Management\""
+    },
+    {
+      "originalFilename": "Newtopic489.md",
+      "suggestedFilename": "gearshift-paddle.md",
+      "title": "Gearshift - Paddle",
+      "description": "title: \"Gearshift - Paddle\""
+    },
+    {
+      "originalFilename": "Newtopic49.md",
+      "suggestedFilename": "logging.md",
+      "title": "Logging",
+      "description": "title: \"Logging\""
+    },
+    {
+      "originalFilename": "Newtopic490.md",
+      "suggestedFilename": "gear-shift-up-shift-flow.md",
+      "title": "Gear-Shift-Up-Shift-Flow",
+      "description": "title: \"Gear-Shift-Up-Shift-Flow\""
+    },
+    {
+      "originalFilename": "Newtopic491.md",
+      "suggestedFilename": "gear-shift-down-shift-flow.md",
+      "title": "Gear-Shift-Down-Shift-Flow",
+      "description": "title: \"Gear-Shift-Down-Shift-Flow\""
+    },
+    {
+      "originalFilename": "Newtopic492.md",
+      "suggestedFilename": "windows.md",
+      "title": "WINDOWS",
+      "description": "title: \"WINDOWS\""
+    },
+    {
+      "originalFilename": "Newtopic495.md",
+      "suggestedFilename": "torque-corrections-tables.md",
+      "title": "Torque Corrections Tables",
+      "description": "title: \"Torque Corrections Tables\""
+    },
+    {
+      "originalFilename": "Newtopic496.md",
+      "suggestedFilename": "driver-demand-torque.md",
+      "title": "Driver Demand Torque",
+      "description": "title: \"Driver Demand Torque\""
+    },
+    {
+      "originalFilename": "Newtopic497.md",
+      "suggestedFilename": "sequential-addressing.md",
+      "title": "Sequential Addressing",
+      "description": "title: \"Sequential Addressing\""
+    },
+    {
+      "originalFilename": "Newtopic498.md",
+      "suggestedFilename": "terminating-resistors.md",
+      "title": "Terminating Resistors ",
+      "description": "title: \"Terminating Resistors \""
+    },
+    {
+      "originalFilename": "Newtopic499.md",
+      "suggestedFilename": "twisting-wires.md",
+      "title": "Twisting Wires",
+      "description": "title: \"Twisting Wires\""
+    },
+    {
+      "originalFilename": "Newtopic500.md",
+      "suggestedFilename": "windows.md",
+      "title": "Windows",
+      "description": "title: \"Windows\""
+    },
+    {
+      "originalFilename": "Newtopic501.md",
+      "suggestedFilename": "dtcs.md",
+      "title": "DTC's",
+      "description": "title: \"DTC's\""
+    },
+    {
+      "originalFilename": "Newtopic502.md",
+      "suggestedFilename": "sensors.md",
+      "title": "Sensors",
+      "description": "title: \"Sensors\""
+    },
+    {
+      "originalFilename": "Newtopic503.md",
+      "suggestedFilename": "cranksync.md",
+      "title": "Crank/Sync ",
+      "description": "title: \"Crank/Sync \""
+    },
+    {
+      "originalFilename": "Newtopic504.md",
+      "suggestedFilename": "pre-defined-rx-set-1.md",
+      "title": "Pre-defined Rx Set 1",
+      "description": "title: \"Pre-defined Rx Set 1\""
+    },
+    {
+      "originalFilename": "Newtopic52.md",
+      "suggestedFilename": "ecu-logging-setup.md",
+      "title": "ECU Logging Setup",
+      "description": "title: \"ECU Logging Setup\""
+    },
+    {
+      "originalFilename": "Newtopic53.md",
+      "suggestedFilename": "continuous-logger.md",
+      "title": "Continuous Logger",
+      "description": "title: \"Continuous Logger\""
+    },
+    {
+      "originalFilename": "Newtopic54.md",
+      "suggestedFilename": "intakeexhaust-target-offset-tables.md",
+      "title": "Intake/Exhaust Target Offset Tables",
+      "description": "title: \"Intake/Exhaust Target Offset Tables\""
+    },
+    {
+      "originalFilename": "Newtopic55.md",
+      "suggestedFilename": "camshaft-closed-loop-control-pid-setup.md",
+      "title": "Camshaft Closed Loop Control - PID Setup",
+      "description": "title: \"Camshaft Closed Loop Control - PID Setup\""
+    },
+    {
+      "originalFilename": "Newtopic56.md",
+      "suggestedFilename": "status-bits.md",
+      "title": "Status Bits",
+      "description": "title: \"Status Bits\""
+    },
+    {
+      "originalFilename": "Newtopic57.md",
+      "suggestedFilename": "active-center-differential.md",
+      "title": "Active Center Differential ",
+      "description": "title: \"Active Center Differential \""
+    },
+    {
+      "originalFilename": "Newtopic58.md",
+      "suggestedFilename": "boost-status.md",
+      "title": "Boost Status",
+      "description": "title: \"Boost Status\""
+    },
+    {
+      "originalFilename": "Newtopic59.md",
+      "suggestedFilename": "cl-status.md",
+      "title": "CL Status",
+      "description": "title: \"CL Status\""
+    },
+    {
+      "originalFilename": "Newtopic6.md",
+      "suggestedFilename": "manifold-pressure-bank-2.md",
+      "title": "Manifold Pressure - Bank 2",
+      "description": "title: \"Manifold Pressure - Bank 2\""
+    },
+    {
+      "originalFilename": "Newtopic60.md",
+      "suggestedFilename": "dbw-system-status.md",
+      "title": "DBW System Status",
+      "description": "title: \"DBW System Status\""
+    },
+    {
+      "originalFilename": "Newtopic61.md",
+      "suggestedFilename": "proportional-gain-table.md",
+      "title": "Proportional Gain Table",
+      "description": "title: \"Proportional Gain Table\""
+    },
+    {
+      "originalFilename": "Newtopic62.md",
+      "suggestedFilename": "integral-gain-table.md",
+      "title": "Integral Gain Table ",
+      "description": "title: \"Integral Gain Table \""
+    },
+    {
+      "originalFilename": "Newtopic63.md",
+      "suggestedFilename": "derivative-gain-table.md",
+      "title": "Derivative Gain Table ",
+      "description": "title: \"Derivative Gain Table \""
+    },
+    {
+      "originalFilename": "Newtopic64.md",
+      "suggestedFilename": "min-duty-clamp-table.md",
+      "title": "Min Duty Clamp Table",
+      "description": "title: \"Min Duty Clamp Table\""
+    },
+    {
+      "originalFilename": "Newtopic65.md",
+      "suggestedFilename": "max-duty-clamp-table.md",
+      "title": "Max Duty Clamp Table ",
+      "description": "title: \"Max Duty Clamp Table \""
+    },
+    {
+      "originalFilename": "Newtopic66.md",
+      "suggestedFilename": "cam-target-table-control.md",
+      "title": "Cam Target Table Control ",
+      "description": "title: \"Cam Target Table Control \""
+    },
+    {
+      "originalFilename": "Newtopic67.md",
+      "suggestedFilename": "main-idle-target-table.md",
+      "title": "Main Idle Target Table",
+      "description": "title: \"Main Idle Target Table\""
+    },
+    {
+      "originalFilename": "Newtopic68.md",
+      "suggestedFilename": "initial-position-table-gs.md",
+      "title": "Initial Position Table g/s",
+      "description": "title: \"Initial Position Table g/s\""
+    },
+    {
+      "originalFilename": "Newtopic69.md",
+      "suggestedFilename": "additional-can-information.md",
+      "title": "Additional CAN Information",
+      "description": "title: \"Additional CAN Information\""
+    },
+    {
+      "originalFilename": "Newtopic7.md",
+      "suggestedFilename": "mass-air-flow-meter-2.md",
+      "title": "Mass Air FLow Meter 2",
+      "description": "title: \"Mass Air FLow Meter 2\""
+    },
+    {
+      "originalFilename": "Newtopic70.md",
+      "suggestedFilename": "closed-loop-and-pid.md",
+      "title": "Closed Loop and PID",
+      "description": "title: \"Closed Loop and PID\""
+    },
+    {
+      "originalFilename": "Newtopic71.md",
+      "suggestedFilename": "lambda-control-wide-band.md",
+      "title": "Lambda Control - Wide Band",
+      "description": "title: \"Lambda Control - Wide Band\""
+    },
+    {
+      "originalFilename": "Newtopic72.md",
+      "suggestedFilename": "knock-control.md",
+      "title": "Knock Control",
+      "description": "title: \"Knock Control\""
+    },
+    {
+      "originalFilename": "Newtopic73.md",
+      "suggestedFilename": "target-offsets.md",
+      "title": "Target Offsets",
+      "description": "title: \"Target Offsets\""
+    },
+    {
+      "originalFilename": "Newtopic74.md",
+      "suggestedFilename": "startup-offset-target-table.md",
+      "title": "Startup Offset Target Table",
+      "description": "title: \"Startup Offset Target Table\""
+    },
+    {
+      "originalFilename": "Newtopic75.md",
+      "suggestedFilename": "engine-fan-offset-target-table.md",
+      "title": "Engine Fan Offset Target Table",
+      "description": "title: \"Engine Fan Offset Target Table\""
+    },
+    {
+      "originalFilename": "Newtopic76.md",
+      "suggestedFilename": "throttle-body-setup.md",
+      "title": "Throttle Body Setup",
+      "description": "title: \"Throttle Body Setup\""
+    },
+    {
+      "originalFilename": "Newtopic77.md",
+      "suggestedFilename": "throttle-body-area-table.md",
+      "title": "Throttle Body Area Table",
+      "description": "title: \"Throttle Body Area Table\""
+    },
+    {
+      "originalFilename": "Newtopic78.md",
+      "suggestedFilename": "idle-valve-area-table.md",
+      "title": "Idle Valve Area Table",
+      "description": "title: \"Idle Valve Area Table\""
+    },
+    {
+      "originalFilename": "Newtopic79.md",
+      "suggestedFilename": "emtune-dash-panel-configuration.md",
+      "title": "Emtune Dash Panel Configuration",
+      "description": "title: \"Emtune Dash Panel Configuration\""
+    },
+    {
+      "originalFilename": "Newtopic8.md",
+      "suggestedFilename": "longitudinal-g-force.md",
+      "title": "Longitudinal G Force ",
+      "description": "title: \"Longitudinal G Force \""
+    },
+    {
+      "originalFilename": "Newtopic80.md",
+      "suggestedFilename": "knock-control-setup.md",
+      "title": "Knock Control Setup",
+      "description": "title: \"Knock Control Setup\""
+    },
+    {
+      "originalFilename": "Newtopic81.md",
+      "suggestedFilename": "knock-lockouts.md",
+      "title": "Knock Lockouts",
+      "description": "title: \"Knock Lockouts\""
+    },
+    {
+      "originalFilename": "Newtopic82.md",
+      "suggestedFilename": "knock-channel-cylinder.md",
+      "title": "Knock Channel Cylinder",
+      "description": "title: \"Knock Channel Cylinder\""
+    },
+    {
+      "originalFilename": "Newtopic83.md",
+      "suggestedFilename": "knock-threshold-table.md",
+      "title": "Knock Threshold Table",
+      "description": "title: \"Knock Threshold Table\""
+    },
+    {
+      "originalFilename": "Newtopic84.md",
+      "suggestedFilename": "knock-cylinder-gain-tables.md",
+      "title": "Knock Cylinder Gain Tables",
+      "description": "title: \"Knock Cylinder Gain Tables\""
+    },
+    {
+      "originalFilename": "Newtopic87.md",
+      "suggestedFilename": "removing-password-protection.md",
+      "title": "Removing Password Protection",
+      "description": "title: \"Removing Password Protection\""
+    },
+    {
+      "originalFilename": "Newtopic88.md",
+      "suggestedFilename": "dbw-pid-status.md",
+      "title": "DBW PID Status",
+      "description": "title: \"DBW PID Status\""
+    },
+    {
+      "originalFilename": "Newtopic89.md",
+      "suggestedFilename": "tps-closed-calibrate.md",
+      "title": "TPS Closed Calibrate",
+      "description": "title: \"TPS Closed Calibrate\""
+    },
+    {
+      "originalFilename": "Newtopic9.md",
+      "suggestedFilename": "lateral-g-force.md",
+      "title": "Lateral G Force ",
+      "description": "title: \"Lateral G Force \""
+    },
+    {
+      "originalFilename": "Newtopic90.md",
+      "suggestedFilename": "tps-open-calibrate.md",
+      "title": "TPS Open Calibrate",
+      "description": "title: \"TPS Open Calibrate\""
+    },
+    {
+      "originalFilename": "Newtopic91.md",
+      "suggestedFilename": "pps-closed-calibrate.md",
+      "title": "PPS Closed Calibrate",
+      "description": "title: \"PPS Closed Calibrate\""
+    },
+    {
+      "originalFilename": "Newtopic92.md",
+      "suggestedFilename": "pps-open-calibrate.md",
+      "title": "PPS Open Calibrate",
+      "description": "title: \"PPS Open Calibrate\""
+    },
+    {
+      "originalFilename": "Newtopic93.md",
+      "suggestedFilename": "map-calibrate.md",
+      "title": "MAP Calibrate",
+      "description": "title: \"MAP Calibrate\""
+    },
+    {
+      "originalFilename": "Newtopic94.md",
+      "suggestedFilename": "config.md",
+      "title": "Config",
+      "description": "title: \"Config\""
+    },
+    {
+      "originalFilename": "Newtopic95.md",
+      "suggestedFilename": "engine-functions.md",
+      "title": "Engine Functions",
+      "description": "title: \"Engine Functions\""
+    },
+    {
+      "originalFilename": "Newtopic96.md",
+      "suggestedFilename": "vehicle-function.md",
+      "title": "Vehicle Function",
+      "description": "title: \"Vehicle Function\""
+    },
+    {
+      "originalFilename": "Newtopic97.md",
+      "suggestedFilename": "motorsport-functions.md",
+      "title": "Motorsport Functions",
+      "description": "title: \"Motorsport Functions\""
+    },
+    {
+      "originalFilename": "Newtopic98.md",
+      "suggestedFilename": "timer-functions.md",
+      "title": "Timer Functions",
+      "description": "title: \"Timer Functions\""
+    },
+    {
+      "originalFilename": "Newtopic99.md",
+      "suggestedFilename": "cal-control.md",
+      "title": "Cal Control",
+      "description": "title: \"Cal Control\""
+    }
+  ]
+}

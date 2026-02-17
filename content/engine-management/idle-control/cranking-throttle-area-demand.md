@@ -1,0 +1,21 @@
+---
+title: "Cranking Throttle Area Demand"
+weight: 43
+---
+
+During engine cranking (Engine Speed < Crank Exit RPM setting) this table is used to generate a Throttle Area Demand ,overriding any request from the pedal. The ECU then uses the Throttle Body Area table to convert Throttle Area into the DBW Servo Position target.
+
+See the [DBW Torque Management](<dbw-torque-mang.md>)  help topic for more information on the process of converting Pedal Position to Throttle Area to DBW Servo target.  
+
+This table is available from the Engine Functions -> Torque Management -> Cranking Throttle Area Demand menu.
+
+![Image](</img/Untitled198.png>)
+
+![Image](</img/Untitled197.png>)
+
+## Cranking Throttle Area Demand data
+
+This is available from the runtime (F3) menu , Torque or DBW 1/2 tab.
+
+![Image](</img/Untitled199.png>)
+

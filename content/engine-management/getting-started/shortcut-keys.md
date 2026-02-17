@@ -77,7 +77,6 @@ weight: 5
 |**S**| Swap Active Cursor |
 |**B**| Bring Cursors Together |
 
-
 ## Display Settings
 | Key | Function |
 | --- | -------- |
