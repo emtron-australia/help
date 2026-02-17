@@ -24,8 +24,6 @@ This is the main mode for live calibrating.
 
 > **Tuning Tip**: The Hot key to achieve connection / disconnection lieu of using the mouse is F12
 
-
-
 ### Live Data 
 *Only available when ECU is connected*
 
@@ -34,7 +32,6 @@ This is the main mode for live calibrating.
 This option allows the user to connect to the ECU in a “one way” communication mode. The mode does not allow transmitting of any user settings that can change the calibration in any way. The live data display dashboards, runtime plots, gauges, pages, tabs, and more must be configured in the Open ECU/Open File modes. Generally this is performed by the dealer/installer/calibrator of the ECU as depending on the application the display changes may change. All runtime data is also available in the Live Data mode as well.
 
 ![Image](</img/NewItem156.png>)
-
 
 ### Open File
 *Available anytime the software is opened*
@@ -57,7 +54,6 @@ A previously saved calibration file (either from live calibrating, or offline ed
 
 Use this function to update the ECU Firmware.
 {{% badge style="caution" %}}This procedure should only be done by authorized dealers unless under strict instruction to do so otherwise. The ECU should have a stable power source during updating as it takes up to 25 min to complete.{{% /badge %}}
-
 
 ### Download ECU Log
 *Only available when ECU is connected*

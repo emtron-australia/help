@@ -1,4 +1,0 @@
----
-title: "Longitudinal G Force "
----
-

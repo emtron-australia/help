@@ -1,5 +1,6 @@
 ---
 title: "Subaru MY06 - MY12"
+weight: 126
 ---
 
 ## CAN Setup
@@ -11,7 +12,6 @@ This option will allow the ECU to communication on the Factory Subaru CAN bus sy
 * Select DATA Set = Subaru MY07-MY12 (option 20)
 
 **NOTE: All remaining options require no further adjustment.**
-
 
 The following CAN bus data is available to the ECU:
 

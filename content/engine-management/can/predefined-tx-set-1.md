@@ -1,5 +1,6 @@
 ---
 title: "Predefined CAN Transmit Set 1"
+weight: 132
 ---
 
 All 16 bit values have low byte transmitted first by the ECU. Sequential addressing is used. All parameters are transferred in the units defined inside the ECU. These can be rescaled if required by the receiving device.
@@ -18,11 +19,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter                | Unit        |
 | ----------- | ------------- | ------------------------ | ----------- |
-| &#49;250    | &#49;-2       | Engine Speed             | rpm         |
-| &#49;250    | &#51;-4       | Engine Manifold Pressure | Pressure    |
-| &#49;250    | &#53;-6       | Engine Temperature       | Temperature |
-| &#49;250    | &#55;-8       | Engine Inlet Temp        | Temperature |
-
+| 1250    | 1-2       | Engine Speed             | rpm         |
+| 1250    | 3-4       | Engine Manifold Pressure | Pressure    |
+| 1250    | 5-6       | Engine Temperature       | Temperature |
+| 1250    | 7-8       | Engine Inlet Temp        | Temperature |
 
 ## Message 2
 
@@ -34,11 +34,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter                   | Unit        |
 | ----------- | ------------- | --------------------------- | ----------- |
-| &#49;251    | &#49;-2       | Throttle Position 1         | Position    |
-| &#49;251    | &#51;-4       | Estimated Charge Temp&nbsp; | Temperature |
-| &#49;251    | &#53;-6       | Gear                        | NA          |
-| &#49;251    | &#55;-8       | Battery Volts               | Voltage     |
-
+| 1251    | 1-2       | Throttle Position 1         | Position    |
+| 1251    | 3-4       | Estimated Charge Temp  | Temperature |
+| 1251    | 5-6       | Gear                        | NA          |
+| 1251    | 7-8       | Battery Volts               | Voltage     |
 
 ## Message 3
 
@@ -50,11 +49,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter        | Unit        |
 | ----------- | ------------- | ---------------- | ----------- |
-| &#49;252    | &#49;-2       | Oil Pressure     | Pressure    |
-| &#49;252    | &#51;-4       | Oil Temperature  | Temperature |
-| &#49;252    | &#53;-6       | Fuel Pressure    | Pressure    |
-| &#49;252    | &#55;-8       | Fuel Temperature | Temperature |
-
+| 1252    | 1-2       | Oil Pressure     | Pressure    |
+| 1252    | 3-4       | Oil Temperature  | Temperature |
+| 1252    | 5-6       | Fuel Pressure    | Pressure    |
+| 1252    | 7-8       | Fuel Temperature | Temperature |
 
 ## Message 4
 
@@ -66,11 +64,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter                        | Unit          |
 | ----------- | ------------- | -------------------------------- | ------------- |
-| &#49;253    | &#49;-2       | Exhaust Pressure                 | Pressure      |
-| &#49;253    | &#51;-4       | Fuel Pressure Differential&nbsp; | Pressure Diff |
-| &#49;253    | &#53;-6       | Crankcase Pressure               | Pressure      |
-| &#49;253    | &#55;-8       | Coolant Pressure                 | Pressure      |
-
+| 1253    | 1-2       | Exhaust Pressure                 | Pressure      |
+| 1253    | 3-4       | Fuel Pressure Differential  | Pressure Diff |
+| 1253    | 5-6       | Crankcase Pressure               | Pressure      |
+| 1253    | 7-8       | Coolant Pressure                 | Pressure      |
 
 ## Message 5
 
@@ -82,11 +79,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter     | Unit  |
 | ----------- | ------------- | ------------- | ----- |
-| &#49;254    | &#49;-2       | Lambda 1      | La    |
-| &#49;254    | &#51;-4       | Lambda 1      | La    |
-| &#49;254    | &#53;-6       | Lambda Target | La    |
-| &#49;254    | &#55;-8       | Drive Speed   | Speed |
-
+| 1254    | 1-2       | Lambda 1      | La    |
+| 1254    | 3-4       | Lambda 1      | La    |
+| 1254    | 5-6       | Lambda Target | La    |
+| 1254    | 7-8       | Drive Speed   | Speed |
 
 ## Message 6
 
@@ -98,11 +94,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter      | Unit        |
 | ----------- | ------------- | -------------- | ----------- |
-| &#49;255    | &#49;-2       | Lambda 1 Short | Percentage2 |
-| &#49;255    | &#51;-4       | Lambda 2 Short | Percentage2 |
-| &#49;255    | &#53;-6       | Lambda 2 Long  | Percentage2 |
-| &#49;255    | &#55;-8       | Lambda 2 Long  | Percentage2 |
-
+| 1255    | 1-2       | Lambda 1 Short | Percentage2 |
+| 1255    | 3-4       | Lambda 2 Short | Percentage2 |
+| 1255    | 5-6       | Lambda 2 Long  | Percentage2 |
+| 1255    | 7-8       | Lambda 2 Long  | Percentage2 |
 
 ## Message 7
 
@@ -114,11 +109,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter           | Unit        |
 | ----------- | ------------- | ------------------- | ----------- |
-| &#49;256    | &#49;-2       | Injector Duty Cycle | Percentage1 |
-| &#49;256    | &#51;-4       | Ignition Angle      | Ign Angle   |
-| &#49;256    | &#53;-6       | Baro                | Pressure    |
-| &#49;256    | &#55;-8       | ECU Temp            | Temperature |
-
+| 1256    | 1-2       | Injector Duty Cycle | Percentage1 |
+| 1256    | 3-4       | Ignition Angle      | Ign Angle   |
+| 1256    | 5-6       | Baro                | Pressure    |
+| 1256    | 7-8       | ECU Temp            | Temperature |
 
 ## Message 8
 
@@ -130,11 +124,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter          | Unit            |
 | ----------- | ------------- | ------------------ | --------------- |
-| &#49;257    | &#49;-2       | dTPS               | Rate of Change1 |
-| &#49;257    | &#51;-4       | dRPM               | Rate of Change2 |
-| &#49;257    | &#53;-6       | Fuel Cut Level     | Percentage1     |
-| &#49;257    | &#55;-8       | Ignition Cut Level | Percentage1     |
-
+| 1257    | 1-2       | dTPS               | Rate of Change1 |
+| 1257    | 3-4       | dRPM               | Rate of Change2 |
+| 1257    | 5-6       | Fuel Cut Level     | Percentage1     |
+| 1257    | 7-8       | Ignition Cut Level | Percentage1     |
 
 ## Message 9
 
@@ -146,11 +139,10 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter       | Unit        |
 | ----------- | ------------- | --------------- | ----------- |
-| &#49;258    | &#49;-2       | Ethanol Content | Percentage1 |
-| &#49;258    | &#51;-4       | G-Force Lat     | G-Force     |
-| &#49;258    | &#53;-6       | G-Force Long    | G-Force     |
-| &#49;258    | &#55;-8       | G-Force Vert    | G-Force     |
-
+| 1258    | 1-2       | Ethanol Content | Percentage1 |
+| 1258    | 3-4       | G-Force Lat     | G-Force     |
+| 1258    | 5-6       | G-Force Long    | G-Force     |
+| 1258    | 7-8       | G-Force Vert    | G-Force     |
 
 ## Message 10
 
@@ -162,7 +154,7 @@ Custom Packet 1 contains 10 Message Objects each with a different sequential add
 
 | CAN Address | Byte Position | Parameter               | Unit        |
 | ----------- | ------------- | ----------------------- | ----------- |
-| &#49;259    | &#49;-2       | Crank/Cam Error Counter | counter     |
-| &#49;259    | &#51;-4       | Max Engine Speed        | rpm         |
-| &#49;259    | &#53;-6       | Sync Position           | Percentage1 |
-| &#49;259    | &#55;-8       | DTC Count               | counter     |
+| 1259    | 1-2       | Crank/Cam Error Counter | counter     |
+| 1259    | 3-4       | Max Engine Speed        | rpm         |
+| 1259    | 5-6       | Sync Position           | Percentage1 |
+| 1259    | 7-8       | DTC Count               | counter     |
