@@ -1,6 +1,6 @@
 ---
 title: "Mitsubishi EVO 9"
-weight: 117
+weight: 0
 ---
 
 ## Mitsubishi EVO 9 Plugin Manual
