@@ -1,6 +1,6 @@
 ---
 title: "Configuration"
-weight: 10
+weight: 4
 ---
 
 {{% children sort="weight" depth=2 %}}

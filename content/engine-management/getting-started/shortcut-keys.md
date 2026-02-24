@@ -1,6 +1,6 @@
 ---
 title: "Shortcut Keys"
-weight: 5
+weight: 3
 ---
 
 ## Navigation

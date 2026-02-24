@@ -1,6 +1,6 @@
 ---
 title: "Mitsubishi EVO 4-8"
-weight: 116
+weight: 0
 ---
 
 ## Mitsubishi EVO 4-8 Plugin Manual

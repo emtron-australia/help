@@ -21,7 +21,7 @@ When purchasing an ELC2M the loom side mating Autosport connector is not include
 
 Contents
 
-# 1.0 Description
+## 1.0 Description
 
 The Emtron Lambda to CAN devices are available in both Standard and Mil Spec versions.
 
@@ -45,7 +45,7 @@ The ELC2 is a Dual Channel Lambda to CAN device with a concentric twisted flying
 
 All devices control the Bosch LSU4.9 Lambda Sensor and are compatible with all Emtron ECUs. Bosch proven integrated circuit technology is used for sensor control, Nernst Cell temperature measurement with advanced PID algorithms for precise heater control. Exhaust Pressure compensation is available when enabled. The device is connected to the ECU via CAN bus and will be automatically detected, significantly minimising configuration time.
 
-# 2.0 Specification
+## 2.0 Specification
 
 **Power Supply**
 
@@ -88,13 +88,13 @@ All devices control the Bosch LSU4.9 Lambda Sensor and are compatible with all E
 * Enclosure Size 63mm x 54 mm x 20mm
 * ELC1 165g, ELC2 200g (includes flying loom)
 
-# 3.0 Installation
+## 3.0 Installation
 
 Each device has a M4 x 1.5 thread tapped into the base of the enclosure and can be used for mounting. In high vibration applications rubber mounting is recommended.
 
 {{% icon style="warning" %}} *CAUTION* When mounting the device inside the engine compartment, it should be positioned in cooler areas and away from heat sources such as exhaust manifolds. Any unnecessary radiated heat may affect device performance.
 
-## 3.1 ELC1/2 Wiring
+### 3.1 ELC1/2 Wiring
 
 The pinouts are shown below in Table 3.0 and Table 3.1.
 
@@ -123,7 +123,7 @@ Table 3.0. ELC Power and CAN Deustch Connector Pinout
 
 Table 3.1 ELC1/2 LSU 4.9 Connector Pinout
 
-## 3.2 ELC2M Wiring
+### 3.2 ELC2M Wiring
 
 ![](/img/elc/image9.jpeg)
 
@@ -160,7 +160,7 @@ Table 3.1 ELC1/2 LSU 4.9 Connector Pinout
 
 Table 3.2. ELC2M Pinout
 
-## 3.3 Bosch LSU4.9 Sensor Wiring
+### 3.3 Bosch LSU4.9 Sensor Wiring
 
 **Lambda Connector: Bosch LSU 4.9 (F)**
 
@@ -183,7 +183,7 @@ Figure 3.0. LSU4.9 Connector Pinout
 
 {{% badge style="note" %}}To avoid signal errors and loss of accuracy, a cable of a maximum length of 1.5 m between sensor and ELC is recommended.{{% /badge %}}
 
-## 3.4 CAN Bus Wiring
+### 3.4 CAN Bus Wiring
 
 * CAN Bus High and Low are differential signals, so twisted pair **MUST** be used. Failing to do so will compromise the entire CAN Bus System.
 * In some extreme environments, shielded twisted pair may be required to help with reliability and data integrity.
@@ -205,9 +205,7 @@ Figure 3.2. CAN Bus Wiring Example. ECU and ELC2 at each end with 120 Ohm Termin
 
 Figure 3.3. CAN Bus Wiring Example. Stub Length less than 0.3m
 
-##
-
-## 3.5 ELC CAN Bus
+### 3.5 ELC CAN Bus
 
 The ELC devices can be connected to the ECUs CAN Bus 1 or 2.
 
@@ -222,7 +220,7 @@ The ELC devices leave the factory programmed with individual serial numbers, but
 * Factory CAN Base Address of 671. Transmits data sequentially on the next ID. Total CAN ID Range is therefore 671 – 672.
 * Up to 6x ELC devices (ELC or ELCM) can be used on the CAN Bus giving a total of 12 available Lambda Channels.
 
-## 3.6 Noise Immunity
+### 3.6 Noise Immunity
 
 To minimise signal contamination and maximise noise immunity, the wire pairs shown in Table 3.2 must be twisted. It is recommended to twist the wire pairs at a minimum one twist per 40mm of cable. This is very important and should always be implemented on both CAN Bus and LSU Sensor wiring.
 
@@ -234,7 +232,7 @@ To minimise signal contamination and maximise noise immunity, the wire pairs sho
 
 Table 3.4. Wire pairing for twisting
 
-# 4.0 Lambda Sensor Installation
+## 4.0 Lambda Sensor Installation
 
 Installation angle must be inclined at least 10° towards horizontal, (electrical connection upwards) up to a maximum of 75°. This prevents the collection of liquids between sensor housing and sensor element during the cold start phase.
 
@@ -248,9 +246,9 @@ Also route the sensor cable to avoid high moisture locations – just a small am
 
 Winter and salted roads compound this issue. Always check for a cracked or broken connector when strange results occur.
 
-# 5.0 Heater Control and Sensor Calibration
+## 5.0 Heater Control and Sensor Calibration
 
-## 5.1 Heater Control
+### 5.1 Heater Control
 
 During engine start-up, condensation forms in the exhaust which may damage the sensor. It is recommended to only start heating the LSU sensor after the engine is running and the moisture content in the exhaust has evaporated. ELC settings allow the ECU to control heater setup if enabled.
 
@@ -262,7 +260,7 @@ Figure 5.0. Emtune ELC Setup menu - Heater Control
 
 Once changed, the settings are automatically stored by the ELC and therefore used on the next power cycle. If the CAN bus is not used to control the heater (Enable Heater Override = OFF), then by default the heater remains OFF for 15 seconds after the device is powered up.
 
-## 5.2 Sensor Calibration
+### 5.2 Sensor Calibration
 
 The sensor is calibrated by the ELC on power up. During the Calibration process two important pieces of data are read:
 
@@ -294,18 +292,18 @@ Figure 6.0. Emtune ELC setup menu - EMAP Enable
 
 **NOTE:** Once changed, the setting is automatically stored by the ELC and therefore used on the next power cycle.
 
-# 7.0 ELC Device Configuration
+## 7.0 ELC Device Configuration
 
 Once the ELC is powered and connected to the ECU’s CAN bus, the following steps should be taken to complete the setup. All setup and device monitoring is done using Emtune so this software needs to be installed and connected to the ECU.
 
-## 7.1 ELC Single Device Setup
+### 7.1 ELC Single Device Setup
 
 This section outlines the setup procedure for a single device and involves 2 steps:
 
 1. Device Detection by the ECU
 2. ECU CAN Bus configuration
 
-### 7.11 ELC Device Detection
+#### 7.11 ELC Device Detection
 
 To confirm the ELC device has been detected, connect to the ECU using Emtune. Open the ECU Runtime menu (F3) and select the Communications Tab. Within this tab there will be a list of Emtron CAN devices the ECU has detected. It will list:
 
@@ -330,7 +328,7 @@ Figure 7.0. Example ELC2M device detected by the ECU.
 
 Figure 7.1. Example ELC2 device detected by the ECU
 
-### 7.12 ECU CAN Channel Configuration for Single Device
+#### 7.12 ECU CAN Channel Configuration for Single Device
 
 The next step is to configure an ECU CAN channel, allowing the ECU to decode the ELC CAN packets.
 
@@ -346,13 +344,13 @@ The ECU in now configured and reading the data from the ELC Device.
 
 Figure 7.2. ELC CAN Configuration
 
-## 7.2 ELC Multiple Device Setup
+### 7.2 ELC Multiple Device Setup
 
 As mentioned in section 3.5, the Base CAN Address ID used to transmit Data over the Bus by default is the same for each device type. The ELC has a factory CAN Base Address of 671. When multiple ELC devices are installed on the same CAN Bus, each device **MUST** have a unique CAN Base Address to avoid Bus conflicts. This means the CAN Base Address ID will need to be reprogrammed which is a simple task using the ID Reprogramming Tool as outlined in section 7.22.
 
 **REMEMBER:** For this process to function effectively, when multiple **new** devices are introduced to the CAN bus, they should initially be connected **one at a time.** This allows each device to sync up to the CAN Bus baud rate and store that setting. This usually takes 3-5 seconds.
 
-### 7.21 ELC Multiple Device Detection
+#### 7.21 ELC Multiple Device Detection
 
 To confirm the ELC device has been detected, connect to the ECU using Emtune. Open the ECU Runtime menu (F3) and select the Communications Tab. Within this tab there will be a list of Emtron CAN devices the ECU has detected. It will list:
 
@@ -382,7 +380,7 @@ The Base Address ID can be any number but Emtron recommends the following:
 * ELC Device 5: ID Base Address 722. (CAN ID Range 679-680)
 * ELC Device 6: ID Base Address 722. (CAN ID Range 681-682)
 
-### 7.22 ELC CAN Base Address ID Reprogramming
+#### 7.22 ELC CAN Base Address ID Reprogramming
 
 To ensure each ELC device has a unique ID from the example in Figure 7.3, ELC2 Device 2 (SN 1242) needs a new Base Address of 673.
 
@@ -408,7 +406,7 @@ To check the device has been correctly programmed with the new CAN Base Address,
 
 Figure 7.5. 2x ELC Devices detected by the ECU with reprogrammed IDs
 
-### 7.23 ECU CAN Configuration for Multiple Devices
+#### 7.23 ECU CAN Configuration for Multiple Devices
 
 The next step is to configure an ECU CAN channel, allowing the ECU to decode the ELC CAN packets.
 
@@ -422,7 +420,7 @@ The ECU is now configured and will receive data from all devices on IDs 671-672,
 
 **NOTE**: You only need to program in the lowest Base Address . The ECU automatically configures the remaining IDs based on the assumption that the IDs are sequential in order.
 
-# 8.0 ECU Channel Configuration
+## 8.0 ECU Channel Configuration
 
 Once the ECU has been configured to receive the ELC data, the next step is assigning the data to an ECU lambda channel(s). There are several options:
 
@@ -453,7 +451,7 @@ Figure 8.1
 
 Figure 8.2. Multiple ELC devices channel assignments
 
-# 9.0 ELC Custom Device Settings
+## 9.0 ELC Custom Device Settings
 
 The following settings are available to control the ELC. These settings get applied to **ALL** ELC devices connected on the CAN bus.
 
@@ -475,7 +473,7 @@ The ELC Lambda 1 and 2 Test Enable setting will force the ELC device to send the
 
 **NOTE:** When any custom ELC setting is changed, the setting is automatically stored by the ELC device and therefore used on the next power cycle.
 
-# 10.0 Ordering Information
+## 10.0 Ordering Information
 
 | Product      | Part Number |
 |--------------|-------------|

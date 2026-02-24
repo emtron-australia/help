@@ -1,6 +1,6 @@
 ---
 title: "Nissan Patrol Y61"
-weight: 120
+weight: 0
 ---
 
 ## Nissan Patrol Y61 Application Build Manual

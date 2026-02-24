@@ -31,7 +31,7 @@ The Emtron EGPS-10 is a high-performance 10 Hz L1-band GNSS receiver designed fo
 ## Wiring
 {{% badge style="info" %}}**Mating Connector:** Deutsch DTM06-4S.{{% /badge %}}
 
-{{% notice style="warning" %}}The EGPS-10 module requires a 5V power supply. Connecting to an unregulated supply will damage the device.{{% /notice %}}
+>[!WARNING]The EGPS-10 module requires a 5V power supply. Connecting to an unregulated supply will damage the device.
 
 | Pin | Function |
 | --- | ---------|

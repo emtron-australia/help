@@ -1,6 +1,6 @@
 ---
 title: "Emtune Release Notes"
-weight: 2
+weight: 1102
 ---
 
 ## Emtune V1.22

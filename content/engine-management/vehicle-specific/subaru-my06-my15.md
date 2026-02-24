@@ -1,6 +1,6 @@
 ---
 title: "Subaru MY06-MY15"
-weight: 122
+weight: 0
 ---
 
 ## Subaru MY06-MY15 Plugin Manual
