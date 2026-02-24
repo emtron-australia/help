@@ -1,6 +1,6 @@
 ---
 title: "Nissan GTR R35 TCM Setup"
-weight: 32
+weight: 0
 ---
 
 ## TCM Setup
@@ -70,4 +70,8 @@ This setting is primarily  used in Launch Control to ensure the ECU tracks the T
 Gain 0 = OFF
 
 Gains up to the maximum of 5 can achieve good results.
+
+## TCM Retard Torque Gain
+
+![Image](</img/AAAA67.jpg>)
 

@@ -1,6 +1,6 @@
 ---
 title: "VVT Cam Control"
-weight: 78
+weight: 1
 ---
 
 # VVT Cam Control Setup

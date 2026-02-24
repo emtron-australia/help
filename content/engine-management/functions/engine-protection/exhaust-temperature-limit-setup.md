@@ -1,9 +1,7 @@
 ---
 title: "Exhaust Temperature Limit Setup"
-weight: 87
+weight: 0
 ---
-
-## Exhaust Temperature Limit Setup
 
 ![Image](</img/13.jpg>)
 
