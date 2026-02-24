@@ -1,8 +1,6 @@
 ---
 title: "CE Light"
+draft: true
 weight: 0
 ---
 
-The following Powertrain P0 codes are supported by the  ECU:
-
-...

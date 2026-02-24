@@ -1,6 +1,6 @@
 ---
 title: "Crank Index Offset Setup"
-weight: 33
+weight: 0
 ---
 
 ## Crank Index Offset Setup

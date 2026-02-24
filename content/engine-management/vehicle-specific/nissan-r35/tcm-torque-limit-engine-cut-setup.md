@@ -1,6 +1,6 @@
 ---
 title: "TCM Torque Limit Engine Cut Setup"
-weight: 113
+weight: 0
 ---
 
 ## TCM Torque Limit Engine Cut Setup
@@ -79,7 +79,7 @@ The ECU converts the Torque Limit (Nm) into a calibrated Engine Cut Percentage.
 
 This setting controls the Maximum amount of Cut the ECU can apply for a given Torque Limit request. 
 
-Example.: 50%
+Example: 50%
 
 This means the Maximum Cut applied to the Engine will be clamped to 50%.
 

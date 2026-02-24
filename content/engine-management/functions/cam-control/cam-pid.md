@@ -1,6 +1,6 @@
 ---
-title: "Camshaft Closed Loop Control - PID Setup"
-weight: 83
+title: "Cam Control - PID"
+weight: 0
 ---
 
 ## PID Setup

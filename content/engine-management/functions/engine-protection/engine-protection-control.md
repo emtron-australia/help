@@ -1,9 +1,7 @@
 ---
-title: "Engine Protection Control"
-weight: 95
+title: "Engine Protection"
+weight: 1
 ---
-
-## Engine Protection Control
 
 ![Image](</img/Engine prot 1.jpg>)
 

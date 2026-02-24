@@ -1,6 +1,6 @@
 ---
 title: "Boost Control"
-weight: 38
+weight: 1
 ---
 
 ## Boost Control

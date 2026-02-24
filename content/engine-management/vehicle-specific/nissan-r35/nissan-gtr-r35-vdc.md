@@ -219,3 +219,10 @@ ONLY becomes active when VDC Calibrate Throttle Area  < Pedal Throttle Area Requ
 
 0 = OFF
 
+## VDC Boost Target Margin Table
+
+![Image](</img/AAAA65.jpg>)
+
+## VDC Torque Gain
+
+![Image](</img/AAAA64.jpg>)

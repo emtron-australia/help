@@ -1,6 +1,6 @@
 ---
-title: "Nissan GTR R35"
-weight: 0
+title: "Nissan GTR R35 Build"
+weight: 1
 ---
 
 ## Nissan GT-R R35

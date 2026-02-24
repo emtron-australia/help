@@ -31,7 +31,7 @@ Exhaust Pressure Estimate–     Estimate Exhaust Pressure
 
     
 
-To access Calcualted Runtimes, 
+To access Calculated Runtimes, 
 
 * Config, Channels, Calculated Runtimes
 

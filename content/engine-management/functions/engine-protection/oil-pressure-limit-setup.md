@@ -1,9 +1,7 @@
 ---
 title: "Oil Pressure Limit Setup"
-weight: 26
+weight: 0
 ---
-
-## Oil Pressure Limit Setup
 
 ![Image](</img/4.jpg>)
 

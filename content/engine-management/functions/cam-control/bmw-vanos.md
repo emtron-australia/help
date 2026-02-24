@@ -1,5 +1,5 @@
 ---
-title: "BMW Vanos Setup"
+title: "BMW VANOS"
 weight: 0
 ---
 
@@ -9,17 +9,17 @@ Early BMW Motorsport VANOS systems were unique.  It uses an auxiliary oil pump t
 
 BMW Engines that use high pressure BMW Motorsport VANOS 
 
-* BMW S50B30     -     Single VANOS intake cam
-* BMW S50B32    -     Double VANOS intake and exhaust cam
-* BMW S54         -     Double VANOS intake and exhaust cam
-* BMW S62         -     Double VANOS intake and exhaust cam (two banks)
+ - BMW S50B30 - Single VANOS intake cam
+ - BMW S50B32 - Double VANOS intake and exhaust cam
+ - BMW S54    - Double VANOS intake and exhaust cam
+ - BMW S62    - Double VANOS intake and exhaust cam (two banks)
 
-******* USA versions BMW S50B30 (and BMW S52B32) do NOT use BMW Motorsport VANOS.  ***
+>[!INFO] USA versions BMW S50B30 (and BMW S52B32) do NOT use BMW Motorsport VANOS.
 
-******* Later Motorsport models updated VANOS to more conventional control.   BMW S65 and BMW S85 use only one output per camshaft like conventional systems.***
+>[!INFO] Later Motorsport models updated VANOS to more conventional control.   BMW S65 and BMW S85 use only one output per camshaft like conventional systems.
 
 When selecting these function types, there will be additional options available for choosing the specific channels for retard or advance channels.  
 
 ![Image](</img/NewItem115.png>)
 
-******* BMW Motorsport VANOS is driven high side.  If the installer chooses to drive low side, the solenoids MUST be modified as the flyback diodes will now allow them to be driven low. Diodes must be reversed or removed.***
+>[!CAUTION] BMW Motorsport VANOS is driven high side.  If the installer chooses to drive low side, the solenoids MUST be modified as the flyback diodes will now allow them to be driven low. Diodes must be reversed or removed.

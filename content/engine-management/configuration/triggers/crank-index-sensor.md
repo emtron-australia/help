@@ -1,6 +1,6 @@
 ---
 title: "Crank Index Sensor"
-weight: 35
+weight: 0
 ---
 
 ## Crank Index Sensor

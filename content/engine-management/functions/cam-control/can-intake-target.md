@@ -25,7 +25,7 @@ There are a variety of methods of integration available.
 
 ![Image](</img/VVT 12.jpg>)
 
-*****WARNING*****
+## WARNING
 
 Incorrect setting of the Intake Cam Angle Target Table can result in engine damage.
 
@@ -33,11 +33,11 @@ In modified engines, the piston to valve clearance of the engine should be measu
 
 The maximum safe advance angle should be known prior to setting VVT travel range.  
 
-If the valve clearance is compromised within the available travel range a mechaincal limit should be employed to prevent contact.
+If the valve clearance is compromised within the available travel range a mechanical limit should be employed to prevent contact.
 
 **DO NOT** rely on closed loop Cam Control to prevent piston to valve contact when there is a mechanical ability to cause contact.
 
-**BMW Motorsport VANOS should not be targeted to the fully retarded or advanced position at any point.
+**BMW Motorsport VANOS** should not be targeted to the fully retarded or advanced position at any point.
 
 This is because the system is designed to hydraulically lock the position once at the target (no solenoid regulation). 
 

@@ -1,9 +1,7 @@
 ---
 title: "Engine Temperature Limit Setup"
-weight: 107
+weight: 0
 ---
-
-## Engine Temperature Limit Setup
 
 ![Image](</img/Engine prot 2.jpg>)
 
