@@ -278,13 +278,10 @@ Video inputs are multiplexed, only one input can be captured at a time.
 
 ### RS232 Communications
 
-Pin 40 is the ED10M RS232 Transmit Output.  As the name suggests this is an Output and should be connected to the Receive Input of the wired external device.
+Pin 11 is the ED7 RS232 Transmit Output.  As the name suggests this is an Output and should be connected to the Receive Input of the wired external device.
 
-Pin 41 is the ED10M RS232 Receive Input.  As the name suggests this is an Input and should be connected to the Transmit Output of the wired external device.
+Pin 12 is the ED7 RS232 Receive Input.  As the name suggests this is an Input and should be connected to the Transmit Output of the wired external device.
 
 This is the wiring standard when working with RS232 communications.
 
-### ED10M Recovery (Pin 55)
-
-In the unlikely event the SOM becomes bricked after a software update, grounding this pin at power-on allows the device to be recovered by loading software through the USB Port. (Normally this would be done over Ethernet using the Display Editor software )
 
