@@ -41,6 +41,10 @@ Australia Tracks
 
 {{< geojson-canvas geojson="/tracks/Tallem Bend GT.geojson" >}}
 
+## Tallem Bend International
+
+{{< geojson-canvas geojson="/tracks/Tallem Bend International.geojson" >}}
+
 ## Morgan Raceway
 
 {{< geojson-canvas geojson="/tracks/Morgan Raceway.geojson" >}}
