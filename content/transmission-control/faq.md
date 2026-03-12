@@ -29,7 +29,7 @@ We are testing and building applications specific configurations in-house which 
 | Ford 10R80     | Multi-clutch | Planned      | TBA      |       |
 
 ## Supported ECU Platforms
-We have worked very closely with [Emtron Australia](https://emtron.world) to create a seamless CAN integration that allows for fully torque modelled shifting and down shift rev-matching with minimal setup complexity. This is the best way to achieve an OEM quality driving experience.
+The TM16 integrates seamlessly via CAN with all **Emtron ECU's**, allowing for fully torque modelled shifting and down shift rev-matching with minimal setup complexity. This is by far the best way to achieve an OEM quality driving experience.
 
 Additionally, the TCM also has a two fully open and configurable CAN bus nodes, meaning that users can send and receive any data required in any format to integrate almost any third party ECU. The level of control available is ultimately up to the ECU in question and will vary from extremely crude to fully featured depending on the ECU in question.
 
