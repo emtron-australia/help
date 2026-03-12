@@ -1,6 +1,6 @@
 ---
 title: "Shortcut Keys"
-weight: 5
+weight: 3
 ---
 
 ## Navigation
@@ -76,7 +76,6 @@ weight: 5
 |**D**| Dual Cursor Mode |
 |**S**| Swap Active Cursor |
 |**B**| Bring Cursors Together |
-
 
 ## Display Settings
 | Key | Function |

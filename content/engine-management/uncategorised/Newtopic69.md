@@ -1,4 +1,0 @@
----
-title: "Additional CAN Information"
----
-

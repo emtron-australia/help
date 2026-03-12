@@ -1,4 +1,0 @@
----
-title: "Trailing Split Table"
----
-

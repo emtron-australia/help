@@ -1,6 +1,6 @@
 ---
 title: "Wiring"
-weight: 99
+weight: 1001
 ---
 
 {{% children sort="weight" depth=2 %}}

@@ -1,5 +1,6 @@
 ---
 title: "Power Supply Wiring"
+weight: 124
 ---
 
 ## EFI Relay Control
@@ -44,11 +45,10 @@ The Emtron ECU system has a main power input to run the ECU (ECU supply pin), bu
 * Aux 9-12 Power Supply Pin D20. Supplies power to Aux 9/12 Half bridge drivers.
 * Aux 13-16 Power Supply Input D2. Supplies power to Aux 13/16 Half bridge drivers.
 
-
 ## H-Bridge control
-Selected outputs can supply either a ground or battery voltage i.e. there is no “off” state, called Half-bridge outputs. Combine two half bridges and this forms an H-bridge configuration.Since the most common use for this type of output is Drive by Wire (DBW), it is necessary to control the supply power to these supply pins via a separate circuit so that the ECU can control this individually (E-throttle Relay Circuit). &nbsp;
+Selected outputs can supply either a ground or battery voltage i.e. there is no “off” state, called Half-bridge outputs. Combine two half bridges and this forms an H-bridge configuration.Since the most common use for this type of output is Drive by Wire (DBW), it is necessary to control the supply power to these supply pins via a separate circuit so that the ECU can control this individually (E-throttle Relay Circuit).  
 
-This will allow the ECU to disconnect power to that distribution source in the event of an error being detected, but still maintain functionality of the engine, store fault codes, record logs, etc.&nbsp; Most DBW cars will default mechanical throttle position to a “raised” idle, and an extra level of Limp Mode will also function to cut RPM in the event of unintended mechanical acceleration. &nbsp;
+This will allow the ECU to disconnect power to that distribution source in the event of an error being detected, but still maintain functionality of the engine, store fault codes, record logs, etc.  Most DBW cars will default mechanical throttle position to a “raised” idle, and an extra level of Limp Mode will also function to cut RPM in the event of unintended mechanical acceleration.  
 
 ### SL Series ECU
  - H-bridge control for Aux 9-10 (1 pair).
@@ -70,7 +70,6 @@ These pins are **NOT** ECU grounds. Although a multi-meter test will show contin
 {{% badge style="warning" %}}**DO NOT** connect these pins to the ECU main ground location(s)!{{% /badge %}}
 
 This is a specialized ground reference for all analog sensors and should be connected directly to the sensor 0V(ground) pin.
-
 
 {{% badge style="warning" %}}**DO NOT** connect frequency-based sensor grounds to the 0V Reference pin.{{% /badge %}}
 

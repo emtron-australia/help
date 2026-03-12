@@ -5,20 +5,14 @@ weight: 2
 
 ![Image](</img/NewItem228.png>)
 
+## Pin Descriptions
 
-
-**Pin Descriptions**&nbsp;
-
-
-| **Connector A: Lambda/Injection/Ignition** **(15.0A Max continuous current - wire gauge dependant)**&nbsp; |
+| **Connector A: Lambda/Injection/Ignition** **(15.0A Max continuous current - wire gauge dependant)**  |
 | ---------------------------------------------------------------------------------------------------------- |
-
-
 
 ![Image](</img/NewItem320.png>)
 
-**Looking into ECU connector**
-
+## Looking into ECU connector
 
 | Pin | Channel Name                   |
 | --- | ------------------------------ |
@@ -49,20 +43,12 @@ weight: 2
 | A25 | Lambda 1 Pump Cell (Ip)        |
 | A26 | Lambda 1 Virtual Ground (VGnd) |
 
-
-
-
-| **Connector B: Auxiliary Outputs /Fuel/Ignition/Ground** **(15.0A Max continuous current - wire gauge dependant)**&nbsp; |
+| **Connector B: Auxiliary Outputs /Fuel/Ignition/Ground** **(15.0A Max continuous current - wire gauge dependant)**  |
 | ------------------------------------------------------------------------------------------------------------------------ |
-
-
-
 
 ![Image](</img/NewItem319.png>)
 
-**Looking into ECU connector**
-
-
+## Looking into ECU connector
 
 | Pin | Channel Name        | Pin     | Channel Name        |
 | --- | ------------------- | ------- | ------------------- |
@@ -84,24 +70,17 @@ weight: 2
 | B16 | Auxiliary Output 7  | **B33** | Ignition Channel 8  |
 | B17 | Auxiliary Output 8  | **B34** | ECU Ground          |
 
-
-
-
-| **Connector C: Signal** **(15.0A Max continuous current - wire gauge dependant)**&nbsp; |
+| **Connector C: Signal** **(15.0A Max continuous current - wire gauge dependant)**  |
 | --------------------------------------------------------------------------------------- |
-
-
 
 ![Image](</img/NewItem318.png>)
 
-&nbsp; **Looking into ECU connector**
-
-
+  **Looking into ECU connector**
 
 | Pin | Channel Name                 | Pin     | Channel Name               |
 | --- | ---------------------------- | ------- | -------------------------- |
 | C1  | ECU Ground                   | **C18** | Digital Input 9            |
-| C2  | Analog Input Channel 1&nbsp; | **C19** | Digital Input 10           |
+| C2  | Analog Input Channel 1  | **C19** | Digital Input 10           |
 | C3  | Analog Input Channel 2       | **C20** | Digital Input 11           |
 | C4  | Analog Input Channel 3       | **C21** | Digital Input 12           |
 | C5  | Analog Input Channel 4       | **C22** | Digital Input 13           |
@@ -118,18 +97,12 @@ weight: 2
 | C16 | Analog Input Channel 15      | **C33** | Digital Input 7            |
 | C17 | Analog Sensor 0V Reference   | **C34** | Digital Input 8            |
 
-
-
-
-| **Connector D: Power/Communications/Triggers/Knock** **(15.0A Max continuous current - wire gauge dependant)**&nbsp; |
+| **Connector D: Power/Communications/Triggers/Knock** **(15.0A Max continuous current - wire gauge dependant)**  |
 | -------------------------------------------------------------------------------------------------------------------- |
-
-
 
 ![Image](</img/NewItem317.png>)
 
-**Looking into ECU connector**
-
+## Looking into ECU connector
 
 | Pin | Channel Name                      |
 | --- | --------------------------------- |
@@ -160,35 +133,29 @@ weight: 2
 | D25 | Ethernet Rx +                     |
 | D26 | Ethernet Rx -                     |
 
-
-
 ## Important Notes
 
+## Auxiliary Output Channels 13-16
 
-**Auxiliary Output Channels 13-16**
-
-These are high current Half bridge drivers which switch either to ground or 14V i.e.&nbsp; they do not have a high impedance or OFF state.&nbsp; When the ECU is powered OFF these Auxiliary Channels by default will be switching to ground. This means:
+These are high current Half bridge drivers which switch either to ground or 14V i.e.  they do not have a high impedance or OFF state.  When the ECU is powered OFF these Auxiliary Channels by default will be switching to ground. This means:
 
 1. Solenoids or relays connected to these outputs should not use a constant or hot battery feed.
 1. During the ECU powerup sequence, any solenoid or relay connected to these outputs should have a managed power feed to avoid momentary switching during powerup.
 
-
-**Analog Sensor 0V Reference (Pin C17, C25)**
+## Analog Sensor 0V Reference (Pin C17, C25)
 
 These pins should be connected directly to the 0V (Ground) pin on any low current analog sensor, for example Pressure or Temperature.
 
 * **DO NOT** connect the ECU pins C17, C25 directly to the Engine Block or ECU Ground. These are dedicated and specialised ground outputs for all analog channels and should be connected directly to the sensor.
-* **DO NOT** connect frequency-based sensors to these pins; for example, an Ethanol content sensor. The sensor 0V pin should be connected to the ECU ground.&nbsp;
+* **DO NOT** connect frequency-based sensors to these pins; for example, an Ethanol content sensor. The sensor 0V pin should be connected to the ECU ground. 
 
-
-**Half Bridge Driver Power Supply Inputs (Pin D20, D2)**
+## Half Bridge Driver Power Supply Inputs (Pin D20, D2)
 
 Pin D20 is a dedicated power supply for Auxiliary Channels 9-12. Power must be supplied to this pin for these channels to operate correctly. In non-DBW (Drive by Wire) applications the ECU Supply power can be shared, assuming the wire gauge has a sufficient rating for the current demand. In DBW applications power to this pin **MUST** come from an ECU controlled DBW Relay.
 
-
 Pin D2 is a dedicated power supply for Auxiliary Channels 13-16. Power must be supplied to this pin for these Auxiliary channels to operate correctly.
 
-# &nbsp;
+#  
 
-# &nbsp;
+#  
 

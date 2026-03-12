@@ -1,6 +1,6 @@
 ---
 title: "Support"
-weight: 20
+weight: 999
 ---
 
 {{% include file="content/support/support.md" %}}

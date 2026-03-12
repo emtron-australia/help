@@ -29,6 +29,6 @@ All support requests are fed into a ticket system, and requests should be made s
 
 PC logging is the best way to capture the log, as it will record all channels for the staff to review.
 
-> **IMPORTANT** If calibration files are locked, our support staff will **NOT** be able to unlock them. Please provide the password for the cal file in the request, or send unlocked versions of the cal file.
+>[!IMPORTANT] If calibration files are locked, our support staff will **NOT** be able to unlock them. Please provide the password for the cal file in the request, or send unlocked versions of the cal file.
 
-*Our support staff do not further record, database, or share any users cal files, passwords, etc.*
+**Our support staff do not further record, database, or share any users cal files, passwords, etc.**

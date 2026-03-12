@@ -9,21 +9,17 @@ The cal file information such as pin configuration, assignments, and even the FW
 
 ![Image](</img/NewItem770.png>)
 
-
 ## Setting Paths
 
 Paths can be reset under the file menu under "Options".
 
 ![Image](</img/NewItem771.png>)
 
-
 ## Unit Preferences
-
 
 Units can be converted under the file menu under "Options".
 
 ![Image](</img/NewItem772.png>)
-
 
 ## ECU Cal FIle Locking
 
@@ -39,12 +35,10 @@ If a cal file is locked, Emtune will allow the user to view the "ECU Overview" t
 
 ![Image](</img/NewItem774.png>)
 
-
 ## Viewing Runtimes
 
 Pressing "F3" anytime the ECU is open will display all calculated channels in real time.
 Navigate through the tabs, or "Search" for the channel you are looking to view.
-
 
 ## Output Testing
 
@@ -54,32 +48,29 @@ Outputs controlled by functions, can be tested right from the function output se
 
 ![Image](</img/NewItem768.png>)
 
-To test fuel and ignition channels, this is done under Config Fuel/Ignition \> Injector/Ignition Test
+To test fuel and ignition channels, this is done under Config Fuel/Ignition > Injector/Ignition Test
 
 ![Image](</img/NewItem769.png>)
 
-Set the pulse width/dwell for the test, and then turn the channels on to test. &nbsp;
+Set the pulse width/dwell for the test, and then turn the channels on to test.  
 
 {{% badge style="caution" %}}Do not test channels with the engine running{{% /badge %}}
 
 > **Note:** The channels are the actual channel assignments from the ECU, and not the cylinder assignments - IE if you have cylinders assigned on different channels, they will NOT correspond during this test.
 
-
 ## Starting Engine/No Start
 
-Once configuration is complete, startability of the engine can be observed (and logged) in Runtimes view (F3) under Triggers/Limits \> Engine Decoding Status.
-
+Once configuration is complete, startability of the engine can be observed (and logged) in Runtimes view (F3) under Triggers/Limits > Engine Decoding Status.
 
 ![Image](</img/NewItem766.png>)
 
-For sequential configuration, Crank, Sync, 360, and 720 sync must all go "Green" in order for the decoding to be satisfied and the engine startability to be achieved. &nbsp;
+For sequential configuration, Crank, Sync, 360, and 720 sync must all go "Green" in order for the decoding to be satisfied and the engine startability to be achieved.  
 
 > **Tip** Engine Speed should be observed cranking as well
 
 On universal configurations such as "Multi-tooth Custom", if the engine will not start, the stroke for sequential firing may be on the wrong phase.
 
 An easy way to correct this is to add 360 degrees to the Crank Index Offset value.
-
 
 ### Engine Limiting Active
 
@@ -93,7 +84,6 @@ Under Limit Summary, Highest priority Fcut/Icut Status will also show the curren
 
 > **Tip:** Highest priority cuts are recommended to always be logged.
 
-
 ### Trigger Errors
 
 The following Error channels are calculated in the ECU.
@@ -105,10 +95,9 @@ The following Error channels are calculated in the ECU.
 
 {{% badge style="info" %}}All trigger errors when they register will result in engine misfire as the ECU will attempt to abort running the engine for that cycle (cut). This is to prevent the engine from running improper timing or improper cycle.{{% /badge %}}
 
-
 ## Data Logging/Diagnostic Tips
 
-* Crank Tooth, Crank/Sync, Crank/Sync(crk) counting during engine cranking/low battery voltage sometimes can be considered normal depending on the trigger type, tooth count, engine compression ratio, etc.&nbsp;
+* Crank Tooth, Crank/Sync, Crank/Sync(crk) counting during engine cranking/low battery voltage sometimes can be considered normal depending on the trigger type, tooth count, engine compression ratio, etc. 
 
 * This is due to the ECU attempting to scrutinize the trigger accurately during cranking, missing teeth, crank index teeth, etc.
 * `Crank Tooth Errors` alone usually mean the main Crank Index Signal has issues

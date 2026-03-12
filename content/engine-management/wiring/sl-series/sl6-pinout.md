@@ -1,24 +1,18 @@
 ---
 title: "SL6 Pinout"
+weight: 2
 ---
 
 ![Image](</img/SL6 ECU Pinout - A3031.jpg>)
 
+## Pin Descriptions
 
-
-
-**Pin Descriptions**&nbsp;
-
-
-| **Connector A: Injection/Ignition/Auxiliary Outputs** **(15.0A Max continuous current - wire gauge dependant)**&nbsp; |
+| **Connector A: Injection/Ignition/Auxiliary Outputs** **(15.0A Max continuous current - wire gauge dependant)**  |
 | --------------------------------------------------------------------------------------------------------------------- |
-
-
 
 ![Image](</img/temp.jpg>)
 
-**Looking into ECU connector**
-
+## Looking into ECU connector
 
 | Pin | Channel Name        | Pin     | Channel Name                      |
 | --- | ------------------- | ------- | --------------------------------- |
@@ -40,20 +34,12 @@ title: "SL6 Pinout"
 | A16 | Auxiliary Output 7  | **A33** | NC                                |
 | A17 | Auxiliary Output 8  | **A34** | Auxiliary Output 9-10, 14V Supply |
 
-
-
-
-
-| **Connector B: Signal/Power/Communications/Triggers/Knock** **(15.0A Max continuous current - wire gauge dependant)**&nbsp; |
+| **Connector B: Signal/Power/Communications/Triggers/Knock** **(15.0A Max continuous current - wire gauge dependant)**  |
 | --------------------------------------------------------------------------------------------------------------------------- |
-
-
 
 ![Image](</img/temp1.jpg>)
 
-**Looking into ECU connector**
-
-
+## Looking into ECU connector
 
 | Pin | Channel Name                      | Pin     | Channel Name            |
 | --- | --------------------------------- | ------- | ----------------------- |
@@ -67,7 +53,7 @@ title: "SL6 Pinout"
 | B8  | Sync Sensor -                     | **B25** | Knock 2 -               |
 | B9  | Shield (Crank/Sync/ Knock)        | **B26** | ECU Ground              |
 | B10 | Analog Sensor 0V Reference        | **B27** | CAN 1H                  |
-| B11 | Analog Input Channel 1&nbsp;      | **B28** | CAN 1L                  |
+| B11 | Analog Input Channel 1       | **B28** | CAN 1L                  |
 | B12 | Analog Input Channel 2            | **B29** | NC                      |
 | B13 | Analog Input Channel 3            | **B30** | NC                      |
 | B14 | Analog Input Channel 4            | **B31** | Ethernet Tx +           |
@@ -75,21 +61,16 @@ title: "SL6 Pinout"
 | B16 | Knock 1 +                         | **B33** | Ethernet Rx +           |
 | B17 | Knock 1 -                         | **B34** | Ethernet Rx -           |
 
-
-
-
 ## Important Notes
 
-
-**Analog Sensor 0V Reference (Pin B10)**
+## Analog Sensor 0V Reference (Pin B10)
 
 This pin should be connected directly to the 0V (Ground) pin on any low current analog sensor, for example Pressure or Temperature.
 
 * **DO NOT** connect the ECU pin B10 directly to the Engine Block or ECU Ground. These are dedicated and specialised ground outputs for all analog channels and should be connected directly to the sensor.
-* **DO NOT** connect frequency-based sensors to these pins; for example, an Ethanol content sensor. The sensor 0V pin should be connected to the ECU ground.&nbsp;
+* **DO NOT** connect frequency-based sensors to these pins; for example, an Ethanol content sensor. The sensor 0V pin should be connected to the ECU ground. 
 
-
-**Half Bridge Driver Power Supply Input (Pin A34)**
+## Half Bridge Driver Power Supply Input (Pin A34)
 
 Pin A34 is a dedicated power supply for Auxiliary Channels 9-10. Power must be supplied to this pin for these channels to operate correctly. In non-DBW (Drive by Wire) applications the ECU Supply power can be shared, assuming the wire gauge has a sufficient rating for the current demand. In DBW applications power to this pin **MUST** come from an ECU controlled DBW Relay.
 

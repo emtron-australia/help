@@ -1,4 +1,0 @@
----
-title: "Timer Functions"
----
-
