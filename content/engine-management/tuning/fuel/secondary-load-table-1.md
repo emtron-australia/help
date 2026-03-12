@@ -1,6 +1,5 @@
 ---
 title: "Secondary Load Table"
-weight: 62
 ---
 
 ## Secondary Load Table

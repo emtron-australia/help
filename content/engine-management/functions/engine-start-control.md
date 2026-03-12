@@ -1,6 +1,5 @@
 ---
 title: "Engine Start Control"
-weight: 0
 ---
 
 ## Overview

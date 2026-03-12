@@ -1,6 +1,5 @@
 ---
 title: "Exhaust Cam Angle Target Tables"
-weight: 82
 ---
 
 ## Exhaust Cam Angle Target Tables

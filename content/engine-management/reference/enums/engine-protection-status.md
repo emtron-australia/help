@@ -1,6 +1,5 @@
 ---
 title: "Engine Protection Status"
-weight: 0
 ---
 
 | Value | Status |

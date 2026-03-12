@@ -1,6 +1,5 @@
 ---
 title: "Position Offsets"
-weight: 1042
 ---
 
 ## Offset Position Tables

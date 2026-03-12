@@ -1,9 +1,6 @@
 ---
 title: "Cam Switch"
-weight: 0
 ---
-
-# Cam Switch
 
 ![Image](</img/Cam Switch 1.jpg>)
 

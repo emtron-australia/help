@@ -1,6 +1,5 @@
 ---
 title: "Closed Loop Fuel Status"
-weight: 0
 ---
 
 | Value | Status |
@@ -16,7 +15,7 @@ weight: 0
 | 8 | OFF - Waiting.. La2 |
 | 9 | OFF - ORB Active |
 | 10 | OFF - Limiting on |
-| 11 |  |
+| 11 |  - |
 | 12 | X - Input in Fault |
 | 13 | OFF - La1 Input Error |
 | 14 | OFF - La2 Input Error |

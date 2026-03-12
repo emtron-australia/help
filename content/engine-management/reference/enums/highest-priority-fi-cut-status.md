@@ -1,6 +1,5 @@
 ---
 title: "Highest Priority Fuel/Ign Cut Status"
-weight: 0
 ---
 
 | Value | Status |

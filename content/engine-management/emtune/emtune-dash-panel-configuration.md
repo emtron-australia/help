@@ -1,9 +1,6 @@
 ---
 title: "Emtune Dash Panel Configuration"
-weight: 19
 ---
-
-## Emtune Dash Panel Configuration
 
 Emtune allows the user to customize the dash panel screens to suit their needs accordingly.  
 

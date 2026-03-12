@@ -1,6 +1,5 @@
 ---
 title: "Traction Control Status"
-weight: 0
 ---
 
 | Value | Status |

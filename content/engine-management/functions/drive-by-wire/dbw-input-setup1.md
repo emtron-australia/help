@@ -1,6 +1,5 @@
 ---
 title: "DBW Input Setup"
-weight: 53
 ---
 
 ## Filter Settings

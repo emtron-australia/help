@@ -1,6 +1,5 @@
 ---
 title: "PreCrank Z-Axis Setup"
-weight: 29
 ---
 
 ## PreCrank Z-Axis Setup

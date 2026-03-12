@@ -1,6 +1,5 @@
 ---
 title: "Starting Setup"
-weight: 66
 ---
 
 Pre-Crank Injection Enable

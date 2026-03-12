@@ -1,6 +1,5 @@
 ---
 title: "Global Trim"
-weight: 45
 ---
 
 Applies a global ignition trim. 

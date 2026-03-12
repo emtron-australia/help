@@ -1,6 +1,5 @@
 ---
 title: "Intake Cam Angle Target Tables"
-weight: 110
 ---
 
 ## Intake Cam Angle Target Tables

@@ -1,9 +1,6 @@
 ---
 title: "DBW Calibration Guide"
-weight: 79
 ---
-
- **DBW Calibration Guide**
 
 ## Steps to Calibrating and Tuning DBW
 

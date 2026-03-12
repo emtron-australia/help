@@ -1,6 +1,5 @@
 ---
 title: "Speed Limits"
-weight: 0
 ---
 
 The ECU offers **two** Ground Speed Limit Tables which can operate either independently and together to produce a single speed limit value.  Each Limit Table also has two Offsets Tables.

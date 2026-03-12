@@ -1,6 +1,5 @@
 ---
 title: "Ignition Retard Rate Table"
-weight: 52
 ---
 
 ## Ign Retard Rate Table

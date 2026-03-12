@@ -1,6 +1,5 @@
 ---
 title: "Trigger Requests"
-weight: 0
 ---
 
 While Emtron supports a high number of trigger types, there is occasionally the need to add new engine types. 

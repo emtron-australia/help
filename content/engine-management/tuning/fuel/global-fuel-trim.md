@@ -1,6 +1,5 @@
 ---
 title: "Global Fuel Trim"
-weight: 42
 ---
 
 ## Global Fuel Trim

@@ -1,6 +1,5 @@
 ---
 title: "Secondary Load Tables"
-weight: 64
 ---
 
 Starting tables can be turned on/off.  

@@ -1,9 +1,6 @@
 ---
 title: "Cam Position Offsets"
-weight: 0
 ---
-
-## Cam Position Offsets
 
 ![Image](</img/VVT 3.jpg>)
 
@@ -33,7 +30,7 @@ Under Runtimes (F3, VVT/VVL)
 
 Use absolute position runtimes to populate the offset.  
 
-**Each position represents either a rising or falling edge per cycle (dependent on edge selection under inputs).  **Choose the lowest number**. 
+Each position represents either a rising or falling edge per cycle (dependent on edge selection under inputs).  **Choose the lowest number**. 
 
 ![Image](</img/VVT 6.jpg>)
 
@@ -51,7 +48,7 @@ Open ECU Runtimes (F3) go to VVT/VVL
 
 Use the VVT target Error to validate the position offset number.
 
-This can be do by simply increasing or decreasing the value until as close to zero error is achived
+This can be do by simply increasing or decreasing the value until as close to zero error is achieved.
 
 Once completed for each cam, set VVT Offset(s) to = 0 (Off)
 

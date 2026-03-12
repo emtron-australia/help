@@ -1,6 +1,5 @@
 ---
 title: "Injection Timing Secondary"
-weight: 86
 ---
 
 ## Injection Timing Secondary

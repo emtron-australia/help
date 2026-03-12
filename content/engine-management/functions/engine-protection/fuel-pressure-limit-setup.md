@@ -1,6 +1,5 @@
 ---
 title: "Fuel Pressure Limit Setup"
-weight: 0
 ---
 
 ![Image](</img/9.jpg>)

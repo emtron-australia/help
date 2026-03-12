@@ -1,6 +1,5 @@
 ---
 title: "Differential Control"
-weight: 0
 ---
 
 ## Overview

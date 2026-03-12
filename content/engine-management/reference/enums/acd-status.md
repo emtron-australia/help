@@ -1,6 +1,5 @@
 ---
 title: "Active Center Differential"
-weight: 0
 ---
 
 | Value | Status |

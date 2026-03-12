@@ -1,6 +1,5 @@
 ---
 title: "Z-Axis Setup"
-weight: 42
 ---
 
 ## Z-Axis Setup

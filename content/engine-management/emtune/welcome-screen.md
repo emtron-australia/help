@@ -1,6 +1,5 @@
 ---
 title: "Emtune Welcome Screen"
-weight: 3
 ---
 
 ## Welcome Screen

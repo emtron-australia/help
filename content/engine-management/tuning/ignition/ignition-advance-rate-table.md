@@ -1,6 +1,5 @@
 ---
 title: "Ignition Advance Rate Table"
-weight: 37
 ---
 
 ## Ign Advance Rate Table

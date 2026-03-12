@@ -1,6 +1,5 @@
 ---
 title: "Intake/Exhaust Target Offset Tables"
-weight: 88
 ---
 
 ## Intake/Exhaust Target Offset Tables

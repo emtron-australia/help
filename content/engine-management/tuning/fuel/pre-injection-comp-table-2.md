@@ -1,6 +1,5 @@
 ---
 title: "Pre Injection Comp Table 2"
-weight: 80
 ---
 
 Compensates fueling once the engine is considered running

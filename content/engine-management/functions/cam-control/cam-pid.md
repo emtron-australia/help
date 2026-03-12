@@ -1,11 +1,10 @@
 ---
 title: "Cam Control - PID"
-weight: 0
 ---
 
 ## PID Setup
 
-## Applicable to both intake & exhaust PID setup
+### Applicable to both intake & exhaust PID setup
 
 ![Image](</img/VVT 15.jpg>)
 
@@ -13,7 +12,7 @@ The positioning control of the Camshaft(s) is governed by the Emtron PID closed 
 
 ![Image](</img/VVT 16.jpg>)  
 
-## Intake Deadband +/-
+### Intake Deadband +/-
 
 The output control signal is held constant when the Input Signal (Cam Position) falls within the deadband range of the Target. 
 
@@ -23,15 +22,15 @@ This helps reduce steady state error and oscillations.
 
 Typical : 0.5 degrees
 
-## Integral Positive Clamp
+### Integral Positive Clamp
 
 Allows the user to set the the maximum Integral gain compensation used by the closed loop system.  
 
-## Integral Negative Clamp
+### Integral Negative Clamp
 
 Allows the user to set the minimum Integral gain compensation used by the closed loop system
 
-## Feed Forward
+### Feed Forward
 
 Having a correct feed forward duty cycle value allows for more precise control.
 
@@ -47,17 +46,17 @@ This feed forward value is added to the control signal before the PID is applied
 
 *Commanding an alternative angle will deliver a similar result, the average of these is your feed forward value.*
 
-## Intake Target Filter
+### Intake Target Filter
 
 Filters the Target signal to help smooth out any pulsations.
 
 Typical Value: 5 ( 0 = OFF)
 
-## VVTiE Base Control Frequency
+### VVTiE Base Control Frequency
 
 Toyota 2URFSE/2URGSE VVTiE Base frequency setting at 1000rpm
 
-## For PID Exhaust setup
+### For PID Exhaust setup
 
 ![Image](</img/VVT 1718.jpg>)
 

@@ -1,6 +1,5 @@
 ---
 title: "DBW 1/2 Configuration"
-weight: 55
 ---
 
 ## DBW 1/2 Configuration

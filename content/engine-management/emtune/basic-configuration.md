@@ -1,9 +1,6 @@
 ---
 title: "Basic Configuration Guide"
-weight: 12
 ---
-
-## Basic Configuration
 
 ## Software Navigation
 
@@ -23,7 +20,7 @@ Start on the left side “Engine Setup”, and work your way over from left to r
 
 **Do not** skip sections.  Following this practice as accurately as possible will ensure tuning process will move smoothly in the future.
 
-## WARNING: Improper entry in any part of the setup could be detrimental to the electronics AND the hardware!
+>[!WARNING] Improper entry in any part of the setup could be detrimental to the electronics AND the hardware!
 
 ## Engine Setup
 

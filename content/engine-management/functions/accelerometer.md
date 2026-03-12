@@ -1,6 +1,5 @@
 ---
 title: "Accelerometer"
-weight: 0
 ---
 
 ## Overview

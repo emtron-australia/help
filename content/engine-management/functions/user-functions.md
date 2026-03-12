@@ -1,6 +1,5 @@
 ---
 title: "User Functions"
-weight: 0
 ---
 
 User outputs are configured from this menu item.  Once the function has been enabled in the Functions setup menu the following form may be configured to control the output or status  :

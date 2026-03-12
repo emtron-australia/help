@@ -1,6 +1,5 @@
 ---
 title: "Overrun Fuel Cut"
-weight: 0
 ---
 
 This Function allows for the shutdown of the injectors during overrun.

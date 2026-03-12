@@ -1,9 +1,6 @@
 ---
 title: "Tuning"
-weight: 1065
 ---
-
-## Tuning
 
 ## Software Navigation
 

@@ -1,6 +1,5 @@
 ---
 title: "Cam Lockouts"
-weight: 0
 ---
 
 ## CAM Lockouts

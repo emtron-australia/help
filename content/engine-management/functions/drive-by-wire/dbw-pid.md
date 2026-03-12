@@ -1,6 +1,5 @@
 ---
 title: "DBW Closed Loop Control - DBW PID Setup"
-weight: 80
 ---
 
 **DBW PID Setup**   

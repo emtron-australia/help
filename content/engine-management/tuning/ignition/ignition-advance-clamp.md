@@ -1,6 +1,5 @@
 ---
 title: "Ignition Advance Clamp"
-weight: 36
 ---
 
 ## Ignition Advance Clamp

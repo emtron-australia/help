@@ -1,6 +1,5 @@
 ---
 title: "Bank Trims"
-weight: 1006
 ---
 
 ## Bank Trims

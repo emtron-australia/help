@@ -1,6 +1,5 @@
 ---
 title: "Ignition Main Tables"
-weight: 47
 ---
 
 Emtune has multiple tables for many engine functions.  The table behavior is based on comprehensive selections in Tuning under the respective function (IE, Fuel, Ignition, DBW, Cam control).  Some functions have many tables that can be enabled such as Fuel and Ignition tabs.  These main functions allow you to enable a variety of compensations, modifiers, individual trims, and more.  

@@ -1,6 +1,5 @@
 ---
 title: "Lambda NB Sensor Heater Control"
-weight: 0
 ---
 
 The Narrow Band Oxygen Sensor heater can be controlled using either switched or PWM mode. The method of control is adjusted from the Config View, Function Setup menu. 

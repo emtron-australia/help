@@ -1,6 +1,5 @@
 ---
 title: "Post Start Comp Table 1"
-weight: 96
 ---
 
 Compensates fueling once the engine is considered running

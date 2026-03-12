@@ -1,6 +1,5 @@
 ---
 title: "Continuous Logger"
-weight: 101
 ---
 
 ## Continuous Logger

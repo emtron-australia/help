@@ -1,6 +1,5 @@
 ---
 title: "Ignition Table Control"
-weight: 55
 ---
 
 ## Table Control

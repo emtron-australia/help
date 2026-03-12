@@ -1,6 +1,5 @@
 ---
 title: "BMW VANOS"
-weight: 0
 ---
 
 ## BMW VANOS Support

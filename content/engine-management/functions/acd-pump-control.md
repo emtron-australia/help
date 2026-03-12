@@ -1,6 +1,5 @@
 ---
 title: "Active Center Differential Pump Control (ACD)"
-weight: 0
 ---
 
 ## Active Center Differential (ACD) Hydraulic Pump Control

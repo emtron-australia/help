@@ -1,6 +1,5 @@
 ---
 title: "DBW Closed Loop tables"
-weight: 52
 ---
 
 ## DBW Feed Forward %DC Table

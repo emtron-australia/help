@@ -1,6 +1,5 @@
 ---
 title: "Math Expressions"
-weight: 1028
 ---
 
 A user definable mathematical equation that allows the user to generate channels for data analysis or to aid in rapidly validation tuning data. The expression is defined by a single line of text that can include most common mathematical operations and many advanced functions.

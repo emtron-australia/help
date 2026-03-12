@@ -1,6 +1,5 @@
 ---
 title: "Cal Slot Control"
-weight: 0
 ---
 
 ## Cal Slot Control

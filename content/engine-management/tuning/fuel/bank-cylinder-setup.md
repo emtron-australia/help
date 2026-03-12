@@ -1,6 +1,5 @@
 ---
 title: "Bank Cylinder Setup"
-weight: 75
 ---
 
 ## Bank Cylinder Setup

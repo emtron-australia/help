@@ -5,23 +5,18 @@ params:
   menuPre: '<i class="far fa-question-circle"></i> '
 ---
 
-1. Connection
+## Initial Setup & Connection 
+- [Ethernet](../getting-started/ethernet-connection.md)
+- [Power Supply](../wiring/power-supply-wiring.md)
+- [Licence Expired](../emtune/licence-expired.md)
 
-- Ethernet
-- Power Supply
-- Licence Expired
-- Windows
+## CAN Bus
+For detailed CAN bus information refer to the [Communications](../config/communications/_index.md) documentation.
 
-2. CAN Bus
+## Start files or Base Maps
+Some base cal files are included with Emtune and can be found in: `C:\Emtron\Cal Files\`. 
 
-- Sequential addressing
-- Terminating resistors
-- Twisting wires
-- Errors
+For application specific examples please contact [Support](../../support/_index.md).
 
-3. ECU Comparison
-4. Errors
-- Sensors & DTC’s
-- Crank/Sync errors
-
-5. Start files or Base Maps
+### Injector Data
+Many common injector deadtime and linearisation tables are included with Emtrun and can be found in: `C:\Emtron\Table Files\Injector Data Tables`.

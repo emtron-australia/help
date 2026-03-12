@@ -1,6 +1,5 @@
 ---
 title: "ORFC Status"
-weight: 0
 ---
 
 | Value | Status |

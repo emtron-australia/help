@@ -1,6 +1,5 @@
 ---
 title: "VVT System Status"
-weight: 0
 ---
 
 | Value | Status |

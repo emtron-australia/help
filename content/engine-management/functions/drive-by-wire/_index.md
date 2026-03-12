@@ -1,6 +1,5 @@
 ---
 title: "Drive By Wire"
-weight: 0
 ---
 
 All KV Series and SL Series ECU’s support from 1 up to 4 independently controlled Drive by Wire (DBW) Systems. 
