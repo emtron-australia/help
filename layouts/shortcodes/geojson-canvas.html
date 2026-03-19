@@ -133,26 +133,31 @@
             const centerLon = (minLon + maxLon) / 2;
             const centerLat = (minLat + maxLat) / 2;
 
-            function projectIsometric(lon, lat, angle) {
-                // Translate to center around geometric center
-                const nx = (lon - centerLon) / lonRange;
-                const ny = (lat - centerLat) / latRange;
+            const cosLat = Math.cos(centerLat * Math.PI / 180);
+            const metricLonRange = lonRange * cosLat;
+            const metricRange = Math.max(metricLonRange, latRange) || 1;
 
-                // Rotate around center
-                const cos = Math.cos(angle);
-                const sin = Math.sin(angle);
-                const rotX = nx * cos - ny * sin;
-                const rotY = nx * sin + ny * cos;
+            function projectOrthographic(lon, lat, angle) {
+                let nx = (lon - centerLon) / metricRange * 1.12;
+                let ny = (lat - centerLat) / metricRange * 1.12;
 
-                // Isometric projection (flipped to view from above)
-                const iso_x = (rotX - rotY) * 0.866;
-                const iso_y = -(rotX + rotY) * 0.5;
+                const c = Math.cos(angle);
+                const s = Math.sin(angle);
+                const rx = nx * c - ny * s;
+                const ry = nx * s + ny * c;
 
-                // Scale and center on canvas - increased zoom
-                const scale = Math.min(width, height) * 1.1;
-                const x = width / 2 + iso_x * scale;
-                const y = height / 2 + iso_y * scale;
-                return [x, y];
+                const tilt = 110 * Math.PI / 180;
+                const cy = Math.cos(tilt);
+                const sy = Math.sin(tilt);
+
+                const px = rx;
+                const py = ry * cy;           // ignore z (pure ortho)
+
+                const scale = Math.min(width, height) * 1.5;
+                return [
+                    centerX + px * scale,
+                    centerY + py * scale
+                ];
             }
 
             function drawFrame(angle) {
@@ -176,7 +181,7 @@
                     if (feature.geometry.type === 'LineString') {
                         ctx.beginPath();
                         feature.geometry.coordinates.forEach((coord, i) => {
-                            const [x, y] = projectIsometric(coord[0], coord[1], angle);
+                            const [x, y] = projectOrthographic(coord[0], coord[1], angle);
                             if (i === 0) ctx.moveTo(x, y);
                             else ctx.lineTo(x, y);
                         });
@@ -189,7 +194,7 @@
                             polygon.forEach(ring => {
                                 ctx.beginPath();
                                 ring.forEach((coord, i) => {
-                                    const [x, y] = projectIsometric(coord[0], coord[1], angle);
+                                    const [x, y] = projectOrthographic(coord[0], coord[1], angle);
                                     if (i === 0) ctx.moveTo(x, y);
                                     else ctx.lineTo(x, y);
                                 });

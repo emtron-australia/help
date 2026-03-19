@@ -17,6 +17,10 @@ Australia Tracks
 
 {{< geojson-canvas geojson="/tracks/Sydney Motorsport Park - Brabham.geojson" >}}
 
+## Sydney Motorsport Park - Druitt
+
+{{< geojson-canvas geojson="/tracks/Sydney Motorsport Park - Druitt.geojson" >}}
+
 ## Wakefield Park Raceway
 
 {{< geojson-canvas geojson="/tracks/Wakefield Park Raceway.geojson" >}}
