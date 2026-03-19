@@ -1,9 +1,9 @@
 ---
-title: "United Kingdom"
+title: "Europe"
 weight: 1
 ---
 
-United Kingdom Tracks
+Europe Tracks
 
 ## Brands Hatch GP
 
