@@ -1,5 +1,5 @@
 ---
-title: "VVT Cam Control"
+title: "Cam Control"
 ---
 
 {{% children sort="weight" depth=2 %}}

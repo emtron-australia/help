@@ -1,5 +1,5 @@
 ---
-title: "Exhaust Manifold Pressure 1"
+title: "Exhaust Manifold Pressure"
 ---
 
 ![IMPORTANT] Only absolute pressure sensors can be used. Gauge type sensors will NOT work as an EMAP sensor.
