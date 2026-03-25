@@ -21,7 +21,7 @@ title: "ZF 8HP"
 ---
 
 ## Base Calibration
-A base calibration based on the 8HP70 is included with MectriCal. 
+A base calibration based on the 8HP70 is included with TMtune. 
 Solenoid pressure translation tables are also included separately.
 
 ---
