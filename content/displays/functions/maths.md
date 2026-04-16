@@ -3,7 +3,66 @@ title: "Math Functions"
 description: "How to configure the real time math processing system"
 ---
 
-Math functions are evaluated at 100hz.
+Math functions are evaluated at 100hz. Expressions are written using the [Expr](https://expr-lang.org/) language.
+
+## Expression Syntax
+
+### Numeric Literals
+
+| Type    | Examples                              |
+|---------|---------------------------------------|
+| Integer | `42`, `0x2A` (hex), `0b1010` (binary) |
+| Float   | `0.5`, `.5`                           |
+
+### Arithmetic Operators
+
+| Operator    | Description         | Example        |
+|-------------|---------------------|----------------|
+| `+`         | Addition            | `rpm + 500`    |
+| `-`         | Subtraction         | `temp - 20`    |
+| `*`         | Multiplication      | `load * 0.5`   |
+| `/`         | Division            | `fuel / 4`     |
+| `%`         | Modulus (remainder) | `counter % 10` |
+| `^` or `**` | Exponent            | `x ^ 2`        |
+
+### Comparison Operators
+
+Returns `1` (true) or `0` (false).
+
+| Operator | Description              |
+|----------|--------------------------|
+| `==`     | Equal to                 |
+| `!=`     | Not equal to             |
+| `<`      | Less than                |
+| `>`      | Greater than             |
+| `<=`     | Less than or equal to    |
+| `>=`     | Greater than or equal to |
+
+### Logical Operators
+
+| Operator       | Description |
+|----------------|-------------|
+| `&&` or `and`  | Logical AND |
+| `\|\|` or `or` | Logical OR  |
+| `!` or `not`   | Logical NOT |
+
+### Conditional (Ternary) Operator
+
+```
+condition ? valueIfTrue : valueIfFalse
+```
+
+Example: `rpm > 3000 ? 1 : 0`
+
+### Local Variables
+
+Use `let` to declare intermediate values within an expression. Separate statements with `;`.
+
+```
+let x = rpm / 60;
+let y = x * 2;
+y + offset
+```
 
 ## Special Variables:
 * `timeDelta` Time since last evaluation in seconds.
