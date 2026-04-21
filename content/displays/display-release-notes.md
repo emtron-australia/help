@@ -8,15 +8,16 @@ weight: 1
 Download the latest installer [here](https://downloads.emtronaustralia.com.au/files/1_Software/2_Display/Emtron_Display_Studio_1.0.3_Setup.exe).
 
 - Stability improvements
-- OBD2 Client/Tool support
+- [OBD2 Client/Tool support](/displays/functions/obd2/)
 - OBD2 Server/ECU support
-- LIN Bus support
+- [LIN Bus support](/displays/functions/lin-bus/)
 - Increased CAN Bus 3 & 4 throughput limits
 - User-definable enums and associations
 - Virtual input system
 - Device password lock
 - Data, text, and voice telemetry systems
 - CAN DBC import and export
+- Import track lines from [track map geoJSON files](/motorsport/tracks/)
 
 ---
 
