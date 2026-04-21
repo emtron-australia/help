@@ -15,8 +15,8 @@ Download the latest installer [here](https://downloads.emtronaustralia.com.au/fi
 - Time plot setup window overhaul with drag-to-reorder, per-channel min/max, and other settings
 - Gauge area plot type with radial, steering, force, and bar gauges
 - Fixed a bug where math channel expression wouldn't update when clicking Write
-- Plot caption color now matches the trace
-- Command line interface for opening and closing logs
+- Plot caption colour now matches the trace
+- Emtune .elf files can be directly loaded without the converter
 
 ## EmVision Release Notes 1.0.1
 
