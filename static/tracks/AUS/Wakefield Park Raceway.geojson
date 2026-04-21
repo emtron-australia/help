@@ -1,6 +1,22 @@
 {
   "type": "FeatureCollection",
   "name": "Wakefield Park",
+  "header": {
+    "name": "Wakefield Park",
+    "loop": true,
+    "clockwise": true,
+    "default": true
+  },
+  "description": {
+    "country": "Australia",
+    "city": "Tirrannaville",
+    "state": "New South Wales",
+    "areacode": "NSW 2580",
+    "suburb": "",
+    "street": "4770 Braidwood Rd",
+    "url": "https://www.wakefieldpark.com.au/",
+    "description": "Wakefield Park Raceway is the nation’s spectator track, offering clear views of the entire circuit from most spectator areas. It is also home to club-level motorsport in New South Wales."
+  },
   "features": [
     {
       "type": "Feature",

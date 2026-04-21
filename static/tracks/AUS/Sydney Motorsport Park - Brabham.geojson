@@ -1,6 +1,22 @@
 {
   "type": "FeatureCollection",
   "name": "Sydney Motorsport Park (Brabham)",
+  "header": {
+    "name": "Sydney Motorsport Park (Brabham)",
+    "loop": true,
+    "clockwise": false,
+    "default": false
+  },
+  "description": {
+    "country": "Australia",
+    "city": "Sydney",
+    "state": "New South Wales",
+    "areacode": "NSW 2766",
+    "suburb": "Eastern Creek",
+    "street": "Ferrers Rd",
+    "url": "https://www.sydneymotorsportpark.com.au/",
+    "description": "Welcome to Sydney Motorsport Park, powered by the Australian Racing Drivers’ Club. Whether you’re a competitor racing or riding the track, an enthusiast wanting to unleash the full potential of your car or bike (or one of ours!) or just looking to soak up the excitement as a spectator at our many exciting events, Sydney Motorsport Park in Eastern Creek, NSW has something for every motoring enthusiast."
+  },
   "features": [
     {
       "type": "Feature",

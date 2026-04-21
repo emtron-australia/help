@@ -1,6 +1,22 @@
 {
   "type": "FeatureCollection",
   "name": "Mount Panorama",
+  "header": {
+    "name": "Mount Panorama",
+    "loop": true,
+    "clockwise": false,
+    "default": true
+  },
+  "description": {
+    "country": "Australia",
+    "city": "Bathurst",
+    "state": "New South Wales",
+    "areacode": "NSW Australia 2795",
+    "suburb": "",
+    "street": "Mountain Straight",
+    "url": "https://www.mount-panorama.com.au/",
+    "description": "Mount Panorama is unique in its rural setting. There are over 40 private residences located around the circuit (inside and outside). Private businesses also exist on the Mount - including: luxury accommodation, a winery, restaurant and fruit orchard. Several local sporting associations also use the Mount as a base for their activities, including the Sporting Shooters Association, Bathurst Rifle Club, Bathurst Gun Club, Panorama Motorcycle Club, and, of course, the Bathurst Light Car Club."
+  },
   "features": [
     {
       "type": "Feature",

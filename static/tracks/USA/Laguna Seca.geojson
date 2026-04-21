@@ -1,6 +1,22 @@
 {
   "type": "FeatureCollection",
   "name": "Laguna Seca",
+  "header": {
+    "name": "Laguna Seca",
+    "loop": true,
+    "clockwise": false,
+    "default": true
+  },
+  "description": {
+    "country": "United States",
+    "city": "",
+    "state": "Monterey, California",
+    "areacode": "",
+    "suburb": "",
+    "street": "",
+    "url": "https://www.co.monterey.ca.us/government/government-links/weathertech-raceway",
+    "description": ""
+  },
   "features": [
     {
       "type": "Feature",

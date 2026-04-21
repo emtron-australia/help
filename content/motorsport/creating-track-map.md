@@ -72,5 +72,5 @@ Here is the example track we created:
 
 ## Daytona International Speedway
 
-{{< geojson-canvas geojson="/tracks/Daytona International Speedway.geojson" >}}
+{{< geojson-canvas geojson="/tracks/USA/Daytona International Speedway.geojson" >}}
 

@@ -1,6 +1,22 @@
 {
   "type": "FeatureCollection",
   "name": "",
+  "header": {
+    "name": "",
+    "loop": false,
+    "clockwise": false,
+    "default": false
+  },
+  "description": {
+    "country": "",
+    "city": "",
+    "state": "",
+    "areacode": "",
+    "suburb": "",
+    "street": "",
+    "url": "",
+    "description": ""
+  },
   "features": [
     {
       "type": "Feature",

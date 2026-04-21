@@ -28,30 +28,33 @@ Additional tracks can be requested by emailing [support@emtronaustralia.com.au](
 | Tallem Bend (The Bend)       | International    | Tailem Bend, South Australia | ✅    |
 | Morgan Raceway (Morgan Park) | Full             | Warwick, Queensland          | ✅    |
 | Mallala Raceway              | Full             | Mallala, South Australia     | ✅    |
+| Calder Park Raceway          | Full             | Calder Park, Victoria        | ✅    |
 
 ### New Zealand
 
 | Track Name                            | Layout / Variant  | Location / City              | Done |
 |---------------------------------------|-------------------|------------------------------|------|
 | Ruapuna (Euromarque Motorsport Park)  | Full              | Christchurch, Canterbury     | ✅    |
-| Hampton Downs Motorsport Park         | National (2.7 km) | Waikato (near Meremere)      | ❌    |
-| Hampton Downs Motorsport Park         | International     | Waikato (near Meremere)      | ❌    |
-| Highlands Motorsport Park             | Full              | Cromwell, Otago              | ❌    |
-| Taupō Motorsport Park (Bruce McLaren) | Full              | Taupō, Waikato               | ❌    |
-| Manfeild Autocourse                   | Full              | Feilding, Manawatū-Whanganui | ❌    |
-| Teretonga Park                        | Full              | Invercargill, Southland      | ❌    |
+| Hampton Downs Motorsport Park         | National (2.7 km) | Waikato (near Meremere)      | ✅    |
+| Hampton Downs Motorsport Park         | International     | Waikato (near Meremere)      | ✅    |
+| Highlands Motorsport Park             | A                 | Cromwell, Otago              | ✅    |
+| Highlands Motorsport Park             | B                 | Cromwell, Otago              | ✅    |
+| Highlands Motorsport Park             | C                 | Cromwell, Otago              | ✅    |
+| Taupō Motorsport Park (Bruce McLaren) | Full              | Taupō, Waikato               | ✅    |
+| Manfeild Autocourse                   | Full              | Feilding, Manawatū-Whanganui | ✅    |
+| Teretonga Park                        | Full              | Invercargill, Southland      | ✅    |
 
 ### Japan
 
 | Track Name                                | Layout / Variant   | Location / City                | Done |
 |-------------------------------------------|--------------------|--------------------------------|------|
 | Tsukuba Circuit                           | Full (Course 2000) | Shimotsuma, Ibaraki Prefecture | ✅    |
-| Fuji Speedway                             | Full               | Oyama, Shizuoka Prefecture     | ❌    |
-| Suzuka Circuit                            | Full               | Suzuka, Mie Prefecture         | ❌    |
-| Suzuka Circuit                            | East               | Suzuka, Mie Prefecture         | ❌    |
-| Okayama International Circuit             | Full               | Mimasaka, Okayama Prefecture   | ❌    |
-| Mobility Resort Motegi (Twin Ring Motegi) | Road Course        | Motegi, Tochigi Prefecture     | ❌    |
-| Sportsland Sugo (Sugo)                    | Full               | Murata, Miyagi Prefecture      | ❌    |
+| Fuji Speedway                             | Full               | Oyama, Shizuoka Prefecture     | ✅    |
+| Suzuka Circuit                            | Full               | Suzuka, Mie Prefecture         | ✅    |
+| Suzuka Circuit                            | East               | Suzuka, Mie Prefecture         | ✅    |
+| Okayama International Circuit             | Full               | Mimasaka, Okayama Prefecture   | ✅    |
+| Mobility Resort Motegi (Twin Ring Motegi) | Road Course        | Motegi, Tochigi Prefecture     | ✅    |
+| Sportsland Sugo (Sugo)                    | Full               | Murata, Miyagi Prefecture      | ✅    |
 
 ### North America
 
@@ -59,22 +62,24 @@ Additional tracks can be requested by emailing [support@emtronaustralia.com.au](
 |-----------------------------------------|---------------------------|-----------------------------------|------|
 | WeatherTech Raceway Laguna Seca         | Full                      | Monterey, California, USA         | ✅    |
 | Thompson Speedway                       | Full (road course)        | Thompson, Connecticut, USA        | ✅    |
-| Sebring International Raceway           | Full                      | Sebring, Florida, USA             | ❌    |
-| Watkins Glen International              | Full                      | Watkins Glen, New York, USA       | ❌    |
-| Watkins Glen International              | Boot                      | Watkins Glen, New York, USA       | ❌    |
-| Virginia International Raceway (VIR)    | Full Course               | Alton, Virginia, USA              | ❌    |
-| Virginia International Raceway (VIR)    | North Course              | Alton, Virginia, USA              | ❌    |
-| Virginia International Raceway (VIR)    | South Course              | Alton, Virginia, USA              | ❌    |
-| Road Atlanta                            | Full                      | Braselton, Georgia, USA           | ❌    |
-| Circuit of the Americas (COTA)          | Full                      | Austin, Texas, USA                | ❌    |
-| Sonoma Raceway                          | Full                      | Sonoma, California, USA           | ❌    |
-| Road America                            | Full                      | Elkhart Lake, Wisconsin, USA      | ❌    |
-| Barber Motorsports Park                 | Full                      | Birmingham, Alabama, USA          | ❌    |
-| Mid-Ohio Sports Car Course              | Full                      | Lexington, Ohio, USA              | ❌    |
-| Lime Rock Park                          | Full                      | Lakeville, Connecticut, USA       | ❌    |
+| Daytona International Speedway          | Full                      | Daytona Beach, Florida, USA       | ✅    |
+| Sebring International Raceway           | Full                      | Sebring, Florida, USA             | ✅    |
+| Watkins Glen International              | Full                      | Watkins Glen, New York, USA       | ✅    |
+| Watkins Glen International              | Boot                      | Watkins Glen, New York, USA       | ✅    |
+| Virginia International Raceway (VIR)    | Full Course               | Alton, Virginia, USA              | ✅    |
+| Virginia International Raceway (VIR)    | North Course              | Alton, Virginia, USA              | ✅    |
+| Virginia International Raceway (VIR)    | South Course              | Alton, Virginia, USA              | ✅    |
+| Road Atlanta                            | Full                      | Braselton, Georgia, USA           | ✅    |
+| Circuit of the Americas (COTA)          | Full                      | Austin, Texas, USA                | ✅    |
+| Sonoma Raceway                          | A                         | Sonoma, California, USA           | ✅    |
+| Sonoma Raceway                          | B                         | Sonoma, California, USA           | ✅    |
+| Road America                            | Full                      | Elkhart Lake, Wisconsin, USA      | ✅    |
+| Barber Motorsports Park                 | Full                      | Birmingham, Alabama, USA          | ✅    |
+| Mid-Ohio Sports Car Course              | Full                      | Lexington, Ohio, USA              | ✅    |
+| Lime Rock Park                          | Full                      | Lakeville, Connecticut, USA       | ✅    |
 | Thunderhill Raceway Park                | 5-Mile                    | Willows, California, USA          | ❌    |
 | Thunderhill Raceway Park                | East                      | Willows, California, USA          | ❌    |
-| Thunderhill Raceway Park                | West                      | Willows, California, USA          | ❌    |
+| Thunderhill Raceway Park                | West                      | Willows, California, USA          | ✅    |
 | Canadian Tire Motorsport Park (Mosport) | Full                      | Bowmanville, Ontario, Canada      | ❌    |
 | Circuit Gilles Villeneuve               | Full                      | Montreal, Quebec, Canada          | ❌    |
 | Area 27                                 | Full                      | Oliver, British Columbia, Canada  | ❌    |
