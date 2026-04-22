@@ -3,6 +3,14 @@ title: "EmVision Release Notes"
 weight: 1
 ---
 
+## EmVision Release Notes 1.0.3 (22nd April 2026)
+
+Download the latest installer [here](https://downloads.emtronaustralia.com.au/files/1_Software/3_Data%20Logging/EmVision_1.0.3_Setup.exe).
+
+- Log files now load up to 10x faster
+- Fixed zoom jerk when viewing some .elf files
+- Fixed loading of some fuel correction channels
+
 ## EmVision Release Notes 1.0.2 (21st April 2026)
 
 Download the latest installer [here](https://downloads.emtronaustralia.com.au/files/1_Software/3_Data%20Logging/EmVision_1.0.2_Setup.exe).
