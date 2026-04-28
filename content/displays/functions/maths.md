@@ -3,9 +3,26 @@ title: "Math Functions"
 description: "How to configure the real time math processing system"
 ---
 
-Math functions are evaluated at 100hz. Expressions are written using the [Expr](https://expr-lang.org/) language.
+## Settings
+
+### Evaluation
+
+ * Continuous - the expressions are evaluated constantly at 100Hz
+ * On Event - the expressions are evaluated only when the assigned event occurs
+
+### Variable Name
+
+This is the variable name that will become available for use in the expression.
+
+### Derivative
+
+When checked, an additional variable will become available containing the derivative of the input channel. The derivative variable uses the standard variable name with a `d` prefix.
+
+e.g. If the channel variable is `EngineSpeed`, then the derivative variable will be `dEngineSpeed`.
 
 ## Expression Syntax
+
+Expressions are written using the [Expr](https://expr-lang.org/) language.
 
 ### Numeric Literals
 
