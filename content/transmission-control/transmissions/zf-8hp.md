@@ -81,23 +81,23 @@ We have found that potting the modified mechatronics units with compounds such a
 | Pin | Function                        | TCM Pin **1*             |
 | --- | ------------------------------- | ------------------------ |
 | 1   | Sensor 0V Ref                   | Sensor GND (A9)          |
-| 2   | Line Pressure Solenoid          | Sol 2 (B11)              | 
+| 2   | Line Pressure Solenoid          | Sol 6 (B15)              | 
 | 3   | Speed Sensor 8V Supply          | 8V Out (C18)             |
 | 4   | Accumulator Solenoid            | Sol 10 (B19)             |
 | 5   | Park Hold Solenoid              | Sol 9 (B18)              |
-| 6   | Park Release Solenoid           | Sol 1 (B10)              |
-| 7   | Clutch C Solenoid               | Sol 4 (B13)              |
-| 8   | Input Shaft Speed Signal        | DI 4 (A18)               |
+| 6   | Park Release Solenoid           | Sol 8 (B17)              |
+| 7   | Clutch C Solenoid               | Sol 3 (B12)              |
+| 8   | Input Shaft Speed Signal        | DI 1 (A18)               |
 | 9   | Clutch E Solenoid               | Sol 5 (B14)              |
-| 10  | Output Shaft Speed Signal       | DI 5 (A19)               |
-| 11  | Brake A Solenoid                | Sol 8 (B17)              |
-| 12  | TC Lockup Solenoid              | Sol 3 (B12)              |
+| 10  | Output Shaft Speed Signal       | DI 2 (A19)               |
+| 11  | Brake A Solenoid                | Sol 1 (B10)              |
+| 12  | TC Lockup Solenoid              | Sol 7 (B16)              |
 | 13  | Trans Fluid Temp Sensor         | An 1 (A1)                |
 | 14  | Solenoid Power Supply           | Sol +V Out (B30+B31) **2*|
-| 15 *(Gen 1)* | Brake B Solenoid       | Sol 6 (B15) **3*         |
-| 15 *(Gen 2)* | Clutch D Solenoid      | Sol 6 (B15) **3*         |
-| 16 *(Gen 1)* | Clutch D Solenoid      | Sol 7 (B16) **3*         |
-| 16 *(Gen 2)* | Brake B Solenoid       | Sol 7 (B16) **3*         |
+| 15 *(Gen 1)* | Clutch D Solenoid      | Sol 4 (B13) **3*         |
+| 15 *(Gen 2)* | Brake B Solenoid       | Sol 4 (B13) **3*         |
+| 16 *(Gen 1)* | Brake B Solenoid       | Sol 2 (B11) **3*         |
+| 17 *(Gen 2)* | Clutch D Solenoid      | Sol 2 (B11) **3*         |
 
 > **1.** This pinout matches the supplied 8HP base calibration. You're free to alter the TCM pin assignments as long as the change is reflected in the config.
 
@@ -120,6 +120,12 @@ In this arrangement, the signal voltage will sit at around 2V when stationary, a
 
 The high and low arming thresholds must be set correctly to detect the speed signal. The low threshold must be ABOVE the sensor voltage at rest, and the high threshold must be BELOW the maximum voltage when the sensor is active.
 
+### Speed Sensor Calibration
+| Model | Input Shaft Speed | Output Shaft Speed |
+| ----- | ----------------- | ------------------ |
+| 8HP50 | 28 Teeth          | 40 Teeth           |
+| 8HP70 | 30 Teeth          | 40 Teeth           |
+
 ---
 
 ## Solenoids
@@ -132,8 +138,8 @@ The 8HP uses the following "shift elements":
 
 The multidisc clutches (C, D and E) feed the drive torque to the planetary gear. The multidisc brakes (A and B) support the torque against the transmission housing.
 
-| Solenoid             | Shift Element | Note                                            |
-| -------------------- | ------------- | ----------------------------------------------- |
+| Solenoid              | Shift Element | Note                                            |
+| --------------------- | ------------- | ----------------------------------------------- |
 | **Clutch Solenoid A** | Brake A       | VFS, normally vented (no pressure when off).    |
 | **Clutch Solenoid B** | Brake B       | VFS, normally vented (no pressure when off).    |
 | **Clutch Solenoid C** | Clutch C      | VFS, normally applied (high pressure when off). |
