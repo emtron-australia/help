@@ -34,6 +34,8 @@ The following channels are transmitted but the ECU:
  - Brake Switch
  - Engine Temperature
  - Idle Target
+ - Idle Status
+ - Overrun Fuel Cut Status
  - CE Light
 
 --- 
