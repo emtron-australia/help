@@ -33,24 +33,26 @@ The TM16 integrates seamlessly via CAN with all **Emtron ECU's**, allowing for f
 
 Additionally, the TCM also has a two fully open and configurable CAN bus nodes, meaning that users can send and receive any data required in any format to integrate almost any third party ECU. The level of control available is ultimately up to the ECU in question and will vary from extremely crude to fully featured depending on the ECU in question.
 
-Critical signals such as Engine Speed and Throttle Position can also be inputted via physically wired inputs.
+Critical signals such as Engine Speed and Pedal Position can also be inputted via physically wired inputs.
 
-For optimal results, it is strongly recommended that the engine ECU be capable of modelling and reporting accurate engine torque as well as abiding by torque reduction requests and meeting down shift rev match targets. If the ECU is incapable of modelling torque, the TCM has it's own torque model that can calculate accurate engine torque from as little as an injector duty cycle value.
+Integrating a third party ECU requires a solid understanding of all the systems in use, as well as a solid understanding of CAN bus communications.
+
+>[!WARNING] The engine ECU must be capable of modelling and reporting accurate engine torque as well as abiding by torque reduction requests and meeting down shift rev match targets.
+
+>[!INFO] Usage outside of the Emtron ecosystem is provided as is. It is up to the end user to determine if a platform can be used and how to do so. Emtron cannot provide technical support for third party systems.
 
 ## CAN Integrations
-
 As well as a fully user definable CAN bus, the TCM does have some preset CAN data sets which are always being added to over time.
 
 **Available CAN Presets**
 
 | Preset                      | Direction | Note   |
 | --------------------------- | --------- | ------ |
-| Emtron Transmission Control | Rx & Tx | Used for Emtron torque modelled CAN integration |
+| Emtron Transmission Control | Rx & Tx | Emtron torque modelled CAN integration |
 | Emtron Predefined Tx Set 1  | Rx      |  |
 | Emtron Predefined Tx Set 2  | Rx      |  |
 | Emtron Predefined Tx Set 3  | Rx      |  |
-| Link Generic Dash           | Rx      |  |
-| Nissan R35 GTR TCM          | Rx & Tx | Free when used with an Emtron ECU. Unlock required for use with other ECU platforms. |
+| Nissan R35 GTR TCM          | Rx & Tx | Only available for use with Emtron ECU's |
 
 ## Shifter Inputs
 The TCM can use a wide variety of shifters including CAN bus, analog, digital switch arrays, individual switches, CAN keypads, or combinations of any of the aforementioned input types.
