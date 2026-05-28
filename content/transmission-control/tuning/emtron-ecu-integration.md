@@ -6,7 +6,7 @@ weight: 1
 This document details the steps required for the TCM and ECU to integrate with each other.
 
 ## TM16 to Emtron ECU CAN Protocol
-The TM16 CAN protocol uses ID's in the rage of 336 to 345 (0x150 to 0x159). Car must be take to ensure that no other devices are using ID's withing that range.
+The TM16 CAN protocol uses ID's in the range of 336 to 345 (0x150 to 0x159). Care must be taken to ensure that no other devices are using ID's withing that range.
 
 >[!INFO] Channels controlled by Input Functions (eg: Engine Speed) must have their input source set to CAN.
 
@@ -14,13 +14,14 @@ The TM16 CAN protocol uses ID's in the rage of 336 to 345 (0x150 to 0x159). Car 
 ### Transmission Channels
 The following channels are transmitted by the TCM:
  - Gear
- - Gear Request
+ - Gear Request (Next Gear)
  - Input Shaft Speed
  - Output Shaft Speed
  - Torque Limit (Slow / Throttle)
  - Torque Limit (Fast / Ignition)
  - Up Shift Switch
  - Down Shift Switch
+ - Transmission Fluid Temp
 
 ### Engine Channels
 The following channels are transmitted but the ECU:
