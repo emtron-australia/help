@@ -160,14 +160,28 @@ Mechanical. Clips onto and holds the park-release piston in its disengaged posit
 
 --- 
 
+## Clutch Geometry
+The following data is provided as a guide based on the best information available at time of writing.
+
+### 8HP70
+| Clutch   | Plates | Friction OD/ID (mm) | Piston OD/ID (mm) |
+| -------- | :----: | :-----------------: | :---------------: |
+| Brake A  | 5      | 144.0 / 126.0       | 144.1 / 99.5      |
+| Brake B  | 5      | 196.0 / 176.0       | 206.5 / 168.9     |
+| Clutch C | 6      | 163.0 / 139.0       | 95.7  / 44.8      |
+| Clutch D | 4      | 172.0 / 149.0       | 126.7 / 47.5      |
+| Clutch E | 5      | 163.0 / 139.0       | 116.0 / 46.0      |
+
+---
+
 ## Gear Sequencing
  By engaging different combinations of the five shift elements listed above, the transmission obtains each of its eight forward ratios (plus reverse). 
 
 | Gear  | Brake A | Brake B | Clutch C | Clutch D | Clutch E |
-| ----- | :-----: | :-----: | :------: | :------: | :------: |
-| **P** |    X    |         |          |          |          |
+| ----: | :-----: | :-----: | :------: | :------: | :------: |
+| **P** |         |         |          |          |          |
 | **R** |    X    |    X    |          |     X    |          |
-| **N** |    X    |         |          |          |          |
+| **N** |         |         |          |          |          |
 | **1** |    X    |    X    |     X    |          |          |
 | **2** |    X    |    X    |          |          |     X    |
 | **3** |         |    X    |     X    |          |     X    |
@@ -176,6 +190,22 @@ Mechanical. Clips onto and holds the park-release piston in its disengaged posit
 | **6** |         |         |     X    |     X    |     X    |
 | **7** |    X    |         |     X    |     X    |          |
 | **8** |    X    |         |          |     X    |     X    |
+
+### Clutch Gear Load Factor
+The ratio of input torque that each clutch/brake element carries for a given gear.
+
+| Gear  | Brake A | Brake B | Clutch C | Clutch D | Clutch E |
+| ----: | :-----: | :-----: | :------: | :------: | :------: |
+| **R** |   1.661 |   2.656 |        — |    1.739 |        — |
+| **N** |       — |       — |        — |        — |        — |
+| **1** |   1.238 |   2.476 |    1.000 |        — |        — |
+| **2** |   0.492 |   1.651 |        — |        — |    0.667 |
+| **3** |       — |   1.106 |    0.660 |        — |    1.106 |
+| **4** |       — |   0.667 |        — |    0.397 |    0.514 |
+| **5** |       — |   0.285 |    0.573 |    0.743 |        — |
+| **6** |       — |       — |    1.000 |    1.000 |    0.383 |
+| **7** |   0.161 |       — |    0.517 |    0.839 |        — |
+| **8** |   0.333 |       — |        — |    0.667 |    0.411 |
 
 ---
 
