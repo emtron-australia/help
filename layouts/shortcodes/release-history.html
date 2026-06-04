@@ -1,0 +1,119 @@
+{{- $apiUrl := .Get "url" | default "" -}}
+{{- $downloadBase := .Get "download_base" | default "" -}}
+
+{{- if not $apiUrl -}}
+{{- errorf "The release-history shortcode requires a 'url' parameter pointing to the release history API." -}}
+{{- end -}}
+
+{{- $id := printf "release-history-%s" (now.UnixNano | string) -}}
+
+<div id="{{ $id }}" class="release-history">
+  <p class="release-history-loading">Loading release notes&hellip;</p>
+</div>
+
+<script>
+(function () {
+  var container = document.getElementById("{{ $id }}");
+  var apiUrl = "{{ $apiUrl }}";
+  var downloadBase = "{{ $downloadBase }}";
+
+  function loadMarked(cb) {
+    if (window.marked) { cb(); return; }
+    var s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/marked@12/marked.min.js";
+    s.onload = cb;
+    s.onerror = function () {
+      container.innerHTML = '<p class="release-history-error">Failed to load markdown renderer.</p>';
+    };
+    document.head.appendChild(s);
+  }
+
+  function formatDate(iso) {
+    var d = new Date(iso);
+    return d.toLocaleDateString("en-AU", { year: "numeric", month: "long", day: "numeric" });
+  }
+
+  function render(items) {
+    if (!items || items.length === 0) {
+      container.innerHTML = "<p>No release notes available.</p>";
+      return;
+    }
+
+    var html = items.map(function (item) {
+      var notes = marked.parse(item.release_notes || "");
+      var downloadLink = "";
+      if (downloadBase) {
+        var url = downloadBase.replace("{version}", item.version);
+        downloadLink = '<p><a href="' + url + '">Download version ' + item.version + '</a></p>';
+      }
+      return (
+        '<section class="release-history-item">' +
+          '<h4>Version ' + item.version +
+            ' <span class="release-history-date">(' + formatDate(item.published_at) + ')</span>' +
+          '</h4>' +
+          downloadLink +
+          '<div class="release-history-notes">' + notes + '</div>' +
+        '</section>'
+      );
+    }).join("");
+
+    container.innerHTML = html;
+  }
+
+  loadMarked(function () {
+    fetch(apiUrl, {
+      method: "GET",
+      headers: { "Accept": "application/json" },
+      mode: "cors"
+    })
+      .then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        render(data.items || data);
+      })
+      .catch(function (err) {
+        container.innerHTML =
+          '<p class="release-history-error">Failed to load release notes: ' +
+          err.message + '</p>';
+      });
+  });
+})();
+</script>
+
+<style>
+.release-history-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--BORDER_COLOR, #ddd);
+}
+.release-history-item:last-child {
+  border-bottom: none;
+}
+.release-history-date {
+  font-size: 0.85em;
+  font-weight: normal;
+  opacity: 0.7;
+}
+.release-history-loading,
+.release-history-error {
+  font-style: italic;
+  opacity: 0.7;
+}
+.release-history-notes ul {
+  padding-left: 1.5rem;
+}
+.release-history-notes h1,
+.release-history-notes h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.75rem 0 0.25rem;
+}
+.release-history-notes h3,
+.release-history-notes h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.25rem;
+}
+</style>
