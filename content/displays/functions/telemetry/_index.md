@@ -84,6 +84,14 @@ In [Display Studio](https://downloads.emtronaustralia.com.au/), the first thing 
 | **Use SSL**                  | Must be set to **true** when using official Emtron servers  |
 | **Validate SSL Certificate** | Optional: Verifies server authenticity.                     |
 
+{{% notice style="warning" title="Battery Backup Required for SSL Certificate Validation" %}}
+If the device is wired **without a battery backup**, it will lose its system clock on every power cycle. An incorrect system time will cause SSL certificate validation to **fail**, and the device will be **unable to connect** to the telemetry server.
+
+To avoid this, either:
+- Wire the device with a **battery backup** to preserve the system clock, or
+- Disable **Validate SSL Certificate** (reduces security but allows connection without a valid clock)
+{{% /notice %}}
+
 Ensure to click `Save Telemetry Settings` as these are stored independently of the config.
 
 #### Service Specific Setup
