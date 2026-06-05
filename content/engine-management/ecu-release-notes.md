@@ -3,11 +3,17 @@ title: "Firmware Release Notes"
 weight: 1101
 ---
 
+Emtron ECU firmware is packaged with Emtune via [EmUpdater](https://emnet.emtronaustralia.com.au/downloads).
+
 >[!CAUTION] After an ECU firmware upgrade, please read ALL the firmware update information from the previously installed version up to and including the current version. Connect to Emtune and apply any changes to ensure the ECU is correctly configured to run the latest firmware.
 
 >[!IMPORTANT] When active, the internal ECU logging will require reactivation after an ECU firmware upgrade.
 
 >[!WARNING] When performing a firmware upgrade on a plug-in ECU, the ignition coils be should be unplugged!
+
+---
+
+{{< release-history url="https://emnet.emtronaustralia.com.au/api/v1/products/ecu/release-history" >}}
 
 ---
 
