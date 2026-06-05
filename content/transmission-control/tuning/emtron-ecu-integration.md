@@ -5,6 +5,8 @@ weight: 1
 
 This document details the steps required for the TCM and ECU to integrate with each other.
 
+>[!TIP] Minimum ECU Firmware Version: **2.21.0**
+
 ## TM16 to Emtron ECU CAN Protocol
 The TM16 CAN protocol uses ID's in the range of 336 to 345 (0x150 to 0x159). Care must be taken to ensure that no other devices are using ID's withing that range.
 
