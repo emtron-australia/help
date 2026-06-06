@@ -15,8 +15,11 @@ The TCM will calculate all required clutch pressures based on supplied and avail
 
 >[!WARNING] It is absolutely critical that the engine torque data is accurate.
 
+---
+
 ## Line Pressure
->[!IMPORTANT] DO NOT try to tune the shifting on a multi-clutch transmission by manipulating the Line Pressure.
+>[!CAUTION] 
+>DO NOT try to tune the shifting on a multi-clutch transmission by manipulating the Line Pressure.
 
 Line Pressure should be sufficient to supply all the pressure the clutches need during a shift, but the clutches should control their own pressures. 
 
@@ -72,7 +75,8 @@ Pre-fill pressure does not usually exceed the touch point pressure.
 
 During Fast Fill, the clutch pressure solenoid is driven very high for a short period. The intention is to allow a fast in-rush of fluid to fill the clutch chamber as fast as possible.
 
->[!CAUTION] A correctly configured combination of Fast Fill Pressure and Fast Fill Time should result in the actual pressure ramping up very quickly to, but never in excess of the touch point.
+>[!CAUTION] 
+>A correctly configured combination of Fast Fill Pressure and Fast Fill Time should result in the actual pressure ramping up very quickly to, but never in excess of the touch point.
 
 **Typical Pressure:** 3.0 - 5.0 Bar
 **Typical Time:** 20-50ms
@@ -136,7 +140,8 @@ Any torque reduction that is enabled by the user is applied now to aid in syncin
 ![Up Shift Torque Limit](/img/tm16/up_shift_torque_limit.png)
 > Up shift torque limit gets applied at the start of the Inertial Sync phase and is removed as slip approaches zero.
 
->[!TIP] If the engine continues to limit torque after the clutch is synced and locked, the shift will feel harsh.
+>[!TIP] 
+>If the engine continues to limit torque after the clutch is synced and locked, the shift will feel harsh.
 
 ---
 
@@ -154,11 +159,37 @@ The runtimes to watch are `Oncoming Clutch Slip Target` and `Oncoming Clutch Sli
 
 If a shift feels harsh, check the slip curve. If the slip is on target, extend the shift times before looking for a way to alter the clutch pressure or clutch torque capacity.
 
+**Tuning Considerations:**
+ - The [Clutches Geometry Model](./clutch-model.md) has the most influence over clutch torque calculations during a shift.
+ - The amount of torque to added to sync engine speed during the [Inertial Sync Phase](#inertial-sync-phase) is determined by the [Engine's Inertia](./engine-torque.md#engine-inertia) setting. Incorrect engine inertia will result in poor synchronization.
+
 ![Ideal Shift Slip Example](/img/tm16/shift_slip_ideal.png)
 > Ideal clutch slip curve during an upshift.
 
-### Touch Points
->[!IMPORTANT] It is critical that the Clutch Touch Points are setup at the outset. Poorly configured touch points will always lead to bad shifting and drivability.
+### Shift Runtimes
+When looking to see what's happening during a shift there are several important runtime channels to watch:
 
+ - **Shift Phase**: Shows which phase the shift is currently in.
+ - **Clutch Input Torque**: This is the torque that all the clutch pressure calculations use as their input reference. Most of the time this is the same as `Engine Torque (Supplied)`.
+ - **Clutch # Input Torque**: Each clutch may have a different input torque depending on it's current Gear Load Factor Table value. ```Clutch # Input Torque = Clutch Input Torque x Clutch # Gear Load Factor```
+ - **Oncoming Clutch Torque Split**: During a shift, this is the calculated torque that the oncoming clutch is required to hold. The value seen here is before any closed loop intervention. It's the raw output of the shift modelling and inertia factors.
+ - **Offgoing Clutch Torque Split**: During a shift, this is the calculated torque that the offgoing clutch is required to hold. The value seen here is before any closed loop intervention. It's the raw output of the shift modelling and inertia factors.
+ - **Oncoming Clutch Slip Target**: How much slip the oncoming clutch should have for an ideal shift, to meet the user's shift time targets.
+ - **Oncoming Clutch Slip**: The actual slip of the oncoming clutch. During ideal shift conditions, this will usually lay over the top of the target value. It's very possible and expected that under some conditions this will not be the case, for example: During a rev-matched downshift where the synchronization of the engine speed is not controlled by the TCM.
+ - **Shift P Gain**: Shift closed loop control proportional output.
+ - **Shift I Gain**: Shift closed loop control integral output.
+ - **Shift D Gain**: Shift closed loop control derivative output.
+ - **Clutch # Torque Capacity**: The actual calculated torque capacity of the clutch derived from it's currently applied pressure. This value is after all closed loop control and rate limiting has been applied.
 
+---
 
+## Touch Points
+>[!IMPORTANT]
+>It is critical that the Clutch Touch Points are setup at the outset. Poorly configured touch points will always lead to bad shifting and drivability.
+
+For detailed information on setting touch points see [here](./touch-points.md).
+
+---
+
+## Clutch Capacity Learning
+The [Clutches Geometry Model](./clutch-geometry.md) and engine inertia value will control the majority of the clutch torque applied during a shift. During a shift, the closed loop PID algorithm will make adjustments to the final clutch torque to try and keep the slip curve on target. After a shift, as long as the conditions are met, the [Clutch Capacity Adaption](./clutch-capacity-learning.md) system will look at the previous shift's closed loop output and make small adjustments to the relevant clutch's Learned Capacity Scaler.

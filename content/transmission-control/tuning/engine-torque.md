@@ -1,11 +1,14 @@
 ---
-title: "Torque"
-draft: true
+title: "Engine Torque"
 ---
 
-Accurate engine torque modelling is critical for transmission performance.
+>[!IMPORTANT]
+>Accurate engine torque modelling is critical for transmission performance.
 
-## Inertia
+## Engine Inertia
+Engine inertia is used to calculate the clutch torque required to sync the engine speed during a shift. It also informs the rev-match torque calculation.
+
+![Vehicle Setup](/img/tm16/vehicle_setup.png)
 
 | Engine / configuration             | Typical Inertia (kg·m²) |
 | ---------------------------------- | ----------------------- |
