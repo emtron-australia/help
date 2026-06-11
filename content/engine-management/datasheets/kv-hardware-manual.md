@@ -6,8 +6,6 @@ weight: 5
 
 **Rev 1.0** &nbsp;•&nbsp; Supported models: **KV8 / KV12 / KV16 / KV16M**
 
-© Emtron Australia Pty Ltd — June 2018
-
 {{< figure src="/img/kv-hardware-manual/page01_img10.jpeg" caption="Emtron KV8 ECU" >}}
 {{< figure src="/img/kv-hardware-manual/page01_img11.jpeg" caption="Emtron KV12 ECU" >}}
 
