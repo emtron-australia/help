@@ -3,8 +3,6 @@ title: "ED5 User Manual"
 weight: 6
 ---
 
-**Emtron Dash 5" (ED5) — Rev 1.0**
-
 **Kit Contents** — When purchasing an ED5 the following items are included:
 
 - 1 × ED5 5 inch Display
@@ -64,15 +62,15 @@ The ED5 features a full-colour, daylight readable screen surrounded by a tough, 
 
 | Pin | Function              |
 |:---:|-----------------------|
-| 1   | 14 V Supply           |
-| 2   | Ground                |
-| 3   | CAN 1 Hi              |
-| 4   | CAN 1 Lo              |
-| 5   | CAN 2 Hi              |
-| 6   | CAN 2 Lo              |
-| 7   | Page Up               |
-| 8   | Reset/Ack             |
-| 9   | Night Mode            |
+|  1  | 14 V Supply           |
+|  2  | Ground                |
+|  3  | CAN 1 Hi              |
+|  4  | CAN 1 Lo              |
+|  5  | CAN 2 Hi              |
+|  6  | CAN 2 Lo              |
+|  7  | Page Up               |
+|  8  | Reset/Ack             |
+|  9  | Night Mode            |
 | 10  | Beacon                |
 | 11  | User 1 Input (spare1) |
 | 12  | User 2 Input (spare2) |

@@ -3,8 +3,6 @@ title: "Shadow 8 ECU Datasheet"
 weight: 9
 ---
 
-**Rev 1.1** &nbsp;•&nbsp; Emtron Shadow 8 ECU
-
 {{< figure src="/img/shadow-8-datasheet/page01_img02.jpeg" caption="Emtron Shadow 8 ECU" >}}
 
 ## 1.0 General
@@ -188,96 +186,96 @@ The Shadow ECU range is built upon the outstanding foundation of the KV Series. 
 
 *(15.0A Max continuous current - wire gauge dependant)*
 
-| Pin | Channel Name             | Pin | Channel Name      |
-|:---:|--------------------------|:---:|-------------------|
-| A1  | ECU Supply               | A18 | Analog Voltage 6  |
-| A2  | Sensor 8.0V Sensor Supply| A19 | Analog Voltage 7  |
-| A3  | Sensor 5.0V Sensor Supply| A20 | Analog Voltage 8  |
-| A4  | 0V Analog Reference      | A21 | Analog Voltage 9  |
-| A5  | Crank Position Sensor    | A22 | Analog Voltage 10 |
-| A6  | Sync Position Sensor     | A23 | CAN Bus 1 Low     |
-| A7  | Trigger Ground           | A24 | Knock 2 +ve       |
-| A8  | Shield                   | A25 | Knock 2 -ve       |
-| A9  | Ground 1                 | A26 | Digital Input 1   |
-| A10 | Analog Voltage 1         | A27 | Digital Input 2   |
-| A11 | Analog Voltage 2         | A28 | Digital Input 3   |
-| A12 | Analog Voltage 3         | A29 | Digital Input 4   |
-| A13 | Analog Voltage 4         | A30 | Digital Input 5   |
-| A14 | Analog Voltage 5         | A31 | Digital Input 6   |
-| A15 | CAN Bus 1 High           | A32 | CAN Bus 2 High    |
-| A16 | Knock 1 +ve              | A33 | CAN Bus 2 Low     |
-| A17 | Knock 1 -ve              | A34 | Ground 2          |
+| Pin | Channel Name              | Pin | Channel Name      |
+|:---:|---------------------------|:---:|-------------------|
+| A1  | ECU Supply                | A18 | Analog Voltage 6  |
+| A2  | Sensor 8.0V Sensor Supply | A19 | Analog Voltage 7  |
+| A3  | Sensor 5.0V Sensor Supply | A20 | Analog Voltage 8  |
+| A4  | 0V Analog Reference       | A21 | Analog Voltage 9  |
+| A5  | Crank Position Sensor     | A22 | Analog Voltage 10 |
+| A6  | Sync Position Sensor      | A23 | CAN Bus 1 Low     |
+| A7  | Trigger Ground            | A24 | Knock 2 +ve       |
+| A8  | Shield                    | A25 | Knock 2 -ve       |
+| A9  | Ground 1                  | A26 | Digital Input 1   |
+| A10 | Analog Voltage 1          | A27 | Digital Input 2   |
+| A11 | Analog Voltage 2          | A28 | Digital Input 3   |
+| A12 | Analog Voltage 3          | A29 | Digital Input 4   |
+| A13 | Analog Voltage 4          | A30 | Digital Input 5   |
+| A14 | Analog Voltage 5          | A31 | Digital Input 6   |
+| A15 | CAN Bus 1 High            | A32 | CAN Bus 2 High    |
+| A16 | Knock 1 +ve               | A33 | CAN Bus 2 Low     |
+| A17 | Knock 1 -ve               | A34 | Ground 2          |
 
 ### Connector B: Injection / Ignition / Auxiliary Outputs
 
 *(15.0A Max continuous current - wire gauge dependant)*
 
-| Pin | Channel Name                | Pin | Channel Name                  |
-|:---:|-----------------------------|:---:|-------------------------------|
-| B1  | Battery Constant (HOT) Supply | B18 | Digital Input 7             |
-| B2  | Injector Cylinder 1         | B19 | Digital Input 8               |
-| B3  | Injector Cylinder 2         | B20 | Digital Input 9               |
-| B4  | Injector Cylinder 3         | B21 | Digital Input 10 / Ignition Switch |
-| B5  | Injector Cylinder 4         | B22 | Aux Output 9                  |
-| B6  | Injector Cylinder 5         | B23 | Aux Output 10                 |
-| B7  | Injector Cylinder 6         | B24 | Aux Output 11                 |
-| B8  | Injector Cylinder 7         | B25 | Aux Output 12                 |
-| B9  | Injector Cylinder 8         | B26 | Aux 9-12 Power Supply         |
-| B10 | Aux Output 1                | B27 | Ignition TTL Cylinder 1       |
-| B11 | Aux Output 2                | B28 | Ignition TTL Cylinder 2       |
-| B12 | Aux Output 3                | B29 | Ignition TTL Cylinder 3       |
-| B13 | Aux Output 4                | B30 | Ignition TTL Cylinder 4       |
-| B14 | Aux Output 5                | B31 | Ignition TTL Cylinder 5       |
-| B15 | Aux Output 6                | B32 | Ignition TTL Cylinder 6       |
-| B16 | Aux Output 7                | B33 | Ignition TTL Cylinder 7       |
-| B17 | Aux Output 8                | B34 | Ignition TTL Cylinder 8       |
+| Pin | Channel Name                  | Pin | Channel Name                       |
+|:---:|-------------------------------|:---:|------------------------------------|
+| B1  | Battery Constant (HOT) Supply | B18 | Digital Input 7                    |
+| B2  | Injector Cylinder 1           | B19 | Digital Input 8                    |
+| B3  | Injector Cylinder 2           | B20 | Digital Input 9                    |
+| B4  | Injector Cylinder 3           | B21 | Digital Input 10 / Ignition Switch |
+| B5  | Injector Cylinder 4           | B22 | Aux Output 9                       |
+| B6  | Injector Cylinder 5           | B23 | Aux Output 10                      |
+| B7  | Injector Cylinder 6           | B24 | Aux Output 11                      |
+| B8  | Injector Cylinder 7           | B25 | Aux Output 12                      |
+| B9  | Injector Cylinder 8           | B26 | Aux 9-12 Power Supply              |
+| B10 | Aux Output 1                  | B27 | Ignition TTL Cylinder 1            |
+| B11 | Aux Output 2                  | B28 | Ignition TTL Cylinder 2            |
+| B12 | Aux Output 3                  | B29 | Ignition TTL Cylinder 3            |
+| B13 | Aux Output 4                  | B30 | Ignition TTL Cylinder 4            |
+| B14 | Aux Output 5                  | B31 | Ignition TTL Cylinder 5            |
+| B15 | Aux Output 6                  | B32 | Ignition TTL Cylinder 6            |
+| B16 | Aux Output 7                  | B33 | Ignition TTL Cylinder 7            |
+| B17 | Aux Output 8                  | B34 | Ignition TTL Cylinder 8            |
 
 ### Digital Inputs Summary
 
-| Pin | Channel Name                     | Pullup Control | Type                                                   |
-|:---:|----------------------------------|:--------------:|--------------------------------------------------------|
-| A26 | Digital Input 1 (Wheel Speed)    | Yes            | Mag or Hall 0-5kHz, OR Analog 0-20V, Adj Arm           |
-| A27 | Digital Input 2 (Wheel Speed)    | Yes            | Mag or Hall 0-5kHz, OR Analog 0-20V, Adj Arm           |
-| A28 | Digital Input 3 (Wheel Speed)    | Yes            | Mag or Hall 0-5kHz, OR Analog 0-20V, Adj Arm           |
-| A29 | Digital Input 4 (Wheel Speed)    | Yes            | Mag or Hall 0-5kHz, OR Analog 0-20V, Adj Arm           |
-| A30 | Digital Input 5                  | Yes            | Hall 0-5kHz, Analog 0-20V, Fixed Arm 1.45V, SENT Protocol compatible |
-| A31 | Digital Input 6                  | Yes            | Hall 0-5kHz, Analog 0-20V, Fixed Arm 1.45V, SENT Protocol compatible |
-| B18 | Digital Input 7                  | Yes            | Hall 0-5kHz, Analog 0-20V, Fixed Arm 1.45V, SENT Protocol compatible |
-| B19 | Digital Input 8                  | Yes            | Hall 0-5kHz, Analog 0-20V, Fixed Arm 1.45V, SENT Protocol compatible |
-| B20 | Digital Input 9                  | No Pullup      | Analog 0-20V                                           |
-| B21 | Digital Input 10 / Ignition Switch | No Pullup    | Analog 0-20V                                           |
+| Pin | Channel Name                       | Pullup Control | Type                                                                 |
+|:---:|------------------------------------|:--------------:|----------------------------------------------------------------------|
+| A26 | Digital Input 1 (Wheel Speed)      |      Yes       | Mag or Hall 0-5kHz, OR Analog 0-20V, Adj Arm                         |
+| A27 | Digital Input 2 (Wheel Speed)      |      Yes       | Mag or Hall 0-5kHz, OR Analog 0-20V, Adj Arm                         |
+| A28 | Digital Input 3 (Wheel Speed)      |      Yes       | Mag or Hall 0-5kHz, OR Analog 0-20V, Adj Arm                         |
+| A29 | Digital Input 4 (Wheel Speed)      |      Yes       | Mag or Hall 0-5kHz, OR Analog 0-20V, Adj Arm                         |
+| A30 | Digital Input 5                    |      Yes       | Hall 0-5kHz, Analog 0-20V, Fixed Arm 1.45V, SENT Protocol compatible |
+| A31 | Digital Input 6                    |      Yes       | Hall 0-5kHz, Analog 0-20V, Fixed Arm 1.45V, SENT Protocol compatible |
+| B18 | Digital Input 7                    |      Yes       | Hall 0-5kHz, Analog 0-20V, Fixed Arm 1.45V, SENT Protocol compatible |
+| B19 | Digital Input 8                    |      Yes       | Hall 0-5kHz, Analog 0-20V, Fixed Arm 1.45V, SENT Protocol compatible |
+| B20 | Digital Input 9                    |   No Pullup    | Analog 0-20V                                                         |
+| B21 | Digital Input 10 / Ignition Switch |   No Pullup    | Analog 0-20V                                                         |
 
 ### Auxiliary Output Summary
 
-| Pin | Channel Name | Drive Type                       | Mode            | Description                          |
-|:---:|--------------|----------------------------------|-----------------|--------------------------------------|
-| B10 | Aux Output 1 | LS Only Inductive or Resistive   | ON/OFF or PWM   | Relay or Solenoid                    |
-| B11 | Aux Output 2 | LS Only Inductive or Resistive   | ON/OFF or PWM   | Relay or Solenoid                    |
-| B12 | Aux Output 3 | LS Only Inductive or Resistive   | ON/OFF or PWM   | Relay or Solenoid                    |
-| B13 | Aux Output 4 | LS Only Inductive or Resistive   | ON/OFF or PWM   | Relay or Solenoid                    |
-| B14 | Aux Output 5 | LS or HS Inductive or Resistive  | ON/OFF or PWM   | Relay or Solenoid                    |
-| B15 | Aux Output 6 | LS or HS Inductive or Resistive  | ON/OFF or PWM   | Relay or Solenoid                    |
-| B16 | Aux Output 7 | LS or HS Inductive or Resistive  | ON/OFF or PWM   | Relay or Solenoid                    |
-| B17 | Aux Output 8 | LS or HS Inductive or Resistive  | ON/OFF or PWM   | Relay or Solenoid                    |
-| B22 | Aux Output 9 | Half Bridge DBW +                | PWM             | Engine Main Throttle                 |
-| B23 | Aux Output 10| Half Bridge DBW -                | PWM             | Engine Main Throttle                 |
-| B24 | Aux Output 11| Half Bridge                      | ON/OFF or PWM   | Relay or Solenoid or GDI Pump Ctrl Signal |
-| B25 | Aux Output 12| Half Bridge                      | ON/OFF or PWM   | Relay or Solenoid or GDI Pump Ctrl Signal |
+| Pin | Channel Name  | Drive Type                      | Mode          | Description                               |
+|:---:|---------------|---------------------------------|---------------|-------------------------------------------|
+| B10 | Aux Output 1  | LS Only Inductive or Resistive  | ON/OFF or PWM | Relay or Solenoid                         |
+| B11 | Aux Output 2  | LS Only Inductive or Resistive  | ON/OFF or PWM | Relay or Solenoid                         |
+| B12 | Aux Output 3  | LS Only Inductive or Resistive  | ON/OFF or PWM | Relay or Solenoid                         |
+| B13 | Aux Output 4  | LS Only Inductive or Resistive  | ON/OFF or PWM | Relay or Solenoid                         |
+| B14 | Aux Output 5  | LS or HS Inductive or Resistive | ON/OFF or PWM | Relay or Solenoid                         |
+| B15 | Aux Output 6  | LS or HS Inductive or Resistive | ON/OFF or PWM | Relay or Solenoid                         |
+| B16 | Aux Output 7  | LS or HS Inductive or Resistive | ON/OFF or PWM | Relay or Solenoid                         |
+| B17 | Aux Output 8  | LS or HS Inductive or Resistive | ON/OFF or PWM | Relay or Solenoid                         |
+| B22 | Aux Output 9  | Half Bridge DBW +               | PWM           | Engine Main Throttle                      |
+| B23 | Aux Output 10 | Half Bridge DBW -               | PWM           | Engine Main Throttle                      |
+| B24 | Aux Output 11 | Half Bridge                     | ON/OFF or PWM | Relay or Solenoid or GDI Pump Ctrl Signal |
+| B25 | Aux Output 12 | Half Bridge                     | ON/OFF or PWM | Relay or Solenoid or GDI Pump Ctrl Signal |
 
 ### Analog Input Pull-up Summary
 
-| Pin | Channel Name           | Pullup Control |
-|:---:|------------------------|:--------------:|
-| A10 | Analog Input Channel 1 | No             |
-| A11 | Analog Input Channel 2 | No             |
-| A12 | Analog Input Channel 3 | No             |
-| A13 | Analog Input Channel 4 | No             |
-| A14 | Analog Input Channel 5 | No             |
-| A18 | Analog Input Channel 6 | No             |
-| A19 | Analog Input Channel 7 | Yes            |
-| A20 | Analog Input Channel 8 | Yes            |
-| A21 | Analog Input Channel 9 | Yes            |
-| A22 | Analog Input Channel 10| Yes            |
+| Pin | Channel Name            | Pullup Control |
+|:---:|-------------------------|:--------------:|
+| A10 | Analog Input Channel 1  |       No       |
+| A11 | Analog Input Channel 2  |       No       |
+| A12 | Analog Input Channel 3  |       No       |
+| A13 | Analog Input Channel 4  |       No       |
+| A14 | Analog Input Channel 5  |       No       |
+| A18 | Analog Input Channel 6  |       No       |
+| A19 | Analog Input Channel 7  |      Yes       |
+| A20 | Analog Input Channel 8  |      Yes       |
+| A21 | Analog Input Channel 9  |      Yes       |
+| A22 | Analog Input Channel 10 |      Yes       |
 
 ### 6.1 Important Notes
 
@@ -318,10 +316,10 @@ Comprehensive Emtune tuning software is used to connect to the ECU.
 
 ## 8.0 Ordering Information
 
-| Product                    | Part Number |
-|----------------------------|-------------|
-| Emtron Shadow ECU          | 1908-082    |
-| Emtron USB Tuning Cable (1.5m) |         |
+| Product                        | Part Number |
+|--------------------------------|-------------|
+| Emtron Shadow ECU              | 1908-082    |
+| Emtron USB Tuning Cable (1.5m) |             |
 
 ## Appendix A – Shadow 8 ECU Pinout Drawing
 

@@ -3,8 +3,6 @@ title: "MAP Sensor 1.0 Bar Datasheet"
 weight: 1
 ---
 
-**Rev 1.1**
-
 ## 1.0 Description
 
 The Emtron 1.0 Bar MAP Sensor uses a state-of-the-art piezoresistive transducer from NXP Semiconductors. It is highly accurate, providing a high level analog output signal that is proportional to the applied pressure.
@@ -42,9 +40,9 @@ An anaerobic thread sealant may be used sparingly. Avoid excessive use to preven
 
 | Pin | Function      |
 |:---:|---------------|
-| 1   | Sensor 0V ref |
-| 2   | Signal        |
-| 3   | 5.0V          |
+|  1  | Sensor 0V ref |
+|  2  | Signal        |
+|  3  | 5.0V          |
 
 1. Connect the MAP Sensor 0V (Pin 1) to the ECU Sensor 0V Reference pin (Sensor Ground). **DO NOT** connect the MAP Sensor 0V directly to the ECU ground or engine block.
 2. Connect the MAP Sensor Signal to an available Analog Voltage input or Digital input.
@@ -76,6 +74,6 @@ This calibration option is available from Emtune. Select the **"Emtron 1.0 Bar"*
 
 ## 2.5 Ordering Information
 
-| Product                    | Part Number |
-|----------------------------|-------------|
-| Emtron MAP Sensor 1.0 Bar  | 1301-10A    |
+| Product                   | Part Number |
+|---------------------------|-------------|
+| Emtron MAP Sensor 1.0 Bar | 1301-10A    |

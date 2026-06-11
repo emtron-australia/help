@@ -2,7 +2,7 @@
 title: "Cruise Control"
 ---
 
-**Cruise Control Application Build — Rev 1.0**
+**Cruise Control Application Build**
 
 ## 1.0 Introduction
 
@@ -137,20 +137,20 @@ Other runtimes: **Cruise – Torque Target Base (TMF)** (the TMF calculated torq
 
 ## Appendix A – Bit CAN Message Information ("Cruise Control Status")
 
-| Bit | Status | Bit | Status |
-|:---:|--------|:---:|--------|
-| 0 | Disabled | 25 | OFF-Brake Switch |
-| 1 | ON | 26 | OFF-Neutral |
-| 2 | ... Waiting SET/RESUME Sw | 27 | OFF-Clutch Switch |
-| 3 | Starting-SET Pressed | 29 | X-TMF Disabled |
-| 4 | Restarting-RESUME Pressed | 30 | X-TMF1 Sensor Before Fault |
-| 5 | ON - Paused Pedal | 31 | X-TMF1 Sensor After Fault |
-| 20 | OFF-Cruise Enable Sw | 32 | X-TMF2 Sensor Before Fault |
-| 21 | OFF-Cruise Cancel Sw | 33 | X-TMF2 Sensor After Fault |
-| 22 | OFF-Engine Speed Zero | 34 | X-Cruise Enable Sw Config |
-| 23 | OFF-Ref Speed Zero | 35 | X-Cruise SET Sw Config |
-| 24 | OFF-Limiting Active | 36 | X-Cruise RESUME Sw Config |
-| | | 37 | X-Cruise CANCEL Sw Config |
-| | | 38 | X-Speed Source Config |
-| | | 39 | X-Brake Input Config |
-| | | 40 | X-Firmware Lockout |
+| Bit | Status                    | Bit | Status                     |
+|:---:|---------------------------|:---:|----------------------------|
+|  0  | Disabled                  | 25  | OFF-Brake Switch           |
+|  1  | ON                        | 26  | OFF-Neutral                |
+|  2  | ... Waiting SET/RESUME Sw | 27  | OFF-Clutch Switch          |
+|  3  | Starting-SET Pressed      | 29  | X-TMF Disabled             |
+|  4  | Restarting-RESUME Pressed | 30  | X-TMF1 Sensor Before Fault |
+|  5  | ON - Paused Pedal         | 31  | X-TMF1 Sensor After Fault  |
+| 20  | OFF-Cruise Enable Sw      | 32  | X-TMF2 Sensor Before Fault |
+| 21  | OFF-Cruise Cancel Sw      | 33  | X-TMF2 Sensor After Fault  |
+| 22  | OFF-Engine Speed Zero     | 34  | X-Cruise Enable Sw Config  |
+| 23  | OFF-Ref Speed Zero        | 35  | X-Cruise SET Sw Config     |
+| 24  | OFF-Limiting Active       | 36  | X-Cruise RESUME Sw Config  |
+|     |                           | 37  | X-Cruise CANCEL Sw Config  |
+|     |                           | 38  | X-Speed Source Config      |
+|     |                           | 39  | X-Brake Input Config       |
+|     |                           | 40  | X-Firmware Lockout         |

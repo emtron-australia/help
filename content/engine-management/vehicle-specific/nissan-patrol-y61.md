@@ -3,7 +3,7 @@ title: "Nissan Patrol Y61"
 weight: 0
 ---
 
-**Nissan Patrol Y61 Application Build — Rev 1.1**
+**Nissan Patrol Y61 Application Build**
 
 ## 1.0 Introduction
 
@@ -43,15 +43,15 @@ The ECU provides full integration with the OEM CAN bus, both receiving and trans
 
 Once the build has been installed a "Patrol Y61" tab will be available in the Runtime menu (F3), providing application-specific data received over the CAN bus:
 
-| ECU Input Channel Name  | Description                                              |
-|-------------------------|---------------------------------------------------------|
-| Vehicle Speed           | The average speed of the rear wheels                    |
-| Input Shaft Speed       | Input shaft speed of the transmission                   |
-| Gear                    | Current gear reported by the transmission ECU           |
-| Gear Request            | Current gear requested, reported by the transmission ECU|
-| Upshift Request Switch  | Upshift request reported by the transmission ECU        |
-| Downshift Request Switch| Downshift request reported by the transmission ECU      |
-| Cruise Control Switch   | Cruise Control Off/On Switch                            |
+| ECU Input Channel Name   | Description                                              |
+|--------------------------|----------------------------------------------------------|
+| Vehicle Speed            | The average speed of the rear wheels                     |
+| Input Shaft Speed        | Input shaft speed of the transmission                    |
+| Gear                     | Current gear reported by the transmission ECU            |
+| Gear Request             | Current gear requested, reported by the transmission ECU |
+| Upshift Request Switch   | Upshift request reported by the transmission ECU         |
+| Downshift Request Switch | Downshift request reported by the transmission ECU       |
+| Cruise Control Switch    | Cruise Control Off/On Switch                             |
 
 {{% badge style="important" %}}IMPORTANT{{% /badge %}} When wiring into the OEM CAN Bus a 120 Ohm CAN terminating resistor **MUST** be installed.
 
@@ -133,58 +133,58 @@ If the factory throttle body is replaced with an aftermarket unit there is no wa
 
 ### Injection
 
-| ECU Channel       | Function              |
-|-------------------|-----------------------|
-| Injection 1-6     | Fuel Injector Cyl 1-6 |
-| Injection 7       | AC Clutch Relay       |
-| Injection 8       | Tachometer            |
-| Injection 9-12    | Not Used              |
+| ECU Channel    | Function              |
+|----------------|-----------------------|
+| Injection 1-6  | Fuel Injector Cyl 1-6 |
+| Injection 7    | AC Clutch Relay       |
+| Injection 8    | Tachometer            |
+| Injection 9-12 | Not Used              |
 
 ### Ignition
 
-| ECU Channel    | Function           |
-|----------------|--------------------|
-| Ignition 1-6   | Ignition Cyl 1-6   |
-| Ignition 7-12  | Not Used           |
+| ECU Channel   | Function         |
+|---------------|------------------|
+| Ignition 1-6  | Ignition Cyl 1-6 |
+| Ignition 7-12 | Not Used         |
 
 ### Analog Inputs
 
-| ECU Channel                    | Function                    |
-|--------------------------------|-----------------------------|
-| Analog Voltage 1               | MAP                         |
-| Analog Voltage 2               | DBW Servo Position Main     |
-| Analog Voltage 3               | DBW Servo Position Sub      |
-| Analog Voltage 4               | Pedal Position (Main)       |
-| Analog Voltage 5               | Pedal Position (Sub)        |
-| Analog Voltage 6               | Not Used                    |
-| Analog Voltage 7 (Pull-up)     | Engine Temperature          |
-| Analog Voltage 8 (Pull-up)     | Inlet Air Temperature       |
-| Analog Voltage 9 (Pull-up)     | Mass Air Flow Sensor        |
-| Analog Voltage 10 (Pull-up)    | *Cruise Command Switch (Y61)|
-| Analog Voltage 11-12 (Pull-up) | Not Used                    |
-| Analog Voltage 13-14           | Not Used                    |
+| ECU Channel                    | Function                     |
+|--------------------------------|------------------------------|
+| Analog Voltage 1               | MAP                          |
+| Analog Voltage 2               | DBW Servo Position Main      |
+| Analog Voltage 3               | DBW Servo Position Sub       |
+| Analog Voltage 4               | Pedal Position (Main)        |
+| Analog Voltage 5               | Pedal Position (Sub)         |
+| Analog Voltage 6               | Not Used                     |
+| Analog Voltage 7 (Pull-up)     | Engine Temperature           |
+| Analog Voltage 8 (Pull-up)     | Inlet Air Temperature        |
+| Analog Voltage 9 (Pull-up)     | Mass Air Flow Sensor         |
+| Analog Voltage 10 (Pull-up)    | *Cruise Command Switch (Y61) |
+| Analog Voltage 11-12 (Pull-up) | Not Used                     |
+| Analog Voltage 13-14           | Not Used                     |
 
 *Analog Voltage Channels 7-12 have switchable pull-ups suitable for temperature measurement. \*Cruise Command Switch used when replacing the throttle body with an aftermarket unit.*
 
 ### Digital Inputs
 
-| ECU Channel     | Function            |
-|-----------------|---------------------|
-| Digital Input 4 | Power Steer Switch  |
-| Digital Input 6 | Snow Switch         |
-| Others          | Not Used            |
+| ECU Channel     | Function           |
+|-----------------|--------------------|
+| Digital Input 4 | Power Steer Switch |
+| Digital Input 6 | Snow Switch        |
+| Others          | Not Used           |
 
 ### Auxiliary Outputs
 
-| ECU Channel  | Function                       |
-|--------------|--------------------------------|
-| Auxiliary 1  | CAM Switch Solenoid            |
-| Auxiliary 2  | User Output 1 – Manifold Flap  |
-| Auxiliary 3  | Engine Fan Relay               |
-| Auxiliary 4  | Fuel Pump Relay                |
-| Auxiliary 9  | DBW +                          |
-| Auxiliary 10 | DBW -                          |
-| Others       | Not Used                       |
+| ECU Channel  | Function                      |
+|--------------|-------------------------------|
+| Auxiliary 1  | CAM Switch Solenoid           |
+| Auxiliary 2  | User Output 1 – Manifold Flap |
+| Auxiliary 3  | Engine Fan Relay              |
+| Auxiliary 4  | Fuel Pump Relay               |
+| Auxiliary 9  | DBW +                         |
+| Auxiliary 10 | DBW -                         |
+| Others       | Not Used                      |
 
 ### Crank / Cam
 
@@ -195,10 +195,10 @@ If the factory throttle body is replaced with an aftermarket unit there is no wa
 
 ### CAN
 
-| ECU Channel | Function          |
-|-------------|-------------------|
-| CAN 1 Lo/Hi | User CAN Bus Lo/Hi|
-| CAN 2 Lo/Hi | OEM CAN Bus Lo/Hi |
+| ECU Channel | Function           |
+|-------------|--------------------|
+| CAN 1 Lo/Hi | User CAN Bus Lo/Hi |
+| CAN 2 Lo/Hi | OEM CAN Bus Lo/Hi  |
 
 ### OEM CAN Inputs
 
@@ -206,58 +206,58 @@ AC Switch, Brake Switch 1, Cruise Enable, Drive Speed, Input Shaft Speed, Gear U
 
 ## 7.0 Y61 ECU Pinout
 
-| OEM Pin | Function                       | ECU Channel                 |
-|:-------:|--------------------------------|-----------------------------|
-| 5       | Injector Cylinder 1            | Injector 1                  |
-| 6       | Injector Cylinder 2            | Injector 2                  |
-| 7       | Injector Cylinder 3            | Injector 3                  |
-| 13      | Injector Cylinder 4            | Injector 4                  |
-| 14      | Injector Cylinder 5            | Injector 5                  |
-| 15      | Injector Cylinder 6            | Injector 6                  |
-| 18      | Ignition Cylinder 1            | Ignition 1                  |
-| 19      | Ignition Cylinder 2            | Ignition 2                  |
-| 20      | Ignition Cylinder 3            | Ignition 3                  |
-| 21      | Ignition Cylinder 4            | Ignition 4                  |
-| 24      | AC Clutch                      | Injector 7                  |
-| 27      | Inlet Manifold Flap            | Aux 2                       |
-| 29      | Ignition Cylinder 5            | Ignition 5                  |
-| 30      | Ignition Cylinder 6            | Ignition 6                  |
-| 38      | Tachometer                     | Injector 8                  |
-| 40      | Fuel Pump                      | Aux 4                       |
-| 42      | EFI Relay Control              | EFI Relay                   |
-| 48      | Idle Stepper                   | Aux 5                       |
-| 49      | Idle Stepper                   | Aux 7                       |
-| 50      | Idle Stepper                   | Aux 6                       |
-| 51      | Idle Stepper                   | Aux 8                       |
-| 52      | Speed Sensor                   | DI 1                        |
-| 53      | Ignition Switch                | IGN Switch                  |
-| 55      | Cooling Fan                    | Aux 3                       |
-| 60      | Snow Switch                    | DI 6                        |
-| 63      | Engine Speed Sensor            | Crank Index +ve             |
-| 79      | Steering Pressure Switch       | DI 4                        |
-| 84      | Engine Sync Sensor             | Sync Index +ve              |
-| 86      | AC Request                     | DI 5                        |
-| 87      | Pedal Position Sensor Main     | AN 4                        |
-| 89      | Sensor Ground                  | Sensor 0V Ref               |
-| 94      | +5V Supply                     | 5.0V VRef1                  |
-| 98      | Throttle Servo Sub             | AN 3                        |
-| 100     | Sensor Ground                  | Sensor 0V Ref               |
-| 108     | Throttle Servo Main            | AN 2                        |
-| 109     | Sensor Ground                  | Sensor 0V Ref               |
-| 117     | Pedal Position Sensor Sub      | AN 5                        |
-| 121     | Coolant Temp Sensor            | AN 7                        |
-| 125     | Knock Sensor Rear +ve          | Knock Sensor 2 +ve          |
-| 126     | Knock Sensor Front +ve         | Knock Sensor 1 +ve          |
-| 151     | Throttle Motor +ve *(Auto Only)| Aux 9                       |
-| 152     | Inlet Cam Actuator             | Aux 1                       |
-| 153     | Ground                         | Ground                      |
-| 154     | Throttle Motor -ve *(Auto Only)| Aux 10                      |
-| 156     | Ground                         | Ground                      |
-| 158     | Ground                         | Ground                      |
-| 159     | Ground                         | Ground                      |
-| 163     | ECU Supply                     | Aux 9-10 Supply / ECU Supply|
-| 165     | Ground                         | Ground                      |
-| 166     | ECU Supply                     | Aux 9-10 Supply / ECU Supply|
-| 168     | Ground                         | Ground                      |
-| 171     | OEM CAN LO                     | CAN 1 LO                    |
-| 174     | OEM CAN HI                     | CAN 1 HI                    |
+| OEM Pin | Function                        | ECU Channel                  |
+|:-------:|---------------------------------|------------------------------|
+|    5    | Injector Cylinder 1             | Injector 1                   |
+|    6    | Injector Cylinder 2             | Injector 2                   |
+|    7    | Injector Cylinder 3             | Injector 3                   |
+|   13    | Injector Cylinder 4             | Injector 4                   |
+|   14    | Injector Cylinder 5             | Injector 5                   |
+|   15    | Injector Cylinder 6             | Injector 6                   |
+|   18    | Ignition Cylinder 1             | Ignition 1                   |
+|   19    | Ignition Cylinder 2             | Ignition 2                   |
+|   20    | Ignition Cylinder 3             | Ignition 3                   |
+|   21    | Ignition Cylinder 4             | Ignition 4                   |
+|   24    | AC Clutch                       | Injector 7                   |
+|   27    | Inlet Manifold Flap             | Aux 2                        |
+|   29    | Ignition Cylinder 5             | Ignition 5                   |
+|   30    | Ignition Cylinder 6             | Ignition 6                   |
+|   38    | Tachometer                      | Injector 8                   |
+|   40    | Fuel Pump                       | Aux 4                        |
+|   42    | EFI Relay Control               | EFI Relay                    |
+|   48    | Idle Stepper                    | Aux 5                        |
+|   49    | Idle Stepper                    | Aux 7                        |
+|   50    | Idle Stepper                    | Aux 6                        |
+|   51    | Idle Stepper                    | Aux 8                        |
+|   52    | Speed Sensor                    | DI 1                         |
+|   53    | Ignition Switch                 | IGN Switch                   |
+|   55    | Cooling Fan                     | Aux 3                        |
+|   60    | Snow Switch                     | DI 6                         |
+|   63    | Engine Speed Sensor             | Crank Index +ve              |
+|   79    | Steering Pressure Switch        | DI 4                         |
+|   84    | Engine Sync Sensor              | Sync Index +ve               |
+|   86    | AC Request                      | DI 5                         |
+|   87    | Pedal Position Sensor Main      | AN 4                         |
+|   89    | Sensor Ground                   | Sensor 0V Ref                |
+|   94    | +5V Supply                      | 5.0V VRef1                   |
+|   98    | Throttle Servo Sub              | AN 3                         |
+|   100   | Sensor Ground                   | Sensor 0V Ref                |
+|   108   | Throttle Servo Main             | AN 2                         |
+|   109   | Sensor Ground                   | Sensor 0V Ref                |
+|   117   | Pedal Position Sensor Sub       | AN 5                         |
+|   121   | Coolant Temp Sensor             | AN 7                         |
+|   125   | Knock Sensor Rear +ve           | Knock Sensor 2 +ve           |
+|   126   | Knock Sensor Front +ve          | Knock Sensor 1 +ve           |
+|   151   | Throttle Motor +ve *(Auto Only) | Aux 9                        |
+|   152   | Inlet Cam Actuator              | Aux 1                        |
+|   153   | Ground                          | Ground                       |
+|   154   | Throttle Motor -ve *(Auto Only) | Aux 10                       |
+|   156   | Ground                          | Ground                       |
+|   158   | Ground                          | Ground                       |
+|   159   | Ground                          | Ground                       |
+|   163   | ECU Supply                      | Aux 9-10 Supply / ECU Supply |
+|   165   | Ground                          | Ground                       |
+|   166   | ECU Supply                      | Aux 9-10 Supply / ECU Supply |
+|   168   | Ground                          | Ground                       |
+|   171   | OEM CAN LO                      | CAN 1 LO                     |
+|   174   | OEM CAN HI                      | CAN 1 HI                     |

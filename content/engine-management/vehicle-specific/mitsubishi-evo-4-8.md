@@ -3,7 +3,7 @@ title: "Mitsubishi EVO 4-8"
 weight: 0
 ---
 
-**Mitsubishi EVO 4-8 Plug-in ECU User Manual — Rev 1.1**
+**Mitsubishi EVO 4-8 Plug-in ECU User Manual**
 
 ## 1.0 Introduction
 
@@ -39,20 +39,20 @@ The ECU's input capabilities can be expanded using the expansion connection, whi
 
 **Table 3.0 — Expansion Port Pinout (DTM06-12SA)**
 
-| Pin | Function                                                        |
-|:---:|-----------------------------------------------------------------|
-| 1   | Analog Sensor 0V Reference                                      |
-| 2   | 5V Vref2 Supply                                                 |
-| 3   | AN 8 (e.g. Fuel Temp or Inlet Temp)                            |
-| 4   | AN 11 (e.g. Fuel Temp or Inlet Temp)                          |
-| 5   | AN 12 (e.g. Fuel Pressure)                                     |
-| 6   | DI 6 (e.g. Ethanol Content Sensor)                            |
-| 7   | DI 13                                                          |
-| 8   | DI 14                                                          |
-| 9   | 14V Out Protected (e.g. ELC2 Power Supply). Post ECU SN 2700 only. |
+| Pin | Function                                                            |
+|:---:|---------------------------------------------------------------------|
+|  1  | Analog Sensor 0V Reference                                          |
+|  2  | 5V Vref2 Supply                                                     |
+|  3  | AN 8 (e.g. Fuel Temp or Inlet Temp)                                 |
+|  4  | AN 11 (e.g. Fuel Temp or Inlet Temp)                                |
+|  5  | AN 12 (e.g. Fuel Pressure)                                          |
+|  6  | DI 6 (e.g. Ethanol Content Sensor)                                  |
+|  7  | DI 13                                                               |
+|  8  | DI 14                                                               |
+|  9  | 14V Out Protected (e.g. ELC2 Power Supply). Post ECU SN 2700 only.  |
 | 10  | ECU Ground (e.g. ELC2 or E85 Sensor Ground). Post ECU SN 2700 only. |
-| 11  | CAN 1 Hi                                                      |
-| 12  | CAN 1 Lo                                                      |
+| 11  | CAN 1 Hi                                                            |
+| 12  | CAN 1 Lo                                                            |
 
 ### 3.2 CAN Bus 1 Wiring
 
@@ -62,10 +62,10 @@ The ECU CAN Bus 1 is reserved for Emtron CAN Bus devices, expanding the IO capab
 
 | Pin | Function   | Wire Colour |
 |:---:|------------|-------------|
-| 1   | Ground     | BLACK       |
-| 2   | CAN Lo     | GREEN       |
-| 3   | CAN Hi     | YELLOW      |
-| 4   | 12V Supply | RED         |
+|  1  | Ground     | BLACK       |
+|  2  | CAN Lo     | GREEN       |
+|  3  | CAN Hi     | YELLOW      |
+|  4  | 12V Supply | RED         |
 
 To help with installation time, each CAN Device pin can be directly connected into the ECU IO Expansion port:
 
@@ -73,10 +73,10 @@ To help with installation time, each CAN Device pin can be directly connected in
 
 | Name     | ECU IO Expansion 12-Way DTM | CAN Device 4-Way DTM |
 |----------|:---------------------------:|:--------------------:|
-| Ground   | Pin 8                       | Pin 1                |
-| CAN 1 Lo | Pin 12                      | Pin 2                |
-| CAN 1 Hi | Pin 11                      | Pin 3                |
-| Power    | Pin 7                       | Pin 4                |
+| Ground   |            Pin 8            |        Pin 1         |
+| CAN 1 Lo |           Pin 12            |        Pin 2         |
+| CAN 1 Hi |           Pin 11            |        Pin 3         |
+| Power    |            Pin 7            |        Pin 4         |
 
 Standard CAN bus precautions apply — twisted pair (min one twist per 40mm), minimise connectors, 120 ohm 0.25W termination at each END, stub length < 0.3m (ISO 11898). All Emtron CAN devices have no on-board terminating resistor, allowing them to be wired at any position on the Bus.
 
@@ -96,18 +96,18 @@ Standard CAN bus precautions apply — twisted pair (min one twist per 40mm), mi
 
 An Ethanol Content sensor can be wired into the ECU using the Expansion port. The following channel assignment is recommended for the GM sensor:
 
-| GM Sensor Pinout | Expansion Port            | Description                          |
-|:----------------:|---------------------------|--------------------------------------|
-| Pin 1            | Pin 9 — 14V Protected     | Supply, 8V or 14V                    |
-| Pin 2            | Pin 10 — ECU Ground       | Ground                               |
-| Pin 3            | Pin 6 — DI 6              | Output. Temperature and Ethanol Content |
+| GM Sensor Pinout | Expansion Port        | Description                             |
+|:----------------:|-----------------------|-----------------------------------------|
+|      Pin 1       | Pin 9 — 14V Protected | Supply, 8V or 14V                       |
+|      Pin 2       | Pin 10 — ECU Ground   | Ground                                  |
+|      Pin 3       | Pin 6 — DI 6          | Output. Temperature and Ethanol Content |
 
 {{% badge style="note" %}}NOTE{{% /badge %}} **DO NOT** connect the Ethanol Content sensor ground to the "Analog Sensor 0V Reference" — use the ECU Ground from Pin 10. The Ethanol sensor produces a frequency-based output; suitable ECU channels are DI 1-8.
 
-| Description         | Calibration                       |
-|---------------------|-----------------------------------|
+| Description         | Calibration                             |
+|---------------------|-----------------------------------------|
 | Ethanol Content (%) | 50Hz = 0% Ethanol, 150Hz = 100% Ethanol |
-| Fuel Temperature    | 1ms = -40°C, 5ms = 125°C          |
+| Fuel Temperature    | 1ms = -40°C, 5ms = 125°C                |
 
 To configure the ECU for this sensor, select the Ethanol Sensor Input Source to DI6. The ECU will automatically decode the Ethanol Content and Fuel Temperature. Once assigned, more settings become available in the **Tuning View → Engine Functions** menu.
 
@@ -126,79 +126,79 @@ To configure the ECU for this sensor, select the Ethanol Sensor Input Source to 
 
 ### Ignition
 
-| ECU Channel  | Function                |
-|--------------|-------------------------|
-| Ignition 1   | Ignition Cylinder 1/4   |
-| Ignition 2   | Ignition Cylinder 2/3   |
-| Ignition 3   | A/C Fan Relay (Low)     |
-| Ignition 4   | IC Spray Lamp           |
-| Ignition 5   | Alternator Load Control |
-| Ignition 6   | Fuel Pump Relay         |
-| Ignition 7   | Fuel Pump Speed Relay   |
-| Ignition 8   | A/C Clutch Relay        |
-| Ignition 9-12| Not Used                |
+| ECU Channel   | Function                |
+|---------------|-------------------------|
+| Ignition 1    | Ignition Cylinder 1/4   |
+| Ignition 2    | Ignition Cylinder 2/3   |
+| Ignition 3    | A/C Fan Relay (Low)     |
+| Ignition 4    | IC Spray Lamp           |
+| Ignition 5    | Alternator Load Control |
+| Ignition 6    | Fuel Pump Relay         |
+| Ignition 7    | Fuel Pump Speed Relay   |
+| Ignition 8    | A/C Clutch Relay        |
+| Ignition 9-12 | Not Used                |
 
 ### Analog Inputs
 
-| ECU Channel                  | Function                  |
-|------------------------------|---------------------------|
-| Analog Voltage 1             | MAP                       |
-| Analog Voltage 2             | TPS                       |
-| Analog Voltage 3             | O2 Front                  |
-| Analog Voltage 4             | O2 Rear                   |
-| Analog Voltage 5-6           | Not Used                  |
-| Analog Voltage 7 (Pull-up)   | Engine Temperature        |
-| Analog Voltage 8 (Pull-up)   | (IO Expansion port)       |
-| Analog Voltage 9 (Pull-up)   | Intake Temperature (IAT MAF) |
-| Analog Voltage 10 (Pull-up)  | Fuel Tank Temp (USDM)     |
-| Analog Voltage 11-12 (Pull-up)| (IO Expansion port)      |
-| Analog Voltage 13-14         | Not Used                  |
+| ECU Channel                    | Function                     |
+|--------------------------------|------------------------------|
+| Analog Voltage 1               | MAP                          |
+| Analog Voltage 2               | TPS                          |
+| Analog Voltage 3               | O2 Front                     |
+| Analog Voltage 4               | O2 Rear                      |
+| Analog Voltage 5-6             | Not Used                     |
+| Analog Voltage 7 (Pull-up)     | Engine Temperature           |
+| Analog Voltage 8 (Pull-up)     | (IO Expansion port)          |
+| Analog Voltage 9 (Pull-up)     | Intake Temperature (IAT MAF) |
+| Analog Voltage 10 (Pull-up)    | Fuel Tank Temp (USDM)        |
+| Analog Voltage 11-12 (Pull-up) | (IO Expansion port)          |
+| Analog Voltage 13-14           | Not Used                     |
 
 *Analog Voltage Channels 7-12 have switchable pull-ups suitable for temperature measurement.*
 
 ### Digital Inputs
 
-| ECU Channel      | Function                          |
-|------------------|-----------------------------------|
-| Digital Input 1  | MAF Reset                         |
-| Digital Input 2  | Vehicle Speed                     |
-| Digital Input 3  | Clutch Switch                     |
-| Digital Input 4  | Power Steer Pressure Switch       |
-| Digital Input 5  | Alternator FR Signal              |
-| Digital Input 6  | IO Expansion port (Ethanol Sensor)|
-| Digital Input 7  | MAF                               |
-| Digital Input 8  | I/C Spray Switch - Auto           |
-| Digital Input 9  | I/C Spray Switch - Manual         |
-| Digital Input 10 | ACD Input                         |
-| Digital Input 11 | Ignition Start                    |
-| Digital Input 12 | A/C Pressure Switch               |
-| Digital Input 13-14 | IO Expansion port              |
+| ECU Channel         | Function                           |
+|---------------------|------------------------------------|
+| Digital Input 1     | MAF Reset                          |
+| Digital Input 2     | Vehicle Speed                      |
+| Digital Input 3     | Clutch Switch                      |
+| Digital Input 4     | Power Steer Pressure Switch        |
+| Digital Input 5     | Alternator FR Signal               |
+| Digital Input 6     | IO Expansion port (Ethanol Sensor) |
+| Digital Input 7     | MAF                                |
+| Digital Input 8     | I/C Spray Switch - Auto            |
+| Digital Input 9     | I/C Spray Switch - Manual          |
+| Digital Input 10    | ACD Input                          |
+| Digital Input 11    | Ignition Start                     |
+| Digital Input 12    | A/C Pressure Switch                |
+| Digital Input 13-14 | IO Expansion port                  |
 
 ### Auxiliary Outputs
 
-| ECU Channel  | Function                          |
-|--------------|-----------------------------------|
-| Auxiliary 1  | Purge Solenoid                    |
-| Auxiliary 2  | Wastegate Solenoid                |
-| Auxiliary 3  | Tacho                             |
-| Auxiliary 4  | Engine Fan Relay (EVO 7-8) - PWM  |
-| Auxiliary 5  | Stepper Motor A1                  |
-| Auxiliary 6  | Stepper Motor A2                  |
-| Auxiliary 7  | Stepper Motor B1                  |
-| Auxiliary 8  | Stepper Motor B2                  |
-| Auxiliary 9  | Fuel Pressure Solenoid            |
-| Auxiliary 10 | I/C Spray Relay                   |
-| Auxiliary 11 | Engine Fan Relay                  |
-| Auxiliary 12 | Sec Air/EGR Solenoid              |
-| Auxiliary 13 | EVO8 Crank ground / EVO7 Cat Light|
-| Auxiliary 14-16 | Not Used                       |
+| ECU Channel     | Function                           |
+|-----------------|------------------------------------|
+| Auxiliary 1     | Purge Solenoid                     |
+| Auxiliary 2     | Wastegate Solenoid                 |
+| Auxiliary 3     | Tacho                              |
+| Auxiliary 4     | Engine Fan Relay (EVO 7-8) - PWM   |
+| Auxiliary 5     | Stepper Motor A1                   |
+| Auxiliary 6     | Stepper Motor A2                   |
+| Auxiliary 7     | Stepper Motor B1                   |
+| Auxiliary 8     | Stepper Motor B2                   |
+| Auxiliary 9     | Fuel Pressure Solenoid             |
+| Auxiliary 10    | I/C Spray Relay                    |
+| Auxiliary 11    | Engine Fan Relay                   |
+| Auxiliary 12    | Sec Air/EGR Solenoid               |
+| Auxiliary 13    | EVO8 Crank ground / EVO7 Cat Light |
+| Auxiliary 14-16 | Not Used                           |
 
 ### Crank / Cam
 
-| ECU Channel | Function              |
-|-------------|-----------------------|
-| Crank Index | Crank Sensor          |
-| Sync Sensor | Cam Position - Inlet LH|
+| ECU Channel | Function                |
+|-------------|-------------------------|
+| Crank Index | Crank Sensor            |
+| Sync Sensor | Cam Position - Inlet LH |
 
 ## 5.0 Plug-in Specific Information
 
@@ -223,78 +223,78 @@ On initial installation it is advised to clear all the DTCs if errors are report
 
 ## 7.0 Ordering Information
 
-| Product                          | Part Number |
-|----------------------------------|-------------|
-| Emtron Mitsubishi EVO 4-8 Plugin | 1609-52248  |
-| Emtron Ethernet Tuning Cable (1.5m) | 553-15   |
+| Product                             | Part Number |
+|-------------------------------------|-------------|
+| Emtron Mitsubishi EVO 4-8 Plugin    | 1609-52248  |
+| Emtron Ethernet Tuning Cable (1.5m) | 553-15      |
 
 ## Appendix A – EVO 4-8 ECU Pinout
 
-| Pin | Function                                  | Channel Assignment    |
-|:---:|-------------------------------------------|-----------------------|
-| 1   | Injector 1                                | INJ 1                 |
-| 2   | Injector 3                                | INJ 3                 |
-| 3   | Fuel Pressure Solenoid                    | AUX 9                 |
-| 4   | Stepper Motor Coil A1                     | AUX 5                 |
-| 5   | Stepper Motor Coil B1                     | AUX 6                 |
-| 6   | EGR Solenoid Relay                        | AUX 12                |
-| 8   | Fuel Pump Relay                           | IGN 6                 |
-| 9   | Purge Solenoid                            | AUX 1                 |
-| 10  | Ignition Coil 1 & 4                       | IGN 1                 |
-| 11  | Wastegate Solenoid                        | AUX 2                 |
-| 12  | ECU 14V from Main Relay                   | ECU SUPPLY            |
-| 13  | Engine Block/Power Ground                 | ECU GROUND            |
-| 14  | Injector 2                                | INJ 2                 |
-| 15  | Injector 4                                | INJ 4                 |
-| 16  | Evaporative Purge Solenoid                | AUX 1                 |
-| 17  | Stepper Motor Coil A2                     | AUX 6                 |
-| 18  | Stepper Motor Coil B3                     | AUX 8                 |
-| 19  | Volume Airflow Sensor Reset Signal        | DI 1                  |
-| 20  | Engine Fan Speed low (EVO 4-6)            | AUX 11                |
-| 21  | Engine Fan PWM Control (EVO 7-8)          | AUX 4                 |
-| 22  | A/C Clutch Relay                          | IGN 8                 |
-| 23  | Ignition Coil 2 & 3                       | IGN 2                 |
-| 25  | ECU 14V from Main Relay                   | ECU SUPPLY            |
-| 26  | Engine Block/Power Ground                 | ECU GROUND            |
-| 32  | A/C Fan Relay High                        | INJ 7                 |
-| 33  | Alternator G Terminal                     | IGN 5                 |
-| 34  | A/C Fan Relay Low                         | IGN 3                 |
-| 35  | I/C Spray Lamp                            | IGN 4                 |
-| 36  | CE Light                                  | INJ 8                 |
-| 37  | Power Steer Pressure Switch               | DI 4                  |
-| 38  | ECU Main Relay Control                    | MAIN EFI RELAY        |
-| 39  | Fuel Pump Speed                           | IGN 7                 |
-| 40  | Crank/Cam sensor ground (EVO8) / CAT (EVO 4-7) | AUX 13           |
-| 41  | Alt FR terminal (Field response) - Freq Based | DI 5              |
-| 43  | Clutch Switch                             | DI 3                  |
-| 44  | I/C Spray Switch - Auto                   | DI 8                  |
-| 45  | AC Pressure Switch                        | DI 12                 |
-| 51  | Immobiliser                               |                       |
-| 53  | Sec Air Solenoid (EVO7)                   | AUX 12                |
-| 54  | O2 Heater Rear                            | INJ 5                 |
-| 55  | I/C Spray Relay (EVO7)                    | AUX 10                |
-| 56  | Diagnostics – OBD II Pin 1                |                       |
-| 57  | I/C Spray Relay (EVO8)                    | AUX 10                |
-| 58  | Tacho                                     | AUX 3                 |
-| 60  | O2 Heater Front                           | INJ 6                 |
-| 62  | Diagnostics – OBD II Pin 7                |                       |
-| 71  | Start Switch                              | DI 11                 |
-| 72  | Intake Air Temperature                    | ANV 8                 |
-| 73  | Manifold Absolute Pressure Sensor         | ANV 1                 |
-| 75  | O2 Sensor Signal Rear                     | ANV 4                 |
-| 76  | O2 Sensor Signal Front                    | ANV 3                 |
-| 77  | Fuel Tank Temperature (USDM)              | ANV 10                |
-| 78  | Knock Sensor                              | KNOCK 1+              |
-| 80  | Battery Backup (+12 Constant)             | Internal Flywheel Supply |
-| 81  | + 5V Supply                               | +5V Vref1             |
-| 82  | Ignition Switch                           | Ignition Switch       |
-| 83  | Engine Coolant Temperature                | ANV 7                 |
-| 84  | Throttle Position Sensor                  | ANV 2                 |
-| 85  | External Barometric Pressure              |                       |
-| 86  | Vehicle Speed                             | DI 2                  |
-| 87  | ACD Signal/Idle Switch                    | DI 10                 |
-| 88  | Cam Signal                                | Sync Sensor           |
-| 89  | Crank Signal                              | Crank Index           |
-| 90  | Volume Air Flow Sensor                    | DI 7                  |
-| 91  | I/C Spray Switch – Manual (EVO 7-8)       | DI 9                  |
-| 92  | Sensor Ground (MAP, TPS)                  | Sensor 0V Reference   |
+| Pin | Function                                       | Channel Assignment       |
+|:---:|------------------------------------------------|--------------------------|
+|  1  | Injector 1                                     | INJ 1                    |
+|  2  | Injector 3                                     | INJ 3                    |
+|  3  | Fuel Pressure Solenoid                         | AUX 9                    |
+|  4  | Stepper Motor Coil A1                          | AUX 5                    |
+|  5  | Stepper Motor Coil B1                          | AUX 6                    |
+|  6  | EGR Solenoid Relay                             | AUX 12                   |
+|  8  | Fuel Pump Relay                                | IGN 6                    |
+|  9  | Purge Solenoid                                 | AUX 1                    |
+| 10  | Ignition Coil 1 & 4                            | IGN 1                    |
+| 11  | Wastegate Solenoid                             | AUX 2                    |
+| 12  | ECU 14V from Main Relay                        | ECU SUPPLY               |
+| 13  | Engine Block/Power Ground                      | ECU GROUND               |
+| 14  | Injector 2                                     | INJ 2                    |
+| 15  | Injector 4                                     | INJ 4                    |
+| 16  | Evaporative Purge Solenoid                     | AUX 1                    |
+| 17  | Stepper Motor Coil A2                          | AUX 6                    |
+| 18  | Stepper Motor Coil B3                          | AUX 8                    |
+| 19  | Volume Airflow Sensor Reset Signal             | DI 1                     |
+| 20  | Engine Fan Speed low (EVO 4-6)                 | AUX 11                   |
+| 21  | Engine Fan PWM Control (EVO 7-8)               | AUX 4                    |
+| 22  | A/C Clutch Relay                               | IGN 8                    |
+| 23  | Ignition Coil 2 & 3                            | IGN 2                    |
+| 25  | ECU 14V from Main Relay                        | ECU SUPPLY               |
+| 26  | Engine Block/Power Ground                      | ECU GROUND               |
+| 32  | A/C Fan Relay High                             | INJ 7                    |
+| 33  | Alternator G Terminal                          | IGN 5                    |
+| 34  | A/C Fan Relay Low                              | IGN 3                    |
+| 35  | I/C Spray Lamp                                 | IGN 4                    |
+| 36  | CE Light                                       | INJ 8                    |
+| 37  | Power Steer Pressure Switch                    | DI 4                     |
+| 38  | ECU Main Relay Control                         | MAIN EFI RELAY           |
+| 39  | Fuel Pump Speed                                | IGN 7                    |
+| 40  | Crank/Cam sensor ground (EVO8) / CAT (EVO 4-7) | AUX 13                   |
+| 41  | Alt FR terminal (Field response) - Freq Based  | DI 5                     |
+| 43  | Clutch Switch                                  | DI 3                     |
+| 44  | I/C Spray Switch - Auto                        | DI 8                     |
+| 45  | AC Pressure Switch                             | DI 12                    |
+| 51  | Immobiliser                                    |                          |
+| 53  | Sec Air Solenoid (EVO7)                        | AUX 12                   |
+| 54  | O2 Heater Rear                                 | INJ 5                    |
+| 55  | I/C Spray Relay (EVO7)                         | AUX 10                   |
+| 56  | Diagnostics – OBD II Pin 1                     |                          |
+| 57  | I/C Spray Relay (EVO8)                         | AUX 10                   |
+| 58  | Tacho                                          | AUX 3                    |
+| 60  | O2 Heater Front                                | INJ 6                    |
+| 62  | Diagnostics – OBD II Pin 7                     |                          |
+| 71  | Start Switch                                   | DI 11                    |
+| 72  | Intake Air Temperature                         | ANV 8                    |
+| 73  | Manifold Absolute Pressure Sensor              | ANV 1                    |
+| 75  | O2 Sensor Signal Rear                          | ANV 4                    |
+| 76  | O2 Sensor Signal Front                         | ANV 3                    |
+| 77  | Fuel Tank Temperature (USDM)                   | ANV 10                   |
+| 78  | Knock Sensor                                   | KNOCK 1+                 |
+| 80  | Battery Backup (+12 Constant)                  | Internal Flywheel Supply |
+| 81  | + 5V Supply                                    | +5V Vref1                |
+| 82  | Ignition Switch                                | Ignition Switch          |
+| 83  | Engine Coolant Temperature                     | ANV 7                    |
+| 84  | Throttle Position Sensor                       | ANV 2                    |
+| 85  | External Barometric Pressure                   |                          |
+| 86  | Vehicle Speed                                  | DI 2                     |
+| 87  | ACD Signal/Idle Switch                         | DI 10                    |
+| 88  | Cam Signal                                     | Sync Sensor              |
+| 89  | Crank Signal                                   | Crank Index              |
+| 90  | Volume Air Flow Sensor                         | DI 7                     |
+| 91  | I/C Spray Switch – Manual (EVO 7-8)            | DI 9                     |
+| 92  | Sensor Ground (MAP, TPS)                       | Sensor 0V Reference      |

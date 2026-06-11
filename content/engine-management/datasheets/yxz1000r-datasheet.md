@@ -3,7 +3,6 @@ title: "YXZ1000R Plugin ECU Datasheet"
 weight: 10
 ---
 
-**Rev 1.0** &nbsp;•&nbsp; Emtron YXZ1000R ECU
 
 {{< figure src="/img/yxz1000r-datasheet/yxz1000r.jpeg" caption="Emtron YXZ1000R Plugin ECU." >}}
 
@@ -81,80 +80,80 @@ Emtron's YXZ1000R Plugin ECU is built upon the outstanding foundation of the SL 
 
 ### Injection
 
-| ECU Channel | Function                          |
-|-------------|-----------------------------------|
-| Injection 1-3 | Primary Injector Cylinder 1-3   |
-| Injection 4 | Fuel Pump 1 (+Main relay)         |
-| Injection 5 | Cooling Fan 1                     |
-| Injection 6 | User Output 3 - Park Belt Buzzer  |
-| Injection 7 | Start Relay Control               |
-| Injection 8 | User Output 2 - Air Induction Relay |
+| ECU Channel   | Function                            |
+|---------------|-------------------------------------|
+| Injection 1-3 | Primary Injector Cylinder 1-3       |
+| Injection 4   | Fuel Pump 1 (+Main relay)           |
+| Injection 5   | Cooling Fan 1                       |
+| Injection 6   | User Output 3 - Park Belt Buzzer    |
+| Injection 7   | Start Relay Control                 |
+| Injection 8   | User Output 2 - Air Induction Relay |
 
 ### Ignition
 
-| ECU Channel | Function                          |
-|-------------|-----------------------------------|
-| Ignition 1-3 | Ignition Coil Cylinder 1-3       |
-| Ignition 4  | User Output 1 - Seat Belt Pilot Lamp |
+| ECU Channel  | Function                             |
+|--------------|--------------------------------------|
+| Ignition 1-3 | Ignition Coil Cylinder 1-3           |
+| Ignition 4   | User Output 1 - Seat Belt Pilot Lamp |
 
 ### Analog Inputs
 
-| ECU Channel                  | Function                              |
-|------------------------------|---------------------------------------|
-| Analog Voltage 1             | TPS                                   |
-| Analog Voltage 2             | Manifold Pressure – Bank 1 (Cyl 1 – Sync) |
-| Analog Voltage 3             | Manifold Pressure                     |
-| Analog Voltage 4             | Gear Voltage                          |
-| Analog Voltage 5             | Lean Angle Sensor                     |
-| Analog Voltage 6             | User Analog Input                     |
-| Analog Voltage 7 (Pull-up)   | Engine Temperature                    |
-| Analog Voltage 8 (Pull-up)   | Inlet Air Temperature                 |
-| Analog Voltage 9 (Pull-up)   | Trans ECU Current Feedback / User Analog Input |
-| Analog Voltage 10 (Pull-up)  | Neutral Switch                        |
-| Analog Voltage 11 (Pull-up)  | YXZ Differential Lock Rotary Switch 1 |
-| Analog Voltage 12 (Pull-up)  | YXZ Differential Lock Rotary Switch 2 |
+| ECU Channel                 | Function                                       |
+|-----------------------------|------------------------------------------------|
+| Analog Voltage 1            | TPS                                            |
+| Analog Voltage 2            | Manifold Pressure – Bank 1 (Cyl 1 – Sync)      |
+| Analog Voltage 3            | Manifold Pressure                              |
+| Analog Voltage 4            | Gear Voltage                                   |
+| Analog Voltage 5            | Lean Angle Sensor                              |
+| Analog Voltage 6            | User Analog Input                              |
+| Analog Voltage 7 (Pull-up)  | Engine Temperature                             |
+| Analog Voltage 8 (Pull-up)  | Inlet Air Temperature                          |
+| Analog Voltage 9 (Pull-up)  | Trans ECU Current Feedback / User Analog Input |
+| Analog Voltage 10 (Pull-up) | Neutral Switch                                 |
+| Analog Voltage 11 (Pull-up) | YXZ Differential Lock Rotary Switch 1          |
+| Analog Voltage 12 (Pull-up) | YXZ Differential Lock Rotary Switch 2          |
 
 ### Digital Inputs
 
-| ECU Channel      | Function                            |
-|------------------|-------------------------------------|
-| Digital Input 1  | Oil Pressure Switch                 |
-| Digital Input 2  | Drive Speed / Vehicle Speed         |
-| Digital Input 3  | Battery Voltage Monitor             |
-| Digital Input 4  | User DI (Ethanol / Launch Sw)       |
-| Digital Input 5  | Start/Stop switch                   |
-| Digital Input 6  | Clutch Switch                       |
-| Digital Input 7  | YXZ Differential Servo Position 1   |
-| Digital Input 8  | YXZ Differential Servo Position 2   |
-| Digital Input 9  | YXZ Differential Servo Position 3   |
-| Digital Input 10 | YXZ Differential Switch 12          |
-| Digital Input 11 | YXZ Differential Switch 1           |
-| Digital Input 12 | YXZ Seat Belt Switch                |
-| Digital Input 13 | Handbrake Switch                    |
-| Digital Input 14 | Brake Switch 1                      |
-| Dedicated – Ign Sw | Ignition Switch                   |
-| Internal G-Force | Lateral / Longitudinal / Vertical G Force |
+| ECU Channel        | Function                                  |
+|--------------------|-------------------------------------------|
+| Digital Input 1    | Oil Pressure Switch                       |
+| Digital Input 2    | Drive Speed / Vehicle Speed               |
+| Digital Input 3    | Battery Voltage Monitor                   |
+| Digital Input 4    | User DI (Ethanol / Launch Sw)             |
+| Digital Input 5    | Start/Stop switch                         |
+| Digital Input 6    | Clutch Switch                             |
+| Digital Input 7    | YXZ Differential Servo Position 1         |
+| Digital Input 8    | YXZ Differential Servo Position 2         |
+| Digital Input 9    | YXZ Differential Servo Position 3         |
+| Digital Input 10   | YXZ Differential Switch 12                |
+| Digital Input 11   | YXZ Differential Switch 1                 |
+| Digital Input 12   | YXZ Seat Belt Switch                      |
+| Digital Input 13   | Handbrake Switch                          |
+| Digital Input 14   | Brake Switch 1                            |
+| Dedicated – Ign Sw | Ignition Switch                           |
+| Internal G-Force   | Lateral / Longitudinal / Vertical G Force |
 
 ### Auxiliary Outputs
 
-| ECU Channel  | Function                          |
-|--------------|-----------------------------------|
-| Auxiliary 1  | YXZ Differential Lock relay 1     |
-| Auxiliary 2  | YXZ Differential Lock relay 2     |
-| Auxiliary 3  | Tacho (Used for drive to EPS & Trans) |
-| Auxiliary 4  | PVC Solenoid (Paddle Model Only)  |
-| Auxiliary 5-8| Idle Stepper Motor A1 / A2 / B1 / B2 |
-| Auxiliary 9-10| Spare User Output                |
-| Auxiliary 11 | Fan Relay 2 (Paddle Model Only)   |
-| CAN BUS OEM  | CE Light                          |
-| Internal EFI Relay Ctrl | EFI Relay Control      |
-| (No Pin Assignment) | User Output 4 – Start Lockout |
+| ECU Channel             | Function                              |
+|-------------------------|---------------------------------------|
+| Auxiliary 1             | YXZ Differential Lock relay 1         |
+| Auxiliary 2             | YXZ Differential Lock relay 2         |
+| Auxiliary 3             | Tacho (Used for drive to EPS & Trans) |
+| Auxiliary 4             | PVC Solenoid (Paddle Model Only)      |
+| Auxiliary 5-8           | Idle Stepper Motor A1 / A2 / B1 / B2  |
+| Auxiliary 9-10          | Spare User Output                     |
+| Auxiliary 11            | Fan Relay 2 (Paddle Model Only)       |
+| CAN BUS OEM             | CE Light                              |
+| Internal EFI Relay Ctrl | EFI Relay Control                     |
+| (No Pin Assignment)     | User Output 4 – Start Lockout         |
 
 ### Crank / Cam
 
-| ECU Channel | Function                       |
-|-------------|--------------------------------|
-| Crank Index | Crank Sensor                   |
+| ECU Channel | Function                           |
+|-------------|------------------------------------|
+| Crank Index | Crank Sensor                       |
 | Sync Sensor | Manifold Pressure – Bank 1 (Cyl 1) |
 
 ### 5.1 CAN Bus 2 Wiring
@@ -163,24 +162,24 @@ The ECU CAN Bus 2 is reserved for Emtron CAN Bus devices (ELC1/2, ETC4/ETC8M, EI
 
 **Table 3.2 — YXZ1000R ECU Header to CAN Device wiring**
 
-| Name     | ECU Header Pin                    | CAN Device 4-Way DTM |
-|----------|-----------------------------------|:--------------------:|
-| Ground   | Pin A1/2 - ECU Ground (Splice)    | Pin 1                |
-| CAN 2 Lo | Pin B19 (Pinned Directly)         | Pin 2                |
-| CAN 2 Hi | Pin B13 (Pinned Directly)         | Pin 3                |
-| Power    | Pin B1 - 14V (Splice)             | Pin 4                |
+| Name     | ECU Header Pin                 | CAN Device 4-Way DTM |
+|----------|--------------------------------|:--------------------:|
+| Ground   | Pin A1/2 - ECU Ground (Splice) |        Pin 1         |
+| CAN 2 Lo | Pin B19 (Pinned Directly)      |        Pin 2         |
+| CAN 2 Hi | Pin B13 (Pinned Directly)      |        Pin 3         |
+| Power    | Pin B1 - 14V (Splice)          |        Pin 4         |
 
 Standard CAN bus precautions apply — twisted pair (min one twist per 40mm), minimise connectors, 120 ohm 0.25W termination at each END, stub length < 0.3m (ISO 11898).
 
 **5.1a Emtron CAN Gauge specific wiring**
 
-| Name            | YXZ1000R ECU Header Pin                       | CAN Gauge Wire Colour |
-|-----------------|-----------------------------------------------|-----------------------|
-| Ground          | Pin A1/2 - ECU Ground (Splice)                | Black                 |
-| CAN 2 Lo        | Pin B19 - Pinned Directly or add to CAN Bus 2 | Green                 |
-| CAN 2 Hi        | Pin B13 - Pinned Directly or add to CAN Bus 2 | White                 |
-| Power 14V       | Pin B1 - 14V (Splice)                         | Red                   |
-| Illumination 14V| N/A - Splice to Headlamp Switch               | Orange                |
+| Name             | YXZ1000R ECU Header Pin                       | CAN Gauge Wire Colour |
+|------------------|-----------------------------------------------|-----------------------|
+| Ground           | Pin A1/2 - ECU Ground (Splice)                | Black                 |
+| CAN 2 Lo         | Pin B19 - Pinned Directly or add to CAN Bus 2 | Green                 |
+| CAN 2 Hi         | Pin B13 - Pinned Directly or add to CAN Bus 2 | White                 |
+| Power 14V        | Pin B1 - 14V (Splice)                         | Red                   |
+| Illumination 14V | N/A - Splice to Headlamp Switch               | Orange                |
 
 ### 5.2 Sensor Wiring
 
@@ -192,11 +191,11 @@ Standard CAN bus precautions apply — twisted pair (min one twist per 40mm), mi
 
 An Ethanol Content sensor can be wired into the ECU. The following channel assignment is recommended for the GM sensor:
 
-| GM Sensor Pinout | YXZ1000R Plugin ECU Pin   | Description                    |
-|:----------------:|---------------------------|--------------------------------|
-| Pin 1            | Pin B1 - 14V              | Supply - 14V                   |
-| Pin 2            | Pin A1/2 - ECU Ground     | Ground                         |
-| Pin 3            | Pin B30 - DI 4            | Output. Temperature and Ethanol Content |
+| GM Sensor Pinout | YXZ1000R Plugin ECU Pin | Description                             |
+|:----------------:|-------------------------|-----------------------------------------|
+|      Pin 1       | Pin B1 - 14V            | Supply - 14V                            |
+|      Pin 2       | Pin A1/2 - ECU Ground   | Ground                                  |
+|      Pin 3       | Pin B30 - DI 4          | Output. Temperature and Ethanol Content |
 
 {{% badge style="note" %}}NOTE{{% /badge %}} **DO NOT** connect the Ethanol Content sensor ground to the "Analog Sensor 0V Reference" — splice into the ECU Ground from Pin A1 or A2. (Ethanol Content: 50Hz = 0%, 150Hz = 100%. Fuel Temperature: 1ms = -40°C, 5ms = 125°C.) Set the Ethanol Sensor Input Source to DI 4 and the ECU will automatically decode the Ethanol Content and Fuel Temperature.
 
@@ -213,25 +212,25 @@ An Ethanol Content sensor can be wired into the ECU. The following channel assig
 
 {{< figure src="/img/yxz1000r-datasheet/connector-a-pinout.jpeg" caption="YXZ1000R Connector A — looking into the ECU connector." >}}
 
-| Pin | OEM Pin | Channel Name                | Pin | OEM Pin | Channel Name                       |
-|:---:|:-------:|-----------------------------|:---:|:-------:|------------------------------------|
-| A1  | 35      | Power System Ground 1       | A18 | 52      | Ignition Coil Cyl 3                |
-| A2  | 36      | Power System Ground 1       | A19 | 53      | Emtron User Output (e.g. DBW +)    |
-| A3  | 37      | Primary Injector Cyl 3      | A20 | 54      | Emtron User Output (e.g. DBW −)    |
-| A4  | 38      | Idle Stepper – W2 - A       | A21 | 55      | Fuel Pump 1                        |
-| A5  | 39      | Idle Stepper – W1 - B       | A22 | 56      | Radiator Fan Relay 1               |
-| A6  | 40      | Idle Stepper – W2 - B       | A23 | 57      | Hand Brake Switch                  |
-| A7  | 41      | Idle Stepper – W1 - A       | A24 | 58      | Brake Switch 1                     |
-| A8  | 42      | PVC Solenoid Output (Paddle ONLY) | A25 | 59 | Starter Relay Control              |
-| A9  | 43      | Emtron User Input           | A26 | 60      | Ignition Coil Cyl 2                |
-| A10 | 44      | Ignition Coil Cyl 1         | A27 | 61      | Primary Injector Cyl 2             |
-| A11 | 45      | YXZ Differential Lock Relay 1 | A28 | 62    | Primary Injector Cyl 1             |
-| A12 | 46      | YXZ Differential Lock Relay 2 | A29 | 63    | Emtron Knock 1+ Input              |
-| A13 | 47      | Seat Belt Pilot Lamp        | A30 | 64      | Emtron Knock 1- Input              |
-| A14 | 48      | User Output 3 - Parking Brake Buzzer | A31 | 65 | Differential Servo Position 3   |
-| A15 | 49      | Tacho - (Drive for EPS / Trans) | A32 | 66  | Clutch Switch (Non-paddle ONLY)    |
-| A16 | 50      | Start/Stop Switch           | A33 | 67      | Trans ECU Current Feedback / Emtron User Input |
-| A17 | 51      | User Output 2 - Air Induction Relay | A34 | 68 | Battery Constant Voltage        |
+| Pin | OEM Pin | Channel Name                         | Pin | OEM Pin | Channel Name                                   |
+|:---:|:-------:|--------------------------------------|:---:|:-------:|------------------------------------------------|
+| A1  |   35    | Power System Ground 1                | A18 |   52    | Ignition Coil Cyl 3                            |
+| A2  |   36    | Power System Ground 1                | A19 |   53    | Emtron User Output (e.g. DBW +)                |
+| A3  |   37    | Primary Injector Cyl 3               | A20 |   54    | Emtron User Output (e.g. DBW −)                |
+| A4  |   38    | Idle Stepper – W2 - A                | A21 |   55    | Fuel Pump 1                                    |
+| A5  |   39    | Idle Stepper – W1 - B                | A22 |   56    | Radiator Fan Relay 1                           |
+| A6  |   40    | Idle Stepper – W2 - B                | A23 |   57    | Hand Brake Switch                              |
+| A7  |   41    | Idle Stepper – W1 - A                | A24 |   58    | Brake Switch 1                                 |
+| A8  |   42    | PVC Solenoid Output (Paddle ONLY)    | A25 |   59    | Starter Relay Control                          |
+| A9  |   43    | Emtron User Input                    | A26 |   60    | Ignition Coil Cyl 2                            |
+| A10 |   44    | Ignition Coil Cyl 1                  | A27 |   61    | Primary Injector Cyl 2                         |
+| A11 |   45    | YXZ Differential Lock Relay 1        | A28 |   62    | Primary Injector Cyl 1                         |
+| A12 |   46    | YXZ Differential Lock Relay 2        | A29 |   63    | Emtron Knock 1+ Input                          |
+| A13 |   47    | Seat Belt Pilot Lamp                 | A30 |   64    | Emtron Knock 1- Input                          |
+| A14 |   48    | User Output 3 - Parking Brake Buzzer | A31 |   65    | Differential Servo Position 3                  |
+| A15 |   49    | Tacho - (Drive for EPS / Trans)      | A32 |   66    | Clutch Switch (Non-paddle ONLY)                |
+| A16 |   50    | Start/Stop Switch                    | A33 |   67    | Trans ECU Current Feedback / Emtron User Input |
+| A17 |   51    | User Output 2 - Air Induction Relay  | A34 |   68    | Battery Constant Voltage                       |
 
 ### Connector B: Signal / Power / Communications / Triggers / Knock
 
@@ -239,25 +238,25 @@ An Ethanol Content sensor can be wired into the ECU. The following channel assig
 
 {{< figure src="/img/yxz1000r-datasheet/connector-b-pinout.jpeg" caption="YXZ1000R Connector B — looking into the ECU connector." >}}
 
-| Pin | OEM Pin | Channel Name                       | Pin | OEM Pin | Channel Name                  |
-|:---:|:-------:|------------------------------------|:---:|:-------:|-------------------------------|
-| B1  | 1       | ECU 14V Supply                     | B18 | 18      | Control System Ground 2       |
-| B2  | 2       | YXZ Differential Switch 12         | B19 | 19      | Emtron CAN 2 Low              |
-| B3  | 3       | YXZ Differential Lock Rotary Switch 1 | B20 | 20   | YXZ Differential Servo Position 1 |
-| B4  | 4       | Engine Temperature                 | B21 | 21      | Neutral Switch                |
-| B5  | 5       | Manifold Pressure – Bank 1 (Cyl 1) | B22 | 22      | Gear Position Sensor (Non-paddle) |
-| B6  | 6       | Inlet Air Temp                     | B23 | 23      | Lean Angle Sensor             |
-| B7  | 7       | Sensor 5V Power Source             | B24 | 24      | Speed Sensor                  |
-| B8  | 8       | Crank Position Sensor              | B25 | 25      | YXZ Differential Lock Rotary Switch 2 |
-| B9  | 9       | CAN Bus Low (OEM)                  | B26 | 26      | Emtron Ethernet Tx +          |
-| B10 | 10      | Control System Ground 1            | B27 | 27      | Emtron Ethernet Tx −          |
-| B11 | 11      | YXZ Differential Switch 1          | B28 | 28      | YXZ Differential Servo Position 2 |
-| B12 | 12      | Battery Voltage Monitor            | B29 | 29      | YXZ Seat Belt Switch          |
-| B13 | 13      | Emtron CAN 2 High                  | B30 | 30      | User DI (Ethanol/Switch/Analog) |
-| B14 | 14      | Emtron Ethernet Rx +               | B31 | 31      | Throttle Position 1           |
-| B15 | 15      | Emtron Ethernet Rx −               | B32 | 32      | Manifold Pressure             |
-| B16 | 16      | Sensor System Ground               | B33 | 33      | Oil Pressure Switch           |
-| B17 | 17      | CAN Bus High (OEM)                 | B34 | 34      | Fan2 Relay (Paddle)           |
+| Pin | OEM Pin | Channel Name                          | Pin | OEM Pin | Channel Name                          |
+|:---:|:-------:|---------------------------------------|:---:|:-------:|---------------------------------------|
+| B1  |    1    | ECU 14V Supply                        | B18 |   18    | Control System Ground 2               |
+| B2  |    2    | YXZ Differential Switch 12            | B19 |   19    | Emtron CAN 2 Low                      |
+| B3  |    3    | YXZ Differential Lock Rotary Switch 1 | B20 |   20    | YXZ Differential Servo Position 1     |
+| B4  |    4    | Engine Temperature                    | B21 |   21    | Neutral Switch                        |
+| B5  |    5    | Manifold Pressure – Bank 1 (Cyl 1)    | B22 |   22    | Gear Position Sensor (Non-paddle)     |
+| B6  |    6    | Inlet Air Temp                        | B23 |   23    | Lean Angle Sensor                     |
+| B7  |    7    | Sensor 5V Power Source                | B24 |   24    | Speed Sensor                          |
+| B8  |    8    | Crank Position Sensor                 | B25 |   25    | YXZ Differential Lock Rotary Switch 2 |
+| B9  |    9    | CAN Bus Low (OEM)                     | B26 |   26    | Emtron Ethernet Tx +                  |
+| B10 |   10    | Control System Ground 1               | B27 |   27    | Emtron Ethernet Tx −                  |
+| B11 |   11    | YXZ Differential Switch 1             | B28 |   28    | YXZ Differential Servo Position 2     |
+| B12 |   12    | Battery Voltage Monitor               | B29 |   29    | YXZ Seat Belt Switch                  |
+| B13 |   13    | Emtron CAN 2 High                     | B30 |   30    | User DI (Ethanol/Switch/Analog)       |
+| B14 |   14    | Emtron Ethernet Rx +                  | B31 |   31    | Throttle Position 1                   |
+| B15 |   15    | Emtron Ethernet Rx −                  | B32 |   32    | Manifold Pressure                     |
+| B16 |   16    | Sensor System Ground                  | B33 |   33    | Oil Pressure Switch                   |
+| B17 |   17    | CAN Bus High (OEM)                    | B34 |   34    | Fan2 Relay (Paddle)                   |
 
 ### 7.1 Important Notes
 
@@ -271,11 +270,11 @@ Emtron's comprehensive Emtune tuning software is used to connect to the ECU (Win
 
 ## 9.0 Ordering Information
 
-| Product                                                  | Part Number |
-|----------------------------------------------------------|-------------|
-| Emtron YXZ ECU                                           | 1609-252426 |
-| Emtron Ethernet Tuning Cable (1.5m)                      | 553-15      |
-| Emtron Communications Cable, Superseal to Emtron Connector 200mm | 533-02 |
+| Product                                                          | Part Number |
+|------------------------------------------------------------------|-------------|
+| Emtron YXZ ECU                                                   | 1609-252426 |
+| Emtron Ethernet Tuning Cable (1.5m)                              | 553-15      |
+| Emtron Communications Cable, Superseal to Emtron Connector 200mm | 533-02      |
 
 ## Appendix A – YXZ1000R Series Ethernet Wiring
 

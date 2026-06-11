@@ -3,7 +3,7 @@ title: "Toyota GT86 / Subaru BRZ / Scion FR-S"
 weight: 0
 ---
 
-**GT86/BRZ/FR-S Plug-in ECU User Manual — Rev 1.0**
+**GT86/BRZ/FR-S Plug-in ECU User Manual**
 
 ## 1.0 Introduction
 
@@ -47,17 +47,17 @@ The ECU's Input capabilities can be expanded using the expansion connection, whi
 
 **Table 3.0 — Expansion Port Pinout**
 
-| Pin | Function                                          |
-|:---:|---------------------------------------------------|
-| 1   | Analog Sensor 0V Reference                        |
-| 2   | 5.0V Aux Supply                                   |
-| 3   | AN 8 (e.g. Fuel Temp or Inlet Temp)              |
-| 4   | AN 9 (e.g. Fuel Temp or Inlet Temp)             |
-| 5   | AN 10 (e.g. Fuel Pressure)                       |
-| 6   | DI 6 (e.g. Ethanol Content Sensor)              |
-| 7   | 14V Out Protected (ELC1 Power Supply)            |
-| 8   | Ground (ELC1 Ground)                             |
-| 9   | Auxiliary Output 5 (e.g. Boost Control solenoid) |
+| Pin | Function                                         |
+|:---:|--------------------------------------------------|
+|  1  | Analog Sensor 0V Reference                       |
+|  2  | 5.0V Aux Supply                                  |
+|  3  | AN 8 (e.g. Fuel Temp or Inlet Temp)              |
+|  4  | AN 9 (e.g. Fuel Temp or Inlet Temp)              |
+|  5  | AN 10 (e.g. Fuel Pressure)                       |
+|  6  | DI 6 (e.g. Ethanol Content Sensor)               |
+|  7  | 14V Out Protected (ELC1 Power Supply)            |
+|  8  | Ground (ELC1 Ground)                             |
+|  9  | Auxiliary Output 5 (e.g. Boost Control solenoid) |
 | 10  | NC                                               |
 | 11  | CAN 1 Hi                                         |
 | 12  | CAN 1 Lo                                         |
@@ -68,95 +68,95 @@ To minimise signal contamination and maximise noise immunity, twist the CAN High
 
 ### Injection
 
-| ECU Channel    | Function                          |
-|----------------|-----------------------------------|
-| Injection 1-4  | Port Fuel Injector Cyl 1-4        |
-| Injection 5    | Rear Lambda Heater                |
-| Injection 6    | Purge                             |
-| Injection 7    | DBW Power Supply Relay            |
+| ECU Channel    | Function                            |
+|----------------|-------------------------------------|
+| Injection 1-4  | Port Fuel Injector Cyl 1-4          |
+| Injection 5    | Rear Lambda Heater                  |
+| Injection 6    | Purge                               |
+| Injection 7    | DBW Power Supply Relay              |
 | Injection 8    | Direct Injection Power Supply Relay |
-| Injection 9-12 | DI Fuel Injector Cyl 1-4          |
+| Injection 9-12 | DI Fuel Injector Cyl 1-4            |
 
 ### Ignition
 
-| ECU Channel  | Function                                   |
-|--------------|--------------------------------------------|
-| Ignition 1-4 | Ignition Cylinder 1-4                      |
-| Ignition 5   | Alternator Control                         |
-| Ignition 6   | Engine Fan Relay                           |
-| Ignition 7   | AC Clutch Relay                            |
-| Ignition 8   | Starter Relay (Push Start) / Start Inhibit (Key Start) |
-| Ignition 9-10| Not Used                                   |
-| Ignition 11  | DI Fuel Pump Control                       |
-| Ignition 12  | Not Used                                   |
+| ECU Channel   | Function                                               |
+|---------------|--------------------------------------------------------|
+| Ignition 1-4  | Ignition Cylinder 1-4                                  |
+| Ignition 5    | Alternator Control                                     |
+| Ignition 6    | Engine Fan Relay                                       |
+| Ignition 7    | AC Clutch Relay                                        |
+| Ignition 8    | Starter Relay (Push Start) / Start Inhibit (Key Start) |
+| Ignition 9-10 | Not Used                                               |
+| Ignition 11   | DI Fuel Pump Control                                   |
+| Ignition 12   | Not Used                                               |
 
 ### Analog Inputs
 
-| ECU Channel                  | Function                          |
-|------------------------------|-----------------------------------|
-| Analog Voltage 1             | MAP                               |
-| Analog Voltage 2             | DBW 1 Servo Position Main         |
-| Analog Voltage 3             | DBW 1 Servo Position Sub          |
-| Analog Voltage 4             | MAF                               |
-| Analog Voltage 5             | Rear O2 Sensor                    |
-| Analog Voltage 6             | IO Expansion Loom (e.g. Fuel Pressure) |
-| Analog Voltage 7 (Pull-up)   | Engine Temperature                |
-| Analog Voltage 8-10 (Pull-up)| IO Expansion Loom (IAT / F.Temp / F.Pressure) |
-| Analog Voltage 11 (Pull-up)  | Intake Temperature MAF            |
-| Analog Voltage 12 (Pull-up)  | Engine Oil Temperature            |
-| Analog Voltage 13            | Pedal Position Sensor (PPS) Main  |
-| Analog Voltage 14            | Pedal Position Sensor (PPS) Sub   |
+| ECU Channel                   | Function                                      |
+|-------------------------------|-----------------------------------------------|
+| Analog Voltage 1              | MAP                                           |
+| Analog Voltage 2              | DBW 1 Servo Position Main                     |
+| Analog Voltage 3              | DBW 1 Servo Position Sub                      |
+| Analog Voltage 4              | MAF                                           |
+| Analog Voltage 5              | Rear O2 Sensor                                |
+| Analog Voltage 6              | IO Expansion Loom (e.g. Fuel Pressure)        |
+| Analog Voltage 7 (Pull-up)    | Engine Temperature                            |
+| Analog Voltage 8-10 (Pull-up) | IO Expansion Loom (IAT / F.Temp / F.Pressure) |
+| Analog Voltage 11 (Pull-up)   | Intake Temperature MAF                        |
+| Analog Voltage 12 (Pull-up)   | Engine Oil Temperature                        |
+| Analog Voltage 13             | Pedal Position Sensor (PPS) Main              |
+| Analog Voltage 14             | Pedal Position Sensor (PPS) Sub               |
 
 *Analog Voltage Channels 7-12 have switchable pull-ups suitable for temperature measurement.*
 
 ### Digital Inputs
 
-| ECU Channel      | Function                                          |
-|------------------|---------------------------------------------------|
-| Digital Input 1  | Cam Position - Inlet RH                           |
-| Digital Input 2  | Cam Position - Exhaust LH                         |
-| Digital Input 3  | Cam Position - Exhaust RH                         |
-| Digital Input 4  | Neutral Position Switch                          |
-| Digital Input 5  | Direct Injection 1 Feedback                      |
-| Digital Input 6  | IO Expansion Loom (e.g. Ethanol Sensor)         |
-| Digital Input 7  | Direct Injection 2 Feedback                      |
-| Digital Input 8  | DI Fuel Pump Feedback                            |
-| Digital Input 9  | Clutch Switch                                    |
-| Digital Input 10 | Start Signal from Starter Relay (Button Start) / NC (Key Start) |
-| Digital Input 11 | AC Pressure (some models only)                  |
+| ECU Channel      | Function                                                                       |
+|------------------|--------------------------------------------------------------------------------|
+| Digital Input 1  | Cam Position - Inlet RH                                                        |
+| Digital Input 2  | Cam Position - Exhaust LH                                                      |
+| Digital Input 3  | Cam Position - Exhaust RH                                                      |
+| Digital Input 4  | Neutral Position Switch                                                        |
+| Digital Input 5  | Direct Injection 1 Feedback                                                    |
+| Digital Input 6  | IO Expansion Loom (e.g. Ethanol Sensor)                                        |
+| Digital Input 7  | Direct Injection 2 Feedback                                                    |
+| Digital Input 8  | DI Fuel Pump Feedback                                                          |
+| Digital Input 9  | Clutch Switch                                                                  |
+| Digital Input 10 | Start Signal from Starter Relay (Button Start) / NC (Key Start)                |
+| Digital Input 11 | AC Pressure (some models only)                                                 |
 | Digital Input 12 | Start/Stop Switch (Button Start) / Start Signal from Starter Relay (Key Start) |
-| Digital Input 13 | Brake Switch                                     |
-| Digital Input 14 | Cruise Control Switch                            |
+| Digital Input 13 | Brake Switch                                                                   |
+| Digital Input 14 | Cruise Control Switch                                                          |
 
 ### Auxiliary Outputs
 
-| ECU Channel  | Function                                  |
-|--------------|-------------------------------------------|
-| Auxiliary 1  | VVT Solenoid Inlet RH                     |
-| Auxiliary 2  | VVT Solenoid Inlet LH                     |
-| Auxiliary 3  | VVT Solenoid Exhaust RH                   |
-| Auxiliary 4  | VVT Solenoid Exhaust LH                   |
+| ECU Channel  | Function                                        |
+|--------------|-------------------------------------------------|
+| Auxiliary 1  | VVT Solenoid Inlet RH                           |
+| Auxiliary 2  | VVT Solenoid Inlet LH                           |
+| Auxiliary 3  | VVT Solenoid Exhaust RH                         |
+| Auxiliary 4  | VVT Solenoid Exhaust LH                         |
 | Auxiliary 5  | IO Expansion Loom (e.g. Boost Control Solenoid) |
-| Auxiliary 6  | Engine Speed Output                       |
-| Auxiliary 7  | Fuel Pump Speed Control                   |
-| Auxiliary 8  | AC Fan Relay                              |
-| Auxiliary 9  | DBW +                                     |
-| Auxiliary 10 | DBW -                                     |
-| Auxiliary 11 | Start Inhibit (Button Start) / NC (Key Start) |
-| Auxiliary 12 | Not Used                                  |
-| Auxiliary 13 | Canister Pump Module Relay (PPMP)         |
-| Auxiliary 14 | Canister Pump Module Relay (VPMP)         |
-| Auxiliary 15 | Canister Pump Module Relay (MPMP)         |
-| Auxiliary 16 | Not Used                                  |
+| Auxiliary 6  | Engine Speed Output                             |
+| Auxiliary 7  | Fuel Pump Speed Control                         |
+| Auxiliary 8  | AC Fan Relay                                    |
+| Auxiliary 9  | DBW +                                           |
+| Auxiliary 10 | DBW -                                           |
+| Auxiliary 11 | Start Inhibit (Button Start) / NC (Key Start)   |
+| Auxiliary 12 | Not Used                                        |
+| Auxiliary 13 | Canister Pump Module Relay (PPMP)               |
+| Auxiliary 14 | Canister Pump Module Relay (VPMP)               |
+| Auxiliary 15 | Canister Pump Module Relay (MPMP)               |
+| Auxiliary 16 | Not Used                                        |
 
 {{% badge style="note" %}}NOTE{{% /badge %}} Auxiliary Channels 13-15 have drivers suitable ONLY for relay control with switching currents that must be less than 0.5A.
 
 ### Crank / Cam
 
-| ECU Channel | Function                       |
-|-------------|--------------------------------|
-| Crank Index | Crank Sensor                   |
-| Sync Sensor | Cam Position - Inlet Bank 1 (LH)|
+| ECU Channel | Function                         |
+|-------------|----------------------------------|
+| Crank Index | Crank Sensor                     |
+| Sync Sensor | Cam Position - Inlet Bank 1 (LH) |
 
 ## 5.0 Plug-in Specific Information
 
@@ -192,12 +192,12 @@ The ELC uses Bosch proven integrated circuit technology to precisely control an 
 
 **Table 7.0 — ELC1 to IO Expansion Port wiring**
 
-| Name     | ELC 4-Way DTM | ECU IO Expansion 12-Way DTM |
-|----------|:-------------:|:---------------------------:|
-| Ground   | Pin 1         | Pin 8                       |
-| CAN Lo   | Pin 2         | Pin 12                      |
-| CAN Hi   | Pin 3         | Pin 11                      |
-| Power    | Pin 4         | Pin 7                       |
+| Name   | ELC 4-Way DTM | ECU IO Expansion 12-Way DTM |
+|--------|:-------------:|:---------------------------:|
+| Ground |     Pin 1     |            Pin 8            |
+| CAN Lo |     Pin 2     |           Pin 12            |
+| CAN Hi |     Pin 3     |           Pin 11            |
+| Power  |     Pin 4     |            Pin 7            |
 
 ## 8.0 OEM CAN Bus 2
 
@@ -227,116 +227,116 @@ The ECU performs extremely accurate torque calculations provided the engine mode
 
 ### Connector A
 
-| Pin | Function                                | Channel Assignment        |
-|-----|-----------------------------------------|---------------------------|
-| A1  | Throttle Servo Motor -                  | AUX1012 Supply (option 2) |
-| A2  | Throttle Servo Motor +                  | AUX9                      |
-| A3  | Power Ground                            | GND                       |
-| A4  | Power Ground                            | GND                       |
-| A5  | Cam Solenoid Exhaust RH                 | Aux 4                     |
-| A6  | O2 NarrowBand Heater                    | GROUND                    |
-| A7  | Cam Solenoid Exhaust LH                 | Aux 3                     |
-| A8  | Ignition 4                              | Ign 4                     |
-| A10 | Ignition 2                              | Ign 2                     |
-| A11 | Purge                                   | Inj 6                     |
-| A12 | Injector 1 (Port)                       | Inj 1                     |
-| A13 | Injector 4 (Port)                       | Inj 2                     |
-| A14 | Injector 1 (Direct)                     | Inj 1 Direct              |
-| A16 | Cam Solenoid Inlet RH                   | Aux 2                     |
-| A17 | Cam Solenoid Inlet LH                   | Aux 1                     |
-| A18 | TPS (Main)                              | An 2                      |
-| A19 | 5V Engine (TP and VSV)                  | Eng 5V                    |
-| A20 | Oil Temperature                         | An 10                     |
-| A21 | Ignition 1                              | Ign 1                     |
-| A22 | Injector 2 (Port)                       | Inj 2                     |
-| A23 | Injector 4 (Direct)                     | Inj 4 Direct              |
-| A24 | Injector 3 (Direct)                     | Inj 3 Direct              |
-| A25 | Injector 2 (Direct)                     | Inj 2 Direct              |
-| A28 | TPS (Sub)                               | An 3                      |
-| A29 | Sensor Ground (Knk, MAF, Oil Temp, Eng Temp) | Sensor 0V Ref        |
-| A30 | ECT                                     | An 7                      |
-| A31 | Ignition 3                              | Ign 3                     |
-| A32 | Injector 3 (Port)                       | Inj 3                     |
+| Pin | Function                                     | Channel Assignment        |
+|-----|----------------------------------------------|---------------------------|
+| A1  | Throttle Servo Motor -                       | AUX1012 Supply (option 2) |
+| A2  | Throttle Servo Motor +                       | AUX9                      |
+| A3  | Power Ground                                 | GND                       |
+| A4  | Power Ground                                 | GND                       |
+| A5  | Cam Solenoid Exhaust RH                      | Aux 4                     |
+| A6  | O2 NarrowBand Heater                         | GROUND                    |
+| A7  | Cam Solenoid Exhaust LH                      | Aux 3                     |
+| A8  | Ignition 4                                   | Ign 4                     |
+| A10 | Ignition 2                                   | Ign 2                     |
+| A11 | Purge                                        | Inj 6                     |
+| A12 | Injector 1 (Port)                            | Inj 1                     |
+| A13 | Injector 4 (Port)                            | Inj 2                     |
+| A14 | Injector 1 (Direct)                          | Inj 1 Direct              |
+| A16 | Cam Solenoid Inlet RH                        | Aux 2                     |
+| A17 | Cam Solenoid Inlet LH                        | Aux 1                     |
+| A18 | TPS (Main)                                   | An 2                      |
+| A19 | 5V Engine (TP and VSV)                       | Eng 5V                    |
+| A20 | Oil Temperature                              | An 10                     |
+| A21 | Ignition 1                                   | Ign 1                     |
+| A22 | Injector 2 (Port)                            | Inj 2                     |
+| A23 | Injector 4 (Direct)                          | Inj 4 Direct              |
+| A24 | Injector 3 (Direct)                          | Inj 3 Direct              |
+| A25 | Injector 2 (Direct)                          | Inj 2 Direct              |
+| A28 | TPS (Sub)                                    | An 3                      |
+| A29 | Sensor Ground (Knk, MAF, Oil Temp, Eng Temp) | Sensor 0V Ref             |
+| A30 | ECT                                          | An 7                      |
+| A31 | Ignition 3                                   | Ign 3                     |
+| A32 | Injector 3 (Port)                            | Inj 3                     |
 
 ### Connector B
 
-| Pin | Function                          | Channel Assignment |
-|-----|-----------------------------------|--------------------|
-| B1  | Canister Pump Module (VPMP)       |                    |
-| B5  | Direct Injector Power Supply Relay| Inj 8              |
-| B7  | DBW (ETCS) Power                  | Inj 7              |
-| B8  | Canister Pump Module (MPMP)       |                    |
-| B10 | Fuel Pump Feedback                | DI 5               |
-| B11 | Cooling Fan Relay 3               | Ign 5              |
-| B12 | Cooling Fan Relay 1 2             | Ign 6              |
-| B13 | EFI Relay (Gnd)                   |                    |
-| B15 | Tacho                             | Aux 6              |
-| B17 | DBW Relay (Gnd)                   | Inj 7              |
-| B18 | Alternator Control                | Aux 8              |
-| B19 | FPC                               | Aux 7              |
-| B20 | Canister Pump Module              | GROUND             |
-| B21 | 5V Eng (FPS Main)                 | 5V Eng             |
-| B22 | 5V Eng (FPS Sub)                  | 5V Eng             |
-| B23 | FPS Main Signal                   | An 13              |
-| B26 | Starter Relay                     | Ign 8              |
-| B29 | Sensor Ground (PP)                | Sensor 0V Ref      |
-| B30 | Sensor Ground (PP)                | Sensor 0V Ref      |
-| B31 | FPS Sub Signal                    | An 14              |
-| B34 | Start Cut Relay                   | Aux 11             |
-| B35 | AC Clutch                         | Ign 7              |
+| Pin | Function                           | Channel Assignment |
+|-----|------------------------------------|--------------------|
+| B1  | Canister Pump Module (VPMP)        |                    |
+| B5  | Direct Injector Power Supply Relay | Inj 8              |
+| B7  | DBW (ETCS) Power                   | Inj 7              |
+| B8  | Canister Pump Module (MPMP)        |                    |
+| B10 | Fuel Pump Feedback                 | DI 5               |
+| B11 | Cooling Fan Relay 3                | Ign 5              |
+| B12 | Cooling Fan Relay 1 2              | Ign 6              |
+| B13 | EFI Relay (Gnd)                    |                    |
+| B15 | Tacho                              | Aux 6              |
+| B17 | DBW Relay (Gnd)                    | Inj 7              |
+| B18 | Alternator Control                 | Aux 8              |
+| B19 | FPC                                | Aux 7              |
+| B20 | Canister Pump Module               | GROUND             |
+| B21 | 5V Eng (FPS Main)                  | 5V Eng             |
+| B22 | 5V Eng (FPS Sub)                   | 5V Eng             |
+| B23 | FPS Main Signal                    | An 13              |
+| B26 | Starter Relay                      | Ign 8              |
+| B29 | Sensor Ground (PP)                 | Sensor 0V Ref      |
+| B30 | Sensor Ground (PP)                 | Sensor 0V Ref      |
+| B31 | FPS Sub Signal                     | An 14              |
+| B34 | Start Cut Relay                    | Aux 11             |
+| B35 | AC Clutch                          | Ign 7              |
 
 ### Connector C
 
-| Pin | Function                       | Channel Assignment |
-|-----|--------------------------------|--------------------|
-| C1  | Power Ground                   | GROUND             |
-| C2  | Power Ground                   |                    |
-| C3  | Power Ground                   |                    |
-| C5  | O2 Wideband Heater             |                    |
-| C6  | 14V ECU Power                  |                    |
-| C9  | Fuel Pressure Signal           | An 6               |
-| C11 | DF1                            | DI 5               |
-| C13 | Fuel Pump Feedback             | DI 8               |
-| C14 | Exhaust Cam Position (LH)      | DI 2               |
-| C15 | Intake Cam Position (RH)       | DI 1               |
-| C16 | Crank Signal +                 |                    |
-| C17 | Knock Signal (RH)              |                    |
-| C18 | O2 Wideband Sensor Signal 1 -  |                    |
-| C19 | O2 Wideband Sensor Signal 1 +  |                    |
-| C20 | Manifold Pressure Sensor       | An 1               |
-| C21 | O2 NarrowBand Sensor Signal 2  |                    |
-| C25 | Exhaust Cam Position (RH)      | DI 3               |
-| C26 | Inlet Cam Position (LH)        | Sync Index         |
-| C27 | Crank Signal -                 |                    |
-| C28 | Knock Signal LH +              |                    |
-| C29 | Shield (Knock)                 |                    |
-| C30 | Shield (O2)                    |                    |
-| C31 | DF2                            | DI 7               |
-| C32 | Fuel Pump Driver               | Aux 12             |
-| C34 | 5V for CAM Sensors             | 5V Eng             |
-| C35 | Shield (Crank)                 |                    |
+| Pin | Function                      | Channel Assignment |
+|-----|-------------------------------|--------------------|
+| C1  | Power Ground                  | GROUND             |
+| C2  | Power Ground                  |                    |
+| C3  | Power Ground                  |                    |
+| C5  | O2 Wideband Heater            |                    |
+| C6  | 14V ECU Power                 |                    |
+| C9  | Fuel Pressure Signal          | An 6               |
+| C11 | DF1                           | DI 5               |
+| C13 | Fuel Pump Feedback            | DI 8               |
+| C14 | Exhaust Cam Position (LH)     | DI 2               |
+| C15 | Intake Cam Position (RH)      | DI 1               |
+| C16 | Crank Signal +                |                    |
+| C17 | Knock Signal (RH)             |                    |
+| C18 | O2 Wideband Sensor Signal 1 - |                    |
+| C19 | O2 Wideband Sensor Signal 1 + |                    |
+| C20 | Manifold Pressure Sensor      | An 1               |
+| C21 | O2 NarrowBand Sensor Signal 2 |                    |
+| C25 | Exhaust Cam Position (RH)     | DI 3               |
+| C26 | Inlet Cam Position (LH)       | Sync Index         |
+| C27 | Crank Signal -                |                    |
+| C28 | Knock Signal LH +             |                    |
+| C29 | Shield (Knock)                |                    |
+| C30 | Shield (O2)                   |                    |
+| C31 | DF2                           | DI 7               |
+| C32 | Fuel Pump Driver              | Aux 12             |
+| C34 | 5V for CAM Sensors            | 5V Eng             |
+| C35 | Shield (Crank)                |                    |
 
 ### Connector D
 
-| Pin | Function                       | Channel Assignment |
-|-----|--------------------------------|--------------------|
-| D1  | 14V ECU Power                  |                    |
-| D2  | Battery                        |                    |
-| D3  | Brake Switch (NO)              |                    |
-| D4  | Signal Ground / Shielding      |                    |
-| D7  | Brake Switch (NC)              | DI 13              |
-| D8  | AC Pressure Sensor             | DI 11              |
-| D12 | Intake Temp (MAF)              | AN 11              |
-| D14 | Starter Signal from Start Relay| DI 10              |
-| D15 | Clutch Switch                  | DI 9               |
-| D16 | Neutral Switch                 | DI 4               |
-| D17 | Start Request                  | DI 12              |
-| D18 | CAN Lo                         | CAN Lo             |
-| D19 | CAN Hi                         | CAN Hi             |
-| D20 | GROUND                         |                    |
-| D22 | MAF Signal                     | AN 4               |
-| D24 | Battery Current Sensor         | GROUND             |
-| D27 | Ignition Switch                |                    |
-| D28 | Shield (MAF)                   |                    |
-| D29 | Ground (MAF)                   |                    |
-| D30 | Cruise Switch (Main)           | DI 14              |
+| Pin | Function                        | Channel Assignment |
+|-----|---------------------------------|--------------------|
+| D1  | 14V ECU Power                   |                    |
+| D2  | Battery                         |                    |
+| D3  | Brake Switch (NO)               |                    |
+| D4  | Signal Ground / Shielding       |                    |
+| D7  | Brake Switch (NC)               | DI 13              |
+| D8  | AC Pressure Sensor              | DI 11              |
+| D12 | Intake Temp (MAF)               | AN 11              |
+| D14 | Starter Signal from Start Relay | DI 10              |
+| D15 | Clutch Switch                   | DI 9               |
+| D16 | Neutral Switch                  | DI 4               |
+| D17 | Start Request                   | DI 12              |
+| D18 | CAN Lo                          | CAN Lo             |
+| D19 | CAN Hi                          | CAN Hi             |
+| D20 | GROUND                          |                    |
+| D22 | MAF Signal                      | AN 4               |
+| D24 | Battery Current Sensor          | GROUND             |
+| D27 | Ignition Switch                 |                    |
+| D28 | Shield (MAF)                    |                    |
+| D29 | Ground (MAF)                    |                    |
+| D30 | Cruise Switch (Main)            | DI 14              |

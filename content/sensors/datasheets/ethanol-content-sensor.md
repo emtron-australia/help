@@ -9,10 +9,10 @@ The Emtron Ethanol Content (Flex Fuel) Sensor is a Continental sensor that measu
 
 ## Wiring
 
-| Pin | Function            |
-|:---:|---------------------|
-| 1   | 12V or ECU 8V Out   |
-| 2   | Ground              |
-| 3   | Output              |
+| Pin | Function          |
+|:---:|-------------------|
+|  1  | 12V or ECU 8V Out |
+|  2  | Ground            |
+|  3  | Output            |
 
 {{% badge style="note" %}}NOTE{{% /badge %}} The Output pin can be connected to any Digital Input Channel 1-8.

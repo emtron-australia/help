@@ -3,8 +3,6 @@ title: "300psi Pressure Sensor Datasheet"
 weight: 4
 ---
 
-**Rev 1.0**
-
 ## 1.0 Description
 
 The Emtron 300psi Gauge Pressure Sensor uses a state-of-the-art piezoresistive transducer from Bourns Semiconductors. It is highly accurate, providing a high level analog output signal that is proportional to the applied pressure.
@@ -42,9 +40,9 @@ An anaerobic thread sealant may be used sparingly. Avoid excessive use to preven
 
 | Pin | Function      |
 |:---:|---------------|
-| 1   | Sensor 0V ref |
-| 2   | Signal        |
-| 3   | 5.0V          |
+|  1  | Sensor 0V ref |
+|  2  | Signal        |
+|  3  | 5.0V          |
 
 1. Connect the Pressure Sensor 0V (Pin 1) to the ECU Sensor 0V Reference pin (Sensor Ground). **DO NOT** connect the Pressure Sensor 0V directly to the ECU ground or engine block.
 2. Connect the Pressure Sensor Signal to an available Analog Voltage input or Digital input.
@@ -71,6 +69,6 @@ This calibration option is available from Emtune. Select the **"Emtron 300psi"**
 
 ## 2.5 Ordering Information
 
-| Product                   | Part Number |
-|---------------------------|-------------|
-| Emtron Pressure Sensor 300 Psi | 1606-300G |
+| Product                        | Part Number |
+|--------------------------------|-------------|
+| Emtron Pressure Sensor 300 Psi | 1606-300G   |

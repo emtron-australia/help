@@ -3,8 +3,6 @@ title: "SL4 ECU Datasheet"
 weight: 6
 ---
 
-**Rev 1.0** &nbsp;•&nbsp; Emtron SL4 ECU
-
 {{< figure src="/img/sl4-datasheet/page01_img02.jpeg" caption="Emtron SL4 ECU" >}}
 
 ## 1.0 General
@@ -187,24 +185,24 @@ Emtron's SL Series is built upon the outstanding foundation of the KV Series and
 
 {{< figure src="/img/sl4-datasheet/page07_img01.jpeg" caption="SL4 Connector A — looking into ECU connector." >}}
 
-| Pin | Channel Name        | Pin | Channel Name                    |
-|:---:|---------------------|:---:|---------------------------------|
-| A1  | Injection Channel 1 | A18 | Auxiliary Output 9              |
-| A2  | Injection Channel 2 | A19 | Auxiliary Output 10             |
-| A3  | Injection Channel 3 | A20 | Digital Input 1                 |
-| A4  | Injection Channel 4 | A21 | Digital Input 2                 |
-| A5  | NC                  | A22 | Digital Input 3                 |
-| A6  | NC                  | A23 | Digital Input 4                 |
-| A7  | NC                  | A24 | Digital Input 5                 |
-| A8  | NC                  | A25 | Digital Input 6                 |
-| A9  | Sensor Supply 8V    | A26 | Ignition Channel 1              |
-| A10 | Auxiliary Output 1  | A27 | Ignition Channel 2              |
-| A11 | Auxiliary Output 2  | A28 | Ignition Channel 3              |
-| A12 | Auxiliary Output 3  | A29 | Ignition Channel 4              |
-| A13 | Auxiliary Output 4  | A30 | NC                              |
-| A14 | Auxiliary Output 5  | A31 | NC                              |
-| A15 | Auxiliary Output 6  | A32 | NC                              |
-| A16 | Auxiliary Output 7  | A33 | NC                              |
+| Pin | Channel Name        | Pin | Channel Name                      |
+|:---:|---------------------|:---:|-----------------------------------|
+| A1  | Injection Channel 1 | A18 | Auxiliary Output 9                |
+| A2  | Injection Channel 2 | A19 | Auxiliary Output 10               |
+| A3  | Injection Channel 3 | A20 | Digital Input 1                   |
+| A4  | Injection Channel 4 | A21 | Digital Input 2                   |
+| A5  | NC                  | A22 | Digital Input 3                   |
+| A6  | NC                  | A23 | Digital Input 4                   |
+| A7  | NC                  | A24 | Digital Input 5                   |
+| A8  | NC                  | A25 | Digital Input 6                   |
+| A9  | Sensor Supply 8V    | A26 | Ignition Channel 1                |
+| A10 | Auxiliary Output 1  | A27 | Ignition Channel 2                |
+| A11 | Auxiliary Output 2  | A28 | Ignition Channel 3                |
+| A12 | Auxiliary Output 3  | A29 | Ignition Channel 4                |
+| A13 | Auxiliary Output 4  | A30 | NC                                |
+| A14 | Auxiliary Output 5  | A31 | NC                                |
+| A15 | Auxiliary Output 6  | A32 | NC                                |
+| A16 | Auxiliary Output 7  | A33 | NC                                |
 | A17 | Auxiliary Output 8  | A34 | Auxiliary Output 9-10, 14V Supply |
 
 ### Connector B: Signal / Power / Communications / Triggers / Knock
@@ -213,25 +211,25 @@ Emtron's SL Series is built upon the outstanding foundation of the KV Series and
 
 {{< figure src="/img/sl4-datasheet/page08_img01.jpeg" caption="SL4 Connector B — looking into ECU connector." >}}
 
-| Pin | Channel Name                     | Pin | Channel Name             |
-|:---:|----------------------------------|:---:|--------------------------|
-| B1  | ECU 14V Supply                   | B18 | ECU Ground               |
-| B2  | Sensor Supply Vref1: 5.0V        | B19 | Analog Input Channel 6   |
-| B3  | EFI Relay Output (Low Side 200mA)| B20 | Analog Input Channel 7   |
-| B4  | Ignition Switch Input            | B21 | Analog Input Channel 8   |
-| B5  | Crank Index Sensor +             | B22 | Analog Input Channel 9   |
-| B6  | Crank Index Sensor -             | B23 | Analog Input Channel 10  |
-| B7  | Sync Sensor +                    | B24 | Knock 2 +                |
-| B8  | Sync Sensor -                    | B25 | Knock 2 -                |
-| B9  | Shield (Crank/Sync/Knock)        | B26 | ECU Ground               |
-| B10 | Analog Sensor 0V Reference       | B27 | CAN 1H                   |
-| B11 | Analog Input Channel 1           | B28 | CAN 1L                   |
-| B12 | Analog Input Channel 2           | B29 | NC                       |
-| B13 | Analog Input Channel 3           | B30 | NC                       |
-| B14 | Analog Input Channel 4           | B31 | Ethernet Tx +            |
-| B15 | Analog Input Channel 5           | B32 | Ethernet Tx -            |
-| B16 | Knock 1 +                        | B33 | Ethernet Rx +            |
-| B17 | Knock 1 -                        | B34 | Ethernet Rx -            |
+| Pin | Channel Name                      | Pin | Channel Name            |
+|:---:|-----------------------------------|:---:|-------------------------|
+| B1  | ECU 14V Supply                    | B18 | ECU Ground              |
+| B2  | Sensor Supply Vref1: 5.0V         | B19 | Analog Input Channel 6  |
+| B3  | EFI Relay Output (Low Side 200mA) | B20 | Analog Input Channel 7  |
+| B4  | Ignition Switch Input             | B21 | Analog Input Channel 8  |
+| B5  | Crank Index Sensor +              | B22 | Analog Input Channel 9  |
+| B6  | Crank Index Sensor -              | B23 | Analog Input Channel 10 |
+| B7  | Sync Sensor +                     | B24 | Knock 2 +               |
+| B8  | Sync Sensor -                     | B25 | Knock 2 -               |
+| B9  | Shield (Crank/Sync/Knock)         | B26 | ECU Ground              |
+| B10 | Analog Sensor 0V Reference        | B27 | CAN 1H                  |
+| B11 | Analog Input Channel 1            | B28 | CAN 1L                  |
+| B12 | Analog Input Channel 2            | B29 | NC                      |
+| B13 | Analog Input Channel 3            | B30 | NC                      |
+| B14 | Analog Input Channel 4            | B31 | Ethernet Tx +           |
+| B15 | Analog Input Channel 5            | B32 | Ethernet Tx -           |
+| B16 | Knock 1 +                         | B33 | Ethernet Rx +           |
+| B17 | Knock 1 -                         | B34 | Ethernet Rx -           |
 
 ### 6.1 Important Notes
 
@@ -263,11 +261,11 @@ Emtron's comprehensive Emtune tuning software is used to connect to the ECU.
 
 ## 8.0 Ordering Information
 
-| Product                                                  | Part Number |
-|----------------------------------------------------------|-------------|
-| Emtron SL4 ECU                                           | 1912-042    |
-| Emtron Ethernet Tuning Cable (1.5m)                      | 553-15      |
-| Emtron Communications Cable, Superseal to Emtron Connector 200mm | 533-02 |
+| Product                                                          | Part Number |
+|------------------------------------------------------------------|-------------|
+| Emtron SL4 ECU                                                   | 1912-042    |
+| Emtron Ethernet Tuning Cable (1.5m)                              | 553-15      |
+| Emtron Communications Cable, Superseal to Emtron Connector 200mm | 533-02      |
 
 ## Appendix A – SL4 ECU Pinout Drawing
 

@@ -2,8 +2,6 @@
 title: "Emtron Thermocouple to CAN (ETC4 / ETC8M)"
 ---
 
-**ETC4 / ETC8M — Rev 1.1**
-
 **Kit Contents** — When purchasing an ETC4 the following items are included:
 
 - ETC4 Device with Flying Harness
@@ -72,27 +70,27 @@ Each device has an M4 × 1.5 thread tapped into the base of the enclosure and ca
 
 | Pin | Function   | Wire Colour |
 |:---:|------------|-------------|
-| 1   | Ground     | BLACK       |
-| 2   | CAN Lo     | GREEN       |
-| 3   | CAN Hi     | YELLOW      |
-| 4   | 12V Supply | RED         |
+|  1  | Ground     | BLACK       |
+|  2  | CAN Lo     | GREEN       |
+|  3  | CAN Hi     | YELLOW      |
+|  4  | 12V Supply | RED         |
 
 **Table 3.1 — ETC4 Thermocouple Flying Loom Connector (DTM 12 pin, F — DTM06-12SA)**
 
-| Pin | Function                    | Wire Colour |
-|:---:|-----------------------------|-------------|
-| 1   | EGT 1+                      | BRN         |
-| 2   | EGT 2+                      | BLUE        |
-| 3   | EGT 3+                      | GREY        |
-| 4   | EGT 4+                      | W/GREY      |
-| 5   | NC                          | W/BLUE      |
-| 6   | External Cold Junction      | W/BRN       |
-| 7   | Analog Sensor 0V Reference  | W/RED       |
-| 8   | NC                          | W/BLACK     |
-| 9   | EGT 4-                      | W/OR        |
-| 10  | EGT 3-                      | OR          |
-| 11  | EGT 2-                      | WHITE       |
-| 12  | EGT 1-                      | PUR         |
+| Pin | Function                   | Wire Colour |
+|:---:|----------------------------|-------------|
+|  1  | EGT 1+                     | BRN         |
+|  2  | EGT 2+                     | BLUE        |
+|  3  | EGT 3+                     | GREY        |
+|  4  | EGT 4+                     | W/GREY      |
+|  5  | NC                         | W/BLUE      |
+|  6  | External Cold Junction     | W/BRN       |
+|  7  | Analog Sensor 0V Reference | W/RED       |
+|  8  | NC                         | W/BLACK     |
+|  9  | EGT 4-                     | W/OR        |
+| 10  | EGT 3-                     | OR          |
+| 11  | EGT 2-                     | WHITE       |
+| 12  | EGT 1-                     | PUR         |
 
 ### 3.2 ETC8M Pinout
 
@@ -100,19 +98,19 @@ Each device has an M4 × 1.5 thread tapped into the base of the enclosure and ca
 
 **Table 3.2 — ETC8M Pinout**
 
-| Pin | Function           | Pin | Function                         |
-|:---:|--------------------|:---:|----------------------------------|
-| 1   | 14 V Supply        | 12  | EGT 4+                           |
-| 2   | Ground             | 13  | EGT 5-                           |
-| 3   | CAN Hi             | 14  | EGT 5+                           |
-| 4   | CAN Lo             | 15  | EGT 6-                           |
-| 5   | EGT 1-             | 16  | EGT 6+                           |
-| 6   | EGT 1+             | 17  | EGT 7-                           |
-| 7   | EGT 2-             | 18  | EGT 7+                           |
-| 8   | EGT 2+             | 19  | EGT 8-                           |
-| 9   | EGT 3-             | 20  | EGT 8+                           |
-| 10  | EGT 3+             | 21  | Cold Junction Input (External)   |
-| 11  | EGT 4-             | 22  | 0V Analog Sensor Reference       |
+| Pin | Function    | Pin | Function                       |
+|:---:|-------------|:---:|--------------------------------|
+|  1  | 14 V Supply | 12  | EGT 4+                         |
+|  2  | Ground      | 13  | EGT 5-                         |
+|  3  | CAN Hi      | 14  | EGT 5+                         |
+|  4  | CAN Lo      | 15  | EGT 6-                         |
+|  5  | EGT 1-      | 16  | EGT 6+                         |
+|  6  | EGT 1+      | 17  | EGT 7-                         |
+|  7  | EGT 2-      | 18  | EGT 7+                         |
+|  8  | EGT 2+      | 19  | EGT 8-                         |
+|  9  | EGT 3-      | 20  | EGT 8+                         |
+| 10  | EGT 3+      | 21  | Cold Junction Input (External) |
+| 11  | EGT 4-      | 22  | 0V Analog Sensor Reference     |
 
 ### 3.3 CAN Bus
 
@@ -217,10 +215,10 @@ The EGT data Transmit rate is adjustable on the ETC4 and ETC8M: **200Hz (Default
 
 ## 7.0 Ordering Information
 
-| Product       | Part Number |
-|---------------|-------------|
-| Emtron ETC4   | 5203-4      |
-| Emtron ETC8M  | 5203-813    |
+| Product      | Part Number |
+|--------------|-------------|
+| Emtron ETC4  | 5203-4      |
+| Emtron ETC8M | 5203-813    |
 
 ## Appendix 1 — CAN Bus Data Packaging (Device FW 36 or Later)
 
@@ -228,13 +226,13 @@ This section provides detailed information on the CAN ID data structure and requ
 
 **ETC4 CAN Data Format** — ID 691 / 0x2B3 (Default), Standard 11-bit identifier, Transmit from Device, Length 7 bytes, Tx Rate adjustable (50/100/200/500 Hz).
 
-| Name           | Start bit | Length (bits) | Byte Order | Data Type | Multiplier | Offset | Units | Example            |
-|----------------|:---------:|:-------------:|------------|-----------|:----------:|:------:|-------|--------------------|
-| EGT Channel 1  | 0         | 12            | Big Endian | Unsigned  | 1          | -50    | DegC  | CAN 900 = 850 DegC |
-| EGT Channel 2  | 12        | 12            | Big Endian | Unsigned  | 1          | -50    | DegC  |                    |
-| EGT Channel 3  | 24        | 12            | Big Endian | Unsigned  | 1          | -50    | DegC  |                    |
-| EGT Channel 4  | 36        | 12            | Big Endian | Unsigned  | 1          | -50    | DegC  |                    |
-| Cold Junc. Temp| 48        | 8             | NA         | Unsigned  | 1          | -50    | DegC  | CAN 68 = 18 DegC   |
+| Name            | Start bit | Length (bits) | Byte Order | Data Type | Multiplier | Offset | Units | Example            |
+|-----------------|:---------:|:-------------:|------------|-----------|:----------:|:------:|-------|--------------------|
+| EGT Channel 1   |     0     |      12       | Big Endian | Unsigned  |     1      |  -50   | DegC  | CAN 900 = 850 DegC |
+| EGT Channel 2   |    12     |      12       | Big Endian | Unsigned  |     1      |  -50   | DegC  |                    |
+| EGT Channel 3   |    24     |      12       | Big Endian | Unsigned  |     1      |  -50   | DegC  |                    |
+| EGT Channel 4   |    36     |      12       | Big Endian | Unsigned  |     1      |  -50   | DegC  |                    |
+| Cold Junc. Temp |    48     |       8       | NA         | Unsigned  |     1      |  -50   | DegC  | CAN 68 = 18 DegC   |
 
 **ETC8M CAN Data Format** — ID 700 / 0x2BC (channels 1-4 + cold junction) and ID 701 / 0x2BD (channels 5-8 + open-circuit status), Standard 11-bit identifier, Transmit from Device, Length 7 bytes.
 
@@ -244,10 +242,10 @@ ID 701 carries EGT Channels 5-8 (start bits 0/12/24/36, 12 bits each, Big Endian
 
 | Bit | Meaning           | Bit | Meaning           |
 |:---:|-------------------|:---:|-------------------|
-| 0   | EGT Ch 1 Open Cct | 4   | EGT Ch 5 Open Cct |
-| 1   | EGT Ch 2 Open Cct | 5   | EGT Ch 6 Open Cct |
-| 2   | EGT Ch 3 Open Cct | 6   | EGT Ch 7 Open Cct |
-| 3   | EGT Ch 4 Open Cct | 7   | EGT Ch 8 Open Cct |
+|  0  | EGT Ch 1 Open Cct |  4  | EGT Ch 5 Open Cct |
+|  1  | EGT Ch 2 Open Cct |  5  | EGT Ch 6 Open Cct |
+|  2  | EGT Ch 3 Open Cct |  6  | EGT Ch 7 Open Cct |
+|  3  | EGT Ch 4 Open Cct |  7  | EGT Ch 8 Open Cct |
 
 ## Appendix 2 — CAN Bus Data Packaging (Device FW 35 or earlier)
 
