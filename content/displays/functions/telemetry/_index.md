@@ -52,7 +52,7 @@ Text Communications is a real-time messaging feature that lets you communicate w
 
 ### Activation - License Server
 
-To activate the Telemetry feature on your device, login to the [Emtron License Server](https://license.emtronaustralia.com.au).
+To activate the Telemetry feature on your device, login to [EmNet](https://emnet.emtronaustralia.com.au/).
 Once logged in, from your Dashboard, click the `Activate Telemetry` button.
 
  * Enter the device serial number.
@@ -74,7 +74,7 @@ Once the details have been filled out, click `Activate Now` to complete the proc
 
 #### Authentication
 
-In [Display Studio](https://downloads.emtronaustralia.com.au/), the first thing to configure is the authentication settings, found in `File → Telemetry Credentials`.
+In [Display Studio](https://emnet.emtronaustralia.com.au/), the first thing to configure is the authentication settings, found in `File → Telemetry Credentials`.
 
 | Setting                      | Description                                                 |
 |------------------------------|-------------------------------------------------------------|

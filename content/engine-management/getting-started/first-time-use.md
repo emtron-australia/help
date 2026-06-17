@@ -4,7 +4,7 @@ weight: 1
 ---
 
 ## If using the ECU for the first time
-1. Download software - [Downloads](https://downloads.emtronaustralia.com.au/)
+1. Download software - [EmNet](https://emnet.emtronaustralia.com.au/)
 2. Obtain a [Tuning Cable](https://emtron.world/products/ecu-tuning-cable)
 3. Set up Ethernet port - [Ethernet Setup Guide](./ethernet-connection.md). *Emtune software will communicate to the ECU over a static IP address which must be configured.*
 4. Read the [KV Series Hardware Manual](../datasheets/kv-hardware-manual.md)

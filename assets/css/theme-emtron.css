@@ -15,3 +15,24 @@
     --MENU-SECTIONS-BG-color: #1c1c1c;
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #121212;
 }
+
+.home-hero {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--MENU-SECTIONS-BG-color);
+}
+
+.home-hero img {
+    max-width: 220px;
+    margin: 0 auto 1.25rem;
+    display: block;
+}
+
+.home-hero p {
+    max-width: 42rem;
+    margin: 0 auto;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--MAIN-TEXT-color);
+}

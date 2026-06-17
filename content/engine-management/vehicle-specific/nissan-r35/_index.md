@@ -3,7 +3,9 @@ title: "Nissan GTR R35"
 weight: 0
 ---
 
-[R35 GTR Plug In Manual](https://downloads.emtronaustralia.com.au/files/5_Plugin%20ECU/2_Manuals/Nissan%20GT-R%20R35%20Plugin%20%20Manual%20-%20Emtron.pdf)
+Documentation for the Emtron R35 GT-R Plug-in ECU — installation, VDC integration, TCM setup, and tuning.
+
+Start with [Nissan GTR R35 Build](nissan-gtr-r35-build/) for the plug-in installation reference.
 
 ![Image](</img/NewItem677.png>)
 

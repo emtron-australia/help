@@ -9,7 +9,7 @@ Welcome to the Emtron ECU manual.
 
 The latest software updates are available from:
 
-[https://downloads.emtronaustralia.com.au/](<https://downloads.emtronaustralia.com.au/>)
+[https://emnet.emtronaustralia.com.au/](<https://emnet.emtronaustralia.com.au/>)
 
 ---
 
