@@ -1,5 +1,6 @@
 ---
 title: Error Codes
+weight: 999
 ---
 
 | # | Code | Description |
@@ -291,4 +292,37 @@ title: Error Codes
 | 306 | Fork 7 Movement |  |
 | 307 | Fork 8 Movement |  |
 | 308 | Gear Ratio Implausible |  |
+| 309 | Clutch Gear Load Factor Table Invalid |  |
+| 310 | User Input 1 Input Low |  |
+| 311 | User Input 1 Input High |  |
+| 312 | User Input 2 Input Low |  |
+| 313 | User Input 2 Input High |  |
+| 314 | User Input 3 Input Low |  |
+| 315 | User Input 3 Input High |  |
+| 316 | User Input 4 Input Low |  |
+| 317 | User Input 4 Input High |  |
+| 318 | User Input 5 Input Low |  |
+| 319 | User Input 5 Input High |  |
+| 320 | User Input 6 Input Low |  |
+| 321 | User Input 6 Input High |  |
+| 322 | User Input 7 Input Low |  |
+| 323 | User Input 7 Input High |  |
+| 324 | User Input 8 Input Low |  |
+| 325 | User Input 8 Input High |  |
+| 326 | User Input 9 Input Low |  |
+| 327 | User Input 9 Input High |  |
+| 328 | User Input 10 Input Low |  |
+| 329 | User Input 10 Input High |  |
+| 330 | User Input 11 Input Low |  |
+| 331 | User Input 11 Input High |  |
+| 332 | User Input 12 Input Low |  |
+| 333 | User Input 12 Input High |  |
+| 334 | User Input 13 Input Low |  |
+| 335 | User Input 13 Input High |  |
+| 336 | User Input 14 Input Low |  |
+| 337 | User Input 14 Input High |  |
+| 338 | User Input 15 Input Low |  |
+| 339 | User Input 15 Input High |  |
+| 340 | User Input 16 Input Low |  |
+| 341 | User Input 16 Input High |  |
 

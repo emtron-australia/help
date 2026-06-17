@@ -3,6 +3,9 @@ title: "Getting Started"
 weight: 2
 ---
 
+## Wiring
+Read and follow the wiring information [here](./wiring/power-wiring.md). It's very important that the TCM is powered correctly.
+
 ## Mandatory Engine & Driver Inputs
 The following inputs MUST be configured for normal transmission operation. Input's can be sourced from physical inputs or CAN data. 
 

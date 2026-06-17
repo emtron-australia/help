@@ -11,6 +11,10 @@ All power supply pins are protected against reverse polarity, over current, over
 
 Voltages are clamped internally to 35V.
 
+>[!IMPORTANT]
+>All power supply pins must be wired, even if you're not using them.
+Eg: Don't skip the Auxiliary Supply inputs because you don't need to use the auxiliary outputs. 
+
 ### Battery Hot Supply
 | Pin | Voltage | Current |
 | --- | ------- | ------- |
@@ -44,7 +48,7 @@ Pins C2 and C3 supply the half bridge drivers on Aux Output 1-8. The current dra
 
 The auxiliary outputs are split into 2 banks of 4: 1-4 and 5-8. The total continuous high side current of a single bank should not exceed 15A for an extended period of time.
 
-> Auxiliary Supply pins can be supplied with constant or switched power. The TCM will only turn them on when the Ignition switch is on.
+> Auxiliary Supply pins can be supplied with constant or switched power, as long as they are always powered when the ignition switch is on. The TCM will only turn them on when the ignition switch is on.
 
 ### Solenoid Supplies
 | Pin | Voltage | Current |
@@ -54,7 +58,7 @@ The auxiliary outputs are split into 2 banks of 4: 1-4 and 5-8. The total contin
 
 Pins C4 and C5 supply the Solenoid power output pins (B30-B33) as well as the flywheel diodes and voltage monitors of the solenoid drivers.
 
-> Solenoid Supply pins can be supplied with constant or switched power. The TCM will only turn them on when the Ignition switch is on.
+> Solenoid Supply pins can be supplied with constant or switched power, as long as they are always powered when the ignition switch is on. The TCM will only turn them on when the Ignition switch is on.
 
 ---
 
