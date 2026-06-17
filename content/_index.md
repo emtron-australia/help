@@ -17,7 +17,7 @@ Use the **search bar** in the sidebar to find topics quickly, or browse the sect
 
 {{% cards %}}
 {{% card href="https://emnet.emtronaustralia.com.au/" icon="fa-fw fas fa-cloud" title="EmNet" %}}
-Download software, manage licenses, and access Emtune, firmware, and Display Studio.
+Download software, manage licenses, and access Emtune, Display Studio, EmVision, EmStream, and firmware.
 {{% /card %}}
 {{% card href="/support/" icon="fa-fw fas fa-life-ring" title="Support" %}}
 How to contact support, what to include in requests, and phone numbers.
@@ -39,9 +39,12 @@ ECU manuals for **KV Series**, **SL Series**, and **Shadow 8**. Covers configura
 - [Release Notes](/engine-management/ecu-release-notes/)
 {{% /card %}}
 {{% card href="/displays/" icon="fa-fw fas fa-tv" title="Displays" %}}
-Help for Emtron display products including **ED7**, **ED7M**, and **ED10M**.
+Configuration and hardware help for **ED7**, **ED7M**, and **ED10M** displays.
 
-- [Functions](/displays/functions/)
+- [Getting Started](/displays/ed-getting-started/)
+- [Display Studio](/displays/display-studio/)
+- [Datasheets](/displays/datasheets/)
+- [Telemetry](/displays/functions/telemetry/)
 - [Troubleshooting](/displays/troubleshooting/)
 {{% /card %}}
 {{% card href="/transmission-control/" icon="fa-fw fas fa-gears" title="Transmission Control" %}}
@@ -52,10 +55,10 @@ TCM setup and tuning for automated transmissions including **ZF 8HP** and **Niss
 - [Transmissions](/transmission-control/transmissions/)
 {{% /card %}}
 {{% card href="/software/" icon="fa-fw fas fa-laptop-code" title="Software" %}}
-Documentation for Emtron software products.
+User guides for Emtron PC applications.
 
-- [EmVision](/software/emvision/)
-- [EmStream](/software/emstream/)
+- [EmVision](/software/emvision/emvision/) — log analysis
+- [EmStream](/software/emstream/emstream/) — live telemetry
 {{% /card %}}
 {{% card href="/sensors/" icon="fa-fw fas fa-gauge" title="Sensors" %}}
 Sensor datasheets, wiring, and configuration for MAP, pressure, ethanol, and gear tooth sensors.
@@ -80,17 +83,21 @@ In-depth technical articles on engine management topics.
 **Setting up an ECU for the first time?** Start with [First Time Use](/engine-management/getting-started/first-time-use/) — it walks through downloading software, obtaining a tuning cable, and configuring your Ethernet connection.
 {{% /notice %}}
 
+{{% notice style="tip" icon="lightbulb" %}}
+**Configuring a display?** See [Display Getting Started](/displays/ed-getting-started/) for wiring and pinouts, then the [Display Studio](/displays/display-studio/) guide to build and upload a configuration.
+{{% /notice %}}
+
 {{% cards %}}
 {{% card href="/engine-management/getting-started/first-time-use/" title="First Time ECU Setup" %}}
 Download software, connect via Ethernet, and read the hardware manual before you begin.
 {{% /card %}}
-{{% card href="/engine-management/getting-started/ethernet-connection/" title="Ethernet Connection" %}}
-Configure a static IP address for Emtune communication with your ECU.
+{{% card href="/displays/ed-getting-started/" title="Display Getting Started" %}}
+Pinouts, datasheets, and links to Display Studio configuration guides.
 {{% /card %}}
-{{% card href="/engine-management/datasheets/" title="Hardware Manuals" %}}
-Datasheets and hardware manuals for KV, SL, and Shadow ECUs.
+{{% card href="/displays/display-studio/" title="Display Studio" %}}
+Full walkthrough of the display configuration application.
 {{% /card %}}
-{{% card href="/engine-management/wiring/" title="Wiring & Pinouts" %}}
-Power distribution, connector pinouts, and wiring diagrams by ECU model.
+{{% card href="/software/emstream/getting-started/" title="EmStream Getting Started" %}}
+Connect to a vehicle and monitor live telemetry from your PC.
 {{% /card %}}
 {{% /cards %}}
