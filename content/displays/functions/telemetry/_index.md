@@ -94,6 +94,10 @@ To avoid this, either:
 
 Ensure to click `Save Telemetry Settings` as these are stored independently of the config.
 
+#### PC Client — EmStream
+
+On the PC, use [EmStream](/software/emstream/) to subscribe to the live telemetry stream, monitor channels, and use voice and text chat. See the [Getting Started](/software/emstream/getting-started) guide for connection steps.
+
 #### Service Specific Setup
 
 {{% children sort="weight" depth=2 description="false" %}}

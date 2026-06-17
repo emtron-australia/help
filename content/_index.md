@@ -55,6 +55,7 @@ TCM setup and tuning for automated transmissions including **ZF 8HP** and **Niss
 Documentation for Emtron software products.
 
 - [EmVision](/software/emvision/)
+- [EmStream](/software/emstream/)
 {{% /card %}}
 {{% card href="/sensors/" icon="fa-fw fas fa-gauge" title="Sensors" %}}
 Sensor datasheets, wiring, and configuration for MAP, pressure, ethanol, and gear tooth sensors.
