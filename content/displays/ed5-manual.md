@@ -1,6 +1,6 @@
 ---
 title: "ED5 User Manual"
-weight: 6
+weight: 11
 ---
 
 **Kit Contents** — When purchasing an ED5 the following items are included:
