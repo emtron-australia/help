@@ -24,7 +24,7 @@ In the case of a fully open chamber without a shaft running through it (cylinder
 ### Estimated Efficiency
 Estimates the inefficiencies or mechanical losses involved in converting a given hydraulic pressure to a clamping torque capacity.
 
-*Typical Value: 0.850*
+*Typical Value: 85.0%*
 
 ### Pressure Curve Linearity 
 Bends the clutch's Torque to Pressure translation into a non linear curve.
@@ -35,7 +35,7 @@ Bends the clutch's Torque to Pressure translation into a non linear curve.
 ```
 ![Clutch Pressure Curve Linearity](/img/tm16/clutch_non_linear_curves.png)
 
-*Typical Value: 1.0*
+*Typical Value: 1.00*
 
 ### Capacity Correction
 Enables a table that allows the user to manipulate the final calculations. 
@@ -119,3 +119,4 @@ Clutch N Input Torque = Clutch Input Torque x Load Factor
  - Decreasing a value will reduce the calculated pressure requirement.
  - If the value is too low, the clutch or brake may slip under load.
  - If the value is too high, the shift or gear engagement may become harsh, inefficient, or create unnecessary clutch stress.
+ - It's recommended to set each Clutch's Learned Capacity Scaler Table Y axis of "Gear". This allows the clutches to learn on a per-gear basis.

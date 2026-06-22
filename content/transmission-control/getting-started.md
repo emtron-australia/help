@@ -178,9 +178,7 @@ Under **Input Config**, ensure all relevant inputs are assigned to the correct s
 
 ![Input Sources](/img/tm16/input_config.png)
 
---- 
-
-## Output Assignment
+### Output Assignment
 Under **Output Config**, ensure all relevant outputs are assigned to match your wiring.
 
 ![Output Config](/img/tm16/output_config.png)
