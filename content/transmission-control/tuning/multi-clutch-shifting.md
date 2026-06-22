@@ -143,6 +143,25 @@ Any torque reduction that is enabled by the user is applied now to aid in syncin
 >[!TIP] 
 >If the engine continues to limit torque after the clutch is synced and locked, the shift will feel harsh.
 
+There are 3 tables that control the up shift torque limit:
+ - **Up Shift Torque Limit Enable**: determines if a torque limit is allowed or not.
+ - **Up Shift Torque Limit**: Absolute explicit torque limit value.
+ - **Up Shift Torque Reduction**: Torque reduction as a percentage of Engine Torque (Available).
+
+The lowest torque limit output from the tables will be used.
+
+**For Example:**
+```
+Engine Torque (Available): 800 Nm
+Up Shift Torque Limit Enable: ON
+Up Shift Torque Limit: 500 Nm
+Up Shift Torque Reduction: 40%
+```
+```
+Up Shift Torque Reduction = 800 - (40% of 800) = 800 - 320 = 480 Nm.
+```
+Because 480 Nm is less than the 500 Nm absolute limit, 480 Nm will be used.
+
 ---
 
 ## Lock Phase
