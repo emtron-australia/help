@@ -1,5 +1,6 @@
 ---
 title: "Post Start Z-Axis Setup"
+weight: 16
 ---
 
 ## Post Start Z-Axis Setup

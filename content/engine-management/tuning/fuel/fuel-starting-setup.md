@@ -1,5 +1,6 @@
 ---
 title: "Starting Fuel Setup"
+weight: 10
 ---
 
 # Starting Fuel Overview
@@ -81,9 +82,15 @@ Once these conditions have been satisfied and engine speed subsequently returns 
 ## ⚙️ Pre-Crank Pulse Count
 Sets the number of fuel injection pulses during the pre-crank priming event. Using multiple shorter pulses helps improve fuel atomisation and distribution while reducing the risk of liquid fuel accumulation.
 
-For example on ethanol-based fuels, increased pre-crank fuel is often required for reliable starting. However, long single injection pulses can cause fuel wall-wetting and plug wetting, reducing start quality.
+Increasing the pulse count can be beneficial when using fuels that require significantly more fuel for cold starting, such as ethanol-based fuels. Rather than using a single large injection pulse, the required fuel can be distributed across multiple smaller pulses.
 
-Higher values = more pulses using shorter individual pulse widths
+This approach can improve fuel atomisation and reduce the likelihood of fuel pooling or entering the cylinder in a liquid state, which can lead to spark plug wetting and poor starting performance.
+
+Typical Applications:
+
+- Ethanol and high-ethanol-content fuels.
+- Engines requiring large amounts of pre-crank fuel.
+- Situations where a single large pulse results in poor start quality.
 
 ## ⚙️ Pre-Crank Pulse Interval
 Sets the time delay between consecutive pre-crank injection pulses. This parameter only applies when Pre-Crank Pulse Count is greater than  1.
@@ -93,10 +100,25 @@ It controls the spacing between each injection pulse during the pre-crank event,
 - Short interval: higher fuel density, increased wetting risk.
 - Long interval: improved atomisation, reduced total delivery rate.
 
+The interval should be long enough to allow fuel from each pulse to disperse and form a stable fuel film before the next pulse is delivered. Excessively short intervals may reduce the benefit of using multiple pulses, while excessively long intervals can unnecessarily delay the start sequence.
+
+## 🔧 Tuning Guidelines
+
+When additional pre-crank fuel is required, it is generally preferable to increase the Pre-Crank Pulse Count rather than significantly increasing the fuel delivered in a single pulse.
+
+A good starting point is:
+
+- Set Pre-Crank Multi Pulse Interval to approximately 10 ms.
+- Increase Pre-Crank Pulse Count by one pulse at a time.
+- Evaluate cold start performance after each adjustment.
+- Continue increasing the pulse count until no further improvement in start quality is observed.
+
+Typical applications require between 1 and 6 pulses, with higher pulse counts generally only required for ethanol-based fuels or engines requiring large amounts of pre-crank fuel.
+
 ## ⚙️ Table Editing
 
 See the below link(s) for table editing:
 
-See here for more information on Pre Crank Tables : [Pre Crank Tables](<pre-crank-tables.md>)<br>
-See here for more information on Cranking Tables : [Cranking Tables](<cranking-table.md>)<br>
-See here for more information on Cranking Tables : [Post Start Tables](<post-start-comp-table-1.md>)<br>
+See here for more information on Pre Crank Fuel Tables : [Pre Crank Tables](<pre-crank-tables.md>)<br>
+See here for more information on Cranking Fuel Tables : [Cranking Tables](<cranking-poststart-fuel-table>)<br>
+See here for more information on Post Start Fuel Tables : [Post Start Tables](<cranking-poststart-fuel-table>)<br>
