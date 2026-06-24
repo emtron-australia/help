@@ -3,9 +3,9 @@ title: "Starting Fuel Setup"
 weight: 10
 ---
 
-# Starting Fuel Overview
+## Starting Fuel Overview
 
-Engine starting fuel requirements differ significantly from those required during normal engine operation. At low engine speeds and temperatures, a portion of the injected fuel does not immediately contribute to combustion as it can condense on intake port surfaces, intake valves and cylinder walls. Additional fuel compensation is therefore required to ensure sufficient combustible fuel reaches the cylinder during the starting process.
+Engine starting fuel requirements differ significantly from those required during normal engine operation. At low engine speeds and temperatures, a portion of the injected fuel does not immediately contribute to combustion as it can condense on intake surfaces, intake valves and cylinder walls. Additional fuel compensation is therefore required to ensure sufficient combustible fuel reaches the cylinder during the starting process.
 
 The starting fuel strategy consists of three distinct phases:
 
@@ -13,13 +13,13 @@ The starting fuel strategy consists of three distinct phases:
 
 Pre-crank fuel is delivered before or at the beginning of engine cranking. The purpose of this fuel is to establish an initial fuel film on the intake port and valve surfaces, reducing the amount of fuel lost to wall wetting during the first combustion events.
 
-Correctly calibrated pre-crank fuel can improve start quality, reduce cranking time, and promote faster engine burst.
+Correctly calibrated pre-crank fuel can improve start quality, reduce cranking time and promote faster engine burst.
 
-## Phase 2 – Crank Fuel
+## Phase 2 – Cranking Fuel
 
 During cranking additional fuel enrichment is required to compensate for fuel condensation and poor fuel vaporisation, particularly at lower engine and ambient temperatures.
 
-Crank fuel provides the additional fuel necessary to achieve a combustible air-fuel mixture while the engine is rotating below its self-sustaining speed. Fuel requirements during this phase are highly dependent on coolant temperature, fuel characteristics, engine design and injector placement.
+Cranking fuel provides the additional fuel necessary to achieve a combustible air-fuel mixture while the engine is rotating below its self-sustaining speed. Fuel requirements during this phase are highly dependent on coolant temperature, fuel characteristics, engine design and injector placement.
 
 ## Phase 3 – Post-Start Fuel
 
@@ -119,6 +119,6 @@ Typical applications require between 1 and 6 pulses, with higher pulse counts ge
 
 See the below link(s) for table editing:
 
-See here for more information on Pre Crank Fuel Tables : [Pre Crank Tables](<pre-crank-tables.md>)<br>
-See here for more information on Cranking Fuel Tables : [Cranking Tables](<cranking-poststart-fuel-table>)<br>
-See here for more information on Post Start Fuel Tables : [Post Start Tables](<cranking-poststart-fuel-table>)<br>
+See here for more information on Pre Crank Fuel Tables : [Pre Crank Fuel Tables](<pre-crank-tables.md>)<br>
+See here for more information on Cranking Fuel Tables : [Cranking Fuel Tables](<cranking-poststart-fuel-table>)<br>
+See here for more information on Post Start Fuel Tables : [Post Start Fuel Tables](<cranking-poststart-fuel-table>)<br>
