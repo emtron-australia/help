@@ -1,5 +1,5 @@
 ---
-title: "Starting Setup"
+title: "Starting Fuel Setup"
 ---
 
 # Starting Fuel Overview
@@ -27,7 +27,7 @@ Once the engine has fired and transitioned from cranking to running, additional 
 Post-start fuel provides a temporary enrichment immediately after engine burst and gradually decays over time. This ensures a smooth transition from starting operation to normal fuel calculations while maintaining stable combustion and drivability. As the post-start compensation decays to zero, fueling returns entirely to the standard operating fuel model with no additional start-related compensation applied.
 
 
-# Pre-Crank Fuel Enable
+# ⚙️  Pre-Crank Fuel Enable
 
 Enables and configures a pre-crank fuel injection event. This feature can improve engine start-up by providing an initial fuel charge before or during cranking, helping the engine fire more quickly.
 
@@ -50,7 +50,6 @@ Disables all pre-crank injection events.
 ### Start Position
 
 Triggers a pre-crank injection event when the configured Start Position Switch becomes active.
-
 The Start Position Switch must be configured for this mode to operate.
 
 ### First Crank Index Signal (Single Event)
@@ -61,25 +60,43 @@ Triggers a single pre-crank injection event when the first crank index signal is
 
 Triggers a single pre-crank injection event when the ignition is switched to the ON position after ECU power-up.
 
+
 ### First Crank Index Signal (Multiple Events)
+---
+Triggers the pre-crank injection event on the first crank index signal detected during engine cranking.
+Unlike the other modes, this mode automatically re-arms after the engine has stopped, allowing the pre-crank injection event to occur again on subsequent start attempts without requiring an ECU power cycle.
+To prevent repeated pre-crank injection events during unsuccessful starts or engine stalls, a lockout mechanism is applied. Before another pre-crank event can occur, the engine re-arming conditions must be met:
 
-Triggers mulitple pre-crank injection event when the first crank index signal is detected.
+Exceed 400 RPM.
+Remain above 400 RPM for at least 1 second.
 
-Unlike Modes 1, 2 and 3, this mode can automatically re-arm after the engine has started and subsequently stopped, allowing the pre-crank injection event to occur again on the next start attempt.
-
-## Re-Arm Conditions (Mode 4 Only)
-
-To prevent repeated injection events during stalled or unsuccessful start attempts, the following conditions must be met before the feature can re-arm:
-
-- Engine speed must exceed 400 RPM.
-- Engine speed must remain above 400 RPM for at least 1 second.
-
-Once these conditions have been satisfied, the pre-crank injection event will be re-enabled after engine speed returns to 0 RPM.
+Once these conditions have been satisfied and engine speed subsequently returns to 0 RPM, the pre-crank injection event will be re-enabled and available for the next engine start.
 
 ## Notes
 
-- Modes 1, 2 and 3 perform only a single pre-crank injection event after ECU power-up.
-- ECU power must be cycled before another pre-crank injection event can occur when using Modes 1, 2 or 3.
-- Mode 4 can automatically re-arm when the re-arm conditions have been met.
+- Modes 1, 2 and 3 perform only a single pre-crank injection event after ECU power-up. The ECU power must be cycled before another pre-crank injection event can occur using the Modes.
+- Mode 4 the pre-crank event can be re-triggered automatically once the re-arming conditions have been met.
 
-See here for more information on Pre-crank Tables : [Secondary Load Tables](<pre-crank-table-1.md>)
+
+# ⚙️ Pre-Crank Pulse Count
+Sets the number of fuel injection pulses during the pre-crank priming event. Using multiple shorter pulses helps improve fuel atomisation and distribution while reducing the risk of liquid fuel accumulation.
+
+For example on ethanol-based fuels, increased pre-crank fuel is often required for reliable starting. However, long single injection pulses can cause fuel wall-wetting and plug wetting, reducing start quality.
+
+Higher values = more pulses using shorter individual pulse widths
+
+# ⚙️ Pre-Crank Pulse Interval
+Sets the time delay between consecutive pre-crank injection pulses. This parameter only applies when Pre-Crank Pulse Count is greater than  1.
+
+It controls the spacing between each injection pulse during the pre-crank event, allowing adjustment of fuel delivery timing and mixture preparation.
+
+- Short interval: higher fuel density, increased wetting risk.
+- Long interval: improved atomisation, reduced total delivery rate.
+
+# ⚙️ Table Editing
+
+See the below link(s) for table editing:
+
+See here for more information on Pre Crank Tables : [Pre Crank Tables](<pre-crank-tables.md>)<br>
+See here for more information on Cranking Tables : [Cranking Tables](<cranking-table.md>)<br>
+See here for more information on Cranking Tables : [Post Start Tables](<post-start-comp-table-1.md>)<br>
