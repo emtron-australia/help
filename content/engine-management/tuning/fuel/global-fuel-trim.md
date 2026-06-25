@@ -1,29 +1,28 @@
 ---
 title: "Global Fuel Trim"
+weight: 5
 ---
 
-## Global Fuel Trim
+This function applies a global fuel trim to the base calibration.
 
-![Image](</img/AAAA73.jpg>)
+It provides a percentage-based adjustment to injector pulse width, allowing the overall air-fuel ratio to be shifted richer or leaner without modifying individual fuel tables.
 
-![Image](</img/Global fuel.jpg>)
+The trim is applied uniformly across all operating conditions and is independent of engine speed (RPM) and load.
 
-This function applies a global or overall fuel trim. 
+## Specifications
 
-This is a + or - percentage trim that applies to the Base Calibration. 
+- **Units:** %
+- **Minimum Value:** -50.0%
+- **Maximum Value:** +50.0%
 
-It allows for a rapid changes to the overall mixture and works independent of RPM and load.
+## Function Behaviour
 
-Units: %
+- Positive values increase fuel delivery (richens mixture)
+- Negative values decrease fuel delivery (leans mixture)
+- Applied globally to all fuel calculations derived from the base calibration
 
-Min Value = - 50.0%
+## ⚠️ Notes
 
-Max Value = + 50.0%
+This function is intended as a calibration and setup aid only.
 
-Typical 0% (Recommended)
-
-![Image](</img/Tuning Tip.jpg>)            
-
-     **Tuning Tip**: This is a tool to aid in configuration and initial setup. 
-
-                                  An overall trim should not remain once the engine is tuned correctly
+This trim should be returned to 0% before final tuning to ensure the base fuel model is accurate and consistent.

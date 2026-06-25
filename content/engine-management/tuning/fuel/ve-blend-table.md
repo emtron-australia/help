@@ -1,5 +1,6 @@
 ---
 title: "VE Blend Table"
+weight: 2
 ---
 
 ## VE Blend Table

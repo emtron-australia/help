@@ -73,7 +73,7 @@ Remain above 400 RPM for at least 1 second.
 
 Once these conditions have been satisfied and engine speed subsequently returns to 0 RPM, the pre-crank injection event will be re-enabled and available for the next engine start.
 
-### Notes
+### ⚠️ Notes
 
 - Modes 1, 2 and 3 perform only a single pre-crank injection event after ECU power-up. The ECU power must be cycled before another pre-crank injection event can occur using the Modes.
 - Mode 4 the pre-crank event can be re-triggered automatically once the re-arming conditions have been met.
