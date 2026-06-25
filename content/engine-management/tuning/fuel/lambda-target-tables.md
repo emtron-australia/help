@@ -7,13 +7,13 @@ The Lambda Target table enables the user to define the desired Lambda target acr
 
 The Lambda Target is a primary input to the ECU airflow and fuel model and therefore directly influences the final calculated fuel mass injected into the engine.
 
-Once the Engine VE (Volumetric Efficiency) table is correctly calibrated to achieve the commanded Lambda Target, the engine’s lambda target can be adjusted simply by changing the Lambda Target value, without requiring changes to the main fuel calibration.
+Once the Engine VE (Volumetric Efficiency) table is correctly calibrated to achieve the commanded Lambda Target, the engine’s operating Lambda can be adjusted simply by changing the Lambda Target value, without requiring changes to the main fuel calibration.
 
-This target must be defined prior to calibration of the VE table.
+This target must be defined prior to the calibration of the VE table(s).
 
 For example, if the Main Fuel Table is calibrated such that the engine operates at **1.00 Lambda** when the Lambda Target is **1.00**, then reducing the Lambda Target to **0.80** will result in the ECU automatically increasing fuel delivery to achieve **0.80 Lambda**, without any changes to the Main Fuel Table.
 
-> **Note:** If a change in Lambda Target (e.g. from 1.00 to 0.80) does not result in the measured Lambda matching the target, this indicates an error in the fuel system model, most commonly incorrect injector characterisation which should be corrected before continuing calibration.
+> **Note:** If a change in Lambda Target (e.g. from 1.00 to 0.80) does not result in the measured Lambda matching the target, this indicates an error in the fuel system model, most commonly incorrect injector characterisation which should be corrected before continuing.
 
 
 ### Why Lambda is used instead of AFR
@@ -42,16 +42,14 @@ The active table is selected using the **Lambda Target Table Control** setting.
 
 Only the selected (active) table is used by the ECU for fuel model calculations and closed-loop control. The inactive table has no effect on engine operation until it is selected as the active source.
 
-Normally Lambda Target Table 1 is used. Setting of table use is via [Fuel Table Control](<fuel-table-control.md>)
+Normally Lambda Target Table 1 is used. 
 
 ![Image](</img/AAAA91.jpg>)
 
 ![Image](</img/AAAA92.jpg>)
 
 
-Should an actual Air Fuel Ratio be required to be displayed, this can be achieved by right mouse click on table and selecting **AFR Unit** 
-
-Once activated, if the fuel model is set to a single fuel type, the Lambda Table 1 will be displayed in regular AFR units.
+Should an actual Air Fuel Ratio be required to be displayed, this can be achieved by right mouse click on table and selecting **AFR Unit** . Once activated, if the fuel model is set to a single fuel type, the Lambda Table 1 will be displayed in regular AFR units.
 
 ⚠️ **Warning:**
 This feature will not work with flex or dual fuel models - see [Stoich Ratio Setup](<stoich-ratio-setup.md>)
@@ -69,7 +67,7 @@ This feature will not work with flex or dual fuel models - see [Stoich Ratio Set
 
 ## Lambda Target Offset Table
 
-The Lambda Target Offset is applied as an absolute correction applied to the base Lambda Target value defined in the Lambda Target table.
+The Lambda Target Offset is applied as an absolute correction to the base Lambda Target defined in the Lambda Target table.
 
 For example, if the Lambda Target table value is **1.000** and a Lambda Target Offset of **-0.150 Lambda** is applied, the resulting effective Lambda Target becomes:
 

@@ -5,9 +5,7 @@ weight: 7
 
 ## Table Control Setup
 
-Each starting fuel phase (Pre-Crank Fuel, Cranking Fuel, and Post-Start Fuel) includes a **Table Control parameter** which defines how the ECU sources fuel values during engine start.
-
-This control determines whether a single fuel table is used or whether Z-axis blending is enabled between two calibration tables.
+This control determines whether a single target table is used or whether Z-axis blending is enabled between two calibration tables.
 
 ## Available Options
 
