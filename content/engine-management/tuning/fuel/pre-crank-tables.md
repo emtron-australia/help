@@ -2,7 +2,6 @@
 title: "Pre Crank Fuel Tables"
 weight: 11
 ---
-
 ## Pre-Crank Fuel Table
 
 The Pre-Crank Fuel Table(s) defines the amount of fuel delivered during a pre-crank injection event.
@@ -27,7 +26,10 @@ The fuel quantity defined in this table is applied whenever a pre-crank injectio
 - The optimum fuel quantity will vary depending on fuel type, injector location, engine design, and ambient temperature.
 - Pre-crank fuel should be used to improve initial combustion quality, not to compensate for incorrectly calibrated cranking fuel.
 
+### Pre-Crank Fuel Settings
 
-### Pre-Crank Fuel Tables 
+See here for more information on Starting Fuel Settings : [Starting Fuel Overview](fuel-starting-setup)
 
-See here for more information on Starting Fuel : [Starting Fuel Overview](<fuel-starting-setup>)
+## ⚙️ Starting Fuel Table Control
+
+See here for more information: [Starting Fuel Table Control](starting-fuel-table-control-setup.md)

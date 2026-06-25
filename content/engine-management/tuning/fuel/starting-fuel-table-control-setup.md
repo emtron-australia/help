@@ -2,7 +2,6 @@
 title: "Starting Fuel Table Control"
 weight: 13
 ---
-
 ## Table Control Setup
 
 Each starting fuel phase (Pre-Crank Fuel, Cranking Fuel, and Post-Start Fuel) includes a **Table Control parameter** which defines how the ECU sources fuel values during engine start.
@@ -12,7 +11,7 @@ This control determines whether a single fuel table is used or whether Z-axis bl
 ## Available Options
 
 | Value | Mode |
-|------|----------------------------|
+| --- | --- |
 | 0 | OFF |
 | 1 | ON - Table 1 |
 | 2 | ON - Table 2 |
@@ -24,19 +23,23 @@ This control determines whether a single fuel table is used or whether Z-axis bl
 ## Mode Descriptions
 
 ### OFF (0)
+
 Disables the selected starting fuel phase. No fuel contribution is applied from this table.
 
 ### ON - Table 1 (1)
+
 Uses **Table 1 only** for fuel calculation.
 
 Typically represents the base calibration (e.g. Petrol / 0% Ethanol reference).
 
 ### ON - Table 2 (2)
+
 Uses **Table 2 only** for fuel calculation.
 
 Typically represents the alternative calibration (e.g. E100 / 100% Ethanol reference).
 
 ### ON - Z-Axis (6)
+
 Enables **Z-axis blending between Table 1 and Table 2**.
 
 The ECU interpolates between both tables based on the configured Z-axis input (typically Ethanol Content %), producing a blended fuel value.
@@ -46,8 +49,8 @@ The ECU interpolates between both tables based on the configured Z-axis input (t
 - Intermediate values → linear interpolation between both tables
 
 ### Not Available (3–5)
-Reserved for future functionality and should not be selected.
 
+Reserved for future functionality and should not be selected.
 
 ## Z-Axis Blended Fueling (Dual Table Interpolation)
 
@@ -59,10 +62,10 @@ This feature is used to account for differences in fuel properties, vaporisation
 
 Two base tables are defined:
 
-- **Table 1 (0% Ethanol Reference)**  
+- **Table 1 (0% Ethanol Reference)**\
   Represents fuel requirements for standard Petrol operation.
 
-- **Table 2 (100% Ethanol Reference)**  
+- **Table 2 (100% Ethanol Reference)**\
   Represents fuel requirements for full Ethanol (E100) operation.
 
 A third axis (Z-axis), typically **Ethanol Content (0–100%)**, is used to interpolate between these two tables.
@@ -85,7 +88,7 @@ For any given operating condition, the ECU:
 
 ## Application to Starting Fuel
 
-This blending method can be  applied to multiple starting fuel phases:
+This blending method can be applied to multiple starting fuel phases:
 
 - Pre-Crank Fuel
 - Cranking Fuel
@@ -102,31 +105,18 @@ Each phase is independently blended using the same Z-axis strategy, allowing the
 
 ## PreCrank Z-Axis Setup
 
-![Image](</img/Z Axis4.jpg>)
+![Image](/img/Z%20Axis4.jpg)The Z-Axis activates a user definable X-Axis to swap or blend between PreCrank tables based on the selected runtime
 
-The Z-Axis activates a user definable X-Axis to swap or blend between PreCrank tables based on the selected runtime
-
-![Image](</img/Z Axis3.jpg>)
-
-PreCrank ZAxis spanned across ethanol content example shown above
-
+![Image](/img/Z%20Axis3.jpg)PreCrank ZAxis spanned across ethanol content example shown above
 
 ## Crank Z-Axis Setup
 
-![Image](</img/Z Axis5.jpg>)
+![Image](/img/Z%20Axis5.jpg)The Z-Axis activates a user definable X-Axis to swap or blend between Crank tables based on the selected runtime
 
-The Z-Axis activates a user definable X-Axis to swap or blend between Crank tables based on the selected runtime
-
-![Image](</img/Z Axis6.jpg>)
-
-Crank ZAxis spanned across ethanol content example shown above
+![Image](/img/Z%20Axis6.jpg)Crank ZAxis spanned across ethanol content example shown above
 
 ## Post Start Z-Axis Setup
 
-![Image](</img/Z Axis7.jpg>)
+![Image](/img/Z%20Axis7.jpg)The Z-Axis activates a user definable X-Axis to swap or blend between Post Start tables based on the selected runtime
 
-The Z-Axis activates a user definable X-Axis to swap or blend between Post Start tables based on the selected runtime
-
-![Image](</img/Z Axis8.jpg>)
-
-Post Start ZAxis spanned across ethanol content example shown above
+![Image](/img/Z%20Axis8.jpg)Post Start ZAxis spanned across ethanol content example shown above
