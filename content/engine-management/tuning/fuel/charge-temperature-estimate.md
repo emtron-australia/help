@@ -2,7 +2,7 @@
 title: "Charge Temperature Estimate Table"
 weight: 21
 ---
-## Charge Temperature Estimate Table
+## Overview
 
 The Charge Temperature Estimate table is used to calculate the estimated temperature of the air entering the combustion chamber. This estimated charge temperature is derived by blending the Inlet Air Temperature (IAT) sensor reading with the Engine Coolant Temperature (ECT).
 
@@ -25,7 +25,7 @@ Table values are expressed as a percentage and determine the contribution of the
 >
 > The Charge Temperature Estimate function uses only the configured **Inlet Air Temperature (IAT)** sensor and **Engine Coolant Temperature (ECT)** sensor to estimate the Charge Temperature.
 >
-> No other air temperature source is considered during this calculation. If multiple temperature sensors are configured within the ECU, only the **Inlet Air Temperature (IAT)** sensor is used for the air temperature >component of the blend.
+> No other air temperature source is considered during this calculation. If multiple temperature sensors are configured within the ECU, only the **Inlet Air Temperature (IAT)** sensor is used for the air temperature component of the blend.
 
 ### 🔧 Tuning Guidelines
 
@@ -44,6 +44,8 @@ For turbocharged and supercharged engines operating under boost, the Intake Air 
 <br>
 
 ![Image](</img/AAAA118.jpg>)
+
+---
 
 ## Charge Temperature Offset Table
 
@@ -75,13 +77,15 @@ For conventional gasoline fuels, little or no offset is typically required.
 
 ![Image](</img/AAAA120.jpg>)
 
+---
+
 ## Charge Temperature Fuel Table
 
 The Charge Temperature Fuel table applies a **percentage fuel correction** to the **Base Pulse Width**
 
 The ECU uses the Charge Temperature Estimate during the air mass calculation to determine the amount of air entering the engine. The calculated air mass is then used to determine the required fuel delivery.
 
-In some engine combinations, the calculated charge temperature may not perfectly model the actual cylinder charge temperature under all operating conditions. This can result in small fueling errors. The Charge Temperature Estimate Fuel table provides a means of applying a fine fuel correction as a function of Charge Temperature to compensate for these residual errors.
+In some engine combinations, the calculated charge temperature may not perfectly model the actual cylinder charge temperature under all operating conditions. This can result in small fueling errors. The Charge Temperature Fuel table provides a means of applying a fine fuel correction to compensate for these residual errors.
 
 ### Table Values
 

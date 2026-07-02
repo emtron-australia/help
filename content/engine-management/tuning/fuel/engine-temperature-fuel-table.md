@@ -3,7 +3,7 @@ title: "Engine Temperature Fuel Table"
 weight: 20
 ---
 
-## Engine Temperature Warm-up Enrichment Overview
+## Overview
 
 Additional fuel is typically required when the engine is cold to compensate for reduced fuel vaporisation and increased fuel condensation on intake port surfaces, intake valves and cylinder walls.
 
