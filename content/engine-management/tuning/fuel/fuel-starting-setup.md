@@ -98,7 +98,7 @@ It controls the spacing between each injection pulse during the pre-crank event,
 
 The interval should be long enough to allow fuel from each pulse to disperse and form a stable fuel film before the next pulse is delivered. Excessively short intervals may reduce the benefit of using multiple pulses, while excessively long intervals can unnecessarily delay the start sequence.
 
-## 🔧 Tuning Guidelines
+### 🔧 Tuning Guidelines
 
 When additional pre-crank fuel is required, it is generally preferable to increase the Pre-Crank Pulse Count rather than significantly increasing the fuel delivered in a single pulse.
 

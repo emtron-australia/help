@@ -53,7 +53,7 @@ Setting Location: Config -> Engine Setup -> Cranking RPM Entry/Exit
 ![Image](</img/NewItem356.png>)
 
 
-## ⚙️ Starting Fuel Table Control
+## Starting Fuel Table Control
 
 See here for more information: [Starting Fuel Table Control](starting-fuel-table-control-setup.md)
 
