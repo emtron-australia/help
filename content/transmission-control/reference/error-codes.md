@@ -325,4 +325,69 @@ weight: 999
 | 339 | User Input 15 Input High |  |
 | 340 | User Input 16 Input Low |  |
 | 341 | User Input 16 Input High |  |
+| 342 | Transbrake Clutch Select Table Invalid |  |
+| 352 | Solenoid 1 Open Load |  |
+| 353 | Solenoid 1 Over Current |  |
+| 354 | Solenoid 1 Short To Ground |  |
+| 355 | Solenoid 1 Over Temp |  |
+| 356 | Solenoid 2 Open Load |  |
+| 357 | Solenoid 2 Over Current |  |
+| 358 | Solenoid 2 Short To Ground |  |
+| 359 | Solenoid 2 Over Temp |  |
+| 360 | Solenoid 3 Open Load |  |
+| 361 | Solenoid 3 Over Current |  |
+| 362 | Solenoid 3 Short To Ground |  |
+| 363 | Solenoid 3 Over Temp |  |
+| 364 | Solenoid 4 Open Load |  |
+| 365 | Solenoid 4 Over Current |  |
+| 366 | Solenoid 4 Short To Ground |  |
+| 367 | Solenoid 4 Over Temp |  |
+| 368 | Solenoid 5 Open Load |  |
+| 369 | Solenoid 5 Over Current |  |
+| 370 | Solenoid 5 Short To Ground |  |
+| 371 | Solenoid 5 Over Temp |  |
+| 372 | Solenoid 6 Open Load |  |
+| 373 | Solenoid 6 Over Current |  |
+| 374 | Solenoid 6 Short To Ground |  |
+| 375 | Solenoid 6 Over Temp |  |
+| 376 | Solenoid 7 Open Load |  |
+| 377 | Solenoid 7 Over Current |  |
+| 378 | Solenoid 7 Short To Ground |  |
+| 379 | Solenoid 7 Over Temp |  |
+| 380 | Solenoid 8 Open Load |  |
+| 381 | Solenoid 8 Over Current |  |
+| 382 | Solenoid 8 Short To Ground |  |
+| 383 | Solenoid 8 Over Temp |  |
+| 384 | Solenoid 9 Open Load |  |
+| 385 | Solenoid 9 Over Current |  |
+| 386 | Solenoid 9 Short To Ground |  |
+| 387 | Solenoid 9 Over Temp |  |
+| 388 | Solenoid 10 Open Load |  |
+| 389 | Solenoid 10 Over Current |  |
+| 390 | Solenoid 10 Short To Ground |  |
+| 391 | Solenoid 10 Over Temp |  |
+| 392 | Solenoid 11 Open Load |  |
+| 393 | Solenoid 11 Over Current |  |
+| 394 | Solenoid 11 Short To Ground |  |
+| 395 | Solenoid 11 Over Temp |  |
+| 396 | Solenoid 12 Open Load |  |
+| 397 | Solenoid 12 Over Current |  |
+| 398 | Solenoid 12 Short To Ground |  |
+| 399 | Solenoid 12 Over Temp |  |
+| 400 | Solenoid 13 Open Load |  |
+| 401 | Solenoid 13 Over Current |  |
+| 402 | Solenoid 13 Short To Ground |  |
+| 403 | Solenoid 13 Over Temp |  |
+| 404 | Solenoid 14 Open Load |  |
+| 405 | Solenoid 14 Over Current |  |
+| 406 | Solenoid 14 Short To Ground |  |
+| 407 | Solenoid 14 Over Temp |  |
+| 408 | Solenoid 15 Open Load |  |
+| 409 | Solenoid 15 Over Current |  |
+| 410 | Solenoid 15 Short To Ground |  |
+| 411 | Solenoid 15 Over Temp |  |
+| 412 | Solenoid 16 Open Load |  |
+| 413 | Solenoid 16 Over Current |  |
+| 414 | Solenoid 16 Short To Ground |  |
+| 415 | Solenoid 16 Over Temp |  |
 
