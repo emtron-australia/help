@@ -1,5 +1,5 @@
 ---
-title: "VE Tables"
+title: "Fuel VE Tables"
 weight: 1
 ---
 

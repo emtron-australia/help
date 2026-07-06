@@ -1,5 +1,5 @@
 ---
-title: "Cylinder Trim Tables"
+title: "Cylinder Fuel Trims"
 weight: 24
 ---
 

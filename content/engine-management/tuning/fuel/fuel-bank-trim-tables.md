@@ -1,5 +1,5 @@
 ---
-title: "Fuel Bank Trim Tables"
+title: "Fuel Bank Trims"
 weight: 25
 ---
 
