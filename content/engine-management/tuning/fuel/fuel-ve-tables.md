@@ -27,15 +27,20 @@ The calculated **Air Mass per Engine Cycle** is then used to determine the requi
 
 ![Image](</img/AAAA72.jpg>)
 
-The Volumetric Efficiency (VE) table represents the engine's ability to fill its cylinders with air under varying engine speeds and loads.  Volumetric Efficiency (VE) is expressed as a percentage and describes the ratio of the actual **air mass** trapped within the cylinder to the theoretical **air mass** that would occupy the engine's swept cylinder volume under standard atmospheric conditions.
+The Volumetric Efficiency (VE) table represents the engine's ability to fill its cylinders with air under varying engine speeds and loads.
 
-A higher VE indicates the engine is filling its cylinders more efficiently, requiring more fuel to maintain the commanded air-fuel ratio.
+Although referred to as **Volumetric Efficiency (VE)**, the ECU uses VE to determine the **air mass** trapped within the cylinder. VE is expressed as a percentage and represents the ratio of the actual air mass trapped within the cylinder to the theoretical air mass that would occupy the engine's swept cylinder volume under standard atmospheric conditions.
+
+The calculated air mass is then used by the ECU to determine the required fuel mass to achieve the commanded Lambda Target.
+
+A higher VE indicates the engine is filling its cylinders more efficiently, requiring more fuel to maintain the commanded Lambda Target.
 
 Most engines typically operate below **100% VE**.
 
 > **ℹ️ Note**
+>1) The term **Volumetric Efficiency** is historical and can be misleading. While VE is expressed as a percentage of the cylinder's theoretical filling, the ECU ultimately uses the VE value to calculate the **air mass** entering the cylinder. Since fuel delivery is based on air mass rather than air volume, VE is simply a convenient way of modelling the engine's air pumping efficiency.
 >
-> Due to intake and exhaust tuning, pressure wave dynamics and scavenging effects, a well-designed naturally aspirated engine can exceed **100% VE** over parts of its operating range.
+> 2) Due to intake and exhaust tuning, pressure wave dynamics and scavenging effects, a well-designed naturally aspirated engine can exceed **100% VE** over parts of its operating range.
 
 --- 
 
