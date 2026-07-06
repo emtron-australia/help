@@ -2,17 +2,31 @@
 title: "Secondary Balance Table"
 ---
 
-## Secondary Balance Table
+## Overview
+
+The Secondary Balance Table defines how the total fuel required for each injection event is divided between the **Primary** and **Secondary** injectors.
+
+Table values are expressed as a **percentage (%)** and represent the proportion of the total fuel volume delivered by the Secondary injectors. The remaining fuel is automatically delivered by the Primary injectors.
+
+## Table Values
+
+| Value | Fuel Distribution |
+|--------:|-------------------|
+| **0%** | 0% Secondary injectors, 100% Primary injectors |
+| **50%** | Equal fuel volume delivered by the Primary and Secondary injectors |
+| **100%** | 100% Secondary injectors, 0% Primary injectors |
+
+Intermediate values proportionally divide the required fuel between the Primary and Secondary injectors.
+
+> **ℹ️ Note**
+>
+> The Secondary Balance Table controls the **fuel volume distribution** between the Primary and Secondary injectors. The ECU automatically calculates the individual injector pulse widths based on the injector flow rates and the configured Secondary Balance value to achieve the required total fuel delivery.
+>
+>When the Primary and Secondary injector flow rates are correctly configured and calibrated, changing the **Secondary Balance** value should have little or no effect on the overall engine air-fuel ratio
+> 
+
 
 ![Image](</img/Z Axis50.jpg>)
-
-The Secondary Balance Table describes the ratio for the volume of fuel delivered by each injector to make the total amount of fuel for the injection event. 
-
-* 0% means all fuel is supplied from the primary injectors
-* 100% means all fuel is supplied from the secondary injectors
-* 50% being equal volumes of fuel out both primary and secondary injectors. 
-
-If the injector settings are correct,  table adjustment should have minimal affect on the tune.\
 
 ### Example 1:
 
