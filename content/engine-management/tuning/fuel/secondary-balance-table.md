@@ -14,83 +14,90 @@ The Secondary Balance Table describes the ratio for the volume of fuel delivered
 
 If the injector settings are correct,  table adjustment should have minimal affect on the tune.\
 
-## Example 1:
+### Example 1:
 
-Primary Injector = 1000 cc/min
+**Operating Conditions**
 
-Secondary Injector = 1000 cc/min
+- Primary Injector = 1000 cc/min 
+- Secondary Injector = 1000 cc/min 
+- Required Total Injector Flow = 20.000 ms 
 
-Required Total Injector Flow = 20.000 ms
-
-1) Balance Table = 50.0%(Equal flow from both injectors):
-
+1) Balance Table = 50.0%(Equal flow from both injectors):<br>
 Primary Injector Flow = 10.000ms
-
 Secondary Injector Flow = 10.000ms
 
-2) Balance Table = 25.0%( 25% of the flow supplied from Sec Injectors)
-
+2) Balance Table = 25.0%( 25% of the flow supplied from Sec Injectors):<br>
 Primary Injector Flow = 15.000ms
-
 Secondary Injector Flow = 5.000ms
 
-3) Balance Table = 75.0%( 75% of the flow supplied from Sec Injectors)
-
+3) Balance Table = 75.0%( 75% of the flow supplied from Sec Injectors):<br>
 Primary Injector Flow =  5.000ms
-
 Secondary Injector Flow = 15.000ms
 
-## Example 2:
 
-Primary Injector = 1000 cc/min
+### Example 2:
 
-Secondary Injector = 2000 cc/min
+**Operating Conditions**
 
-Required Total Injector Flow = 20.000 ms
+- Primary Injector = 1000 cc/min
+- Secondary Injector = 2000 cc/min
+- Required Total Injector Flow = 20.000 ms
 
-1) Balance Table = 50.0%(Equal flow from both injectors):
-
+1) Balance Table = 50.0%(Equal flow from both injectors):<br>
 Primary Injector Flow = 10.000ms
-
 Secondary Injector Flow = 5.000ms
 
-2) Balance Table = 25.0%( 25% of the flow supplied from Sec Injectors)
-
+2) Balance Table = 25.0%( 25% of the flow supplied from Sec Injectors):<br>
 Primary Injector Flow = 15.000ms
-
 Secondary Injector Flow = 2.500ms
 
-3) Balance Table = 75.0%( 75% of the flow supplied from Sec Injectors)
-
+3) Balance Table = 75.0%( 75% of the flow supplied from Sec Injectors):<br>
 Primary Injector Flow =  5.000ms
-
 Secondary Injector Flow = 7.500ms
 
-Ideally you want to adjust the the Balance Table so the pulse width and hence duty cycle is the same for both Primary and Secondly Injectors. To calculate the Balance value use the following formula:
+### ⚠️ Note
 
-**Secondary Balance (to achieve equal Prim/Sec Pulse Widths)** **=  (Sec/Prim Ratio x 100)** 
+**Ideally you want to adjust the the Balance Table so the pulse width and hence duty cycle is the same for both Primary and Secondly Injectors. To calculate the Balance value use the following formula:**
 
-##                                                                 (1 + Sec/Prim Ratio)
+### Secondary Balance (to achieve equal Prim/Sec Pulse Widths)
 
- where ..
+```text
+                    (Sec/Prim Ratio × 100)
+Secondary Balance = ──────────────────────
+                     (1 + Sec/Prim Ratio)
+```
+Where:
 
-##  Sec/Prim Ratio = (Num Sec Injectors x Inj Size Sec)
+```text
+                    (Num Sec Injectors × Inj Size Sec)
+Sec/Prim Ratio  = ─────────────────────────────────────
+                    (Num Prim Injectors × Inj Size Prim)
+```
 
-##                   (Num Prim Injectors x Inj Size Prim).
+### Example
 
 Using the data  from the above Example 2:
 
-## Sec/Prim Ratio = 4 x 2000 cc/min   = 2.00
 
-##                        4 x 1000 cc/min
+```text
+                    (4 × 2000cc/min)
+Sec/Prim Ratio  =  ──────────────────  = 2.00
+                    (4 x  1000cc/min)
+```
 
-## Secondary Balance (to achieve equal Prim/Sec Pulse Widths) =     (2.00 x 100)  = 66.6%
+ Secondary Balance (to achieve equal Prim/Sec Pulse Widths): 
+```text
+                    (2.00× 100)
+Secondary Balance = ──────────── = 66.6%
+                     (1 + 2.00)
+```
 
-##                                                                   (1 + 2.00)
 
 ![Image](</img/Secondary Balance Table.jpg>)
 
 The above example is from a Mitsubishi EVO IX with staged injectors
+
+---
 
 ## Getting creative...
 

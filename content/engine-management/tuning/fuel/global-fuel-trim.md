@@ -25,4 +25,6 @@ The trim is applied uniformly across all operating conditions and is independent
 
 This function is intended as a calibration and setup aid only.
 
+It allows for a rapid changes to the overall mixture and works independent of RPM and load.
+
 This trim should be returned to 0% before final tuning to ensure the base fuel model is accurate and consistent.

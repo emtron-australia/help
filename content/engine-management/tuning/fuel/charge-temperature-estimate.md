@@ -122,6 +122,6 @@ When disabled, no fuel correction is applied and the Charge Temperature Fuel Tab
 | 0 | Disabled |
 | 1 | Enabled |
 
-> **ℹ️ Note**
+> ### ⚠️ Notes
 >
 > In most applications, the **Charge Temperature Fuel Table** can remain disabled, as little or no additional fuel correction is typically required.
