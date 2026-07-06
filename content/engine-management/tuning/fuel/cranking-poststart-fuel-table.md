@@ -1,15 +1,17 @@
 ---
-title: "Cranking and Post Start Fuel Tables"
+title: "Cranking and Post Start Fuel "
 weight: 12
 ---
 
 ## Crank Fuel Table
 
-The Crank Fuel Table defines the fuel delivered while the engine is operating below the configured **Crank Exit RPM** threshold.
-
 During cranking, engine speed is low and fuel atomisation is poor. Additional fuel is required to compensate for fuel condensation on intake and cylinder surfaces and to ensure a combustible air-fuel mixture.
 
-The Crank Fuel Table is typically configured as a function of coolant temperature, with colder engine temperatures requiring greater fuel enrichment.
+Cranking fuel is calibrated using one or two three-dimensional **Cranking Fuel Tables**. Each table allows the amount of fuel delivered during the cranking injection event to be varied over two configurable operating axes, providing precise control over cranking fuel under different starting conditions.
+
+The cranking threshold is defined when the engine speed is below the configured **Crank Exit RPM** setting.
+
+The Crank Fuel Table is typically configured as a function of coolant temperature and firing events ; the colder engine temperatures requiring greater fuel enrichment.
 
 Fuel from this table is applied continuously while the engine remains in the cranking state.
 

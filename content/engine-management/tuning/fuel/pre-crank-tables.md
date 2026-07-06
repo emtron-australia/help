@@ -1,14 +1,14 @@
 ---
-title: "Pre Crank Fuel Tables"
+title: "Pre-Crank Fuel"
 weight: 11
 ---
-## Pre-Crank Fuel Table
-
-The Pre-Crank Fuel Table(s) defines the amount of fuel delivered during a pre-crank injection event.
+## Overview
 
 Pre-crank fuel is used to establish an initial fuel film on the intake port and valve surfaces before the engine begins cranking. This helps compensate for fuel that would otherwise be lost to wall wetting during the first combustion events, improving engine start quality and reducing cranking time.
 
-The table is typically configured as a function of coolant temperature, with colder engine temperatures requiring greater fuel delivery.
+Pre-crank fuel is calibrated using a three-dimensional **Pre-Crank Fuel Table**. The table allows the amount of fuel delivered during each pre-crank injection event to be varied over two configurable operating axes, providing flexibility for different engine and fuel combinations.
+
+In most applications, the table is configured as a function of **Engine Coolant Temperature** only (effectively operating as a 2D table), with colder engine temperatures requiring greater pre-crank fuel.
 
 The fuel quantity defined in this table is applied whenever a pre-crank injection event is triggered via the **Pre-Crank Injection Mode** setting .
 
