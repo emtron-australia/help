@@ -1,8 +1,8 @@
 ---
-title: "Charge Temperature Estimate Table"
+title: "Charge Temperature Estimation"
 weight: 21
 ---
-## Overview
+## Charge Temperature Estimate Table - Overview
 
 The Charge Temperature Estimate table is used to calculate the estimated temperature of the air entering the combustion chamber. This estimated charge temperature is derived by blending the Inlet Air Temperature (IAT) sensor reading with the Engine Coolant Temperature (ECT).
 
@@ -10,7 +10,7 @@ Under many operating conditions, the measured intake air temperature does not ac
 
 The Charge Temperature Estimate table allows the ECU to compensate for these effects by blending the Intake Air Temperature with the Engine Coolant Temperature as a function of engine operating conditions.
 
-## Table Values
+### Table Values
 
 Table values are expressed as a percentage and determine the contribution of the Engine Coolant Temperature to the calculated charge temperature.
 
@@ -64,7 +64,7 @@ Different fuels absorb different amounts of heat as they evaporate. Fuels with a
 
 For conventional gasoline fuels, little or no offset is typically required.
 
-## 🔧 Tuning Guidelines
+### 🔧 Tuning Guidelines
 
 - Gasoline applications typically require minimal or no correction.
 - Ethanol blends generally require a moderate negative offset.
@@ -95,15 +95,17 @@ Table values are expressed as a **percentage (%)**.
 - **Negative values** decrease the Base Pulse Width (leaner).
 - **0%** applies no fuel correction.
 
-## 🔧Tuning Notes
+### 🔧Tuning Notes
 
 - In most applications, this table can be left at **0%** across the entire operating range.
 - The **Charge Temperature Estimate** table should be calibrated first to provide the most accurate estimate of the cylinder charge temperature. Then adjust the Charge Temperate Fuel Table if required.
 - Large corrections typically indicate that the Charge Temperature Estimate table should be reviewed before using this table for compensation.
 
-> **ⓘ Important**
+> **ℹ️ Important**
 >
 > This table does **not** modify the calculated Charge Temperature. It applies a percentage correction to the **Base Pulse Width** after the Charge Temperature Estimate has been used during the ECU's air mass calculation.
+
+---
 
 ## Charge Temperature Fuel Table Control
 
@@ -113,7 +115,7 @@ When enabled, the **Charge Temperature Estimate Fuel Table** applies a percentag
 
 When disabled, no fuel correction is applied and the Charge Temperature Fuel Table is ignored.
 
-## Options
+### Options
 
 | Value | Mode |
 |---------|---------|
