@@ -78,11 +78,11 @@ The ECU interpolates between both tables based on the configured Z-axis input (t
 - Intermediate values → linear interpolation between both tables
 
 
-## Z-Axis Blended (Dual Table Interpolation)
+### Z-Axis Blended (Dual Table Interpolation)
 
 The ECU supports a Z-axis blending strategy that allows lambda targets to be interpolated between two tables based on a third operating axis.
 
-## Concept Overview
+### Concept Overview
 
 Two base Lambda Target tables are defined:
 

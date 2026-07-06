@@ -3,6 +3,8 @@ title: "Lambda Target Tables"
 weight: 6
 ---
 
+### Overview 
+
 The Lambda Target table enables the user to define the desired Lambda target across the operating range of the engine.
 
 The Lambda Target is a primary input to the ECU airflow and fuel model and therefore directly influences the final calculated fuel mass injected into the engine.

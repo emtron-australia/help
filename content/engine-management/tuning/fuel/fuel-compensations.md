@@ -1,5 +1,6 @@
 ---
 title: "Fuel Compensations"
+weight: 25
 ---
 
 ## Compensations

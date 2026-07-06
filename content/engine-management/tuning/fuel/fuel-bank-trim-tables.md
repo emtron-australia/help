@@ -3,9 +3,7 @@ title: "Fuel Bank Trim Tables"
 weight: 25
 ---
 
-## Bank Trims
-
-### Bank Trims
+## Overview
 
 - **Bank Trims** allow fuel mass percentage corrections to be applied independently to each cylinder bank.  
 - Each cylinder can be assigned to either **Bank 1** or **Bank 2**, enabling separate fuel control for grouped cylinders.  
