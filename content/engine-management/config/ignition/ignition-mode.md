@@ -1,35 +1,71 @@
 ---
 title: "Ignition Mode"
+weight: 1
 ---
 
-## Ignition Mode
+## Overview
 
 ![Image](</img/Ignition2.jpg>)
 
-This is where the ignition type is configured.  
+Selects the ignition output strategy used by the engine. The selected ignition mode determines how ignition events are distributed across the available ignition output channels.
 
-0: OFF
+## Options
 
-1: Direct Fire
+| Value | Mode |
+|--------:|------|
+| **0** | Off |
+| **1** | Direct Fire |
+| **2** | Wasted Spark |
+| **3** | Distributor |
+| **4** | Twin Distributor |
+| **5** | Direct Fire + Direct Trailing Spark |
+| **6** | Wasted Spark + Direct Trailing Spark |
+| **7** | CDI 8 |
 
-2: Wasted Spark
 
-3: Distributor
+# Mode Descriptions
 
-4: Twin Distributor
+### Off
 
-5: Direct Fire + Direct Trailing Spark
+Disables all ignition outputs.
 
-6: Wasted Spark + Direct Trailing Spark
+### Direct Fire
 
-7: CDI 8
+Each cylinder is assigned its own dedicated ignition output channel.
 
-**NOTES:**
+### Wasted Spark
 
-* Ignition Channel 1 is the only channel available for Distributor Mode.
-* Ignition Channels 1 and 2  are the only channels available for Twin Distributor Mode.
-* Trailing Spark options 5 & 6. The maximum number of trailing channels available is 6.
+Each ignition output fires two cylinders simultaneously, with one spark occurring on the compression stroke and the other on the exhaust stroke.
 
-( all other Ignition Modes are fully configurable) 
+### Distributor
+
+Uses a single ignition output to drive a conventional distributor ignition system.
+
+### Twin Distributor
+
+Uses two ignition outputs to drive a twin distributor ignition system.
+
+### Direct Fire + Direct Trailing Spark
+
+Provides individual ignition outputs for both leading and trailing spark plugs. Commonly used on rotary engines requiring independent control of leading and trailing ignition events.
+
+### Wasted Spark + Direct Trailing Spark
+
+Uses wasted spark ignition for the leading plugs while maintaining individual control of the trailing spark plugs.
+
+### CDI 8
+
+Configures the ECU for operation with an external 8-channel Capacitive Discharge Ignition (CDI) system.
+
+---
+
+## Notes
+
+> **ℹ️ Note**
+>
+> - **Ignition Channel 1** is the only ignition output available in **Distributor** mode.
+> - **Ignition Channels 1 and 2** are the only ignition outputs available in **Twin Distributor** mode.
+> - For **Direct Fire + Direct Trailing Spark** and **Wasted Spark + Direct Trailing Spark** modes, a maximum of **6 trailing ignition channels** are available.
+> - All other ignition modes provide fully configurable ignition channel assignments.
 
 See [*Ignition Channel Setup*](<ignition-channel-setup.md>) for channel setup help.
