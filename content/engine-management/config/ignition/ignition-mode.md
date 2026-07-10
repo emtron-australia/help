@@ -9,6 +9,12 @@ weight: 1
 
 Selects the ignition output strategy used by the engine. The selected ignition mode determines how ignition events are distributed across the available ignition output channels.
 
+> **⚠️ Warning**
+>
+> The ECU Ignition Output provides a TTL-level trigger signal intended to control an external ignitor or a coil with an integrated ignitor module. 
+> 
+> **Do not connect the ECU Ignition Output directly to a coil negative terminal.** Incorrect connection will result in damage to the ECU and/or ignition system.
+
 ## Options
 
 | Value | Mode |
@@ -58,8 +64,6 @@ Uses wasted spark ignition for the leading plugs while maintaining individual co
 Configures the ECU for operation with an external 8-channel Capacitive Discharge Ignition (CDI) system.
 
 ---
-
-## Notes
 
 > **ℹ️ Note**
 >
