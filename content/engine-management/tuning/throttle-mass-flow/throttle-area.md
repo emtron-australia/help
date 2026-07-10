@@ -144,8 +144,6 @@ The same can be done matching TMF air mass VS MAP air mass
 
 ** MAF/MAP air mass must be validly running the engine - running the commanded lambda target, etc
 
-![Image](</img/Tuning Tip.jpg>)            
-
 **Tuning Tip**: 
 
 *Per the Matching Lambda validation method, the Throttle Area Table is used to quickly tune the engine operating in TMF by simply manipulating the table at the various throttle areas to match the Lambda Target Table values for that given load. When the correct air fuel ratio is achieved, the Throttle Area Table is essentially validated for the purpose of running the engine. To do this the wideband lambda control should be turned off and the blend bias toward TMF be set to 100%.* 

@@ -3,11 +3,7 @@ title: "Throttle Body Area Table"
 weight: 94
 ---
 
-## Throttle Body Area Table
-
-## Tuning –> Engine Functions –> Throttle Body Model –> Throttle Body Area Table
-
-![Image](</img/AAAA78.jpg>)
+## Overview
 
 The Throttle Body Area table is a 40-cell correlation table; it gives the direct relationship between Throttle Area and Throttle Position (Servo Position). The ECU uses this table to convert any Throttle Area request into Servo Position which is then used as the DBW Target. Throttle Body templates are available to load into the ECU from the File -> Import Module File menu.
 
@@ -42,8 +38,7 @@ If no MAF sensor is available, setting fuel trims to 0 (or near 0), you can adju
 ** Some extreme applications where live Lambda is unstable may be more difficult to map with Method 2
 
 See [Torque Management Tuning Guide](<TorqueManagementTuningGuide.md>), [Throttle Mass Flow](<ThrottleMassFlow.md>), and [Torque Reduction](<TorqueReduction.md>)(throttle) sections for more specific information, and guides on how to tune. 
-
-![Image](</img/Tuning Tip.jpg>)            
+    
 
 **Tuning Tip**: 
 

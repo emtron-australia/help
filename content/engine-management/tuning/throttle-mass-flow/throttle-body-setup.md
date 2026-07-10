@@ -3,7 +3,7 @@ title: "Throttle Body Setup"
 weight: 96
 ---
 
-## Introduction
+## Overview
 The Throttle Body setup consists of 2 main parts:
 
 * Throttle body diameter and scaler. 

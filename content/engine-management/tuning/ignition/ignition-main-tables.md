@@ -3,9 +3,11 @@ title: "Ignition Main Tables"
 weight: 1
 ---
 
-The Ignition Table defines the base ignition timing commanded by the ECU based on engine operating conditions.
+The Ignition Tables are the primary ignition calibration used by the ECU and define the base ignition timing as a function of engine speed and load.
 
-The table value represents the desired ignition timing in **degrees Before Top Dead Center (BTDC)**. The ECU uses engine speed (RPM) and load as the lookup axes to determine the base ignition advance value.
+The table values represent the desired ignition timing in **degrees Before Top Dead Centre (BTDC)** and are typically indexed by **Engine Speed (RPM)** and **Engine Load**.
+
+The ECU uses the active Ignition Table as the starting point for all ignition calculations before applying additional ignition corrections, compensations, torque reduction strategies (Strat Modes) to determine the final commanded ignition timing.
 
 ## Specifications
 
@@ -13,7 +15,7 @@ The table value represents the desired ignition timing in **degrees Before Top D
 - **Minimum Value:** -100.0 Deg
 - **Maximum Value:** 100.0 Deg
 
-## Function Behaviour
+## Function Behaviour../../config/triggers/crank-index-offset-setup.md
 
 - Higher values command more ignition advance.
 - Lower values command less ignition advance.
@@ -27,6 +29,7 @@ The final ignition timing delivered by the ECU may be modified by additional ign
 - Intake Air Temperature Compensation
 - Knock Control
 - Idle Ignition Control
+- Ignition Retard Torque Reductions via User Torque Limits and Strat Modes
 - Other configured ignition corrections
 
 
@@ -34,7 +37,9 @@ The final ignition timing delivered by the ECU may be modified by additional ign
 
 Before calibrating the Ignition Table, the ECU ignition timing must be synchronised with the actual engine crankshaft position.
 
-To verify synchronisation:
+See the overview below or view : [Crank Index Overview](../../config/triggers/crank-index-offset-setup.md) for more help.
+
+To verify synchronisation:../../config/triggers/crank-index-offset-setup.md
 
 1. Enable **Ignition Lock** and set a fixed ignition timing value (Ignition Lock Angle).
 2. Use a timing light to measure the actual ignition timing at the engine.

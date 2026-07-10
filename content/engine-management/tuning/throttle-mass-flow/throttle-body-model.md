@@ -3,13 +3,9 @@ title: "Throttle Body Model"
 weight: 95
 ---
 
-## Throttle Body Model
-
-## Introduction
+## Overview
 
 The throttle body model is a key component to unlocking the advanced tuning features of the Emtron ECU. That is Throttle Mass Flow & Torque Modeling & Management. The accuracy of your setup in the throttle body mode is critical for good results. 
-
-## Tuning->Engine Functions->Throttle Body Model->Throttle Mass Flow Set-up->Throttle Mass Flow Enable
 
 ![Image](</img/Throttle Mass Flow Enable1.jpg>)
 
