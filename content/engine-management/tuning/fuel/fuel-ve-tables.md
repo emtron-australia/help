@@ -62,7 +62,7 @@ Typical VE values vary depending on engine design and operating conditions.
 - High-performance naturally aspirated engines: **90–110%** (typical peak)
 
 ![Image](</img/VE Table.jpg>)
-The above Nissan R35 VE table example shows the typical range of values         
+The above VE table example shows the typical range of values.         
 
 ### 🔧Tuning Notes
 - The **VE** table is calibrated by adjusting its values until the measured lambda matches the commanded **Lambda Target** across the engine's operating range.
@@ -129,4 +129,6 @@ The ECU performs real-time linear interpolation between both VE tables based on 
 - 100% Z-axis → 100% Table 2
 - Intermediate values → linear interpolation between both tables
 
- [Pulse Calculation Example](fuel-PW-example.md)
+ ---
+
+ For a Fuel Tuning Overview see: [Fuel Tuning Overview](fuel-tuning.md)

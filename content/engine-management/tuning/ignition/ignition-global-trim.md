@@ -1,5 +1,5 @@
 ---
-title: "Global Trim"
+title: "Global Ignition Trim"
 weight: 2
 ---
 
@@ -23,4 +23,4 @@ The configured trim value is added to the final calculated ignition timing after
 
 This function is intended as a quick global adjustment to the overall ignition timing.
 
-For permanent calibration changes, adjust the appropriate ignition tables or compensation maps rather than relying on the global ignition trim.
+For permanent calibration changes, adjust the appropriate ignition table(s) or compensation maps rather than relying on the global ignition trim.

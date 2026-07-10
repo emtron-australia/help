@@ -27,7 +27,7 @@ Intermediate values proportionally divide the required fuel between the Primary 
 > 
 
 
-![Image](</img/Z Axis50.jpg>)
+![Image](</img/Staged_Balance.jpg>)
 
 ### Example 1:
 
