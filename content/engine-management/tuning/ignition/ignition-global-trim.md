@@ -1,20 +1,26 @@
 ---
 title: "Global Trim"
+weight: 2
 ---
 
-Applies a global ignition trim. 
+This function applies a global ignition timing trim across all ignition channels.
 
-This trim is a +/- off the calculated ignition timing. 
+The configured trim value is added to the final calculated ignition timing after all other ignition corrections and compensations have been applied. The trim is applied uniformly across all operating conditions and is independent of engine speed (RPM) and load.
 
-It allows for a quick trim to the overall ignition timing 
+## Specifications
 
-and works independent of RPM and load.
+- **Units:** Deg
+- **Minimum Value:** -100.0 Deg
+- **Maximum Value:** +100.0 Deg
 
-Units: Deg
+## Function Behaviour
 
-Min Value = -100 Deg
+- Positive values advance ignition timing.
+- Negative values retard ignition timing.
+- A value of **0.0 Deg** applies no global ignition correction.
 
-Max Value = +100 Deg
+## ⚠️ Notes
 
-Typical : 0 Deg
+This function is intended as a quick global adjustment to the overall ignition timing.
 
+For permanent calibration changes, adjust the appropriate ignition tables or compensation maps rather than relying on the global ignition trim.

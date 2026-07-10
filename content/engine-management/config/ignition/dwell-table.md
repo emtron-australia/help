@@ -1,19 +1,26 @@
 ---
 title: "Dwell Tables"
-weight: 30
+weight: 13
 ---
 
 ## Overview
 
-![Image](</img/Ignition12.jpg>)
-
 ![Image](</img/Ignition11.jpg>)
 
-The Dwell Table 1 is where the coil charge time factor is set before discharging to the spark to the plug.
+The Dwell Table defines the ignition coil charge time (**dwell**) as a function typically of **ECU Supply Voltage** and **Engine Speed**.
 
-In general, a longer charge time will increase both the spark voltage and the heat produced by the coil.
+Dwell time is the amount of time the ignition coil primary winding is energised prior to the spark event and is expressed in units of **milliseconds (ms)**.
 
-Excessive charge times will cause the coil to fail
+During the dwell period, energy is stored within the ignition coil magnetic field and is subsequently released when the ignition event occurs. Insufficient dwell time may result in a weak spark and ignition misfire, while excessive dwell time can overheat the ignition coil and ignition driver circuitry.
+
+Two independent Dwell Tables are available and can be assigned to individual cylinders using the **Dwell Setup** configuration page. See [*Dwell Setup*](<dwell_setup.md>) for more infomration.
+
+
+> **ℹ️ Note**
+>
+> Excessive dwell time does not generally increase spark energy once the ignition coil has reached magnetic saturation and may result in unnecessary heating and/or failure of the ignition coil and ignition drivers.
+
+--- 
 
 ## Dwell Offset Table 1
 
