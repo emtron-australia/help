@@ -1,5 +1,6 @@
 ---
 title: "Mass Air Flow Sensor (MAF)"
+weight: 4
 ---
 
 ![Image](</img/Untitled273.png>)

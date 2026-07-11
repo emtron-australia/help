@@ -1,14 +1,26 @@
 ---
 title: "Air Mass Model Setup"
+hide_title: true
+weight: 1
 ---
 
-#  Overview
+##  Air Mass Model
 
 The **Air Mass Model** defines how the ECU calculates the mass of air entering the engine. The calculated air mass is then used to determine the required fuel mass to achieve the commanded **Lambda Target**, before being converted into an injector pulse width using the configured injector characteristics.
 
 Different engine combinations may benefit from different air mass calculation strategies. Emtron provides several Air Mass Models to suit a wide range of applications.
 
-## Options
+Air mass is a critical parameter that must be calibrated accurately within the ECU for two main reasons:
+
+1) The calculated air mass is used to determine the required Fuel Mass.
+2) The calculated air mass is used to calculate Engine Torque. Accurate air mass  is therefore critical to ensure Torque Control and Torque Reduction functions operate correctly.
+
+> **Important:**  
+> Air Mass Throttle Torque Reduction can only operate when **TMF (Throttle Mass Flow)** is enabled within the Air Mass Model. TMF is required to accurately calculate the change in air mass resulting from throttle movement and therefore provide correct torque reduction control.
+
+The ECU can calculate engine air mass using six different Air Mass Model methods:
+
+## Setup Options
 
 | Value | Air Mass Model |
 |--------:|----------------|
@@ -19,7 +31,7 @@ Different engine combinations may benefit from different air mass calculation st
 | **4** | Speed Density (MAP) + Throttle Mass Flow (TMF) Blend |
 | **5** | Emtron Air Mass Model (Custom) |
 
-## Air Mass Model Descriptions
+### Air Mass Model Descriptions
 
 ### Speed Density (MAP)
 
@@ -54,6 +66,9 @@ Blends the **Speed Density (MAP)** calculation with **Throttle Mass Flow (TMF)**
 - **100% Blend** = 100% Throttle Mass Flow
 
 The **TMF Correction Table** can be used to make small adjustments to the TMF calculation if required. In most applications, little or no correction should be necessary.
+
+See here for more information: [TMF air mass](throttle-mass-flow.md)
+See here for more information: [MAP air mass](speed-density-map.md)
 
 ### Emtron Air Mass Model (Custom)
 
