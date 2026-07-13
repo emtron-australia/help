@@ -24,7 +24,7 @@ CANopen here is a **master-oriented process-data bridge**: NMT start, cyclic/eve
 
 ### Where to find it
 
-1. Open **Communications** (or the CAN page for your product).
+1. Open **Communications**.
 2. Select the CAN bus you want to configure.
 3. On **Settings**, enable CANopen.
 4. Open the **CANOpen** tab (shown when CANopen is enabled).
