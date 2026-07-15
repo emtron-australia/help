@@ -3,7 +3,7 @@ title: "Mass Air Flow Sensor (MAF)"
 weight: 4
 ---
 
-![Image](</img/Untitled273.png>)
+## Overview 
 
 The Air Flow Sensor(s) provides a measured Air Mass Flow in g/s.  The ECU then converts this into air mass per cylinder (g/cyl)  giving actual Air Mass into the Engine. 
 

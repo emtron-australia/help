@@ -1,5 +1,6 @@
 ---
 title: "Air Mass Modifier Table"
+weight: 8
 ---
 
 The Air Mass Modifier Table is enabled via Tuning -> Fuel Table Control -> Fuel Modifier Tables

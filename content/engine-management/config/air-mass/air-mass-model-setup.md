@@ -1,29 +1,26 @@
 ---
 title: "Air Mass Model Setup"
-hide_title: true
 weight: 1
 ---
 
-##  Air Mass Model
+##  Overview
 
 The **Air Mass Model** defines how the ECU calculates the mass of air entering the engine. 
 
 Accurate air mass calculation is critical for two primary functions within the ECU:
 
-1) The calculated air mass is then used to determine the required fuel mass to achieve the commanded **Lambda Target**, before being converted into an injector pulse width using the configured injector characteristics.
+1) The calculated air mass is used to determine the required fuel mass to achieve the commanded **Lambda Target**, before being converted into an injector pulse width using the injector configuration data.
 
 2) The calculated air mass is used by the **Engine Torque Model** to estimate engine torque. Accurate air mass calculation is therefore essential to ensure Torque Control and Torque Reduction functions operate correctly.
 
-Different engine combinations may benefit from different air mass calculation strategies. Emtron provides several Air Mass Models to suit a wide range of applications.
-
 > **⚠️ Important** <br>
-> - Throttle Torque Reduction can only operate when **TMF (Throttle Mass Flow)** is enabled within the Air Mass Model. TMF is required to accurately calculate the change in air mass across the throttle plate during throttle movements and can therefore provide accurate throttle torque reduction control.
+> - Throttle Torque Reduction can only operate when **Throttle Mass Flow (TMF)** is enabled within the Air Mass Model. TMF is required to accurately calculate the change in air mass across the throttle plate during throttle movements and can therefore provide accurate throttle torque reduction control.
 >
 >- The selected Air Mass Model forms the foundation of the ECU fuel and torque calculations and should be configured before starting engine tuning.
 >
-> - The **Throttle Mass Flow (TMF)** air mass model cannot be used as a standalone air mass calculation and must always be blended with a secondary air mass model. At throttle pressure ratios above approximately **0.9** (**Post-Throttle Pressure / Pre-Throttle Pressure**), the pressure differential across the throttle body becomes very small, significantly reducing the sensitivity and resolution of the **TMF** calculation. This requirement is referenced multiple times throughout the documentation due to its importance when configuring TMF based air mass models.
+> - The **Throttle Mass Flow (TMF)** air mass model cannot be used as a standalone air mass calculation and must always be blended with a secondary air mass model. At throttle pressure ratios above **0.9** (**Post-Throttle Pressure / Pre-Throttle Pressure**), the pressure differential across the throttle body becomes very small, significantly reducing the sensitivity and resolution of the **TMF** calculation. This requirement is referenced multiple times throughout the documentation due to its importance when configuring TMF based air mass models.
 
-The ECU can calculate engine air mass using the following Air Mass Models:
+Different engine combinations may benefit from different air mass calculation strategies. Emtron provides several Air Mass Models to suit a wide range of applications. The ECU can calculate engine air mass using the following Air Mass Models:
 
 ## Setup Options
 
@@ -41,16 +38,19 @@ The ECU can calculate engine air mass using the following Air Mass Models:
 ### Speed Density (MAP)
 
 Calculates engine air mass using the Ideal Gas Law based on **Manifold Absolute Pressure (MAP)**, **Charge Temperature**, **Engine Displacement**, and **Volumetric Efficiency (VE)**.
+
 See here for more information: [MAP air mass](speed-density-map.md)
 
 ### Speed Density (BAP)
 
 Calculates engine air mass using **Barometric Absolute Pressure (BAP)** instead of manifold pressure. This mode is typically used on naturally aspirated engines operating with individual throttle bodies (ITBs), where manifold pressure is not a reliable indicator of engine load.
+
 See here for more information: [BAP air mass](speed-density-bap.md)
 
 ### Mass Air Flow (MAF)
 
 Calculates engine air mass directly from the measured airflow provided by the configured Mass Air Flow sensor.
+
 See here for more information: [MAF air mass](mass-air-flow-sensor-maf.md)
 
 ### Air Mass Modelled + Throttle Mass Flow (TMF) Blend
@@ -109,8 +109,17 @@ This table determines the contribution(ratio) of each air mass model used to cal
 
 Intermediate values proportionally blend between the selected air mass models.
 
-See here for more information on Air Mass Blend Table : [Air Mass Blend Table](../../tuning/fuel/air-mass-blend-table.md)
+See here for more information on Air Mass Blend Table : [Air Mass Blend Table](../../tuning/air-mass/air-mass-blend-table.md)
 
 ## Air Mass Bank Control
 
 This option is **only** available using the Emtron Air Mass Model. See [Emtron Air Mass Model](air-mass-model-emtron.md)
+
+
+## Air Mass Runtimes
+
+All ECU air mass related runtimes can be viewed from: ECU Runtime -> Air Mass 
+
+![Image](</img/AirMassRuntimes.jpg>) <br>
+
+

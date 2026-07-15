@@ -3,69 +3,53 @@ title: "Air Mass Modelled"
 weight: 6
 ---
 
-![Image](</img/Ignition19.jpg>)
+## Overview
+
+Air Mass Modelling allows the ECU to generate a custom **Air Mass Modelled (g/cyl)** runtime by blending two independent air mass calculations together. The "Blend Table" determines the blend ratio between both parameters.
+
+The resulting **Air Mass Modelled** runtime can be used throughout the ECU, including as the primary air mass source for the Fuel Mass Calculation and Engine Torque Model.
+
+This provides a flexible method of constructing advanced air mass calculation strategies that are not possible using the predefined Air Mass Models alone.
+
+The configuration takes place in: 
+`Config -> Air Mass -> Air Mass Modelled Setup`.  See [Air Mass Modelled Setup](<air-mass-model-setup.md>)
+
+The Air Mass Modelled Blend Table is configured from: `Tuning → Fuel → Air Mass Model Blend Table`
 
 Air Mass Modeling allows the ECU to blend different methods of air mass calculation to generate the Air Mass Modeled runtime
 
 ## Air Mass Modelled Setup
 
-![Image](</img/Untitled258.png>)
-
 ![Image](</img/Untitled259.png>)
 
-This function blends the Air Mass (g/cyl) selected in Parameter 1 and 2 to give a  "Air Mass Modelled" runtime in g/cyl. 
+The **Air Mass Modelled Setup** determines the two air mass calculations used to generate the final **Air Mass Modelled** runtime.
 
-This runtime can be used throughout the ECU. As an example it can be used used to run the Fuel Model, you can blend the air mass from 
+Two independent inputs are available:
 
-Throttle Mass Flow (TMF) to Speed Density (MAP) and use that result to run the engine i.e you can “favour” the TMF under lite to mid throttle and blend to MAP 
+- **Air Mass Modelled Blend Parameter 1**
+- **Air Mass Modelled Blend Parameter 2**
 
-under high load conditions (Fuel Model setting 3). See [Fuel Model Setup ](<fuel-model-setup.md>)for Fuel Model information. 
+Air Mass Modelled Blend Parameters have the following options.  Select the two air mass calculations that will be blended together to generate the final **Air Mass Modelled** runtime:
 
-Air Mass Modelled Blend Parameters have the following options. Choose what two air flow calculations to use in the blend table:
+| Value | Blend Parameter |
+|-------:|-----------------|
+| **0** | Off |
+| **1** | Manifold Pressure Sensor |
+| **2** | Manifold Pressure Bank 1 |
+| **3** | Manifold Pressure Bank 2 |
+| **4** | Manifold Pressure + Bank 1 Sensor Average |
+| **5** | Manifold Pressure + Bank 2 Sensor Average |
+| **6** | Manifold Pressure Bank 1 / Bank 2 Average |
+| **7** | MAF Meter 1 |
+| **8** | MAF Meter 2 |
+| **9** | MAF Meter Bank 1 |
+| **10** | MAF Meter Bank 2 |
+| **11** | MAF Meter Bank 1 / Bank 2 Average |
+| **12** | Throttle Mass Flow 1 |
+| **13** | Throttle Mass Flow 2 |
+| **14** | Throttle Mass Flow 1 / 2 Average |
+| **15** | Manifold Pressure Estimate |
 
-0: OFF.  Function is off
-
-1: Manifold Pressure Sensor.    Manifold Pressure 
-
-2: Manifold Pressure Bank 1.     Bank 1 Manifold Pressure
-
-3: Manifold Pressure Bank 2.    Bank 2 Manifold Pressure
-
-4: Manifold Pressure + Manifold  Bank 1 Sensor Average. Average of MAP and MAP Bank 1
-
-5: Manifold Pressure + Manifold  Bank 2 Sensor Average. Average of MAP and MAP Bank 2
-
-6: Manifold  Pressure Bank 1/Bank 2  Average. Average of MAP Bank 1 and Bank 2
-
-7: MAF Meter 1. MAF Sensor 1
-
-8: MAF Meter 2.MAF Sensor 2 
-
-9: MAF Meter Bank 1.    Bank 1 MAF Sensor
-
-10: MAF Meter Bank 2.Bank 2 MAF MeSensorter
-
-11: MAF Meter Bank 1/ Bank 2 Average, Average of MAF Bank 1 and Bank 2
-
-12: Throttle Mass Flow 1.Throttle Mass Flow Bank 1
-
-13: Throttle Mass Flow 2. Throttle Mass Flow Bank 2
-
-14: Throttle Mass Flow 1 /2 Average. Average of TMF Bank 1 and Bank 2
-
-15: Manifold Pressure Estimate. Estimated Manifold Pressure
-
-## Air Mass Modelled (Parameter Blend)
-
-![Image](</img/Untitled263.png>)
-
-This mode generates new calculated runtime called "Air Mass Modelled (g/cyl)"  which is a blend of two different air mass parameters. The "Blend Table"
-
-determines the blend ratio between both parameters.
-
-The configuration takes place in: Config -> Channels -> Calculated Runtimes -> Air Mass Modelled Setup. See [Air Mass Modelled Setup](<air-mass-modelled-setup.md>)
-
-![Image](</img/Untitled265.jpg>)
 
 ### Air Mass Modelled Blend Parameter 1
 
@@ -75,19 +59,19 @@ Select the method of air mass calculation for Parameter 1
 
 Select the method of air mass calculation for Parameter 2
 
-This Fuel mode is most commonly used when bending between Manifold Pressure Sensor and Manifold Pressure Estimate as shown above.  (see further help on MAP Estimate).  
+A common application is blending between **Manifold Pressure Sensor** and **Manifold Pressure Estimate** (see further help on MAP Estimate).  
 
-If Air Mass Modelling is not being used, select the same runtime for both parameters or set Air Mass Modelled Blend Table to point towards the appropriate runtime.  
+If blending is not required, configure both parameters to use the same air mass source or configure the blend table to fully favour the desired calculation method.
 
 ### Air Mass Modelled Blend Table
 
 ![Image](</img/Ignition22.jpg>)
 
-Speed Density (Parameter 1) over Throttle Mass Flow (Parameter 2) shown as an example
+The example below shows **Speed Density** configured as **Parameter 1** and **Throttle Mass Flow (TMF)** configured as **Parameter 2**.
 
-3D table with configurable axis that allows blending between to the two selected Air Mass Modelled Parameters.
+The **Air Mass Modelled Blend Table** is a three-dimensional table with configurable axes that determines the blend ratio between the two selected Air Mass Modelled parameters.
 
- 0.0%    : All Parameter 1
+- **0.0%** = All Parameter 1
+- **100.0%** = All Parameter 2
 
-100.0% : All Parameter 2
 

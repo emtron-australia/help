@@ -1,9 +1,9 @@
 ---
-title: "Air Mass Blend Table"
-weight: 5
+title: "Air Mass Model Blend Table"
+weight: 10
 ---
 
-## Overview
+## Background
 
 The **Air Mass Model** defines how the ECU calculates the mass of air entering the engine. The calculated air mass is then used to determine the required fuel mass to achieve the commanded **Lambda Target**, before being converted into an injector pulse width using the configured injector characteristics.
 
