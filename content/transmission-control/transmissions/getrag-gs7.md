@@ -170,3 +170,45 @@ The following table shows the nominal fork mapping. Actual positions should be f
 | **4 (5/7)** | 5 << | X     |       | X     | X     |
 | **4 (5/7)** | >> 7 |       | X     | X     | X     |
 
+--- 
+
+## Line Pressure
+The line pressure solenoid reduces line pressure as current increases. Maximum line pressure is achieved when the solenoid is completely off.
+
+>[!INFO] No line pressure sensor is available.
+
+--- 
+
+## Clutch Pressure
+Clutch pressure is controlled by a solenoid for each clutch. To achieve maximum pressure they must be driven to approximately 1.8-1.9 Amps. To do so, the solenoids need to be wired to a Solenoid Pair so that more than 1.5A can be targeted.
+
+ - Each clutch has a pressure sensor.
+ - Each clutch/axis has a safety solenoid that must be energized to allow clutch pressure to be applied.
+
+--- 
+
+## Input Shaft Speed
+An `Input Shaft Speed` sensor is available. This effectively measures engine RPM as it's the speed BEFORE the input to the clutch baskets.
+
+The sensor is 2 wire hall effect type. Use Hall Input 1-4.
+
+---
+
+## Clutch Speeds
+Each Clutch has an output speed sensor. The sensor measures the speed of the output side of the clutch basket. This speed varies depending on the selected gear.
+
+Slip is calculated based on the difference between `Input Shaft Speed` and `Clutch A/B Speed`.
+
+The sensors are 2 wire hall effect type. Use Hall Input 1-4.
+
+--- 
+
+## Output Shaft Speed
+The GS7 does not have an output shaft speed sensor. Instead, leave the `Output Shaft Speed` input OFF and the TCM will calculate `Output Shaft Speed` using the active clutch and it's currently selected gear.
+
+---
+
+## Lubrication / Cooling Flow
+The GS7 has a solenoid dedicated to cooling the clutches.
+
+---
