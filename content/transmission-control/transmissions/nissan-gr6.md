@@ -21,7 +21,7 @@ Refer to the [Emtron TM16-R35 Adapter Kit Datasheet](https://docs.emtronaustrali
 
 ---
 
-## Selector Forks
+## Shift Forks
 | Fork | Gear Low | Gear High |
 | ---- | -------- | --------- |
 | 1    | R        | 1         |

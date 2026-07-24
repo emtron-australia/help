@@ -15,6 +15,10 @@ The TCM will calculate all required clutch pressures based on supplied and avail
 
 >[!WARNING] It is absolutely critical that the engine torque data is accurate.
 
+*For detailed information on how the TCM converts torque to clutch pressure, see this section on [Shift Pressures](clutch-pressure-control.md#shift-pressures).*
+
+*For detailed information on how to setup the clutch model, see the [Clutch Model](clutch-model.md) documentation.*
+
 ---
 
 ## Line Pressure
