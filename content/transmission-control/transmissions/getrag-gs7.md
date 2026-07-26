@@ -2,11 +2,14 @@
 title: "Getrag GS7"
 ---
 
+>[!CAUTION] Beta Notice
+> The GS7 base cal file has been built using a dedicated track car as the test platform. While it is fully functional and drives very well, it may not be optimized in all aspects.
+
 ## Wiring
 The OEM Mechatronic unit must be removed so that the transmission can be run directly by the TCM. 
 
 >[!INFO] The example below uses the DomiWorks Install Board.
->  The pullup resistors supplied on the board **should be removed** as pullup control is available on all TCM inputs.
+>  The pullup resistors supplied on the board **should be removed** as pullup control is available on all TCM inputs where required.
 
 ![GS7 Mech Pads](/img/getrag-gs7/gs7_mech_pads.png)
 
@@ -34,9 +37,9 @@ The OEM Mechatronic unit must be removed so that the transmission can be run dir
 | PC5     | SGND     | SGND |
 | PC6     | Fork 5/7 Position | An 4 |
 | PC7     | +5V      | 5V Out 1 |
-| PC8     | Clutch A Temp ? | An 5 |
+| PC8     | Clutch A Temp (NC, marked "redundant" in OEM docs) | An 5 |
 | PC9     | +5V      | 5V Out 1 |
-| PC10    | Clutch B Temp | 5B Out 1 |
+| PC10    | Clutch B Temp (NC, marked "redundant" in OEM docs) | An 6 |
 | PC11    | Fork 2/R Position | An 8 |
 | PC12    | Fork 1/3 Position | An 7 |
 | PC13    | +5V      | 5V Out 1 |

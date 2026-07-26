@@ -18,8 +18,8 @@ We are testing and building applications specific configurations in-house which 
 | Transmission   | Type         | Status       | Base Cal | Notes |
 | -------------- | ------------ | ------------ | -------- | ----- |
 | [ZF 8HP](./transmissions/zf-8hp.md) | Multi-clutch | Supported    | Included |       |
-| [Nissan GR6](./transmissions/nissan-gr6.md) | DCT          | Supported    | Included |       |
-| Getrag GS7     | DCT          | Testing      | Coming Soon      |       |
+| [Nissan GR6](./transmissions/nissan-gr6.md) | DCT  | Supported    | Included |       |
+| [Getrag GS7](./transmissions/getrag-gs7.md) | DCT  | Supported    | Coming Soon |    |
 | Porsche PDK    | DCT          | Planned      | TBA      |       |
 | VW DQ500       | DCT          | Planned      | TBA      |       |
 | Tremec TR-9080 | DCT          | Planned      | TBA      |       |
@@ -52,7 +52,7 @@ As well as a fully user definable CAN bus, the TCM does have some preset CAN dat
 | Emtron Predefined Tx Set 1  | Rx      |  |
 | Emtron Predefined Tx Set 2  | Rx      |  |
 | Emtron Predefined Tx Set 3  | Rx      |  |
-| Nissan R35 GTR TCM          | Rx & Tx | Only available for use with Emtron ECU's |
+| Nissan R35 GTR TCM          | Rx & Tx | Build Package |
 
 ## Shifter Inputs
 The TCM can use a wide variety of shifters including CAN bus, analog, digital switch arrays, individual switches, CAN keypads, or combinations of any of the aforementioned input types.
@@ -64,7 +64,7 @@ Shift tables can be switched using inputs from CAN bus, rotary switches, fixed s
 
 Table axes can be set to any one of over 1500 channels allowing a virtually limitless amount of flexibility.
 
-## Output Duty Cycle vs Amperage
+## Output Current Control vs Duty Cycle
 The majority of transmission related output functions generate a target current setpoint in amps, rather than a fixed PWM duty cycle.
 
 When a solenoid is commanded to draw a certain current, it's physical position is extremely consistent, resulting in a stable and repeatable position regardless of system voltage and temperature variables. If a fixed duty cycle were used, the transmission may work well one moment, and poorly the next.
@@ -72,6 +72,12 @@ When a solenoid is commanded to draw a certain current, it's physical position i
 Every TCM output pin can be used in current control mode, including auxiliary outputs.
 
 User Functions can be configured to output either a traditional PWM waveform, or a current setpoint.
+
+## Solenoid Dither Current
+A small dither current waveform is superimposed over the current setpoint. This keeps the solenoid in a permanent state of micro-motion, helping overcome stiction and increasing solenoid value response.
+
+*Dither is available on Solenoid Outputs 1-16.*
+*Available on firmware v0.31 and above.*
 
 ## Unused Solenoid Output Pins
 Unused solenoid output pins can be used as auxiliary outputs for any purpose, including User Functions. 

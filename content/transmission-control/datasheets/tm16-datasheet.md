@@ -179,6 +179,7 @@ The Emtron TM16 is a fully programmable Transmission Control Module aimed at con
  - 1.5A max current setpoint in single mode
  - 2.7A max current setpoint in paired mode
  - Current monitoring and control on all pins
+ - Current dither for reduced stiction and faster solenoid response
  - Flywheel diodes connected to solenoid power supply outputs (see below)
  - Unused solenoid outputs can be used as low side auxiliary outputs
 
