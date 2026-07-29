@@ -1,5 +1,6 @@
 ---
 title: "Multi Tooth Setup"
+weight: 6
 ---
 
 ## Multi Tooth Setup

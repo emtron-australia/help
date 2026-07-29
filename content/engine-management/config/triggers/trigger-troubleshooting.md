@@ -1,6 +1,6 @@
 ---
 title: "Trouble Shooting"
-weight: 1000
+weight: 10
 ---
 
 ## Improper Crank/Sync Sensor Polarity

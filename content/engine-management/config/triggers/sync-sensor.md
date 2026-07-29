@@ -1,5 +1,6 @@
 ---
 title: "Sync Sensor"
+weight: 7
 ---
 
 ## Sync Sensor

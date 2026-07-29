@@ -120,6 +120,12 @@ This option is **only** available using the Emtron Air Mass Model. See [Emtron A
 
 All ECU air mass related runtimes can be viewed from: ECU Runtime -> Air Mass 
 
+**Note on Units:**  
+
+Air Mass Flow is expressed in units of **g/s (grams per second)**, while Air Mass is expressed in units of **g/cyl (grams per cylinder)**, representing the mass of air trapped in the cylinder during a single engine cycle.
+
+
+
 ![Image](</img/AirMassRuntimes.jpg>) <br>
 
 

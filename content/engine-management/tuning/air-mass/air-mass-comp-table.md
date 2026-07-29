@@ -5,8 +5,6 @@ weight: 11
 
 ## Overview
 
-## Air Mass Compensation Table
-
 The Air Mass Compensation Table applies a percentage adjustment to the final calculated air mass.
 
 This 3D table can be used to compensate for engine operating conditions that are not fully represented by the selected Air Mass Model, improving air mass accuracy across the operating range.

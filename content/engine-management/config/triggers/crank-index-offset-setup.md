@@ -1,6 +1,6 @@
 ---
 title: "Crank Index Offset Setup"
-weight: 20
+weight: 4
 ---
 
 ## Overview
@@ -13,7 +13,7 @@ The ECU determines engine position by detecting a known trigger event, commonly 
 
 ![Image](</img/AAA.jpg>)
 
-## Tuning Tip
+## Tuning Tips
 
 **1)** For **Wasted Spark** applications, always set the **Ignition Lock Angle** to **0.0° BTDC** when verifying the Crank Index Offset.
 
@@ -23,7 +23,7 @@ The ECU determines engine position by detecting a known trigger event, commonly 
 
 **3)** The fuel injectors can be disabled to validate the initial Crank Index Offset value.prior to starting the engine. See Config -> Fuel -> Fuel Main -> Injection Mode -> Off. 
 
-Direct fire engines may be 360deg out of cycle which can be corrected numerically.
+**4)** Direct fire engines may be 360deg out of cycle which can be corrected numerically (i.e add or subtract 360 from the Crank Index value). 
 
 ---
 
@@ -34,7 +34,7 @@ Before calibrating the ignition system, the ECU ignition timing must be synchron
 ### Crank Index Offset Calibration
 
 1. Enable **Ignition Lock** and configure a fixed ignition timing value using the **Ignition Lock Angle**. <br>
-**NOTE: When Ignition Lock Enable is ON, Ignition Lock Angle value overrides all other timing values in ECU  .**
+**NOTE: When Ignition Lock Enable is ON, Ignition Lock Angle value overrides all other timing values in ECU.**
 2. Start the engine and use a timing light to measure the actual ignition timing.
 3. Compare the measured ignition timing with the configured Ignition Lock Angle.
 4. Adjust the **Crank Index Offset** until the timing light reading matches the configured Ignition Lock Angle.

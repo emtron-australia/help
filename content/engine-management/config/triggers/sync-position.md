@@ -1,5 +1,6 @@
 ---
 title: "Sync Position %"
+weight: 8
 ---
 
 ## Sync Position %

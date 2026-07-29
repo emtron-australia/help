@@ -25,7 +25,7 @@ Using these inputs, the ECU calculates the mass of air trapped within each cylin
 
 > **⚠️ Important** <br>
 >
->- Since the air mass is calculated rather than measured directly, the accuracy of the Speed Density model >depends heavily on correct calibration of the **Volumetric Efficiency (VE)** table(s).
+>- Since the air mass is calculated rather than measured directly, the accuracy of the Speed Density model  depends heavily on correct calibration of the **Volumetric Efficiency (VE)** table(s).
 >
 >See here for more information: [VE Tables](../../tuning/fuel/fuel-ve-tables.md)
 >
