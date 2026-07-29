@@ -152,7 +152,6 @@ Six plot and view types, mixable in any page layout:
 - Configurable scroll/zoom acceleration and boost
 - Left drawer: Log Explorer, Page Explorer, Workspace Explorer (**F7**)
 - Right drawer: live measurements at the cursor
-- Progress bar for log loading
 - Enum-aware status channel display (named states instead of raw numbers)
 - Multi-language UI support
 
@@ -161,7 +160,6 @@ Six plot and view types, mixable in any page layout:
 - Fast log open, pan, zoom, and cursor interaction
 - Efficient multi-lap comparison on the same log
 - Responsive math editing and channel add/remove
-- Windows crash dumps on unhandled exceptions (rich mini dump by default)
 
 ## Related Pages
 
