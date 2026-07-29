@@ -6,7 +6,7 @@ weight: 6
 
 ## Entering Layout Edit Mode
 
-Click the **pencil icon** in the title bar toolbar, or toggle layout editing for the current pane. While editing:
+Click the **pencil icon** in the title bar toolbar to enter full layout editing. While editing:
 
 - A semi-transparent overlay appears on each plot
 - The plot type selector and split controls are visible
@@ -14,9 +14,13 @@ Click the **pencil icon** in the title bar toolbar, or toggle layout editing for
 
 Click the pencil icon again to finish editing.
 
+### Quick layout from the plot menu
+
+You can also **right-click** a plot panel and change its type, split it, or delete it without entering full layout edit mode. Use **Settings** on that menu for channel/setup dialogs on line and scatter plots (same as the plot pencil control).
+
 ## Changing Plot Type
 
-Each plot cell has a dropdown to select its type:
+Each plot cell has a dropdown (or context menu) to select its type:
 
 1. Line Plot
 2. Scatter Plot
@@ -42,7 +46,7 @@ Splits can be nested to create complex multi-plot layouts within a single page. 
 
 ## Navigator Channel
 
-When editing the primary pane, set the **Navigator Channel** to control which channel drives cursor preview during log playback.
+The **Navigator Channel** is set once under **[Settings](settings) → General**. It drives the bottom navigator strip and cursor preview during playback — it is not configured per page.
 
 ## Maximising Plots
 

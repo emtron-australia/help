@@ -47,7 +47,7 @@ Each pane shows page tabs along the top:
 
 ### Navigator Channel
 
-In layout editing mode, each pane has a **Navigator Channel** selector. This channel drives the preview cursor position when using playback, helping you follow a specific signal as you scroll through the log.
+The **Navigator Channel** is configured under **[Settings](settings) → General** (not per page). It drives the bottom navigator strip and helps you follow a signal during playback.
 
 ## Pane Layouts
 

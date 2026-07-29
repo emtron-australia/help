@@ -30,9 +30,15 @@ Each lap row provides controls for comparison:
 
 Only one lap can be the reference at a time. Up to two additional laps can be overlaid for comparison. Overlay data appears in contrasting colours on plots.
 
-### Section Offsets
+### Aligning overlays
 
-When comparing overlay laps, adjust the **offset** to align laps at a common point (for example, synchronise at the start/finish line). Use the offset editor on each lap row, or keyboard shortcuts:
+Align comparison laps with the reference so features line up at a common point (for example start/finish):
+
+| Method | Action |
+|--------|--------|
+| **Shift+drag** on a line plot | Adjust comparison 1 offset interactively |
+| **Alt+Shift+drag** on a line plot | Adjust comparison 2 offset |
+| Keyboard | Fine-tune offset (below) |
 
 | Key | Action |
 |-----|--------|
@@ -42,20 +48,27 @@ When comparing overlay laps, adjust the **offset** to align laps at a common poi
 | `[` / `]` | Select previous / next active section |
 | `;` | Toggle visibility of the selected section |
 
+In-laps and out-laps can be set as reference or comparison the same way as flying laps.
+
 ### Log Summary Bar
 
-The coloured icons in the title bar provide quick access to the reference and overlay sections currently loaded.
+The coloured icons in the title bar provide quick access to the reference and overlay sections currently loaded. Lap markers use primary blue for the reference, with distinct colours for comparison 1 and 2.
 
 ## Log Download
 
-**File → Log Download** connects to an Emtron display or ECU on the network and downloads available log files to your PC.
+**File → Log Download** connects to an Emtron display (or compatible unit) on the network and lists logs available for download.
 
-1. Open the Log Download dialog.
-2. Set the **Save to** folder.
-3. Select logs from the available list.
-4. Click download.
+1. Open the Log Download dialog (EmVision refreshes the available list).
+2. Set the **Save to** folder with the folder control.
+3. **Refresh** if the device list looks stale.
+4. Download individual logs from the list, or use **Download all** to fetch every missing or out-of-date log in one step.
+5. Optional tools on the dialog: finish the current device log, delete all logs on the device (confirm first), and view storage used on the unit.
 
-Downloaded `.elo` files can then be opened directly in EmVision.
+Downloaded `.elo` files can then be opened directly in EmVision. The PC must reach the display on the network (typical mDNS/hostname or configured unit URL).
+
+## Export
+
+To write the reference log to CSV or Emtron log format, see [Export Log](export-log).
 
 ## Import Track File
 

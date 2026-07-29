@@ -43,6 +43,10 @@ The **Measurements** panel is the right-hand drawer (**F8** to toggle). It shows
 
 Channel values update in real time as the cursor moves. Click a channel in the measurements list to highlight it on plots.
 
+{{% notice style="tip" %}}
+**Drag channels onto plots.** From the Measurements list on the right, drag a channel onto a line plot (or other compatible plot) to add it. You do not need to open plot setup first.
+{{% /notice %}}
+
 ## X-Axis Modes
 
 Press **F9** or click the time/distance icon in the toolbar to switch the X-axis:

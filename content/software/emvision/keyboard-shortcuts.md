@@ -10,7 +10,7 @@ Shortcuts are also listed in **Help → Keyboard Shortcuts** within the applicat
 
 | Key | Action |
 |-----|--------|
-| F6 | Show math channel setup |
+| F6 | Show maths setup |
 | F7 | Toggle file management drawer |
 | F8 | Toggle measurements drawer |
 

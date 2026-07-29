@@ -6,7 +6,7 @@ weight: 2
 
 EmVision is Emtron's log analysis application for reviewing data recorded by ECUs, displays, and PC logging. It is available via [EmUpdater](https://emnet.emtronaustralia.com.au/downloads).
 
-Use EmVision to open log files, compare laps, overlay multiple sessions, build custom analysis layouts, and create math channels for derived measurements.
+Use EmVision to open log files, compare laps, overlay multiple sessions, build custom analysis layouts, and create math channels for derived measurements. For a complete capabilities list, see [EmVision Features](emvision-features).
 
 ## Main Window
 
@@ -16,7 +16,7 @@ The EmVision window is divided into three areas:
 |------|-------------|
 | Left drawer | Log Explorer, Page Explorer, and Workspace Explorer |
 | Centre | Plot panes showing the active analysis pages |
-| Right drawer | Cursor measurements for all channels at the current position |
+| Right drawer | Cursor measurements for all channels at the current position — drag a channel from this list onto a plot to add it |
 
 The title bar shows the current workspace, X-axis mode (Time or Distance), and open log files. A progress bar at the bottom indicates log loading status.
 
@@ -40,8 +40,10 @@ The title bar shows the current workspace, X-axis mode (Time or Distance), and o
 | Open Log | Open an `.elo` or `.elf` log file — see [Opening Logs](opening-logs) |
 | Close Log | Close the current log |
 | Settings | Open analysis settings — see [Settings](settings) |
-| Math Channels | Create formula and function math channels — see [Math Channels](math-channels) |
-| Log Download | Download logs from a connected display or ECU |
+| Maths | Create math channels (emexpr) — see [Math Channels](math-channels) |
+| User Channels | Client-side custom channel/event names — see [User Channels](user-channels) |
+| Export Log | Export reference log to CSV or Emtron log — see [Export Log](export-log) |
+| Log Download | Download logs from a connected display — see [Opening Logs](opening-logs#log-download) |
 | Import Track File | Import a `.geojson` track map for GPS overlay |
 | Create Window | Open an additional EmVision window (up to 4) |
 | Close Window | Close the current secondary window |
@@ -71,12 +73,15 @@ Drag strip analysis tools — see [Circuit and Drag Analysis](circuit-and-drag-a
 
 ## Typical Workflow
 
+For a first-time walkthrough, see [Getting Started](getting-started).
+
 1. **Open a log** via File → Open Log, or download from a device via File → Log Download.
 2. Select laps in the **Log Explorer** — set a reference lap and up to two overlay laps for comparison.
 3. Open or create **pages** with the plot types you need — see [Plot Types](plot-types).
 4. Use the **cursor** to inspect values at any point — see [Cursors and Measurements](cursors-and-measurements).
-5. Create **math channels** for derived calculations.
-6. Save your layout as a **workspace** for reuse on future logs.
+5. Create **math channels** for derived calculations — see [Math Channels](math-channels).
+6. Optionally **export** the reference log — see [Export Log](export-log).
+7. Save your layout as a **workspace** for reuse on future logs.
 
 ## Multi-Window
 
