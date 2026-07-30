@@ -80,3 +80,18 @@ During fork movement, the inactive axis pressure is used to control the shift fo
 ## Lubricating Flow Solenoid
 Remains active by default, allowing fully lubrication and cooling flow.
 During a shift or high torque demand it will close off, to reduce pressure drop and allow maximum line pressure availability.
+
+---
+
+## Known Issues / Limitations
+### Start Button Hold to Start
+The R35 TCM is responsible for determining that the engine is safe to crank and supplies the positive side of the starter relay with power when the transmission is in Park or Neutral.
+The window of time for this to happen when the start button is held from fully off, with brake applied, is only a couple of hundred milliseconds. The TM16's boot up process takes slightly longer than the factory TCM because it runs a very complex CPU & FPGA. As a result, the starter relay receives power too late. The starter solenoid will click but the BCM will have already given up.
+The R35 base cal has a deliberate delay added to the user function that drives the starter relay power so that the one shot hold to start does not work at all. Instead the ignition will turn on normally, and **the engine will start with a second press of the start button**.
+
+### Hill Hold
+The OEM hill hold function that tells the ABS module to lock the brakes on a hill is not currently supported. We intend to add support for this function in a future update.
+
+### Limp Home Skip Shifting
+When an axis/clutch detects an error the OEM TCM will lockout the problem axis and skip shift (eg 2 to 4 to 6, ignoring 1,3,5 or visa versa). Current firmware does not support this function. Full fault detection is implemented and every shift fork is monitored for correct positioning at all times including before a shift can occur. In the event of a fault (such as a fork being stuck in the wrong position), rather than skip shift, the transmission will remain in whatever gear is currently driving.
+Full limp home skip shifting is planned for a future update.

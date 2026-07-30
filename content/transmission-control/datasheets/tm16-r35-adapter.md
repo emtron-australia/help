@@ -144,6 +144,21 @@ The TM16-R35 Adapter allows Plug-n-Play control of the Nissan GR6 DCT transmissi
 | 123     | Solenoid Supply     | Sol 5-8 +V (B31) |
 | 124     | -                   |          |
 | 125     | -                   |          |
-| 126     | Clutch A Solenoid   | Sol 1 (B10) |
+| 126     | Clutch A Solenoid   | Sol Pair 1&4 (B10+B13) |
 | 127     | -                   |          |
-| 128     | Clutch B Solenoid   | Sol 5 (B14) |
+| 128     | Clutch B Solenoid   | Sol Pair 5&8 (B14+B17) |
+
+--- 
+## Changelog
+### Version 1.1 - 31/07/2026
+>[!INFO] Clutch solenoids now use Solenoid Pairs 1&4, 5&8 to allow more than 1.5A
+
+The OEM solenoid current limit is 1.5A, which is also the setpoint limit of a single TM16 solenoid output. At 1.5A of current, the clutch will achieve approximately 17 Bar of clutch pressure.
+Solenoid outputs can be paired to achieve up to 2.7A (It's unlikely that more than 2.0A is useful). Version 1.1 hardware supports the solenoid pairing. 
+
+The cal file should be updated to use the solenoid pairs in the output config.
+
+Version 1.0 hardware can utilize the additional current by modifying the wiring to splice the TM16's solenoid outputs 1&4 together, and 5&8 together.
+
+### Version 1.0 - 01/04/2026
+*Initial Release*

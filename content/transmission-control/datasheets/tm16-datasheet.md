@@ -167,7 +167,7 @@ The Emtron TM16 is a fully programmable Transmission Control Module aimed at con
  - 24V Compatible
 
 ### Processor
- - Duel 650 MHz, 32bit Automotive Processors
+ - Dual Core, 650 MHz, 32bit Automotive Processor
  - Xilinx 7 Series FPGA
  - 512MB DDR3 RAM
 
@@ -175,9 +175,9 @@ The Emtron TM16 is a fully programmable Transmission Control Module aimed at con
 > 16x Proportional Current Solenoid Drivers
  - 0.1 – 20 KHz PWM
  - Low side only
- - 1.8A continuous current per pin
  - 1.5A max current setpoint in single mode
  - 2.7A max current setpoint in paired mode
+ - 1.8A continuous current per pin
  - Current monitoring and control on all pins
  - Current dither for reduced stiction and faster solenoid response
  - Flywheel diodes connected to solenoid power supply outputs (see below)
