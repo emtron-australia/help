@@ -390,4 +390,9 @@ weight: 999
 | 413 | Solenoid 16 Over Current |  |
 | 414 | Solenoid 16 Short To Ground |  |
 | 415 | Solenoid 16 Over Temp |  |
+| 416 | Clutch Pedal Pressure Sensor Low |  |
+| 417 | Clutch Pedal Pressure Sensor High |  |
+| 418 | Launch Clutch Select Table Invalid |  |
+| 419 | Steering Angle Sensor Low |  |
+| 420 | Steering Angle Sensor High |  |
 
