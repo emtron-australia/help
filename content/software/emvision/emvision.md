@@ -68,6 +68,8 @@ Drag strip analysis tools — see [Circuit and Drag Analysis](circuit-and-drag-a
 
 | Item | Description |
 |------|-------------|
+| Help for this page (F1) | Context help for the current view or open dialog (in-app panel) |
+| Online Help | Open the EmVision help section in a browser |
 | Keyboard Shortcuts | Full shortcut reference — see [Keyboard Shortcuts](keyboard-shortcuts) |
 | About / Release Notes | Version history |
 
