@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+{{- /* Lean print layout: no search/menu/variant JS. Content only + format-print styles. */}}
+{{- block "storeOutputFormat" . }}{{ end }}
+{{- $minify := not hugo.IsServer }}
+{{- if and (isset site.Params "minify") (ne site.Params.minify "") }}
+  {{- $minify = site.Params.minify }}
+{{- end }}
+{{- $min := cond $minify ".min" "" }}
+{{- $assetBusting := printf "?%d" now.Unix }}
+<html id="R-html" lang="{{ .Page.Language.LanguageCode }}" dir="{{ .Page.Language.LanguageDirection | default "ltr" }}" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo {{ hugo.Version }}">
+    {{- with .Description }}
+    <meta name="description" content="{{ . }}">
+    {{- end }}
+    {{- $title := partial "title.gotmpl" (dict "page" . "fullyQualified" true "reverse" true) }}
+    <title>{{ $title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{- /* Core styles — same pipeline as normal pages so print tokens resolve */}}
+    <link href="{{ printf "css/theme%s.css" $min | relURL }}{{ $assetBusting }}" rel="stylesheet">
+    <link href="{{ printf "css/format-print%s.css" $min | relURL }}{{ $assetBusting }}" rel="stylesheet" id="R-format-style">
+    {{- /* Flattened print tokens: theme nests "&:root" inside the print selector which some
+         minifiers/browsers mishandle. Apply light print variables directly on :root. */}}
+    <style>
+      :root {
+        color-scheme: light;
+        --MAIN-BG-color: #ffffff;
+        --MAIN-TEXT-color: #000000;
+        --MAIN-TITLES-TEXT-color: #101010;
+        --MAIN-LINK-color: #2040a0;
+        --MAIN-LINK-HOVER-color: #102091;
+        --CODE-BLOCK-color: #272822;
+        --CODE-BLOCK-BG-color: #fafafa;
+        --CODE-BLOCK-BORDER-color: #d8d8d8;
+        --CODE-INLINE-color: #5e5e5e;
+        --CODE-INLINE-BG-color: #fffae9;
+        --CODE-INLINE-BORDER-color: #f8e8c8;
+        --INTERNAL-MAIN-BG-color: var(--MAIN-BG-color);
+        --INTERNAL-MAIN-TEXT-color: var(--MAIN-TEXT-color);
+        --INTERNAL-MAIN-TITLES-TEXT-color: var(--MAIN-TITLES-TEXT-color);
+        --INTERNAL-MAIN-LINK-color: var(--MAIN-LINK-color);
+        --INTERNAL-MAIN-LINK-HOVER-color: var(--MAIN-LINK-HOVER-color);
+      }
+      /* Belt-and-braces: hide chrome even if format-print fails to load */
+      #R-sidebar,
+      #R-topbar .topbar-button,
+      #R-body #navigation,
+      #toast-container,
+      #R-footer,
+      .actionbar {
+        display: none !important;
+      }
+      #R-body {
+        margin: 0 !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+      body {
+        background: #fff !important;
+        color: #000 !important;
+      }
+      a {
+        color: #2040a0;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print" data-origin="{{ .RelPermalink }}">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable">
+            {{- partial "breadcrumbs.html" (dict "page" . "schema" false) }}
+          </ol>
+        </div>
+      </nav>
+      <main id="R-body-inner" class="highlightable{{ with or .Type "default" }} {{ . }}{{ end }}" tabindex="-1">
+        <div class="flex-block-wrapper">
+          {{- block "body" . }}{{ end }}
+        </div>
+      </main>
+    </div>
+    {{- /* No sidebar menu, no search, no theme variant switcher */}}
+  </body>
+</html>

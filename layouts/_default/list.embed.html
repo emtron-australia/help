@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="default embed-article">
+  <header class="headline">
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}
+    <p class="embed-lead">{{ . }}</p>
+    {{- end }}
+  </header>
+  {{ .Content }}
+  {{- if .Pages }}
+  <section class="embed-children">
+    <h2>Topics</h2>
+    <ul>
+      {{- range .Pages.ByWeight }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle | default .Title }}</a></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+</article>
+{{ end }}

@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="default embed-article">
+  <header class="headline">
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}
+    <p class="embed-lead">{{ . }}</p>
+    {{- end }}
+  </header>
+  {{ .Content }}
+</article>
+{{ end }}

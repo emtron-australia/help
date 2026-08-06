@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+{{- /* Lean in-app help page: theme + variant tokens from format-html, chrome stripped by format-embed */}}
+{{- $minify := not hugo.IsServer }}
+{{- if and (isset site.Params "minify") (ne site.Params.minify "") }}
+  {{- $minify = site.Params.minify }}
+{{- end }}
+{{- $min := cond $minify ".min" "" }}
+{{- $assetBusting := printf "?%d" now.Unix }}
+<html lang="{{ .Page.Language.LanguageCode }}" data-r-output-format="embed" data-r-theme-variant="emtron">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo {{ hugo.Version }}">
+    {{- with .Description }}
+    <meta name="description" content="{{ . }}">
+    {{- end }}
+    <title>{{ .Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{- /*
+      Relearn puts brand/variant CSS variables in format-html.css, not theme.css:
+        :root:not([data-r-output-format='print'])[data-r-theme-variant='emtron'] { ... }
+      So embed must load format-html (variants + base content styles) then format-embed
+      (hide menu/topbar, tighten for a side panel).
+    */}}
+    <link href="{{ printf "css/theme%s.css" $min | relURL }}{{ $assetBusting }}" rel="stylesheet">
+    <link href="{{ printf "css/format-html%s.css" $min | relURL }}{{ $assetBusting }}" rel="stylesheet">
+    {{- with resources.Get "css/format-embed.css" }}
+      {{- $css := . }}
+      {{- if $minify }}
+        {{- $css = $css | minify }}
+      {{- end }}
+    <link href="{{ $css.RelPermalink }}{{ $assetBusting }}" rel="stylesheet" id="R-format-style">
+    {{- else }}
+    <link href="{{ "css/format-embed.css" | relURL }}{{ $assetBusting }}" rel="stylesheet" id="R-format-style">
+    {{- end }}
+    <style>
+      html { color-scheme: dark; }
+    </style>
+  </head>
+  <body class="embed mobile-support">
+    {{- /* #R-body wrapper keeps Relearn content selectors (h1, p, code, etc.) working */}}
+    <div id="R-body" class="default-animation">
+      <main id="R-body-inner" class="embed-main highlightable" tabindex="-1">
+        <div class="flex-block-wrapper">
+          {{- block "main" . }}{{ end }}
+        </div>
+      </main>
+    </div>
+    <script>
+      // Keep in-app navigation on the lean embed output.
+      (function () {
+        var base = {{ site.BaseURL | jsonify }};
+        document.addEventListener('click', function (e) {
+          var a = e.target && e.target.closest && e.target.closest('a[href]');
+          if (!a) return;
+          var href = a.getAttribute('href');
+          if (!href || href.charAt(0) === '#' || href.indexOf('mailto:') === 0 || href.indexOf('javascript:') === 0)
+            return;
+          if (href.indexOf('index.embed.html') !== -1 || href.indexOf('.embed.html') !== -1)
+            return;
+          try {
+            var url = new URL(href, window.location.href);
+            if (url.origin !== window.location.origin)
+              return;
+            var path = url.pathname;
+            if (path.endsWith('/'))
+              path = path + 'index.embed.html';
+            else if (path.endsWith('/index.html'))
+              path = path.replace(/index\.html$/, 'index.embed.html');
+            else if (path.endsWith('.html') && path.indexOf('.embed.html') === -1)
+              path = path.replace(/\.html$/, '.embed.html');
+            else if (!/\.[a-zA-Z0-9]+$/.test(path))
+              path = path.replace(/\/?$/, '/') + 'index.embed.html';
+            e.preventDefault();
+            window.location.href = path + url.search + url.hash;
+          } catch (err) { /* leave default navigation */ }
+        }, true);
+      })();
+    </script>
+  </body>
+</html>

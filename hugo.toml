@@ -36,6 +36,20 @@ pluralizeListTitles = false
   source = 'img'
   target = 'static/img'
 
+# Lean page used by Display Studio / other PC apps (no menu, search, or chrome).
+# URL: <page>/index.embed.html
+# notAlternative: keep embed out of <link rel="alternate"> so it does not
+# compete with the Relearn print format (both are text/html).
+[outputFormats]
+  [outputFormats.embed]
+    name = 'embed'
+    baseName = 'index.embed'
+    isHTML = true
+    mediaType = 'text/html'
+    permalinkable = false
+    noUgly = true
+    notAlternative = true
+
 [outputs]
   home = [
     'html',
@@ -44,7 +58,11 @@ pluralizeListTitles = false
     'html',
     'rss',
     'print',
+    'embed',
   ]
+  # print on sections restores “print this chapter” for section indexes
   section = [
     'html',
+    'print',
+    'embed',
   ]
