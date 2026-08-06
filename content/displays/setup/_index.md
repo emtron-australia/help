@@ -1,6 +1,6 @@
 ---
 title: "Setup"
-description: "Vehicle details, custom channels, events, and enums."
+description: "Constants, custom channels, events, and enums."
 weight: 6
 ---
 

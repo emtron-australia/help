@@ -70,7 +70,7 @@ Configuration metadata and custom channel definitions — see [Setup](setup/).
 
 | Item | Page |
 |------|------|
-| Details | [Vehicle Details](setup/vehicle-details) |
+| Constants | [Constants](setup/constants) |
 | User Channels | [User Channels](setup/user-channels) |
 | User Events | [User Events](setup/user-events) |
 | User Enums | [User Enums](setup/user-enums) |
@@ -106,10 +106,12 @@ Processing, timing, and data features — see [Functions](functions/).
 | Switch Logic | [Switch Logic](functions/switch-logic) |
 | Persistent Channels | [Persistent Channels](functions/persistent-channels) |
 | PID Control | [PID Controllers](functions/pid-controllers) |
-| Track Setup | [Track Setup](functions/track-setup) |
-| Lap Timing | [Lap Timing](functions/lap-timing) |
-| Drag Race Timing | [Drag Race Timing](functions/drag-race-timing) |
-| Speed Fusion | [Speed Fusion](functions/speed-fusion) |
+| Circuit Timing | [Lap / Circuit Timing](functions/lap-timing) |
+| Drag Timing | [Drag Race Timing](functions/drag-race-timing) |
+| Stage / Rally Timing | [Stage Timing](functions/stage-timing) |
+| Timing Run Library | [Timing Run Library](functions/timing-run-library) |
+| Locations & lines | [Track Setup](functions/track-setup) |
+| Fused speed | [Speed Fusion](functions/speed-fusion) |
 | Math | [Math Functions](functions/maths) |
 | Tables | [Tables](functions/tables) |
 | Odometer | [Odometer](functions/odometer) |
@@ -135,10 +137,14 @@ Dash layout and visual assets — see [Display Editor](display-editor/).
 
 ### Diagnostics
 
-| Item | Description |
-|------|-------------|
-| Test Functions | Manually trigger events and test outputs on a connected display |
-| Live Plots | Real-time channel plotting |
+Device and log tools — see [Diagnostics](diagnostics/).
+
+| Item | Page |
+|------|------|
+| Test Functions | [Test Functions](diagnostics/test-functions) |
+| Live Plots | [Live Plots](diagnostics/live-plots) |
+| Module Control | [Module Control](diagnostics/module-control) |
+| Log Replay | [Log Replay](diagnostics/log-replay) |
 | Upload Crash Report | Send a crash report to Emtron support |
 | Download Debug File | Download diagnostic data from the display |
 
@@ -146,6 +152,7 @@ Dash layout and visual assets — see [Display Editor](display-editor/).
 
 | Item | Description |
 |------|-------------|
+| Help for this page (F1) | Context help for the current page (in-app panel + optional browser) |
 | Datasheets | Open product datasheets |
 | Online Help | Open this help manual |
 | Release Notes | View Display Studio release notes |
@@ -154,6 +161,7 @@ Dash layout and visual assets — see [Display Editor](display-editor/).
 
 | Shortcut | Action |
 |----------|--------|
+| F1 | Toggle context help for the current page |
 | F4 | Write configuration to device |
 | F7 | Toggle left navigation panel |
 | F8 | Toggle live data drawer |

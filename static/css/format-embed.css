@@ -1,0 +1,122 @@
+/* Lean in-app help (used with format-html.css for emtron variant tokens).
+ * data-r-output-format="embed" + data-r-theme-variant="emtron" on <html>.
+ */
+
+/* Hide full-site chrome if any of it leaks in */
+#R-sidebar,
+#R-topbar,
+#R-body-overlay,
+#R-main-overlay,
+#R-footer,
+#toast-container,
+.topbar-wrapper,
+body > nav,
+body > aside,
+#R-body > nav {
+  display: none !important;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
+body.embed {
+  /* theme vars come from format-html’s emtron block */
+  background-color: var(--INTERNAL-MAIN-BG-color, var(--MAIN-BG-color, #121212));
+  color: var(--INTERNAL-MAIN-TEXT-color, var(--MAIN-TEXT-color, #e0e0e0));
+}
+
+/* Full-width content; no sidebar offset */
+#R-body {
+  margin: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  background-color: transparent;
+}
+
+#R-body-inner,
+.embed-main {
+  margin: 0 !important;
+  padding: 0.75rem 1rem 1.5rem !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+#R-body-inner .flex-block-wrapper,
+.embed-main .flex-block-wrapper {
+  margin: 0;
+  max-width: 100%;
+}
+
+.embed-article {
+  max-width: 48rem;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.embed-article > header.headline h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  line-height: 1.25;
+  color: var(--INTERNAL-MAIN-TITLES-TEXT-color, var(--MAIN-TITLES-TEXT-color, inherit));
+}
+
+.embed-lead {
+  margin: 0 0 1rem;
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
+
+.embed-children {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid color-mix(in srgb, var(--INTERNAL-MAIN-TEXT-color, #888) 25%, transparent);
+}
+
+.embed-children ul {
+  padding-left: 1.25rem;
+}
+
+.embed-children li {
+  margin: 0.35rem 0;
+}
+
+/* Fit a narrow side panel */
+.embed-article img,
+#R-body-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.embed-article table,
+#R-body-inner table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.embed-article pre,
+#R-body-inner pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* Heading “copy link” chrome — useless in a narrow panel, and needs Font Awesome */
+.embed-article .anchor,
+.embed-article .copyanchor,
+.embed-article .btn.anchor,
+#R-body-inner .anchor,
+#R-body-inner .copyanchor,
+#R-body-inner .btn.anchor {
+  display: none !important;
+}

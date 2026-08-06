@@ -1,41 +1,47 @@
 ---
 title: "Timers"
+description: "Configurable start, stop, and reset logic for time-based channels."
+weight: 5
 ---
 
-Generates a timer with customisable start, stop, and reset logic.
+**Functions → Timers**
+
+Timers produce a time value (seconds) on an output channel with configurable start, stop, and reset logic.
 
 ![Timers](/img/ed_timers.png)
-> Pictured example: Hide the camera view 10 seconds after reverse gear is deselected.
+> Example: hide the camera view 10 seconds after reverse gear is deselected.
 
 ## Settings
 
 ### Output Channel
-The channel that contains the output time in seconds.
+
+Channel that holds the running time in seconds.
 
 ### On Expired Event
-This event will be triggered when the timer reaches `Max Time`.
+
+Event triggered when the timer reaches **Max Time**.
 
 ### Max Time
-The maximum time (in seconds) that the timer can reach.
-*0 = No time limit.*
+
+Maximum time in seconds. **0** = no time limit.
 
 ### Reset Mode
-Determines the reset behaviour.
- - **Never:** The timer never resets.
- - **On Timer Start:** When the timer starts, the time will be reset to 0.
- - **On Timer Stop:** When the timer stops, the time will be reset to 0.
- - **On Condition:** When the `Reset Condition` result is true, the timer will be reset to 0.
+
+| Mode | Behaviour |
+|------|-----------|
+| Never | Timer never auto-resets |
+| On Timer Start | Time resets to 0 when the timer starts |
+| On Timer Stop | Time resets to 0 when the timer stops |
+| On Condition | Time resets to 0 when the **Reset Condition** is true |
 
 ### Start Condition
-When the result of the `Start Condition` logic is true AND the result of the `Stop Condition` is false, the timer will be started. \n
-*`Stop Condition` takes precedence over `Start Condition`.*
+
+When the start condition is true **and** the stop condition is false, the timer runs. The stop condition takes precedence.
 
 ### Stop Condition
-When the result of the `Stop Condition` logic is true, the timer will be started. \n
-If there are no conditions set, the result will always be false. \n
-*`Stop Condition` takes precedence over `Start Condition`.*
+
+When true, the timer stops. If no stop conditions are set, the result is always false (does not force a stop by itself).
 
 ### Reset Condition
-When the result of the `Reset Condition` logic is true, the timer will be reset to 0. \n
-If there are no conditions set, the result will always be false. \n
-*Only used when `Reset Mode` is `On Condition`.*
+
+When true, the timer resets to 0. Only used when **Reset Mode** is **On Condition**. If no reset conditions are set, the result is always false.
